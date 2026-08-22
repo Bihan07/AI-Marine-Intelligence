@@ -1,0 +1,3480 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_89c42ad90f95cecfef5504e3e0c77ec5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_89c42ad90f95cecfef5504e3e0c77ec5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_89c42ad90f95cecfef5504e3e0c77ec5 = L.map(
+                "map_89c42ad90f95cecfef5504e3e0c77ec5",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5445a730c6f739d48b152c4189284ccc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5445a730c6f739d48b152c4189284ccc.addTo(map_89c42ad90f95cecfef5504e3e0c77ec5);
+        
+    
+            var feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_06ec0e5a42413b580fa66250f4b05bab = L.circleMarker(
+                [-34.3568992615, 18.4972000122],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_610e185114ae308bfe6a1823dff38bff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7cb70bd3f0b6d2eb766f4d2c6f6015b6 = $(`<div id="html_7cb70bd3f0b6d2eb766f4d2c6f6015b6" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -34.3568992615<br>         Longitude: 18.4972000122          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 17.19<br>         Sea Surface Salinity: 35.43          <br><br>          <b>📅 Observation Date:</b><br>         1998-12-29T12:00:00Z          </div>         </div>`)[0];
+                popup_610e185114ae308bfe6a1823dff38bff.setContent(html_7cb70bd3f0b6d2eb766f4d2c6f6015b6);
+            
+        
+
+        circle_marker_06ec0e5a42413b580fa66250f4b05bab.bindPopup(popup_610e185114ae308bfe6a1823dff38bff)
+        ;
+
+        
+    
+    
+            circle_marker_06ec0e5a42413b580fa66250f4b05bab.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8644298b78ed9b3c741c1e80af320747 = L.circleMarker(
+                [-34.3568992615, 18.4972000122],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_e65f4d7ffb2cb867dc0e3a1e1d432e8d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_46131df5ddea8d2d14c4740b1b9d6c99 = $(`<div id="html_46131df5ddea8d2d14c4740b1b9d6c99" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -34.3568992615<br>         Longitude: 18.4972000122          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 17.19<br>         Sea Surface Salinity: 35.43          <br><br>          <b>📅 Observation Date:</b><br>         2005-12-22T12:00:00Z          </div>         </div>`)[0];
+                popup_e65f4d7ffb2cb867dc0e3a1e1d432e8d.setContent(html_46131df5ddea8d2d14c4740b1b9d6c99);
+            
+        
+
+        circle_marker_8644298b78ed9b3c741c1e80af320747.bindPopup(popup_e65f4d7ffb2cb867dc0e3a1e1d432e8d)
+        ;
+
+        
+    
+    
+            circle_marker_8644298b78ed9b3c741c1e80af320747.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0adf83f42ef122c2ff794b1cc6f66549 = L.circleMarker(
+                [19.0, -47.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_80c977f26cbdd672fa514d0c468cc2ab = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_753f75ed67820465f344ff1a0e5381a7 = $(`<div id="html_753f75ed67820465f344ff1a0e5381a7" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: 19.0<br>         Longitude: -47.0          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 45.0<br>         Sea Surface Temperature: 26.37<br>         Sea Surface Salinity: 36.63          <br><br>          <b>📅 Observation Date:</b><br>         1996-02-26          </div>         </div>`)[0];
+                popup_80c977f26cbdd672fa514d0c468cc2ab.setContent(html_753f75ed67820465f344ff1a0e5381a7);
+            
+        
+
+        circle_marker_0adf83f42ef122c2ff794b1cc6f66549.bindPopup(popup_80c977f26cbdd672fa514d0c468cc2ab)
+        ;
+
+        
+    
+    
+            circle_marker_0adf83f42ef122c2ff794b1cc6f66549.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0b69d2a354f337d787468fe1494a89fb = L.circleMarker(
+                [-33.9028015137, 18.4349994659],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_6cd1febb6a128cd23dd1ad81b8662368 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c4922e0994f5d8d1bca8ced38af96f0e = $(`<div id="html_c4922e0994f5d8d1bca8ced38af96f0e" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -33.9028015137<br>         Longitude: 18.4349994659          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 16.0<br>         Sea Surface Salinity: 34.76          <br><br>          <b>📅 Observation Date:</b><br>         2001-11-25T12:00:00Z          </div>         </div>`)[0];
+                popup_6cd1febb6a128cd23dd1ad81b8662368.setContent(html_c4922e0994f5d8d1bca8ced38af96f0e);
+            
+        
+
+        circle_marker_0b69d2a354f337d787468fe1494a89fb.bindPopup(popup_6cd1febb6a128cd23dd1ad81b8662368)
+        ;
+
+        
+    
+    
+            circle_marker_0b69d2a354f337d787468fe1494a89fb.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45b87a385053a3c24772791a83b9cc29 = L.circleMarker(
+                [38.8833332062, -69.4333305359],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_3b4bf554c6164eb4db5efe941b19841f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7d7becf9b38cbbebc3c11f05b7cd2928 = $(`<div id="html_7d7becf9b38cbbebc3c11f05b7cd2928" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: 38.8833332062<br>         Longitude: -69.4333305359          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 1300.0<br>         Sea Surface Temperature: 19.55<br>         Sea Surface Salinity: 35.59          <br><br>          <b>📅 Observation Date:</b><br>         1999-10-02T00:00:00Z          </div>         </div>`)[0];
+                popup_3b4bf554c6164eb4db5efe941b19841f.setContent(html_7d7becf9b38cbbebc3c11f05b7cd2928);
+            
+        
+
+        circle_marker_45b87a385053a3c24772791a83b9cc29.bindPopup(popup_3b4bf554c6164eb4db5efe941b19841f)
+        ;
+
+        
+    
+    
+            circle_marker_45b87a385053a3c24772791a83b9cc29.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_76256b2ea637f8cba10b9f91cf9f961e = L.circleMarker(
+                [-28.75, 157.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_d884d3083eab22bb1aad820f2426e8e2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e053790fa7ba65d397790906d394a518 = $(`<div id="html_e053790fa7ba65d397790906d394a518" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -28.75<br>         Longitude: 157.25          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 22.58<br>         Sea Surface Salinity: 35.6          <br><br>          <b>📅 Observation Date:</b><br>         2001          </div>         </div>`)[0];
+                popup_d884d3083eab22bb1aad820f2426e8e2.setContent(html_e053790fa7ba65d397790906d394a518);
+            
+        
+
+        circle_marker_76256b2ea637f8cba10b9f91cf9f961e.bindPopup(popup_d884d3083eab22bb1aad820f2426e8e2)
+        ;
+
+        
+    
+    
+            circle_marker_76256b2ea637f8cba10b9f91cf9f961e.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c14fff62ba1faf6e5ba44d76d7957fa = L.circleMarker(
+                [-34.3568992615, 18.4972000122],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_64181da7557800a4cfec2ef77cb4cd7e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_633d7e34d40c946b6e375b73bab94be8 = $(`<div id="html_633d7e34d40c946b6e375b73bab94be8" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -34.3568992615<br>         Longitude: 18.4972000122          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 17.19<br>         Sea Surface Salinity: 35.43          <br><br>          <b>📅 Observation Date:</b><br>         1998-04-16T12:00:00Z          </div>         </div>`)[0];
+                popup_64181da7557800a4cfec2ef77cb4cd7e.setContent(html_633d7e34d40c946b6e375b73bab94be8);
+            
+        
+
+        circle_marker_8c14fff62ba1faf6e5ba44d76d7957fa.bindPopup(popup_64181da7557800a4cfec2ef77cb4cd7e)
+        ;
+
+        
+    
+    
+            circle_marker_8c14fff62ba1faf6e5ba44d76d7957fa.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b364caec4a273a1b51186043f140404c = L.circleMarker(
+                [40.0, -68.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_427f2316427d562092534b8461eb991e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a29f06f6e14a170951d5b6aacc3b060c = $(`<div id="html_a29f06f6e14a170951d5b6aacc3b060c" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: 40.0<br>         Longitude: -68.0          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 70.0<br>         Sea Surface Temperature: 17.2<br>         Sea Surface Salinity: 34.77          <br><br>          <b>📅 Observation Date:</b><br>         1995-10-02          </div>         </div>`)[0];
+                popup_427f2316427d562092534b8461eb991e.setContent(html_a29f06f6e14a170951d5b6aacc3b060c);
+            
+        
+
+        circle_marker_b364caec4a273a1b51186043f140404c.bindPopup(popup_427f2316427d562092534b8461eb991e)
+        ;
+
+        
+    
+    
+            circle_marker_b364caec4a273a1b51186043f140404c.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1f73701bbc3d486edfcb66bb727d0b09 = L.circleMarker(
+                [40.28, -64.4],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_ff477af1c4e18a02fe152dbc648fdc94 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_adde6ceb09250082bc9cd94ba2380c05 = $(`<div id="html_adde6ceb09250082bc9cd94ba2380c05" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: 40.28<br>         Longitude: -64.4          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 72.0<br>         Sea Surface Temperature: 19.38<br>         Sea Surface Salinity: 35.46          <br><br>          <b>📅 Observation Date:</b><br>         1995-08-10          </div>         </div>`)[0];
+                popup_ff477af1c4e18a02fe152dbc648fdc94.setContent(html_adde6ceb09250082bc9cd94ba2380c05);
+            
+        
+
+        circle_marker_1f73701bbc3d486edfcb66bb727d0b09.bindPopup(popup_ff477af1c4e18a02fe152dbc648fdc94)
+        ;
+
+        
+    
+    
+            circle_marker_1f73701bbc3d486edfcb66bb727d0b09.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_79aa5bfb4118a5fbf88a5d7ca5d86551 = L.circleMarker(
+                [-29.9335002899, 17.1173992157],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_bd570866f22bbace6904e5a28ae2f9c3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4eb018acf1f82c6d2a4367a2764d8c67 = $(`<div id="html_4eb018acf1f82c6d2a4367a2764d8c67" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -29.9335002899<br>         Longitude: 17.1173992157          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 14.42<br>         Sea Surface Salinity: 35.08          <br><br>          <b>📅 Observation Date:</b><br>         1987-10-21T12:00:00Z          </div>         </div>`)[0];
+                popup_bd570866f22bbace6904e5a28ae2f9c3.setContent(html_4eb018acf1f82c6d2a4367a2764d8c67);
+            
+        
+
+        circle_marker_79aa5bfb4118a5fbf88a5d7ca5d86551.bindPopup(popup_bd570866f22bbace6904e5a28ae2f9c3)
+        ;
+
+        
+    
+    
+            circle_marker_79aa5bfb4118a5fbf88a5d7ca5d86551.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_86cb43bb1584d42981a0928250d0524f = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_dec16b384447c9d3f3d7ea3fd3cc5959 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fa00ae77a96cf7466eacb6afd1abc9ba = $(`<div id="html_fa00ae77a96cf7466eacb6afd1abc9ba" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -34.0527992249<br>         Longitude: 18.3549995422          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: nan<br>         Sea Surface Salinity: nan          <br><br>          <b>📅 Observation Date:</b><br>         1999-05-21T12:00:00Z          </div>         </div>`)[0];
+                popup_dec16b384447c9d3f3d7ea3fd3cc5959.setContent(html_fa00ae77a96cf7466eacb6afd1abc9ba);
+            
+        
+
+        circle_marker_86cb43bb1584d42981a0928250d0524f.bindPopup(popup_dec16b384447c9d3f3d7ea3fd3cc5959)
+        ;
+
+        
+    
+    
+            circle_marker_86cb43bb1584d42981a0928250d0524f.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64bf99ce2734595ba42635d6cd694cf5 = L.circleMarker(
+                [20.25, -73.61],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_e3fd2567eacbeda2d87b070a597b6f5f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ebbf81c97bdd1a6536c314915c84b35f = $(`<div id="html_ebbf81c97bdd1a6536c314915c84b35f" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: 20.25<br>         Longitude: -73.61          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 22.0<br>         Sea Surface Temperature: 28.1<br>         Sea Surface Salinity: 35.65          <br><br>          <b>📅 Observation Date:</b><br>         1998-03-11          </div>         </div>`)[0];
+                popup_e3fd2567eacbeda2d87b070a597b6f5f.setContent(html_ebbf81c97bdd1a6536c314915c84b35f);
+            
+        
+
+        circle_marker_64bf99ce2734595ba42635d6cd694cf5.bindPopup(popup_e3fd2567eacbeda2d87b070a597b6f5f)
+        ;
+
+        
+    
+    
+            circle_marker_64bf99ce2734595ba42635d6cd694cf5.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4a8556eb56a5b19c1f45cb36ccfce0e5 = L.circleMarker(
+                [-29.2493000031, 16.8686008453],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_8548b48f73d7776cceca5067462952eb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2e31b3e69e218c38e2b4bcad5ca640f8 = $(`<div id="html_2e31b3e69e218c38e2b4bcad5ca640f8" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -29.2493000031<br>         Longitude: 16.8686008453          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: nan<br>         Sea Surface Salinity: nan          <br><br>          <b>📅 Observation Date:</b><br>         2003-04-18T12:00:00Z          </div>         </div>`)[0];
+                popup_8548b48f73d7776cceca5067462952eb.setContent(html_2e31b3e69e218c38e2b4bcad5ca640f8);
+            
+        
+
+        circle_marker_4a8556eb56a5b19c1f45cb36ccfce0e5.bindPopup(popup_8548b48f73d7776cceca5067462952eb)
+        ;
+
+        
+    
+    
+            circle_marker_4a8556eb56a5b19c1f45cb36ccfce0e5.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5b3eb836eeb47287b2ce88c2f0a1faa7 = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_429931082805a62b34666a09f9c7c614 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a3237b5ded978eb2dae597c9db26c262 = $(`<div id="html_a3237b5ded978eb2dae597c9db26c262" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -34.0527992249<br>         Longitude: 18.3549995422          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: nan<br>         Sea Surface Salinity: nan          <br><br>          <b>📅 Observation Date:</b><br>         2003-11-09T12:00:00Z          </div>         </div>`)[0];
+                popup_429931082805a62b34666a09f9c7c614.setContent(html_a3237b5ded978eb2dae597c9db26c262);
+            
+        
+
+        circle_marker_5b3eb836eeb47287b2ce88c2f0a1faa7.bindPopup(popup_429931082805a62b34666a09f9c7c614)
+        ;
+
+        
+    
+    
+            circle_marker_5b3eb836eeb47287b2ce88c2f0a1faa7.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c3dfb38c65f922d9fcc7f7e3f575478 = L.circleMarker(
+                [-29.2493000031, 16.8686008453],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_84d76d61ca7a75ccb223ceba963334c5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3163934a6d80fd9fa86e8871e84111c2 = $(`<div id="html_3163934a6d80fd9fa86e8871e84111c2" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -29.2493000031<br>         Longitude: 16.8686008453          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: nan<br>         Sea Surface Salinity: nan          <br><br>          <b>📅 Observation Date:</b><br>         1987-02-01T12:00:00Z          </div>         </div>`)[0];
+                popup_84d76d61ca7a75ccb223ceba963334c5.setContent(html_3163934a6d80fd9fa86e8871e84111c2);
+            
+        
+
+        circle_marker_9c3dfb38c65f922d9fcc7f7e3f575478.bindPopup(popup_84d76d61ca7a75ccb223ceba963334c5)
+        ;
+
+        
+    
+    
+            circle_marker_9c3dfb38c65f922d9fcc7f7e3f575478.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b38901782305efc07baaf22acf53858 = L.circleMarker(
+                [39.98, -68.93],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_6e23bd2cd1f995418d3785d44c233fa9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_590e2d78cf67ad83883d608afca288e4 = $(`<div id="html_590e2d78cf67ad83883d608afca288e4" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: 39.98<br>         Longitude: -68.93          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 15.0<br>         Sea Surface Temperature: 16.04<br>         Sea Surface Salinity: 34.13          <br><br>          <b>📅 Observation Date:</b><br>         2000-08-21          </div>         </div>`)[0];
+                popup_6e23bd2cd1f995418d3785d44c233fa9.setContent(html_590e2d78cf67ad83883d608afca288e4);
+            
+        
+
+        circle_marker_1b38901782305efc07baaf22acf53858.bindPopup(popup_6e23bd2cd1f995418d3785d44c233fa9)
+        ;
+
+        
+    
+    
+            circle_marker_1b38901782305efc07baaf22acf53858.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe13c16c7c88ca154bb1c06c89e4506e = L.circleMarker(
+                [-34.3568992615, 18.4972000122],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_5bd1ed9a59d2c40a5ec7fa98f52cbf2c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b6f1070bfdf214661107d9643be981b8 = $(`<div id="html_b6f1070bfdf214661107d9643be981b8" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -34.3568992615<br>         Longitude: 18.4972000122          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 17.19<br>         Sea Surface Salinity: 35.43          <br><br>          <b>📅 Observation Date:</b><br>         2000-03-17T12:00:00Z          </div>         </div>`)[0];
+                popup_5bd1ed9a59d2c40a5ec7fa98f52cbf2c.setContent(html_b6f1070bfdf214661107d9643be981b8);
+            
+        
+
+        circle_marker_fe13c16c7c88ca154bb1c06c89e4506e.bindPopup(popup_5bd1ed9a59d2c40a5ec7fa98f52cbf2c)
+        ;
+
+        
+    
+    
+            circle_marker_fe13c16c7c88ca154bb1c06c89e4506e.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_824867154c0c758986ed2568603a246e = L.circleMarker(
+                [34.1166667938, -75.5833320618],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_aa0790394032b986846aff5af7a91862 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ca929cd46c6cd7bb7ce8552cedd4b752 = $(`<div id="html_ca929cd46c6cd7bb7ce8552cedd4b752" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: 34.1166667938<br>         Longitude: -75.5833320618          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 1300.0<br>         Sea Surface Temperature: 25.62<br>         Sea Surface Salinity: 36.18          <br><br>          <b>📅 Observation Date:</b><br>         2001-04-06T00:00:00Z          </div>         </div>`)[0];
+                popup_aa0790394032b986846aff5af7a91862.setContent(html_ca929cd46c6cd7bb7ce8552cedd4b752);
+            
+        
+
+        circle_marker_824867154c0c758986ed2568603a246e.bindPopup(popup_aa0790394032b986846aff5af7a91862)
+        ;
+
+        
+    
+    
+            circle_marker_824867154c0c758986ed2568603a246e.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a493e2567d684506373a38d17c76464d = L.circleMarker(
+                [38.32696667, -29.5233],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_a68999aea5379a1324eba229f777f0ce = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_56830586521799a1dd19529e22877dbd = $(`<div id="html_56830586521799a1dd19529e22877dbd" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: 38.32696667<br>         Longitude: -29.5233          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 19.22<br>         Sea Surface Salinity: 36.24          <br><br>          <b>📅 Observation Date:</b><br>         2004-07-09          </div>         </div>`)[0];
+                popup_a68999aea5379a1324eba229f777f0ce.setContent(html_56830586521799a1dd19529e22877dbd);
+            
+        
+
+        circle_marker_a493e2567d684506373a38d17c76464d.bindPopup(popup_a68999aea5379a1324eba229f777f0ce)
+        ;
+
+        
+    
+    
+            circle_marker_a493e2567d684506373a38d17c76464d.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5199faa08ecf5c240deaf1c2eff7cb9e = L.circleMarker(
+                [-36.838433333333, 52.1509],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_73c7ba9c43242011da992815c5010a09 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3e19a9def8f526913cffad074022eac5 = $(`<div id="html_3e19a9def8f526913cffad074022eac5" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -36.838433333333<br>         Longitude: 52.1509          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 17.67<br>         Sea Surface Salinity: 35.48          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_73c7ba9c43242011da992815c5010a09.setContent(html_3e19a9def8f526913cffad074022eac5);
+            
+        
+
+        circle_marker_5199faa08ecf5c240deaf1c2eff7cb9e.bindPopup(popup_73c7ba9c43242011da992815c5010a09)
+        ;
+
+        
+    
+    
+            circle_marker_5199faa08ecf5c240deaf1c2eff7cb9e.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_398e80cabc03904b7599295c075c8058 = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_f13a6724b05f11347255c07b4ac81e9e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a762a92406b2b8d58e76d6cd0cff41a0 = $(`<div id="html_a762a92406b2b8d58e76d6cd0cff41a0" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -34.0527992249<br>         Longitude: 18.3549995422          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: nan<br>         Sea Surface Salinity: nan          <br><br>          <b>📅 Observation Date:</b><br>         1993-02-28T12:00:00Z          </div>         </div>`)[0];
+                popup_f13a6724b05f11347255c07b4ac81e9e.setContent(html_a762a92406b2b8d58e76d6cd0cff41a0);
+            
+        
+
+        circle_marker_398e80cabc03904b7599295c075c8058.bindPopup(popup_f13a6724b05f11347255c07b4ac81e9e)
+        ;
+
+        
+    
+    
+            circle_marker_398e80cabc03904b7599295c075c8058.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_45a301e31f6715fd5a62309fbc00f794 = L.circleMarker(
+                [-33.4255981445, 18.0886001587],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee);
+        
+    
+        var popup_9467c4d09f8c1da681b842e76eb7ca83 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fcad51f3be03979c11dccf53a992805d = $(`<div id="html_fcad51f3be03979c11dccf53a992805d" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus alalunga          <br><br>          <b>📍 Location</b><br>         Latitude: -33.4255981445<br>         Longitude: 18.0886001587          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 15.57<br>         Sea Surface Salinity: 33.7          <br><br>          <b>📅 Observation Date:</b><br>         1997-03-31T12:00:00Z          </div>         </div>`)[0];
+                popup_9467c4d09f8c1da681b842e76eb7ca83.setContent(html_fcad51f3be03979c11dccf53a992805d);
+            
+        
+
+        circle_marker_45a301e31f6715fd5a62309fbc00f794.bindPopup(popup_9467c4d09f8c1da681b842e76eb7ca83)
+        ;
+
+        
+    
+    
+            circle_marker_45a301e31f6715fd5a62309fbc00f794.bindTooltip(
+                `<div>
+                     Thunnus alalunga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee.addTo(map_89c42ad90f95cecfef5504e3e0c77ec5);
+        
+    
+            var feature_group_ac51070dd9494a9710b3e59ff717b8c3 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_dac94a5f8d544a17528dbe257ecec519 = L.circleMarker(
+                [-31.0387992859, 30.2322998047],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_3300ea0a4f068d5074e6280e84732b92 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1ff1ae908edc2fd28a8aeda95ae49ac5 = $(`<div id="html_1ff1ae908edc2fd28a8aeda95ae49ac5" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -31.0387992859<br>         Longitude: 30.2322998047          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 23.58<br>         Sea Surface Salinity: 35.31          <br><br>          <b>📅 Observation Date:</b><br>         2000-07-12T12:00:00Z          </div>         </div>`)[0];
+                popup_3300ea0a4f068d5074e6280e84732b92.setContent(html_1ff1ae908edc2fd28a8aeda95ae49ac5);
+            
+        
+
+        circle_marker_dac94a5f8d544a17528dbe257ecec519.bindPopup(popup_3300ea0a4f068d5074e6280e84732b92)
+        ;
+
+        
+    
+    
+            circle_marker_dac94a5f8d544a17528dbe257ecec519.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f47fe79ed6486debdce5811882218f79 = L.circleMarker(
+                [27.33, -89.28],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_fa782d0a64f519b57fdb4c6ba6b4e254 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a22c20d197b2aa504c0e0f8fedecaafa = $(`<div id="html_a22c20d197b2aa504c0e0f8fedecaafa" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 27.33<br>         Longitude: -89.28          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 162.0<br>         Sea Surface Temperature: 26.11<br>         Sea Surface Salinity: 35.82          <br><br>          <b>📅 Observation Date:</b><br>         1995-02-15          </div>         </div>`)[0];
+                popup_fa782d0a64f519b57fdb4c6ba6b4e254.setContent(html_a22c20d197b2aa504c0e0f8fedecaafa);
+            
+        
+
+        circle_marker_f47fe79ed6486debdce5811882218f79.bindPopup(popup_fa782d0a64f519b57fdb4c6ba6b4e254)
+        ;
+
+        
+    
+    
+            circle_marker_f47fe79ed6486debdce5811882218f79.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aa7488e7d047a8b6cde8ce65c1e5ddae = L.circleMarker(
+                [7.21806666666669, 59.6707666666669],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_ce89b3b9ce8d06b16d7eec217e16cd5d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1f2bfc09c4c0d9b0d673d9e7b34432e7 = $(`<div id="html_1f2bfc09c4c0d9b0d673d9e7b34432e7" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 7.21806666666669<br>         Longitude: 59.6707666666669          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 28.47<br>         Sea Surface Salinity: 35.79          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_ce89b3b9ce8d06b16d7eec217e16cd5d.setContent(html_1f2bfc09c4c0d9b0d673d9e7b34432e7);
+            
+        
+
+        circle_marker_aa7488e7d047a8b6cde8ce65c1e5ddae.bindPopup(popup_ce89b3b9ce8d06b16d7eec217e16cd5d)
+        ;
+
+        
+    
+    
+            circle_marker_aa7488e7d047a8b6cde8ce65c1e5ddae.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65be0cd71e2f1153328e36faa010730c = L.circleMarker(
+                [25.6, -92.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_643513e4c407b01ed768fa4aea6b6483 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_36b200824c31b528a7e9a196fba34f7b = $(`<div id="html_36b200824c31b528a7e9a196fba34f7b" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 25.6<br>         Longitude: -92.0          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 140.0<br>         Sea Surface Temperature: 26.31<br>         Sea Surface Salinity: 36.21          <br><br>          <b>📅 Observation Date:</b><br>         1996-03-25          </div>         </div>`)[0];
+                popup_643513e4c407b01ed768fa4aea6b6483.setContent(html_36b200824c31b528a7e9a196fba34f7b);
+            
+        
+
+        circle_marker_65be0cd71e2f1153328e36faa010730c.bindPopup(popup_643513e4c407b01ed768fa4aea6b6483)
+        ;
+
+        
+    
+    
+            circle_marker_65be0cd71e2f1153328e36faa010730c.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_58fed1e76851ba659044b5da326bc5ea = L.circleMarker(
+                [-3.500139, 69.55014],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_a1c24e4aa34943619550808ab5ccf601 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_abe175dd2805a13f059726560731559f = $(`<div id="html_abe175dd2805a13f059726560731559f" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -3.500139<br>         Longitude: 69.55014          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 29.06<br>         Sea Surface Salinity: 34.95          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_a1c24e4aa34943619550808ab5ccf601.setContent(html_abe175dd2805a13f059726560731559f);
+            
+        
+
+        circle_marker_58fed1e76851ba659044b5da326bc5ea.bindPopup(popup_a1c24e4aa34943619550808ab5ccf601)
+        ;
+
+        
+    
+    
+            circle_marker_58fed1e76851ba659044b5da326bc5ea.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6b342eafb2d48c1acd7548bc877e837a = L.circleMarker(
+                [38.0, -73.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_db5527fbb8f78c151374e1625fe2bacf = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_276d7a5f9a939ce446ba528e94caab54 = $(`<div id="html_276d7a5f9a939ce446ba528e94caab54" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 38.0<br>         Longitude: -73.0          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 22.0<br>         Sea Surface Temperature: 18.93<br>         Sea Surface Salinity: 35.5          <br><br>          <b>📅 Observation Date:</b><br>         2001-09-13          </div>         </div>`)[0];
+                popup_db5527fbb8f78c151374e1625fe2bacf.setContent(html_276d7a5f9a939ce446ba528e94caab54);
+            
+        
+
+        circle_marker_6b342eafb2d48c1acd7548bc877e837a.bindPopup(popup_db5527fbb8f78c151374e1625fe2bacf)
+        ;
+
+        
+    
+    
+            circle_marker_6b342eafb2d48c1acd7548bc877e837a.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a3987a1d3b878387fa4b550af229e62a = L.circleMarker(
+                [39.83, -71.03],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_d2c59603d08caa72e2fc5e941cb882f7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e926a9e8e650546fe71e26115c632ef2 = $(`<div id="html_e926a9e8e650546fe71e26115c632ef2" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 39.83<br>         Longitude: -71.03          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 20.0<br>         Sea Surface Temperature: 16.29<br>         Sea Surface Salinity: 34.43          <br><br>          <b>📅 Observation Date:</b><br>         2001-12-15          </div>         </div>`)[0];
+                popup_d2c59603d08caa72e2fc5e941cb882f7.setContent(html_e926a9e8e650546fe71e26115c632ef2);
+            
+        
+
+        circle_marker_a3987a1d3b878387fa4b550af229e62a.bindPopup(popup_d2c59603d08caa72e2fc5e941cb882f7)
+        ;
+
+        
+    
+    
+            circle_marker_a3987a1d3b878387fa4b550af229e62a.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a68fc248a0fa5bc8ff4912ca70c0012 = L.circleMarker(
+                [26.25, -90.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_94331e09746eb18fb10af73d6f70d763 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_98de1b0a8b4ebaf9085a573391278542 = $(`<div id="html_98de1b0a8b4ebaf9085a573391278542" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 26.25<br>         Longitude: -90.25          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 260.0<br>         Sea Surface Temperature: 26.32<br>         Sea Surface Salinity: 36.05          <br><br>          <b>📅 Observation Date:</b><br>         1995-08-12          </div>         </div>`)[0];
+                popup_94331e09746eb18fb10af73d6f70d763.setContent(html_98de1b0a8b4ebaf9085a573391278542);
+            
+        
+
+        circle_marker_5a68fc248a0fa5bc8ff4912ca70c0012.bindPopup(popup_94331e09746eb18fb10af73d6f70d763)
+        ;
+
+        
+    
+    
+            circle_marker_5a68fc248a0fa5bc8ff4912ca70c0012.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d50ede75bdf20ff9c430fbc93720773b = L.circleMarker(
+                [31.0, -79.11],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_c01805960809efa71cdcc08480fccd88 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_80bc87cb5e7080a6e922a9be758a73e8 = $(`<div id="html_80bc87cb5e7080a6e922a9be758a73e8" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 31.0<br>         Longitude: -79.11          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 20.0<br>         Sea Surface Temperature: 26.64<br>         Sea Surface Salinity: 36.11          <br><br>          <b>📅 Observation Date:</b><br>         1999-11-06          </div>         </div>`)[0];
+                popup_c01805960809efa71cdcc08480fccd88.setContent(html_80bc87cb5e7080a6e922a9be758a73e8);
+            
+        
+
+        circle_marker_d50ede75bdf20ff9c430fbc93720773b.bindPopup(popup_c01805960809efa71cdcc08480fccd88)
+        ;
+
+        
+    
+    
+            circle_marker_d50ede75bdf20ff9c430fbc93720773b.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b77984ab334d95fbe1ddd91cec0171c7 = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_a19387947c00959328223b4691f88a4b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c0ed31c8b4ec8ed78315fb2103b5bb95 = $(`<div id="html_c0ed31c8b4ec8ed78315fb2103b5bb95" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -34.0527992249<br>         Longitude: 18.3549995422          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: nan<br>         Sea Surface Salinity: nan          <br><br>          <b>📅 Observation Date:</b><br>         1989-11-24T12:00:00Z          </div>         </div>`)[0];
+                popup_a19387947c00959328223b4691f88a4b.setContent(html_c0ed31c8b4ec8ed78315fb2103b5bb95);
+            
+        
+
+        circle_marker_b77984ab334d95fbe1ddd91cec0171c7.bindPopup(popup_a19387947c00959328223b4691f88a4b)
+        ;
+
+        
+    
+    
+            circle_marker_b77984ab334d95fbe1ddd91cec0171c7.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_af2447964e41b6b05e3fd4d9c418d2f4 = L.circleMarker(
+                [-9.82156666666669, 59.9557],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_e5f7fd709fcf17ebe6ad1b4d9754fc5e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_895963e0fd0de1189127c0a123928176 = $(`<div id="html_895963e0fd0de1189127c0a123928176" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -9.82156666666669<br>         Longitude: 59.9557          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.61<br>         Sea Surface Salinity: 34.8          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_e5f7fd709fcf17ebe6ad1b4d9754fc5e.setContent(html_895963e0fd0de1189127c0a123928176);
+            
+        
+
+        circle_marker_af2447964e41b6b05e3fd4d9c418d2f4.bindPopup(popup_e5f7fd709fcf17ebe6ad1b4d9754fc5e)
+        ;
+
+        
+    
+    
+            circle_marker_af2447964e41b6b05e3fd4d9c418d2f4.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_910d152233968406bab4776eba16245f = L.circleMarker(
+                [9.950139, -18.033472],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_6420616655133c291cec46e30840bd40 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a8899775ee95d19665e364b1e19484bd = $(`<div id="html_a8899775ee95d19665e364b1e19484bd" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 9.950139<br>         Longitude: -18.033472          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.07<br>         Sea Surface Salinity: 35.21          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_6420616655133c291cec46e30840bd40.setContent(html_a8899775ee95d19665e364b1e19484bd);
+            
+        
+
+        circle_marker_910d152233968406bab4776eba16245f.bindPopup(popup_6420616655133c291cec46e30840bd40)
+        ;
+
+        
+    
+    
+            circle_marker_910d152233968406bab4776eba16245f.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_11355ebd0f5d90fa6d2a49eb15a19fa2 = L.circleMarker(
+                [37.73, -74.15],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_bdf30baa8c479725790e82c13e03f629 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9797f95d844105db409ebb41b1d9e177 = $(`<div id="html_9797f95d844105db409ebb41b1d9e177" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 37.73<br>         Longitude: -74.15          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 72.0<br>         Sea Surface Temperature: 17.63<br>         Sea Surface Salinity: 34.75          <br><br>          <b>📅 Observation Date:</b><br>         1995-10-03          </div>         </div>`)[0];
+                popup_bdf30baa8c479725790e82c13e03f629.setContent(html_9797f95d844105db409ebb41b1d9e177);
+            
+        
+
+        circle_marker_11355ebd0f5d90fa6d2a49eb15a19fa2.bindPopup(popup_bdf30baa8c479725790e82c13e03f629)
+        ;
+
+        
+    
+    
+            circle_marker_11355ebd0f5d90fa6d2a49eb15a19fa2.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_56b385e925f9b8a57dd66b54b98b04d8 = L.circleMarker(
+                [25.7833328247, -91.6000022888],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_644a9c997796740699c93c72c1398aaa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c75a5177d8d341c57dbb44972b897eb1 = $(`<div id="html_c75a5177d8d341c57dbb44972b897eb1" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 25.7833328247<br>         Longitude: -91.6000022888          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 1479.0<br>         Sea Surface Temperature: 26.27<br>         Sea Surface Salinity: 36.19          <br><br>          <b>📅 Observation Date:</b><br>         2001-10-31T00:00:00Z          </div>         </div>`)[0];
+                popup_644a9c997796740699c93c72c1398aaa.setContent(html_c75a5177d8d341c57dbb44972b897eb1);
+            
+        
+
+        circle_marker_56b385e925f9b8a57dd66b54b98b04d8.bindPopup(popup_644a9c997796740699c93c72c1398aaa)
+        ;
+
+        
+    
+    
+            circle_marker_56b385e925f9b8a57dd66b54b98b04d8.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_657567feaac7bb8c5df2ee424bd16e27 = L.circleMarker(
+                [-5.033472, 42.18347],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_93cd42a0f77111140ad683cb6ddfa95c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ea017443734cfc8f921530757ce4a27d = $(`<div id="html_ea017443734cfc8f921530757ce4a27d" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -5.033472<br>         Longitude: 42.18347          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.67<br>         Sea Surface Salinity: 35.22          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_93cd42a0f77111140ad683cb6ddfa95c.setContent(html_ea017443734cfc8f921530757ce4a27d);
+            
+        
+
+        circle_marker_657567feaac7bb8c5df2ee424bd16e27.bindPopup(popup_93cd42a0f77111140ad683cb6ddfa95c)
+        ;
+
+        
+    
+    
+            circle_marker_657567feaac7bb8c5df2ee424bd16e27.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b7af97588a49576c91e1ace81ad36e50 = L.circleMarker(
+                [-13.550139, 45.050137],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_e85131b03eb334aea1bc098b87d4aa5a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_027a23e0ac063ba2153ff20ba36653df = $(`<div id="html_027a23e0ac063ba2153ff20ba36653df" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -13.550139<br>         Longitude: 45.050137          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.81<br>         Sea Surface Salinity: 34.92          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_e85131b03eb334aea1bc098b87d4aa5a.setContent(html_027a23e0ac063ba2153ff20ba36653df);
+            
+        
+
+        circle_marker_b7af97588a49576c91e1ace81ad36e50.bindPopup(popup_e85131b03eb334aea1bc098b87d4aa5a)
+        ;
+
+        
+    
+    
+            circle_marker_b7af97588a49576c91e1ace81ad36e50.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a440d2045e5eed0df08c54c6bd631462 = L.circleMarker(
+                [35.41, -74.85],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_c45c5ce1a08a8006c2cf559a6d5f88dd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_259d1d867bdbe9170e11c4ab9c858220 = $(`<div id="html_259d1d867bdbe9170e11c4ab9c858220" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 35.41<br>         Longitude: -74.85          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 22.0<br>         Sea Surface Temperature: 23.71<br>         Sea Surface Salinity: 35.74          <br><br>          <b>📅 Observation Date:</b><br>         2002-07-30          </div>         </div>`)[0];
+                popup_c45c5ce1a08a8006c2cf559a6d5f88dd.setContent(html_259d1d867bdbe9170e11c4ab9c858220);
+            
+        
+
+        circle_marker_a440d2045e5eed0df08c54c6bd631462.bindPopup(popup_c45c5ce1a08a8006c2cf559a6d5f88dd)
+        ;
+
+        
+    
+    
+            circle_marker_a440d2045e5eed0df08c54c6bd631462.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f29ca591c58d2f41a19afab4adc829c4 = L.circleMarker(
+                [-1.6334722, -3.3668058],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_1bd358b311b9f30c85d907069ec3c0ae = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d1381d1467ca419b576e633ee64e2d84 = $(`<div id="html_d1381d1467ca419b576e633ee64e2d84" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -1.6334722<br>         Longitude: -3.3668058          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 25.99<br>         Sea Surface Salinity: 35.58          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_1bd358b311b9f30c85d907069ec3c0ae.setContent(html_d1381d1467ca419b576e633ee64e2d84);
+            
+        
+
+        circle_marker_f29ca591c58d2f41a19afab4adc829c4.bindPopup(popup_1bd358b311b9f30c85d907069ec3c0ae)
+        ;
+
+        
+    
+    
+            circle_marker_f29ca591c58d2f41a19afab4adc829c4.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_193eab9c2c0696cf8784b0408a957ed5 = L.circleMarker(
+                [28.58, -78.51],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_a82a221372bb3852948b0546e4a6f5f7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eafdd77f0e51ee9f16a23966213f99b4 = $(`<div id="html_eafdd77f0e51ee9f16a23966213f99b4" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 28.58<br>         Longitude: -78.51          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 105.0<br>         Sea Surface Temperature: 26.15<br>         Sea Surface Salinity: 36.31          <br><br>          <b>📅 Observation Date:</b><br>         2002-03-18          </div>         </div>`)[0];
+                popup_a82a221372bb3852948b0546e4a6f5f7.setContent(html_eafdd77f0e51ee9f16a23966213f99b4);
+            
+        
+
+        circle_marker_193eab9c2c0696cf8784b0408a957ed5.bindPopup(popup_a82a221372bb3852948b0546e4a6f5f7)
+        ;
+
+        
+    
+    
+            circle_marker_193eab9c2c0696cf8784b0408a957ed5.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5afe183c75d53bb4acc1a1ec19317006 = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_731c824f401e7843e25b7e716d2e8acc = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e3e8f519f8452a544ffc6cfcf12d56e7 = $(`<div id="html_e3e8f519f8452a544ffc6cfcf12d56e7" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -34.0527992249<br>         Longitude: 18.3549995422          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: nan<br>         Sea Surface Salinity: nan          <br><br>          <b>📅 Observation Date:</b><br>         1987-04-25T12:00:00Z          </div>         </div>`)[0];
+                popup_731c824f401e7843e25b7e716d2e8acc.setContent(html_e3e8f519f8452a544ffc6cfcf12d56e7);
+            
+        
+
+        circle_marker_5afe183c75d53bb4acc1a1ec19317006.bindPopup(popup_731c824f401e7843e25b7e716d2e8acc)
+        ;
+
+        
+    
+    
+            circle_marker_5afe183c75d53bb4acc1a1ec19317006.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4bdee45fb5d4519c83e4ce0ce3eb161b = L.circleMarker(
+                [38.01, -70.76],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_f8b63e794efbc3555e6b505f75085e4c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4ff41c024f0be840cbf5e172cae84d44 = $(`<div id="html_4ff41c024f0be840cbf5e172cae84d44" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 38.01<br>         Longitude: -70.76          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 10.0<br>         Sea Surface Temperature: 20.82<br>         Sea Surface Salinity: 35.96          <br><br>          <b>📅 Observation Date:</b><br>         1996-08-01          </div>         </div>`)[0];
+                popup_f8b63e794efbc3555e6b505f75085e4c.setContent(html_4ff41c024f0be840cbf5e172cae84d44);
+            
+        
+
+        circle_marker_4bdee45fb5d4519c83e4ce0ce3eb161b.bindPopup(popup_f8b63e794efbc3555e6b505f75085e4c)
+        ;
+
+        
+    
+    
+            circle_marker_4bdee45fb5d4519c83e4ce0ce3eb161b.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_84acbd8c917fedd2bb9455843f313371 = L.circleMarker(
+                [27.3333339691, -93.0583343506],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_d5084ec8aafd295ce56885c7959fa1c6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c571f6ff84af85540720e7c5e7f1c1d9 = $(`<div id="html_c571f6ff84af85540720e7c5e7f1c1d9" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 27.3333339691<br>         Longitude: -93.0583343506          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 450.0<br>         Sea Surface Temperature: 25.75<br>         Sea Surface Salinity: 36.07          <br><br>          <b>📅 Observation Date:</b><br>         1993-05-16T00:00:00Z          </div>         </div>`)[0];
+                popup_d5084ec8aafd295ce56885c7959fa1c6.setContent(html_c571f6ff84af85540720e7c5e7f1c1d9);
+            
+        
+
+        circle_marker_84acbd8c917fedd2bb9455843f313371.bindPopup(popup_d5084ec8aafd295ce56885c7959fa1c6)
+        ;
+
+        
+    
+    
+            circle_marker_84acbd8c917fedd2bb9455843f313371.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_57fd6ecc5f2ae5f534c2ef6154387977 = L.circleMarker(
+                [26.58, -91.41],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_c0a0db325814a58be4190c8ed53e467e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b0f6650afad00fea74311850b117d06e = $(`<div id="html_b0f6650afad00fea74311850b117d06e" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 26.58<br>         Longitude: -91.41          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 0.0<br>         Sea Surface Temperature: 26.11<br>         Sea Surface Salinity: 36.11          <br><br>          <b>📅 Observation Date:</b><br>         2004-05-28          </div>         </div>`)[0];
+                popup_c0a0db325814a58be4190c8ed53e467e.setContent(html_b0f6650afad00fea74311850b117d06e);
+            
+        
+
+        circle_marker_57fd6ecc5f2ae5f534c2ef6154387977.bindPopup(popup_c0a0db325814a58be4190c8ed53e467e)
+        ;
+
+        
+    
+    
+            circle_marker_57fd6ecc5f2ae5f534c2ef6154387977.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4c42d6fba7b190450efcbb67bd11bc38 = L.circleMarker(
+                [10.433473, -24.833473],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_34eb225efaf91f6c262031162e33fa1f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7f84b3ae518c63c081233cde0732b188 = $(`<div id="html_7f84b3ae518c63c081233cde0732b188" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 10.433473<br>         Longitude: -24.833473          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 26.45<br>         Sea Surface Salinity: 35.0          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_34eb225efaf91f6c262031162e33fa1f.setContent(html_7f84b3ae518c63c081233cde0732b188);
+            
+        
+
+        circle_marker_4c42d6fba7b190450efcbb67bd11bc38.bindPopup(popup_34eb225efaf91f6c262031162e33fa1f)
+        ;
+
+        
+    
+    
+            circle_marker_4c42d6fba7b190450efcbb67bd11bc38.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67a9b5560e84ded8f6110992aac26c82 = L.circleMarker(
+                [33.95, -75.11],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_e680ef2b3b0ba4c535fc16a25c9f0ee5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a9ffb92292613463d4068864314fccde = $(`<div id="html_a9ffb92292613463d4068864314fccde" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 33.95<br>         Longitude: -75.11          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 20.0<br>         Sea Surface Temperature: 25.41<br>         Sea Surface Salinity: 36.23          <br><br>          <b>📅 Observation Date:</b><br>         1997-06-15          </div>         </div>`)[0];
+                popup_e680ef2b3b0ba4c535fc16a25c9f0ee5.setContent(html_a9ffb92292613463d4068864314fccde);
+            
+        
+
+        circle_marker_67a9b5560e84ded8f6110992aac26c82.bindPopup(popup_e680ef2b3b0ba4c535fc16a25c9f0ee5)
+        ;
+
+        
+    
+    
+            circle_marker_67a9b5560e84ded8f6110992aac26c82.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9bf6af2afaa6c8b55c2896847192b705 = L.circleMarker(
+                [17.55, -69.35],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_98b8b49c6bf6f2583904b4375fc91246 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_96d037f49155b27fda79671e78457444 = $(`<div id="html_96d037f49155b27fda79671e78457444" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 17.55<br>         Longitude: -69.35          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 270.0<br>         Sea Surface Temperature: 27.99<br>         Sea Surface Salinity: 35.09          <br><br>          <b>📅 Observation Date:</b><br>         1996-07-30          </div>         </div>`)[0];
+                popup_98b8b49c6bf6f2583904b4375fc91246.setContent(html_96d037f49155b27fda79671e78457444);
+            
+        
+
+        circle_marker_9bf6af2afaa6c8b55c2896847192b705.bindPopup(popup_98b8b49c6bf6f2583904b4375fc91246)
+        ;
+
+        
+    
+    
+            circle_marker_9bf6af2afaa6c8b55c2896847192b705.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e7dc62ac8bb3d5a25aed60b28764cce4 = L.circleMarker(
+                [26.83, -92.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_972f0f39bbf7a60078c3cb6e05abd46a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bc64d731e559c9c9f2c7363b44b64946 = $(`<div id="html_bc64d731e559c9c9f2c7363b44b64946" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 26.83<br>         Longitude: -92.0          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 125.0<br>         Sea Surface Temperature: 25.99<br>         Sea Surface Salinity: 36.15          <br><br>          <b>📅 Observation Date:</b><br>         1997-12-13          </div>         </div>`)[0];
+                popup_972f0f39bbf7a60078c3cb6e05abd46a.setContent(html_bc64d731e559c9c9f2c7363b44b64946);
+            
+        
+
+        circle_marker_e7dc62ac8bb3d5a25aed60b28764cce4.bindPopup(popup_972f0f39bbf7a60078c3cb6e05abd46a)
+        ;
+
+        
+    
+    
+            circle_marker_e7dc62ac8bb3d5a25aed60b28764cce4.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_951147646d8f2b78e1973b7d3bee7691 = L.circleMarker(
+                [26.11, -93.4],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_df802eccb555277d5a5fb269fd83b54c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_42bb1ba529d2f9c3655f4536e5a13a66 = $(`<div id="html_42bb1ba529d2f9c3655f4536e5a13a66" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 26.11<br>         Longitude: -93.4          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 35.0<br>         Sea Surface Temperature: 26.09<br>         Sea Surface Salinity: 36.17          <br><br>          <b>📅 Observation Date:</b><br>         2000-07-19          </div>         </div>`)[0];
+                popup_df802eccb555277d5a5fb269fd83b54c.setContent(html_42bb1ba529d2f9c3655f4536e5a13a66);
+            
+        
+
+        circle_marker_951147646d8f2b78e1973b7d3bee7691.bindPopup(popup_df802eccb555277d5a5fb269fd83b54c)
+        ;
+
+        
+    
+    
+            circle_marker_951147646d8f2b78e1973b7d3bee7691.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0a1a1c86e060153d7eb10d55b86d8dfe = L.circleMarker(
+                [10.80483, 46.167686666667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_cdeacbb189d4d951c9f0b00663e4bd17 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1437ba121b23c885d3836324415df7db = $(`<div id="html_1437ba121b23c885d3836324415df7db" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 10.80483<br>         Longitude: 46.167686666667          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 28.45<br>         Sea Surface Salinity: 36.4          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_cdeacbb189d4d951c9f0b00663e4bd17.setContent(html_1437ba121b23c885d3836324415df7db);
+            
+        
+
+        circle_marker_0a1a1c86e060153d7eb10d55b86d8dfe.bindPopup(popup_cdeacbb189d4d951c9f0b00663e4bd17)
+        ;
+
+        
+    
+    
+            circle_marker_0a1a1c86e060153d7eb10d55b86d8dfe.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b44a823c01147c630f147db64f3a3737 = L.circleMarker(
+                [27.58, -94.15],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_bc944fabdb7213eb4e74c8ad3f4b8fcd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_092b898f5375dc716ca60d0f099bf85a = $(`<div id="html_092b898f5375dc716ca60d0f099bf85a" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 27.58<br>         Longitude: -94.15          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 40.0<br>         Sea Surface Temperature: 25.6<br>         Sea Surface Salinity: 35.98          <br><br>          <b>📅 Observation Date:</b><br>         2005-06-01          </div>         </div>`)[0];
+                popup_bc944fabdb7213eb4e74c8ad3f4b8fcd.setContent(html_092b898f5375dc716ca60d0f099bf85a);
+            
+        
+
+        circle_marker_b44a823c01147c630f147db64f3a3737.bindPopup(popup_bc944fabdb7213eb4e74c8ad3f4b8fcd)
+        ;
+
+        
+    
+    
+            circle_marker_b44a823c01147c630f147db64f3a3737.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0f6aa6360eeca099b398417efebeeba = L.circleMarker(
+                [30.88, -78.5],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_b65db2db9463309fe095f408e74bc0c2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_abb59155e903ae6e4430671c3692ba6d = $(`<div id="html_abb59155e903ae6e4430671c3692ba6d" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 30.88<br>         Longitude: -78.5          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 18.0<br>         Sea Surface Temperature: 26.15<br>         Sea Surface Salinity: 36.22          <br><br>          <b>📅 Observation Date:</b><br>         1996-10-23          </div>         </div>`)[0];
+                popup_b65db2db9463309fe095f408e74bc0c2.setContent(html_abb59155e903ae6e4430671c3692ba6d);
+            
+        
+
+        circle_marker_a0f6aa6360eeca099b398417efebeeba.bindPopup(popup_b65db2db9463309fe095f408e74bc0c2)
+        ;
+
+        
+    
+    
+            circle_marker_a0f6aa6360eeca099b398417efebeeba.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_43566be3f811b8e9bdd087d1f0b78021 = L.circleMarker(
+                [38.53, -68.21],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_e3d89acb6263762b1e8f56f644bb0e4d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9b090647f0e7c0ec143cccf524c0921a = $(`<div id="html_9b090647f0e7c0ec143cccf524c0921a" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 38.53<br>         Longitude: -68.21          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 12.0<br>         Sea Surface Temperature: 20.71<br>         Sea Surface Salinity: 35.88          <br><br>          <b>📅 Observation Date:</b><br>         1998-07-10          </div>         </div>`)[0];
+                popup_e3d89acb6263762b1e8f56f644bb0e4d.setContent(html_9b090647f0e7c0ec143cccf524c0921a);
+            
+        
+
+        circle_marker_43566be3f811b8e9bdd087d1f0b78021.bindPopup(popup_e3d89acb6263762b1e8f56f644bb0e4d)
+        ;
+
+        
+    
+    
+            circle_marker_43566be3f811b8e9bdd087d1f0b78021.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_93189fbc89982f67ed8c5d71a0c7abe5 = L.circleMarker(
+                [-24.25, 154.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_725e59513c4774fee036a8979863179f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eadac48668eda915ce8d3b081c88f79a = $(`<div id="html_eadac48668eda915ce8d3b081c88f79a" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -24.25<br>         Longitude: 154.25          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 24.86<br>         Sea Surface Salinity: 35.36          <br><br>          <b>📅 Observation Date:</b><br>         2000          </div>         </div>`)[0];
+                popup_725e59513c4774fee036a8979863179f.setContent(html_eadac48668eda915ce8d3b081c88f79a);
+            
+        
+
+        circle_marker_93189fbc89982f67ed8c5d71a0c7abe5.bindPopup(popup_725e59513c4774fee036a8979863179f)
+        ;
+
+        
+    
+    
+            circle_marker_93189fbc89982f67ed8c5d71a0c7abe5.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b62674093a3b526ba2e3f3481dc83c1e = L.circleMarker(
+                [-1.3186666666667, 49.8383333333329],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_3fbea7a823b5fcdc1ef173c5addf914d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_380aca952f5f523432027158513900d0 = $(`<div id="html_380aca952f5f523432027158513900d0" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -1.3186666666667<br>         Longitude: 49.8383333333329          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.89<br>         Sea Surface Salinity: 35.37          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_3fbea7a823b5fcdc1ef173c5addf914d.setContent(html_380aca952f5f523432027158513900d0);
+            
+        
+
+        circle_marker_b62674093a3b526ba2e3f3481dc83c1e.bindPopup(popup_3fbea7a823b5fcdc1ef173c5addf914d)
+        ;
+
+        
+    
+    
+            circle_marker_b62674093a3b526ba2e3f3481dc83c1e.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9089c8405f3dad5840439762f36ecb55 = L.circleMarker(
+                [32.66, -77.5],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_cb66152c55c4007802a85e97ee32de2b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_65d9e8e22e46ea2fbc067d46dfe2922a = $(`<div id="html_65d9e8e22e46ea2fbc067d46dfe2922a" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 32.66<br>         Longitude: -77.5          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 22.0<br>         Sea Surface Temperature: 25.66<br>         Sea Surface Salinity: 36.14          <br><br>          <b>📅 Observation Date:</b><br>         1999-01-26          </div>         </div>`)[0];
+                popup_cb66152c55c4007802a85e97ee32de2b.setContent(html_65d9e8e22e46ea2fbc067d46dfe2922a);
+            
+        
+
+        circle_marker_9089c8405f3dad5840439762f36ecb55.bindPopup(popup_cb66152c55c4007802a85e97ee32de2b)
+        ;
+
+        
+    
+    
+            circle_marker_9089c8405f3dad5840439762f36ecb55.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0e3d6647fd8cacd35d2596b3a0bf2e5 = L.circleMarker(
+                [-5.783472, 62.450138],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_1e286ddeafef9656cbb2cc2fffa9318c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fc7e3585fa0a1e3a1aa2dc80841236df = $(`<div id="html_fc7e3585fa0a1e3a1aa2dc80841236df" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -5.783472<br>         Longitude: 62.450138          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 28.45<br>         Sea Surface Salinity: 34.98          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_1e286ddeafef9656cbb2cc2fffa9318c.setContent(html_fc7e3585fa0a1e3a1aa2dc80841236df);
+            
+        
+
+        circle_marker_e0e3d6647fd8cacd35d2596b3a0bf2e5.bindPopup(popup_1e286ddeafef9656cbb2cc2fffa9318c)
+        ;
+
+        
+    
+    
+            circle_marker_e0e3d6647fd8cacd35d2596b3a0bf2e5.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8387bea56bd4d0e2ed2e63d79bfbb7cc = L.circleMarker(
+                [-18.916805, 39.90014],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_7efa92408eb828cb95ed6d124d118783 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3966d1b74b1a9b09e32b40a29e593878 = $(`<div id="html_3966d1b74b1a9b09e32b40a29e593878" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -18.916805<br>         Longitude: 39.90014          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.15<br>         Sea Surface Salinity: 35.06          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_7efa92408eb828cb95ed6d124d118783.setContent(html_3966d1b74b1a9b09e32b40a29e593878);
+            
+        
+
+        circle_marker_8387bea56bd4d0e2ed2e63d79bfbb7cc.bindPopup(popup_7efa92408eb828cb95ed6d124d118783)
+        ;
+
+        
+    
+    
+            circle_marker_8387bea56bd4d0e2ed2e63d79bfbb7cc.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd9edb749869e9527d4c2310c359cc06 = L.circleMarker(
+                [27.66, -66.78],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_d4b0649ce3a7764f00fd8fe2b54c58d4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ef1a8973245a957943c3681842765e8f = $(`<div id="html_ef1a8973245a957943c3681842765e8f" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 27.66<br>         Longitude: -66.78          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 120.0<br>         Sea Surface Temperature: 25.57<br>         Sea Surface Salinity: 36.65          <br><br>          <b>📅 Observation Date:</b><br>         1992-01-19          </div>         </div>`)[0];
+                popup_d4b0649ce3a7764f00fd8fe2b54c58d4.setContent(html_ef1a8973245a957943c3681842765e8f);
+            
+        
+
+        circle_marker_bd9edb749869e9527d4c2310c359cc06.bindPopup(popup_d4b0649ce3a7764f00fd8fe2b54c58d4)
+        ;
+
+        
+    
+    
+            circle_marker_bd9edb749869e9527d4c2310c359cc06.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_518cf54aba00874cf77f7460785e10bb = L.circleMarker(
+                [26.23, -90.2],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_a84e5e7877234b980d3493b945cf7df4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ef908e78695b1de8987532d84bde4850 = $(`<div id="html_ef908e78695b1de8987532d84bde4850" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 26.23<br>         Longitude: -90.2          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 42.0<br>         Sea Surface Temperature: 26.32<br>         Sea Surface Salinity: 36.05          <br><br>          <b>📅 Observation Date:</b><br>         2003-05-18          </div>         </div>`)[0];
+                popup_a84e5e7877234b980d3493b945cf7df4.setContent(html_ef908e78695b1de8987532d84bde4850);
+            
+        
+
+        circle_marker_518cf54aba00874cf77f7460785e10bb.bindPopup(popup_a84e5e7877234b980d3493b945cf7df4)
+        ;
+
+        
+    
+    
+            circle_marker_518cf54aba00874cf77f7460785e10bb.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e82721257c5b4f72244ac4f867193958 = L.circleMarker(
+                [27.41, -91.83],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_8efb051bc72da3f568a56a616dd1ae17 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_56544c908ab9d11562f6d73f1f280025 = $(`<div id="html_56544c908ab9d11562f6d73f1f280025" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 27.41<br>         Longitude: -91.83          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 38.0<br>         Sea Surface Temperature: 25.84<br>         Sea Surface Salinity: 36.0          <br><br>          <b>📅 Observation Date:</b><br>         2005-11-11          </div>         </div>`)[0];
+                popup_8efb051bc72da3f568a56a616dd1ae17.setContent(html_56544c908ab9d11562f6d73f1f280025);
+            
+        
+
+        circle_marker_e82721257c5b4f72244ac4f867193958.bindPopup(popup_8efb051bc72da3f568a56a616dd1ae17)
+        ;
+
+        
+    
+    
+            circle_marker_e82721257c5b4f72244ac4f867193958.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_05ba11495e8dc10b42b6e466252d1a7d = L.circleMarker(
+                [27.25, -94.43],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_b41b97b46fa845b43a425047fc00a72f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f3b0422fc7670c797333e4309ec9b70f = $(`<div id="html_f3b0422fc7670c797333e4309ec9b70f" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 27.25<br>         Longitude: -94.43          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 175.0<br>         Sea Surface Temperature: 25.76<br>         Sea Surface Salinity: 36.09          <br><br>          <b>📅 Observation Date:</b><br>         1995-08-07          </div>         </div>`)[0];
+                popup_b41b97b46fa845b43a425047fc00a72f.setContent(html_f3b0422fc7670c797333e4309ec9b70f);
+            
+        
+
+        circle_marker_05ba11495e8dc10b42b6e466252d1a7d.bindPopup(popup_b41b97b46fa845b43a425047fc00a72f)
+        ;
+
+        
+    
+    
+            circle_marker_05ba11495e8dc10b42b6e466252d1a7d.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e02fe24efa9611b47b25b65a102d9066 = L.circleMarker(
+                [4.0, 175.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_eb55e4b5dbe947bae139d9f1d68b209b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f116c826bbc485c75bc15c793bfc5f4c = $(`<div id="html_f116c826bbc485c75bc15c793bfc5f4c" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 4.0<br>         Longitude: 175.0          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 0.0<br>         Sea Surface Temperature: 28.84<br>         Sea Surface Salinity: 34.77          <br><br>          <b>📅 Observation Date:</b><br>         1956/1981          </div>         </div>`)[0];
+                popup_eb55e4b5dbe947bae139d9f1d68b209b.setContent(html_f116c826bbc485c75bc15c793bfc5f4c);
+            
+        
+
+        circle_marker_e02fe24efa9611b47b25b65a102d9066.bindPopup(popup_eb55e4b5dbe947bae139d9f1d68b209b)
+        ;
+
+        
+    
+    
+            circle_marker_e02fe24efa9611b47b25b65a102d9066.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_be6439bc5476f638dc17790ca1adbec6 = L.circleMarker(
+                [26.86, -92.21],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_1f17ab2f4a5e1724e55bd7e34075f5e9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_19b98d3718e7a86bc2a15c54c0b6a2ae = $(`<div id="html_19b98d3718e7a86bc2a15c54c0b6a2ae" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 26.86<br>         Longitude: -92.21          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 42.0<br>         Sea Surface Temperature: 25.95<br>         Sea Surface Salinity: 36.16          <br><br>          <b>📅 Observation Date:</b><br>         1998-05-30          </div>         </div>`)[0];
+                popup_1f17ab2f4a5e1724e55bd7e34075f5e9.setContent(html_19b98d3718e7a86bc2a15c54c0b6a2ae);
+            
+        
+
+        circle_marker_be6439bc5476f638dc17790ca1adbec6.bindPopup(popup_1f17ab2f4a5e1724e55bd7e34075f5e9)
+        ;
+
+        
+    
+    
+            circle_marker_be6439bc5476f638dc17790ca1adbec6.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9d4312af5a2ab351f913ef9fddc32baa = L.circleMarker(
+                [-29.9335002899, 17.1173992157],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_2443a541c83dabe44b94c62ba8b1883d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d37715438effe0cac0bd6731e9d4336d = $(`<div id="html_d37715438effe0cac0bd6731e9d4336d" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -29.9335002899<br>         Longitude: 17.1173992157          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 14.42<br>         Sea Surface Salinity: 35.08          <br><br>          <b>📅 Observation Date:</b><br>         1990-01-16T12:00:00Z          </div>         </div>`)[0];
+                popup_2443a541c83dabe44b94c62ba8b1883d.setContent(html_d37715438effe0cac0bd6731e9d4336d);
+            
+        
+
+        circle_marker_9d4312af5a2ab351f913ef9fddc32baa.bindPopup(popup_2443a541c83dabe44b94c62ba8b1883d)
+        ;
+
+        
+    
+    
+            circle_marker_9d4312af5a2ab351f913ef9fddc32baa.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f48774b6764569a8cb777991fb7df98 = L.circleMarker(
+                [-0.33347222, -15.533473],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_03add228f874e2c03936835b3e09ddf4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cd3297a2bbe317d2002ea9acbe5c5d1e = $(`<div id="html_cd3297a2bbe317d2002ea9acbe5c5d1e" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -0.33347222<br>         Longitude: -15.533473          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 26.08<br>         Sea Surface Salinity: 35.85          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_03add228f874e2c03936835b3e09ddf4.setContent(html_cd3297a2bbe317d2002ea9acbe5c5d1e);
+            
+        
+
+        circle_marker_0f48774b6764569a8cb777991fb7df98.bindPopup(popup_03add228f874e2c03936835b3e09ddf4)
+        ;
+
+        
+    
+    
+            circle_marker_0f48774b6764569a8cb777991fb7df98.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b5eb24aaf8946b14ea71e73c89a9135b = L.circleMarker(
+                [36.68, -74.65],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_989824e588b8e55fd692eb97e9f4dc7a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f5449c0f742a961ba92fd65baca1b406 = $(`<div id="html_f5449c0f742a961ba92fd65baca1b406" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 36.68<br>         Longitude: -74.65          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 132.0<br>         Sea Surface Temperature: 18.71<br>         Sea Surface Salinity: 34.88          <br><br>          <b>📅 Observation Date:</b><br>         1995-11-18          </div>         </div>`)[0];
+                popup_989824e588b8e55fd692eb97e9f4dc7a.setContent(html_f5449c0f742a961ba92fd65baca1b406);
+            
+        
+
+        circle_marker_b5eb24aaf8946b14ea71e73c89a9135b.bindPopup(popup_989824e588b8e55fd692eb97e9f4dc7a)
+        ;
+
+        
+    
+    
+            circle_marker_b5eb24aaf8946b14ea71e73c89a9135b.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3abd72932596ac9f516c124caac151ce = L.circleMarker(
+                [9.250139, -21.333473],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_62d0499037d22533f6d32f80cc55dcfa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1b769cc49aab95b434f7599d1c918758 = $(`<div id="html_1b769cc49aab95b434f7599d1c918758" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 9.250139<br>         Longitude: -21.333473          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.02<br>         Sea Surface Salinity: 35.05          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_62d0499037d22533f6d32f80cc55dcfa.setContent(html_1b769cc49aab95b434f7599d1c918758);
+            
+        
+
+        circle_marker_3abd72932596ac9f516c124caac151ce.bindPopup(popup_62d0499037d22533f6d32f80cc55dcfa)
+        ;
+
+        
+    
+    
+            circle_marker_3abd72932596ac9f516c124caac151ce.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4fc8e82f2118012e0aabb48f50127daa = L.circleMarker(
+                [26.23, -93.06],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_b24383b2889a9fdfb3eba61b1ff3b75f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7b1be025c2af473e4e03abf065748ebd = $(`<div id="html_7b1be025c2af473e4e03abf065748ebd" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 26.23<br>         Longitude: -93.06          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 45.0<br>         Sea Surface Temperature: 26.1<br>         Sea Surface Salinity: 36.18          <br><br>          <b>📅 Observation Date:</b><br>         1999-07-20          </div>         </div>`)[0];
+                popup_b24383b2889a9fdfb3eba61b1ff3b75f.setContent(html_7b1be025c2af473e4e03abf065748ebd);
+            
+        
+
+        circle_marker_4fc8e82f2118012e0aabb48f50127daa.bindPopup(popup_b24383b2889a9fdfb3eba61b1ff3b75f)
+        ;
+
+        
+    
+    
+            circle_marker_4fc8e82f2118012e0aabb48f50127daa.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_95e549d7d6ee4e4d26fcb2658e95a7e8 = L.circleMarker(
+                [40.38, -67.41],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_938deac95c661a4a8a339aeee659c5f3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_44079979c8ab617a226abcb7470215bc = $(`<div id="html_44079979c8ab617a226abcb7470215bc" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 40.38<br>         Longitude: -67.41          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 70.0<br>         Sea Surface Temperature: 15.17<br>         Sea Surface Salinity: 33.86          <br><br>          <b>📅 Observation Date:</b><br>         1992-08-06          </div>         </div>`)[0];
+                popup_938deac95c661a4a8a339aeee659c5f3.setContent(html_44079979c8ab617a226abcb7470215bc);
+            
+        
+
+        circle_marker_95e549d7d6ee4e4d26fcb2658e95a7e8.bindPopup(popup_938deac95c661a4a8a339aeee659c5f3)
+        ;
+
+        
+    
+    
+            circle_marker_95e549d7d6ee4e4d26fcb2658e95a7e8.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6029c481af1c5142730d8b302afb15b4 = L.circleMarker(
+                [4.25, 59.82],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_dbceddf8507bfdb368323441c95685b0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f8af121987b02d7b3bf79360bed6a14a = $(`<div id="html_f8af121987b02d7b3bf79360bed6a14a" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 4.25<br>         Longitude: 59.82          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 28.95<br>         Sea Surface Salinity: 35.54          <br><br>          <b>📅 Observation Date:</b><br>         2005-08-31/2005-08-31          </div>         </div>`)[0];
+                popup_dbceddf8507bfdb368323441c95685b0.setContent(html_f8af121987b02d7b3bf79360bed6a14a);
+            
+        
+
+        circle_marker_6029c481af1c5142730d8b302afb15b4.bindPopup(popup_dbceddf8507bfdb368323441c95685b0)
+        ;
+
+        
+    
+    
+            circle_marker_6029c481af1c5142730d8b302afb15b4.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_73c7399e089951f976513bedc051125d = L.circleMarker(
+                [26.86, -91.75],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_dd501a888546f76b6b70d0ef5a4ac472 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8df63a458fda5d896cf1384bfa87d452 = $(`<div id="html_8df63a458fda5d896cf1384bfa87d452" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: 26.86<br>         Longitude: -91.75          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 28.0<br>         Sea Surface Temperature: 25.99<br>         Sea Surface Salinity: 36.12          <br><br>          <b>📅 Observation Date:</b><br>         2003-06-03          </div>         </div>`)[0];
+                popup_dd501a888546f76b6b70d0ef5a4ac472.setContent(html_8df63a458fda5d896cf1384bfa87d452);
+            
+        
+
+        circle_marker_73c7399e089951f976513bedc051125d.bindPopup(popup_dd501a888546f76b6b70d0ef5a4ac472)
+        ;
+
+        
+    
+    
+            circle_marker_73c7399e089951f976513bedc051125d.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7fa62b620054e58283f8a268bba7a2d4 = L.circleMarker(
+                [-0.10013889, 3.500139],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac51070dd9494a9710b3e59ff717b8c3);
+        
+    
+        var popup_5f3ea905fbb2635801eb0d3e5dea28d0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bccac301e6ab5957241f3e0323640146 = $(`<div id="html_bccac301e6ab5957241f3e0323640146" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus albacares          <br><br>          <b>📍 Location</b><br>         Latitude: -0.10013889<br>         Longitude: 3.500139          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.08<br>         Sea Surface Salinity: 34.52          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_5f3ea905fbb2635801eb0d3e5dea28d0.setContent(html_bccac301e6ab5957241f3e0323640146);
+            
+        
+
+        circle_marker_7fa62b620054e58283f8a268bba7a2d4.bindPopup(popup_5f3ea905fbb2635801eb0d3e5dea28d0)
+        ;
+
+        
+    
+    
+            circle_marker_7fa62b620054e58283f8a268bba7a2d4.bindTooltip(
+                `<div>
+                     Thunnus albacares
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_ac51070dd9494a9710b3e59ff717b8c3.addTo(map_89c42ad90f95cecfef5504e3e0c77ec5);
+        
+    
+            var feature_group_a58a708919de21588ffd3b0f3dafc079 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_8075203928113fc433f6fb4728b9c006 = L.circleMarker(
+                [26.8, -92.66],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a58a708919de21588ffd3b0f3dafc079);
+        
+    
+        var popup_baf3e9b2c1b7f3fc161f266e19b3d603 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9b996514cf523fc9c2f4dee56a7a8a07 = $(`<div id="html_9b996514cf523fc9c2f4dee56a7a8a07" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus atlanticus          <br><br>          <b>📍 Location</b><br>         Latitude: 26.8<br>         Longitude: -92.66          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 150.0<br>         Sea Surface Temperature: 25.93<br>         Sea Surface Salinity: 36.17          <br><br>          <b>📅 Observation Date:</b><br>         1994-08-02          </div>         </div>`)[0];
+                popup_baf3e9b2c1b7f3fc161f266e19b3d603.setContent(html_9b996514cf523fc9c2f4dee56a7a8a07);
+            
+        
+
+        circle_marker_8075203928113fc433f6fb4728b9c006.bindPopup(popup_baf3e9b2c1b7f3fc161f266e19b3d603)
+        ;
+
+        
+    
+    
+            circle_marker_8075203928113fc433f6fb4728b9c006.bindTooltip(
+                `<div>
+                     Thunnus atlanticus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_34ce1f54c446c2a29ddbef13ed1e197e = L.circleMarker(
+                [31.81, -79.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a58a708919de21588ffd3b0f3dafc079);
+        
+    
+        var popup_a987ee097dda2f9d0baf9d1b73500a6a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4c095ae670f002782e08dd98a63a4e80 = $(`<div id="html_4c095ae670f002782e08dd98a63a4e80" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus atlanticus          <br><br>          <b>📍 Location</b><br>         Latitude: 31.81<br>         Longitude: -79.25          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 120.0<br>         Sea Surface Temperature: 25.73<br>         Sea Surface Salinity: 36.15          <br><br>          <b>📅 Observation Date:</b><br>         1995-04-12          </div>         </div>`)[0];
+                popup_a987ee097dda2f9d0baf9d1b73500a6a.setContent(html_4c095ae670f002782e08dd98a63a4e80);
+            
+        
+
+        circle_marker_34ce1f54c446c2a29ddbef13ed1e197e.bindPopup(popup_a987ee097dda2f9d0baf9d1b73500a6a)
+        ;
+
+        
+    
+    
+            circle_marker_34ce1f54c446c2a29ddbef13ed1e197e.bindTooltip(
+                `<div>
+                     Thunnus atlanticus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_a58a708919de21588ffd3b0f3dafc079.addTo(map_89c42ad90f95cecfef5504e3e0c77ec5);
+        
+    
+            var feature_group_d617e5c6c46f1f6b8233d55fd4437d83 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_ae181172a5a22bb804608bf0e0123a28 = L.circleMarker(
+                [-35.2, 117.99],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d617e5c6c46f1f6b8233d55fd4437d83);
+        
+    
+        var popup_b4214cba101ed00e73c389ad4d7edb4f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_191ec71cc2b64bc7a9695aaf808730ff = $(`<div id="html_191ec71cc2b64bc7a9695aaf808730ff" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus maccoyii          <br><br>          <b>📍 Location</b><br>         Latitude: -35.2<br>         Longitude: 117.99          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 0.0<br>         Sea Surface Temperature: 19.36<br>         Sea Surface Salinity: 35.58          <br><br>          <b>📅 Observation Date:</b><br>         2007-12-20 04:00:00          </div>         </div>`)[0];
+                popup_b4214cba101ed00e73c389ad4d7edb4f.setContent(html_191ec71cc2b64bc7a9695aaf808730ff);
+            
+        
+
+        circle_marker_ae181172a5a22bb804608bf0e0123a28.bindPopup(popup_b4214cba101ed00e73c389ad4d7edb4f)
+        ;
+
+        
+    
+    
+            circle_marker_ae181172a5a22bb804608bf0e0123a28.bindTooltip(
+                `<div>
+                     Thunnus maccoyii
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_d617e5c6c46f1f6b8233d55fd4437d83.addTo(map_89c42ad90f95cecfef5504e3e0c77ec5);
+        
+    
+            var feature_group_61fb7eadc31dffce0b11a75ccb511ef4 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_5031702ac8aa6d450485520cd7a4e21b = L.circleMarker(
+                [18.333473, -20.166805],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_f9750208c28bf401668b43715edb75f4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_99c384701b8b877bacb35847df11f6a4 = $(`<div id="html_99c384701b8b877bacb35847df11f6a4" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 18.333473<br>         Longitude: -20.166805          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 23.26<br>         Sea Surface Salinity: 36.14          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_f9750208c28bf401668b43715edb75f4.setContent(html_99c384701b8b877bacb35847df11f6a4);
+            
+        
+
+        circle_marker_5031702ac8aa6d450485520cd7a4e21b.bindPopup(popup_f9750208c28bf401668b43715edb75f4)
+        ;
+
+        
+    
+    
+            circle_marker_5031702ac8aa6d450485520cd7a4e21b.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b05f3a18adad7b94b13f47d89187b1a7 = L.circleMarker(
+                [0.8834722, 0.41680554],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_6e265db4fdb49a91dfde4838ec273c4b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_90e5a61fd8f77ed56bc8ae5b33ba5f2e = $(`<div id="html_90e5a61fd8f77ed56bc8ae5b33ba5f2e" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 0.8834722<br>         Longitude: 0.41680554          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.62<br>         Sea Surface Salinity: 34.7          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_6e265db4fdb49a91dfde4838ec273c4b.setContent(html_90e5a61fd8f77ed56bc8ae5b33ba5f2e);
+            
+        
+
+        circle_marker_b05f3a18adad7b94b13f47d89187b1a7.bindPopup(popup_6e265db4fdb49a91dfde4838ec273c4b)
+        ;
+
+        
+    
+    
+            circle_marker_b05f3a18adad7b94b13f47d89187b1a7.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_94d3e6a7cf30967d504f5c74584fe12d = L.circleMarker(
+                [-29.75, 154.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_2311e71a2fffb514ad5ddaef6f27b4a3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0c77cd858d229ef6f3c153e9f2e09165 = $(`<div id="html_0c77cd858d229ef6f3c153e9f2e09165" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: -29.75<br>         Longitude: 154.25          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 23.4<br>         Sea Surface Salinity: 35.48          <br><br>          <b>📅 Observation Date:</b><br>         2001          </div>         </div>`)[0];
+                popup_2311e71a2fffb514ad5ddaef6f27b4a3.setContent(html_0c77cd858d229ef6f3c153e9f2e09165);
+            
+        
+
+        circle_marker_94d3e6a7cf30967d504f5c74584fe12d.bindPopup(popup_2311e71a2fffb514ad5ddaef6f27b4a3)
+        ;
+
+        
+    
+    
+            circle_marker_94d3e6a7cf30967d504f5c74584fe12d.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1176ef78c30633a6e43021e76148cb3 = L.circleMarker(
+                [42.6500015259, -52.125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_adb5da1527bd84cf24cfb75ad246f2bb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d13018c6bd1ff7ae1a02da019b4c378c = $(`<div id="html_d13018c6bd1ff7ae1a02da019b4c378c" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 42.6500015259<br>         Longitude: -52.125          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 1100.0<br>         Sea Surface Temperature: 13.11<br>         Sea Surface Salinity: 33.54          <br><br>          <b>📅 Observation Date:</b><br>         1992-11-08T00:00:00Z          </div>         </div>`)[0];
+                popup_adb5da1527bd84cf24cfb75ad246f2bb.setContent(html_d13018c6bd1ff7ae1a02da019b4c378c);
+            
+        
+
+        circle_marker_e1176ef78c30633a6e43021e76148cb3.bindPopup(popup_adb5da1527bd84cf24cfb75ad246f2bb)
+        ;
+
+        
+    
+    
+            circle_marker_e1176ef78c30633a6e43021e76148cb3.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3611223f15706bbc607c3b5195254c58 = L.circleMarker(
+                [18.6000003815, -53.9916667938],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_7f0ad4d5c3aebf206d428cc0a8163773 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_afbf0a50d8c564f1f5bb3a4e5fb8aa28 = $(`<div id="html_afbf0a50d8c564f1f5bb3a4e5fb8aa28" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 18.6000003815<br>         Longitude: -53.9916667938          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 2425.0<br>         Sea Surface Temperature: 27.03<br>         Sea Surface Salinity: 35.87          <br><br>          <b>📅 Observation Date:</b><br>         1996-02-08T00:00:00Z          </div>         </div>`)[0];
+                popup_7f0ad4d5c3aebf206d428cc0a8163773.setContent(html_afbf0a50d8c564f1f5bb3a4e5fb8aa28);
+            
+        
+
+        circle_marker_3611223f15706bbc607c3b5195254c58.bindPopup(popup_7f0ad4d5c3aebf206d428cc0a8163773)
+        ;
+
+        
+    
+    
+            circle_marker_3611223f15706bbc607c3b5195254c58.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6678e1f31b58cf1496d3a7f1ab3e48cc = L.circleMarker(
+                [6.75, -39.2583332062],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_df3510c5e76cfa8cac76cc2bce0a89a4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_54412d46eb316bc98bc975e5c0e22502 = $(`<div id="html_54412d46eb316bc98bc975e5c0e22502" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 6.75<br>         Longitude: -39.2583332062          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 2100.0<br>         Sea Surface Temperature: 27.79<br>         Sea Surface Salinity: 35.22          <br><br>          <b>📅 Observation Date:</b><br>         1999-03-03T00:00:00Z          </div>         </div>`)[0];
+                popup_df3510c5e76cfa8cac76cc2bce0a89a4.setContent(html_54412d46eb316bc98bc975e5c0e22502);
+            
+        
+
+        circle_marker_6678e1f31b58cf1496d3a7f1ab3e48cc.bindPopup(popup_df3510c5e76cfa8cac76cc2bce0a89a4)
+        ;
+
+        
+    
+    
+            circle_marker_6678e1f31b58cf1496d3a7f1ab3e48cc.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0193ef731fb83e6f5f54b7d3ea45aa5 = L.circleMarker(
+                [2.350139, 51.133472],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_eca240aec5c94223103378e087fb103a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_54fbe9b3dc012295877e14cbf5815938 = $(`<div id="html_54fbe9b3dc012295877e14cbf5815938" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 2.350139<br>         Longitude: 51.133472          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.66<br>         Sea Surface Salinity: 35.36          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_eca240aec5c94223103378e087fb103a.setContent(html_54fbe9b3dc012295877e14cbf5815938);
+            
+        
+
+        circle_marker_e0193ef731fb83e6f5f54b7d3ea45aa5.bindPopup(popup_eca240aec5c94223103378e087fb103a)
+        ;
+
+        
+    
+    
+            circle_marker_e0193ef731fb83e6f5f54b7d3ea45aa5.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_77bd4dd2596207f325dc9080a6085bba = L.circleMarker(
+                [2.83333325386, -42.9249992371],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_bb69e108b62990b6aace6537d406a190 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0bd47fc6a5fa60af8462bd3b374fb290 = $(`<div id="html_0bd47fc6a5fa60af8462bd3b374fb290" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 2.83333325386<br>         Longitude: -42.9249992371          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 2100.0<br>         Sea Surface Temperature: 27.8<br>         Sea Surface Salinity: 35.85          <br><br>          <b>📅 Observation Date:</b><br>         1997-02-25T00:00:00Z          </div>         </div>`)[0];
+                popup_bb69e108b62990b6aace6537d406a190.setContent(html_0bd47fc6a5fa60af8462bd3b374fb290);
+            
+        
+
+        circle_marker_77bd4dd2596207f325dc9080a6085bba.bindPopup(popup_bb69e108b62990b6aace6537d406a190)
+        ;
+
+        
+    
+    
+            circle_marker_77bd4dd2596207f325dc9080a6085bba.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5698c31708c44f8cac82e6bbc1f8df5b = L.circleMarker(
+                [28.5, -77.68],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_d838513dd5d57f219f6a8243b12c4eaa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4b1ec8e4f475750fc7d5b7b944e6fa1d = $(`<div id="html_4b1ec8e4f475750fc7d5b7b944e6fa1d" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 28.5<br>         Longitude: -77.68          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 41.0<br>         Sea Surface Temperature: 25.9<br>         Sea Surface Salinity: 36.39          <br><br>          <b>📅 Observation Date:</b><br>         1997-04-20          </div>         </div>`)[0];
+                popup_d838513dd5d57f219f6a8243b12c4eaa.setContent(html_4b1ec8e4f475750fc7d5b7b944e6fa1d);
+            
+        
+
+        circle_marker_5698c31708c44f8cac82e6bbc1f8df5b.bindPopup(popup_d838513dd5d57f219f6a8243b12c4eaa)
+        ;
+
+        
+    
+    
+            circle_marker_5698c31708c44f8cac82e6bbc1f8df5b.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_09c3718939805081be04317959be7a32 = L.circleMarker(
+                [15.01, -50.6],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_7e60cd11afd5972e4bb47e094b444899 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f5bac46ce230afc567728f8dab749f52 = $(`<div id="html_f5bac46ce230afc567728f8dab749f52" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 15.01<br>         Longitude: -50.6          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 190.0<br>         Sea Surface Temperature: 27.06<br>         Sea Surface Salinity: 35.81          <br><br>          <b>📅 Observation Date:</b><br>         1995-04-23          </div>         </div>`)[0];
+                popup_7e60cd11afd5972e4bb47e094b444899.setContent(html_f5bac46ce230afc567728f8dab749f52);
+            
+        
+
+        circle_marker_09c3718939805081be04317959be7a32.bindPopup(popup_7e60cd11afd5972e4bb47e094b444899)
+        ;
+
+        
+    
+    
+            circle_marker_09c3718939805081be04317959be7a32.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c81fedebc44105d9d53693cab70c37d = L.circleMarker(
+                [28.61, -77.91],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_37ca0dcc3001f86c11f651c9668dbd5a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_caf29c46c29db63f7a56c363869b464b = $(`<div id="html_caf29c46c29db63f7a56c363869b464b" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 28.61<br>         Longitude: -77.91          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 42.0<br>         Sea Surface Temperature: 25.9<br>         Sea Surface Salinity: 36.38          <br><br>          <b>📅 Observation Date:</b><br>         1997-11-05          </div>         </div>`)[0];
+                popup_37ca0dcc3001f86c11f651c9668dbd5a.setContent(html_caf29c46c29db63f7a56c363869b464b);
+            
+        
+
+        circle_marker_8c81fedebc44105d9d53693cab70c37d.bindPopup(popup_37ca0dcc3001f86c11f651c9668dbd5a)
+        ;
+
+        
+    
+    
+            circle_marker_8c81fedebc44105d9d53693cab70c37d.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1bbca904e4ded0edc8a25d7747113294 = L.circleMarker(
+                [-1.7168056, 53.350136],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_5de30f181ece2cb7fb078f6ceb8c27ff = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ecd09c33c748f7dcc272fe978c33891f = $(`<div id="html_ecd09c33c748f7dcc272fe978c33891f" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: -1.7168056<br>         Longitude: 53.350136          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 28.32<br>         Sea Surface Salinity: 35.38          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_5de30f181ece2cb7fb078f6ceb8c27ff.setContent(html_ecd09c33c748f7dcc272fe978c33891f);
+            
+        
+
+        circle_marker_1bbca904e4ded0edc8a25d7747113294.bindPopup(popup_5de30f181ece2cb7fb078f6ceb8c27ff)
+        ;
+
+        
+    
+    
+            circle_marker_1bbca904e4ded0edc8a25d7747113294.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1774d46782bc975eaff2b0d6203fc811 = L.circleMarker(
+                [3.4668057, -6.2668056],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_5065960621ddf42efc3fac091c929e33 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3a0114eae43ee5e6cb446d8f8806979f = $(`<div id="html_3a0114eae43ee5e6cb446d8f8806979f" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 3.4668057<br>         Longitude: -6.2668056          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.97<br>         Sea Surface Salinity: 34.55          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_5065960621ddf42efc3fac091c929e33.setContent(html_3a0114eae43ee5e6cb446d8f8806979f);
+            
+        
+
+        circle_marker_1774d46782bc975eaff2b0d6203fc811.bindPopup(popup_5065960621ddf42efc3fac091c929e33)
+        ;
+
+        
+    
+    
+            circle_marker_1774d46782bc975eaff2b0d6203fc811.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_404af29d76da40c3b4ad3bb2483e9625 = L.circleMarker(
+                [37.94808333, -24.79125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_c38b8a9c16c60b784b5714579e73fcf3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1eb9f3d406bfa55ae8fc33403579d167 = $(`<div id="html_1eb9f3d406bfa55ae8fc33403579d167" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 37.94808333<br>         Longitude: -24.79125          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 18.98<br>         Sea Surface Salinity: 36.22          <br><br>          <b>📅 Observation Date:</b><br>         2011-06-27          </div>         </div>`)[0];
+                popup_c38b8a9c16c60b784b5714579e73fcf3.setContent(html_1eb9f3d406bfa55ae8fc33403579d167);
+            
+        
+
+        circle_marker_404af29d76da40c3b4ad3bb2483e9625.bindPopup(popup_c38b8a9c16c60b784b5714579e73fcf3)
+        ;
+
+        
+    
+    
+            circle_marker_404af29d76da40c3b4ad3bb2483e9625.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a5aa5ac339e0474b712818e5bd651fbc = L.circleMarker(
+                [-10.466805, 42.950138],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_a2c16ab89be09a141f017e3cf2c253be = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_227f0cc937adc10997d2b033bf6eed98 = $(`<div id="html_227f0cc937adc10997d2b033bf6eed98" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: -10.466805<br>         Longitude: 42.950138          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.5<br>         Sea Surface Salinity: 34.99          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_a2c16ab89be09a141f017e3cf2c253be.setContent(html_227f0cc937adc10997d2b033bf6eed98);
+            
+        
+
+        circle_marker_a5aa5ac339e0474b712818e5bd651fbc.bindPopup(popup_a2c16ab89be09a141f017e3cf2c253be)
+        ;
+
+        
+    
+    
+            circle_marker_a5aa5ac339e0474b712818e5bd651fbc.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03dbf04f0ae5162a89918370a122dcf2 = L.circleMarker(
+                [46.5, -40.5],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_8ed33225a062a688b3984446ac1c2c29 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_30cce3ee6977d3f26acd90002e0006f1 = $(`<div id="html_30cce3ee6977d3f26acd90002e0006f1" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 46.5<br>         Longitude: -40.5          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 12.0<br>         Sea Surface Temperature: 15.49<br>         Sea Surface Salinity: 35.22          <br><br>          <b>📅 Observation Date:</b><br>         1997-08-01          </div>         </div>`)[0];
+                popup_8ed33225a062a688b3984446ac1c2c29.setContent(html_30cce3ee6977d3f26acd90002e0006f1);
+            
+        
+
+        circle_marker_03dbf04f0ae5162a89918370a122dcf2.bindPopup(popup_8ed33225a062a688b3984446ac1c2c29)
+        ;
+
+        
+    
+    
+            circle_marker_03dbf04f0ae5162a89918370a122dcf2.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5ea08062075c66b7466e7e32bf33d37b = L.circleMarker(
+                [35.53, -74.78],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_536d5cd0481a64eeb9c61f218fd86147 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_47f6e1e4a212ff270d24b9af4574df4b = $(`<div id="html_47f6e1e4a212ff270d24b9af4574df4b" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 35.53<br>         Longitude: -74.78          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 15.0<br>         Sea Surface Temperature: 22.88<br>         Sea Surface Salinity: 35.73          <br><br>          <b>📅 Observation Date:</b><br>         2000-11-15          </div>         </div>`)[0];
+                popup_536d5cd0481a64eeb9c61f218fd86147.setContent(html_47f6e1e4a212ff270d24b9af4574df4b);
+            
+        
+
+        circle_marker_5ea08062075c66b7466e7e32bf33d37b.bindPopup(popup_536d5cd0481a64eeb9c61f218fd86147)
+        ;
+
+        
+    
+    
+            circle_marker_5ea08062075c66b7466e7e32bf33d37b.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8bd080752e3d4a55b0a7eba53d8d7b75 = L.circleMarker(
+                [38.0, -72.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_4dd41d5ed092a3e0fd5180483168221c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c922c5fe013ebcc34d223e251ab147ae = $(`<div id="html_c922c5fe013ebcc34d223e251ab147ae" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 38.0<br>         Longitude: -72.0          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 120.0<br>         Sea Surface Temperature: 20.04<br>         Sea Surface Salinity: 35.82          <br><br>          <b>📅 Observation Date:</b><br>         1993-08-18          </div>         </div>`)[0];
+                popup_4dd41d5ed092a3e0fd5180483168221c.setContent(html_c922c5fe013ebcc34d223e251ab147ae);
+            
+        
+
+        circle_marker_8bd080752e3d4a55b0a7eba53d8d7b75.bindPopup(popup_4dd41d5ed092a3e0fd5180483168221c)
+        ;
+
+        
+    
+    
+            circle_marker_8bd080752e3d4a55b0a7eba53d8d7b75.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_807f947b3fd120f403fbd737a42bb446 = L.circleMarker(
+                [37.35, -73.75],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_6cce983108f15e64e58bf670cf83e1d8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_21b0033b19869d33d435db616d67274a = $(`<div id="html_21b0033b19869d33d435db616d67274a" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 37.35<br>         Longitude: -73.75          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: 13.0<br>         Sea Surface Temperature: 19.05<br>         Sea Surface Salinity: 35.47          <br><br>          <b>📅 Observation Date:</b><br>         2000-06-12          </div>         </div>`)[0];
+                popup_6cce983108f15e64e58bf670cf83e1d8.setContent(html_21b0033b19869d33d435db616d67274a);
+            
+        
+
+        circle_marker_807f947b3fd120f403fbd737a42bb446.bindPopup(popup_6cce983108f15e64e58bf670cf83e1d8)
+        ;
+
+        
+    
+    
+            circle_marker_807f947b3fd120f403fbd737a42bb446.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03c671579f244daa74f32bd5b7cc1512 = L.circleMarker(
+                [6.300139, -22.60014],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_a2e0cb795edf9e3cb6a5899f25e2d07a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ef5482f7bc2883041915e8e1c6c36581 = $(`<div id="html_ef5482f7bc2883041915e8e1c6c36581" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: 6.300139<br>         Longitude: -22.60014          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.79<br>         Sea Surface Salinity: 34.86          <br><br>          <b>📅 Observation Date:</b><br>         nan          </div>         </div>`)[0];
+                popup_a2e0cb795edf9e3cb6a5899f25e2d07a.setContent(html_ef5482f7bc2883041915e8e1c6c36581);
+            
+        
+
+        circle_marker_03c671579f244daa74f32bd5b7cc1512.bindPopup(popup_a2e0cb795edf9e3cb6a5899f25e2d07a)
+        ;
+
+        
+    
+    
+            circle_marker_03c671579f244daa74f32bd5b7cc1512.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4c9e12c3ab322543799fce3be8aa42c1 = L.circleMarker(
+                [-16.83, 42.33],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_61fb7eadc31dffce0b11a75ccb511ef4);
+        
+    
+        var popup_1cec765670a9676e297cac0c1b752e67 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4cca6bbbe0d1a4a18e9c5a3f680f88b4 = $(`<div id="html_4cca6bbbe0d1a4a18e9c5a3f680f88b4" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus obesus          <br><br>          <b>📍 Location</b><br>         Latitude: -16.83<br>         Longitude: 42.33          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 27.6<br>         Sea Surface Salinity: 34.97          <br><br>          <b>📅 Observation Date:</b><br>         2010-04-01/2010-04-01          </div>         </div>`)[0];
+                popup_1cec765670a9676e297cac0c1b752e67.setContent(html_4cca6bbbe0d1a4a18e9c5a3f680f88b4);
+            
+        
+
+        circle_marker_4c9e12c3ab322543799fce3be8aa42c1.bindPopup(popup_1cec765670a9676e297cac0c1b752e67)
+        ;
+
+        
+    
+    
+            circle_marker_4c9e12c3ab322543799fce3be8aa42c1.bindTooltip(
+                `<div>
+                     Thunnus obesus
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_61fb7eadc31dffce0b11a75ccb511ef4.addTo(map_89c42ad90f95cecfef5504e3e0c77ec5);
+        
+    
+            var feature_group_7dd6ce0ff209de2e586ec6da21d1e66a = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_c3a9ab0e8f0b6328e17704a0b6c62cd2 = L.circleMarker(
+                [30.0, -62.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7dd6ce0ff209de2e586ec6da21d1e66a);
+        
+    
+        var popup_94ab099451914ea72ac3e98777e09270 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_784a4b570e0ccaa51e25575b7c87d5aa = $(`<div id="html_784a4b570e0ccaa51e25575b7c87d5aa" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus orientalis          <br><br>          <b>📍 Location</b><br>         Latitude: 30.0<br>         Longitude: -62.0          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 24.42<br>         Sea Surface Salinity: 36.69          <br><br>          <b>📅 Observation Date:</b><br>         2005-04-04T12:00:00Z          </div>         </div>`)[0];
+                popup_94ab099451914ea72ac3e98777e09270.setContent(html_784a4b570e0ccaa51e25575b7c87d5aa);
+            
+        
+
+        circle_marker_c3a9ab0e8f0b6328e17704a0b6c62cd2.bindPopup(popup_94ab099451914ea72ac3e98777e09270)
+        ;
+
+        
+    
+    
+            circle_marker_c3a9ab0e8f0b6328e17704a0b6c62cd2.bindTooltip(
+                `<div>
+                     Thunnus orientalis
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_729c0d90d3752f35792d5c66ff8a3c13 = L.circleMarker(
+                [30.0, -62.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7dd6ce0ff209de2e586ec6da21d1e66a);
+        
+    
+        var popup_4d87cc86e34e7f14432529176da2ca88 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_861c71ee879b8a5462ed7b7b29a84eaa = $(`<div id="html_861c71ee879b8a5462ed7b7b29a84eaa" style="width: 100.0%; height: 100.0%;">         <div style="width:300px">          <h4>🌊 Marine Observation</h4>          <b>Species:</b><br>         Thunnus orientalis          <br><br>          <b>📍 Location</b><br>         Latitude: 30.0<br>         Longitude: -62.0          <br><br>          <b>🌊 Environmental Data</b><br>         Depth: nan<br>         Sea Surface Temperature: 24.42<br>         Sea Surface Salinity: 36.69          <br><br>          <b>📅 Observation Date:</b><br>         2003-10-04T12:00:00Z          </div>         </div>`)[0];
+                popup_4d87cc86e34e7f14432529176da2ca88.setContent(html_861c71ee879b8a5462ed7b7b29a84eaa);
+            
+        
+
+        circle_marker_729c0d90d3752f35792d5c66ff8a3c13.bindPopup(popup_4d87cc86e34e7f14432529176da2ca88)
+        ;
+
+        
+    
+    
+            circle_marker_729c0d90d3752f35792d5c66ff8a3c13.bindTooltip(
+                `<div>
+                     Thunnus orientalis
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_7dd6ce0ff209de2e586ec6da21d1e66a.addTo(map_89c42ad90f95cecfef5504e3e0c77ec5);
+        
+    
+            var layer_control_a095f40d476ce808d2533aefc624fc2c_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_5445a730c6f739d48b152c4189284ccc,
+                },
+                overlays :  {
+                    "Thunnus alalunga" : feature_group_e18a2c1b0ede0c7e5a863ff5016d92ee,
+                    "Thunnus albacares" : feature_group_ac51070dd9494a9710b3e59ff717b8c3,
+                    "Thunnus atlanticus" : feature_group_a58a708919de21588ffd3b0f3dafc079,
+                    "Thunnus maccoyii" : feature_group_d617e5c6c46f1f6b8233d55fd4437d83,
+                    "Thunnus obesus" : feature_group_61fb7eadc31dffce0b11a75ccb511ef4,
+                    "Thunnus orientalis" : feature_group_7dd6ce0ff209de2e586ec6da21d1e66a,
+                },
+            };
+            let layer_control_a095f40d476ce808d2533aefc624fc2c = L.control.layers(
+                layer_control_a095f40d476ce808d2533aefc624fc2c_layers.base_layers,
+                layer_control_a095f40d476ce808d2533aefc624fc2c_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_89c42ad90f95cecfef5504e3e0c77ec5);
+
+        
+</script>
+</html>

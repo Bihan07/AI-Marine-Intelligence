@@ -1,0 +1,2404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_33de23de5ea8bc4fcf1f8064d0f35a8d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_33de23de5ea8bc4fcf1f8064d0f35a8d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_33de23de5ea8bc4fcf1f8064d0f35a8d = L.map(
+                "map_33de23de5ea8bc4fcf1f8064d0f35a8d",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f2456f27217f83a70c8264d0e399d56b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f2456f27217f83a70c8264d0e399d56b.addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+            var circle_marker_f3e47a55a14bb670ebadaf3fd9571b66 = L.circleMarker(
+                [-31.0387992859, 30.2322998047],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_99373a41f7d5cb61db4bf8e414d6f995 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_130052d22e1f7c09fc536f32cbc1ed23 = $(`<div id="html_130052d22e1f7c09fc536f32cbc1ed23" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_99373a41f7d5cb61db4bf8e414d6f995.setContent(html_130052d22e1f7c09fc536f32cbc1ed23);
+            
+        
+
+        circle_marker_f3e47a55a14bb670ebadaf3fd9571b66.bindPopup(popup_99373a41f7d5cb61db4bf8e414d6f995)
+        ;
+
+        
+    
+    
+            var circle_marker_ddd0ad11b219a00e9b8c0204e1c7c0cf = L.circleMarker(
+                [27.33, -89.28],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_59f10f859bc64cd9d50c2dac192fbf8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f6075822959fba197032076704098f5 = $(`<div id="html_5f6075822959fba197032076704098f5" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_59f10f859bc64cd9d50c2dac192fbf8d.setContent(html_5f6075822959fba197032076704098f5);
+            
+        
+
+        circle_marker_ddd0ad11b219a00e9b8c0204e1c7c0cf.bindPopup(popup_59f10f859bc64cd9d50c2dac192fbf8d)
+        ;
+
+        
+    
+    
+            var circle_marker_ac98e77252f471a94fd6271ff42b6bba = L.circleMarker(
+                [18.333473, -20.166805],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_b3b6b772d087a1853ca7702e4ca738b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ec5a2e242a966b29c1add3367137a37 = $(`<div id="html_4ec5a2e242a966b29c1add3367137a37" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_b3b6b772d087a1853ca7702e4ca738b6.setContent(html_4ec5a2e242a966b29c1add3367137a37);
+            
+        
+
+        circle_marker_ac98e77252f471a94fd6271ff42b6bba.bindPopup(popup_b3b6b772d087a1853ca7702e4ca738b6)
+        ;
+
+        
+    
+    
+            var circle_marker_23c88b42e65c85fc34d71b11842020c2 = L.circleMarker(
+                [0.8834722, 0.41680554],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_e34af388a292084dbae40bd4987039b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d940608347800efb5aa03349b0cd9d7d = $(`<div id="html_d940608347800efb5aa03349b0cd9d7d" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_e34af388a292084dbae40bd4987039b4.setContent(html_d940608347800efb5aa03349b0cd9d7d);
+            
+        
+
+        circle_marker_23c88b42e65c85fc34d71b11842020c2.bindPopup(popup_e34af388a292084dbae40bd4987039b4)
+        ;
+
+        
+    
+    
+            var circle_marker_21040135ab2bcc6f92a0c2859f97d623 = L.circleMarker(
+                [-34.3568992615, 18.4972000122],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_502c839eb9115f1ee125d5a6f7d939ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_206f5e300c1a8aa967f22689172cd695 = $(`<div id="html_206f5e300c1a8aa967f22689172cd695" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_502c839eb9115f1ee125d5a6f7d939ff.setContent(html_206f5e300c1a8aa967f22689172cd695);
+            
+        
+
+        circle_marker_21040135ab2bcc6f92a0c2859f97d623.bindPopup(popup_502c839eb9115f1ee125d5a6f7d939ff)
+        ;
+
+        
+    
+    
+            var circle_marker_96c353ea46c6763e40223c4eb4b10f9d = L.circleMarker(
+                [-29.75, 154.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_72cb07f7c990b9636036e62b98685384 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d8c48512b19c57bff16a251cbf421bf = $(`<div id="html_9d8c48512b19c57bff16a251cbf421bf" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_72cb07f7c990b9636036e62b98685384.setContent(html_9d8c48512b19c57bff16a251cbf421bf);
+            
+        
+
+        circle_marker_96c353ea46c6763e40223c4eb4b10f9d.bindPopup(popup_72cb07f7c990b9636036e62b98685384)
+        ;
+
+        
+    
+    
+            var circle_marker_b2af42c0b87d8048ba55799323f441ad = L.circleMarker(
+                [-34.3568992615, 18.4972000122],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_7a4c66d8d03ef61707c1c37f263c9277 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b6bb52dc2de2265a20c9d2d4925c3ed = $(`<div id="html_9b6bb52dc2de2265a20c9d2d4925c3ed" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_7a4c66d8d03ef61707c1c37f263c9277.setContent(html_9b6bb52dc2de2265a20c9d2d4925c3ed);
+            
+        
+
+        circle_marker_b2af42c0b87d8048ba55799323f441ad.bindPopup(popup_7a4c66d8d03ef61707c1c37f263c9277)
+        ;
+
+        
+    
+    
+            var circle_marker_f129eafd9aa14c3029b861829f3f08e8 = L.circleMarker(
+                [7.21806666666669, 59.6707666666669],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_c3ff39371889693506c9610ad40354ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f1cf8fd3ac6857c510052d429c2e92f = $(`<div id="html_8f1cf8fd3ac6857c510052d429c2e92f" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_c3ff39371889693506c9610ad40354ab.setContent(html_8f1cf8fd3ac6857c510052d429c2e92f);
+            
+        
+
+        circle_marker_f129eafd9aa14c3029b861829f3f08e8.bindPopup(popup_c3ff39371889693506c9610ad40354ab)
+        ;
+
+        
+    
+    
+            var circle_marker_ba4dc209b3bd703d9a7609ad8636859c = L.circleMarker(
+                [25.6, -92.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_1e39be4ae674e3c743d675495371299d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c0b8af028e9afab9dc72f00e7cf759b = $(`<div id="html_2c0b8af028e9afab9dc72f00e7cf759b" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_1e39be4ae674e3c743d675495371299d.setContent(html_2c0b8af028e9afab9dc72f00e7cf759b);
+            
+        
+
+        circle_marker_ba4dc209b3bd703d9a7609ad8636859c.bindPopup(popup_1e39be4ae674e3c743d675495371299d)
+        ;
+
+        
+    
+    
+            var circle_marker_e671fab4be5a227514dfef18e81c285b = L.circleMarker(
+                [19.0, -47.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_edd9a2a7071028235f74c875bfd21bf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_634387048b26b43f1e7950dbe410c502 = $(`<div id="html_634387048b26b43f1e7950dbe410c502" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_edd9a2a7071028235f74c875bfd21bf2.setContent(html_634387048b26b43f1e7950dbe410c502);
+            
+        
+
+        circle_marker_e671fab4be5a227514dfef18e81c285b.bindPopup(popup_edd9a2a7071028235f74c875bfd21bf2)
+        ;
+
+        
+    
+    
+            var circle_marker_2f2e1bead3341fc9ba7668d53dfb958a = L.circleMarker(
+                [-3.500139, 69.55014],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_6821cc8d8dfaeee438959cb3b7f1c1f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8dcc2e8fc09aee71105c1809b27fb994 = $(`<div id="html_8dcc2e8fc09aee71105c1809b27fb994" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_6821cc8d8dfaeee438959cb3b7f1c1f0.setContent(html_8dcc2e8fc09aee71105c1809b27fb994);
+            
+        
+
+        circle_marker_2f2e1bead3341fc9ba7668d53dfb958a.bindPopup(popup_6821cc8d8dfaeee438959cb3b7f1c1f0)
+        ;
+
+        
+    
+    
+            var circle_marker_d5b13585436c0c8e71e9593c9c4491f8 = L.circleMarker(
+                [-33.9028015137, 18.4349994659],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_83bae8deeff90d6fd1d28023daa1983c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51d7912f3969e44178bcfc4d1b5296e0 = $(`<div id="html_51d7912f3969e44178bcfc4d1b5296e0" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_83bae8deeff90d6fd1d28023daa1983c.setContent(html_51d7912f3969e44178bcfc4d1b5296e0);
+            
+        
+
+        circle_marker_d5b13585436c0c8e71e9593c9c4491f8.bindPopup(popup_83bae8deeff90d6fd1d28023daa1983c)
+        ;
+
+        
+    
+    
+            var circle_marker_c29e18637a20ed391bc2792f3a97351a = L.circleMarker(
+                [38.0, -73.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_c75c805ddb3a406d008cd7b9aab71172 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89f502b1ff1c1e22cf534f47c1ade1d6 = $(`<div id="html_89f502b1ff1c1e22cf534f47c1ade1d6" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_c75c805ddb3a406d008cd7b9aab71172.setContent(html_89f502b1ff1c1e22cf534f47c1ade1d6);
+            
+        
+
+        circle_marker_c29e18637a20ed391bc2792f3a97351a.bindPopup(popup_c75c805ddb3a406d008cd7b9aab71172)
+        ;
+
+        
+    
+    
+            var circle_marker_c65f801876f8dfee55df52e1499d7aeb = L.circleMarker(
+                [38.8833332062, -69.4333305359],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_8c849840f6a634e5fb68e1bf276afb16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2751d4d4a42c1e7d288ec7c14294aed4 = $(`<div id="html_2751d4d4a42c1e7d288ec7c14294aed4" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_8c849840f6a634e5fb68e1bf276afb16.setContent(html_2751d4d4a42c1e7d288ec7c14294aed4);
+            
+        
+
+        circle_marker_c65f801876f8dfee55df52e1499d7aeb.bindPopup(popup_8c849840f6a634e5fb68e1bf276afb16)
+        ;
+
+        
+    
+    
+            var circle_marker_7a49e8365f545b9152c7ae23ec04c2c5 = L.circleMarker(
+                [39.83, -71.03],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_9f540cdc12a62c904b1e91721d7f5bf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72047f042535c3dcf1a356cd82151edb = $(`<div id="html_72047f042535c3dcf1a356cd82151edb" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_9f540cdc12a62c904b1e91721d7f5bf2.setContent(html_72047f042535c3dcf1a356cd82151edb);
+            
+        
+
+        circle_marker_7a49e8365f545b9152c7ae23ec04c2c5.bindPopup(popup_9f540cdc12a62c904b1e91721d7f5bf2)
+        ;
+
+        
+    
+    
+            var circle_marker_55cc02b5b75ef4b750e02d40106e75e7 = L.circleMarker(
+                [-28.75, 157.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_d739db49132825d24aedeefdaac53d1b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_738e338b25fdcb2e8cab765cc901495b = $(`<div id="html_738e338b25fdcb2e8cab765cc901495b" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_d739db49132825d24aedeefdaac53d1b.setContent(html_738e338b25fdcb2e8cab765cc901495b);
+            
+        
+
+        circle_marker_55cc02b5b75ef4b750e02d40106e75e7.bindPopup(popup_d739db49132825d24aedeefdaac53d1b)
+        ;
+
+        
+    
+    
+            var circle_marker_6a50ba468aa62b39a02348c9cbcb85c7 = L.circleMarker(
+                [26.25, -90.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_9f90d020ba3dc2079f3ce052060cc43f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34786a3b8f4d73775c80a21a16951ec1 = $(`<div id="html_34786a3b8f4d73775c80a21a16951ec1" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_9f90d020ba3dc2079f3ce052060cc43f.setContent(html_34786a3b8f4d73775c80a21a16951ec1);
+            
+        
+
+        circle_marker_6a50ba468aa62b39a02348c9cbcb85c7.bindPopup(popup_9f90d020ba3dc2079f3ce052060cc43f)
+        ;
+
+        
+    
+    
+            var circle_marker_b52b2b411d96d86f1b737e3f1f98c69c = L.circleMarker(
+                [42.6500015259, -52.125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_beb73431cb0e37cc8fd5d994f56f2129 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f4bfac8dc94a2d374a24c3a28e47de3 = $(`<div id="html_8f4bfac8dc94a2d374a24c3a28e47de3" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_beb73431cb0e37cc8fd5d994f56f2129.setContent(html_8f4bfac8dc94a2d374a24c3a28e47de3);
+            
+        
+
+        circle_marker_b52b2b411d96d86f1b737e3f1f98c69c.bindPopup(popup_beb73431cb0e37cc8fd5d994f56f2129)
+        ;
+
+        
+    
+    
+            var circle_marker_9e8234c0121c06dfb9339247ea0e9a30 = L.circleMarker(
+                [18.6000003815, -53.9916667938],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_9fec062ddce9371a14e405e31f481082 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9df9cb4efe77b59e85da145b6444234 = $(`<div id="html_f9df9cb4efe77b59e85da145b6444234" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_9fec062ddce9371a14e405e31f481082.setContent(html_f9df9cb4efe77b59e85da145b6444234);
+            
+        
+
+        circle_marker_9e8234c0121c06dfb9339247ea0e9a30.bindPopup(popup_9fec062ddce9371a14e405e31f481082)
+        ;
+
+        
+    
+    
+            var circle_marker_6731ebfcbe79093387a9e90a6bc53952 = L.circleMarker(
+                [31.0, -79.11],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_d2d744af80bd9305612563bdf7d7470e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2493dd3449fd843e49bbbcc6a2df5020 = $(`<div id="html_2493dd3449fd843e49bbbcc6a2df5020" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_d2d744af80bd9305612563bdf7d7470e.setContent(html_2493dd3449fd843e49bbbcc6a2df5020);
+            
+        
+
+        circle_marker_6731ebfcbe79093387a9e90a6bc53952.bindPopup(popup_d2d744af80bd9305612563bdf7d7470e)
+        ;
+
+        
+    
+    
+            var circle_marker_7602797b258f3ca6505d3c00548f0652 = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_417b7d361ee35e87f3faffe8491cfdb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9df71e0199a55835d44c5ce9faf0f984 = $(`<div id="html_9df71e0199a55835d44c5ce9faf0f984" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_417b7d361ee35e87f3faffe8491cfdb6.setContent(html_9df71e0199a55835d44c5ce9faf0f984);
+            
+        
+
+        circle_marker_7602797b258f3ca6505d3c00548f0652.bindPopup(popup_417b7d361ee35e87f3faffe8491cfdb6)
+        ;
+
+        
+    
+    
+            var circle_marker_77606889ab7a03fe18076c24f246c5a8 = L.circleMarker(
+                [-9.82156666666669, 59.9557],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_32162b170799996bc4b6824752b1fad5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f75727a6d5899ef3b64366cabeeec05 = $(`<div id="html_3f75727a6d5899ef3b64366cabeeec05" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_32162b170799996bc4b6824752b1fad5.setContent(html_3f75727a6d5899ef3b64366cabeeec05);
+            
+        
+
+        circle_marker_77606889ab7a03fe18076c24f246c5a8.bindPopup(popup_32162b170799996bc4b6824752b1fad5)
+        ;
+
+        
+    
+    
+            var circle_marker_5157334752a479789f23983342268c0d = L.circleMarker(
+                [9.950139, -18.033472],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_c81ddc4e225d98521155f6734a5b4610 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_138ce1d97105b83cf1a29258c425949d = $(`<div id="html_138ce1d97105b83cf1a29258c425949d" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_c81ddc4e225d98521155f6734a5b4610.setContent(html_138ce1d97105b83cf1a29258c425949d);
+            
+        
+
+        circle_marker_5157334752a479789f23983342268c0d.bindPopup(popup_c81ddc4e225d98521155f6734a5b4610)
+        ;
+
+        
+    
+    
+            var circle_marker_b4d31960aa7b55ba79d6d13b38ee7333 = L.circleMarker(
+                [37.73, -74.15],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_073e90f53bdb727cf5a9ba68531a2063 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c38cab4660e1b82a2d97bf94cd05d04 = $(`<div id="html_9c38cab4660e1b82a2d97bf94cd05d04" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_073e90f53bdb727cf5a9ba68531a2063.setContent(html_9c38cab4660e1b82a2d97bf94cd05d04);
+            
+        
+
+        circle_marker_b4d31960aa7b55ba79d6d13b38ee7333.bindPopup(popup_073e90f53bdb727cf5a9ba68531a2063)
+        ;
+
+        
+    
+    
+            var circle_marker_198e9174105a3187233959fa188f8c4d = L.circleMarker(
+                [-34.3568992615, 18.4972000122],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_95f95656a09699a505ac3f60b91a09d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25ed08c4ab52d570a1c78469edd17c35 = $(`<div id="html_25ed08c4ab52d570a1c78469edd17c35" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_95f95656a09699a505ac3f60b91a09d4.setContent(html_25ed08c4ab52d570a1c78469edd17c35);
+            
+        
+
+        circle_marker_198e9174105a3187233959fa188f8c4d.bindPopup(popup_95f95656a09699a505ac3f60b91a09d4)
+        ;
+
+        
+    
+    
+            var circle_marker_7a2c907d0629d8a3a9998116bc154445 = L.circleMarker(
+                [6.75, -39.2583332062],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_6dea843e53cdfe944c864d94a88b4b7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c9544b22961ba38973bfd7b890a2aa0 = $(`<div id="html_7c9544b22961ba38973bfd7b890a2aa0" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_6dea843e53cdfe944c864d94a88b4b7e.setContent(html_7c9544b22961ba38973bfd7b890a2aa0);
+            
+        
+
+        circle_marker_7a2c907d0629d8a3a9998116bc154445.bindPopup(popup_6dea843e53cdfe944c864d94a88b4b7e)
+        ;
+
+        
+    
+    
+            var circle_marker_d8132aac8601b45906599aefa9fceee9 = L.circleMarker(
+                [2.350139, 51.133472],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_eb2ff5503e23ae976eadf5ed33a99749 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_973769a36a53c70ea6211dd04cb97498 = $(`<div id="html_973769a36a53c70ea6211dd04cb97498" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_eb2ff5503e23ae976eadf5ed33a99749.setContent(html_973769a36a53c70ea6211dd04cb97498);
+            
+        
+
+        circle_marker_d8132aac8601b45906599aefa9fceee9.bindPopup(popup_eb2ff5503e23ae976eadf5ed33a99749)
+        ;
+
+        
+    
+    
+            var circle_marker_9e4c61dbbec6579304dce52d6e4043a2 = L.circleMarker(
+                [25.7833328247, -91.6000022888],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_a8eab9c5d44ff8f1761cc3c24269b1da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90aecd7bbef40e8e854515d00db23b6b = $(`<div id="html_90aecd7bbef40e8e854515d00db23b6b" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_a8eab9c5d44ff8f1761cc3c24269b1da.setContent(html_90aecd7bbef40e8e854515d00db23b6b);
+            
+        
+
+        circle_marker_9e4c61dbbec6579304dce52d6e4043a2.bindPopup(popup_a8eab9c5d44ff8f1761cc3c24269b1da)
+        ;
+
+        
+    
+    
+            var circle_marker_157cd0f74f0fa223fd64fd0903dd9c91 = L.circleMarker(
+                [40.0, -68.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_b5cb3aef05f9e26d695ad366107a230e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_322cc191bfbe85edb616e4f76d18a266 = $(`<div id="html_322cc191bfbe85edb616e4f76d18a266" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_b5cb3aef05f9e26d695ad366107a230e.setContent(html_322cc191bfbe85edb616e4f76d18a266);
+            
+        
+
+        circle_marker_157cd0f74f0fa223fd64fd0903dd9c91.bindPopup(popup_b5cb3aef05f9e26d695ad366107a230e)
+        ;
+
+        
+    
+    
+            var circle_marker_d9717693d0ca2fa0d9cb33e30d35c8c0 = L.circleMarker(
+                [-5.033472, 42.18347],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_0cf1ab305093107d6439643afd1d7b51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a16edf95a9c5b3b51fa37a35c7fb8eda = $(`<div id="html_a16edf95a9c5b3b51fa37a35c7fb8eda" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_0cf1ab305093107d6439643afd1d7b51.setContent(html_a16edf95a9c5b3b51fa37a35c7fb8eda);
+            
+        
+
+        circle_marker_d9717693d0ca2fa0d9cb33e30d35c8c0.bindPopup(popup_0cf1ab305093107d6439643afd1d7b51)
+        ;
+
+        
+    
+    
+            var circle_marker_d2bc7bf033414bbca9225bd318ef13f2 = L.circleMarker(
+                [-13.550139, 45.050137],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_5089be0e98256ad8e71f07237314eef0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6e54ea77ec454ba936dd51710480c94 = $(`<div id="html_e6e54ea77ec454ba936dd51710480c94" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_5089be0e98256ad8e71f07237314eef0.setContent(html_e6e54ea77ec454ba936dd51710480c94);
+            
+        
+
+        circle_marker_d2bc7bf033414bbca9225bd318ef13f2.bindPopup(popup_5089be0e98256ad8e71f07237314eef0)
+        ;
+
+        
+    
+    
+            var circle_marker_32eaf8f73c2395828a2d81f7eaa3a6ef = L.circleMarker(
+                [35.41, -74.85],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_b5bfc97dd7c1df71f37fd0af5d3a4f3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e22e4cf1a039663d4fbeff1e760c41b0 = $(`<div id="html_e22e4cf1a039663d4fbeff1e760c41b0" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_b5bfc97dd7c1df71f37fd0af5d3a4f3f.setContent(html_e22e4cf1a039663d4fbeff1e760c41b0);
+            
+        
+
+        circle_marker_32eaf8f73c2395828a2d81f7eaa3a6ef.bindPopup(popup_b5bfc97dd7c1df71f37fd0af5d3a4f3f)
+        ;
+
+        
+    
+    
+            var circle_marker_ab21470960ace9f0cfd99e0ee0adda91 = L.circleMarker(
+                [40.28, -64.4],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_f381c128813b0726d18f28135bdabf0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0644f636c5ebf690e6ea008b1858413d = $(`<div id="html_0644f636c5ebf690e6ea008b1858413d" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_f381c128813b0726d18f28135bdabf0a.setContent(html_0644f636c5ebf690e6ea008b1858413d);
+            
+        
+
+        circle_marker_ab21470960ace9f0cfd99e0ee0adda91.bindPopup(popup_f381c128813b0726d18f28135bdabf0a)
+        ;
+
+        
+    
+    
+            var circle_marker_89c64db2aaf3355e95cfbd7daf8ae220 = L.circleMarker(
+                [-1.6334722, -3.3668058],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_d9611383b39ee767f40b963653ea0fb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_745222961ecf52f201d12af7abf377fd = $(`<div id="html_745222961ecf52f201d12af7abf377fd" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_d9611383b39ee767f40b963653ea0fb0.setContent(html_745222961ecf52f201d12af7abf377fd);
+            
+        
+
+        circle_marker_89c64db2aaf3355e95cfbd7daf8ae220.bindPopup(popup_d9611383b39ee767f40b963653ea0fb0)
+        ;
+
+        
+    
+    
+            var circle_marker_14581658cd0f1782edc6bfcfa7accd3d = L.circleMarker(
+                [30.0, -62.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_4ebb2d074a0e083901db3466507e4d15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_291895fb0d5654f8097157aaa50f481a = $(`<div id="html_291895fb0d5654f8097157aaa50f481a" style="width: 100.0%; height: 100.0%;">Thunnus orientalis</div>`)[0];
+                popup_4ebb2d074a0e083901db3466507e4d15.setContent(html_291895fb0d5654f8097157aaa50f481a);
+            
+        
+
+        circle_marker_14581658cd0f1782edc6bfcfa7accd3d.bindPopup(popup_4ebb2d074a0e083901db3466507e4d15)
+        ;
+
+        
+    
+    
+            var circle_marker_b4bbbb0e626a30fcddd6167e59a525fd = L.circleMarker(
+                [-35.2, 117.99],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_d89d997a56bf10d4c1db43c10f63898c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ee7d529e5c602c6683834fb12448e45 = $(`<div id="html_8ee7d529e5c602c6683834fb12448e45" style="width: 100.0%; height: 100.0%;">Thunnus maccoyii</div>`)[0];
+                popup_d89d997a56bf10d4c1db43c10f63898c.setContent(html_8ee7d529e5c602c6683834fb12448e45);
+            
+        
+
+        circle_marker_b4bbbb0e626a30fcddd6167e59a525fd.bindPopup(popup_d89d997a56bf10d4c1db43c10f63898c)
+        ;
+
+        
+    
+    
+            var circle_marker_0f6b05318abb807bc60d13c1baac2764 = L.circleMarker(
+                [-29.9335002899, 17.1173992157],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_dbedce8da43798eb9d77ceda1852e8bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e065c039e62ebe7f4dda773f0baf468e = $(`<div id="html_e065c039e62ebe7f4dda773f0baf468e" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_dbedce8da43798eb9d77ceda1852e8bc.setContent(html_e065c039e62ebe7f4dda773f0baf468e);
+            
+        
+
+        circle_marker_0f6b05318abb807bc60d13c1baac2764.bindPopup(popup_dbedce8da43798eb9d77ceda1852e8bc)
+        ;
+
+        
+    
+    
+            var circle_marker_4d191acbb65bb4b261d44c23abfab50d = L.circleMarker(
+                [28.58, -78.51],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_0e65c830d6b3fe0c0deb7dc26de41e18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_768610e1cfde082cb5c27ce7cb74fa02 = $(`<div id="html_768610e1cfde082cb5c27ce7cb74fa02" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_0e65c830d6b3fe0c0deb7dc26de41e18.setContent(html_768610e1cfde082cb5c27ce7cb74fa02);
+            
+        
+
+        circle_marker_4d191acbb65bb4b261d44c23abfab50d.bindPopup(popup_0e65c830d6b3fe0c0deb7dc26de41e18)
+        ;
+
+        
+    
+    
+            var circle_marker_eec7a4eff703d84961058f139edada10 = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_b546e5f68c894d8fb430c0b7f555070c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_295676bb990a6a6ed76f1bdd087a0ea8 = $(`<div id="html_295676bb990a6a6ed76f1bdd087a0ea8" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_b546e5f68c894d8fb430c0b7f555070c.setContent(html_295676bb990a6a6ed76f1bdd087a0ea8);
+            
+        
+
+        circle_marker_eec7a4eff703d84961058f139edada10.bindPopup(popup_b546e5f68c894d8fb430c0b7f555070c)
+        ;
+
+        
+    
+    
+            var circle_marker_46e565498ebd35ca9bab9aa60cfd1665 = L.circleMarker(
+                [38.01, -70.76],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_5a60c704a35caf1914314f71e4fb0708 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9639ae3cd6368d6721678dd3d8f1ab08 = $(`<div id="html_9639ae3cd6368d6721678dd3d8f1ab08" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_5a60c704a35caf1914314f71e4fb0708.setContent(html_9639ae3cd6368d6721678dd3d8f1ab08);
+            
+        
+
+        circle_marker_46e565498ebd35ca9bab9aa60cfd1665.bindPopup(popup_5a60c704a35caf1914314f71e4fb0708)
+        ;
+
+        
+    
+    
+            var circle_marker_c73718a80155833504c552188ef900ec = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_3f5e70faf5f8aa072ce54e208de6b7a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f77419a23d963f560d67a1605597bec = $(`<div id="html_8f77419a23d963f560d67a1605597bec" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_3f5e70faf5f8aa072ce54e208de6b7a8.setContent(html_8f77419a23d963f560d67a1605597bec);
+            
+        
+
+        circle_marker_c73718a80155833504c552188ef900ec.bindPopup(popup_3f5e70faf5f8aa072ce54e208de6b7a8)
+        ;
+
+        
+    
+    
+            var circle_marker_526fcd9cb98d249fb9e9deb1c51ffe3c = L.circleMarker(
+                [27.3333339691, -93.0583343506],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_cfc50d03d085ba1bf7def1e28e2ec0a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b0fe4318c1d145803a832efb647d5ec = $(`<div id="html_5b0fe4318c1d145803a832efb647d5ec" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_cfc50d03d085ba1bf7def1e28e2ec0a6.setContent(html_5b0fe4318c1d145803a832efb647d5ec);
+            
+        
+
+        circle_marker_526fcd9cb98d249fb9e9deb1c51ffe3c.bindPopup(popup_cfc50d03d085ba1bf7def1e28e2ec0a6)
+        ;
+
+        
+    
+    
+            var circle_marker_9a72b6256ded13eee57d7c24ff2a85df = L.circleMarker(
+                [26.58, -91.41],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_b85cb37543ead18dce59d1c1790ba37a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b5cb0da1e01875a640a77773f80ea0b = $(`<div id="html_7b5cb0da1e01875a640a77773f80ea0b" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_b85cb37543ead18dce59d1c1790ba37a.setContent(html_7b5cb0da1e01875a640a77773f80ea0b);
+            
+        
+
+        circle_marker_9a72b6256ded13eee57d7c24ff2a85df.bindPopup(popup_b85cb37543ead18dce59d1c1790ba37a)
+        ;
+
+        
+    
+    
+            var circle_marker_063c82fdae93c8688b2533448f7b868d = L.circleMarker(
+                [10.433473, -24.833473],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_85a0a71a5a3f443f863693a7df943bcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74203044be625a203f6412fc2196c138 = $(`<div id="html_74203044be625a203f6412fc2196c138" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_85a0a71a5a3f443f863693a7df943bcc.setContent(html_74203044be625a203f6412fc2196c138);
+            
+        
+
+        circle_marker_063c82fdae93c8688b2533448f7b868d.bindPopup(popup_85a0a71a5a3f443f863693a7df943bcc)
+        ;
+
+        
+    
+    
+            var circle_marker_c47a9d8926f65c371fe4bb32f43b724b = L.circleMarker(
+                [33.95, -75.11],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_447981ea938f7e422a69a21c1f63253c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_648df22407bdbfa851363c7b5a1ef2cb = $(`<div id="html_648df22407bdbfa851363c7b5a1ef2cb" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_447981ea938f7e422a69a21c1f63253c.setContent(html_648df22407bdbfa851363c7b5a1ef2cb);
+            
+        
+
+        circle_marker_c47a9d8926f65c371fe4bb32f43b724b.bindPopup(popup_447981ea938f7e422a69a21c1f63253c)
+        ;
+
+        
+    
+    
+            var circle_marker_08ef80c8856d1d49df370333f2339405 = L.circleMarker(
+                [2.83333325386, -42.9249992371],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_1807210dd391cf8dcd0892be5cc3a020 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99e2b01b188ee6fac984de32ba08b536 = $(`<div id="html_99e2b01b188ee6fac984de32ba08b536" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_1807210dd391cf8dcd0892be5cc3a020.setContent(html_99e2b01b188ee6fac984de32ba08b536);
+            
+        
+
+        circle_marker_08ef80c8856d1d49df370333f2339405.bindPopup(popup_1807210dd391cf8dcd0892be5cc3a020)
+        ;
+
+        
+    
+    
+            var circle_marker_dd145102d270c498f4ee2fa93d4abb60 = L.circleMarker(
+                [20.25, -73.61],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_13f7b9af419456ab77c7d2178e87f78b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09e64fc92e8c962acc3ee61dde5c19df = $(`<div id="html_09e64fc92e8c962acc3ee61dde5c19df" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_13f7b9af419456ab77c7d2178e87f78b.setContent(html_09e64fc92e8c962acc3ee61dde5c19df);
+            
+        
+
+        circle_marker_dd145102d270c498f4ee2fa93d4abb60.bindPopup(popup_13f7b9af419456ab77c7d2178e87f78b)
+        ;
+
+        
+    
+    
+            var circle_marker_e7a9d7c828fb576d6ef0baafe300622c = L.circleMarker(
+                [17.55, -69.35],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_5ea584ebe4b3a2ff8af15e8976a87d75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41d959e01259a2eeda7b5ad28058c94c = $(`<div id="html_41d959e01259a2eeda7b5ad28058c94c" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_5ea584ebe4b3a2ff8af15e8976a87d75.setContent(html_41d959e01259a2eeda7b5ad28058c94c);
+            
+        
+
+        circle_marker_e7a9d7c828fb576d6ef0baafe300622c.bindPopup(popup_5ea584ebe4b3a2ff8af15e8976a87d75)
+        ;
+
+        
+    
+    
+            var circle_marker_200544d978e067325e4d1e8a7b88704c = L.circleMarker(
+                [26.83, -92.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_c2b9a3229e6646bbd4d30dc4e0f9a10d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_471be013a5f31e84a540b4f1377a13fa = $(`<div id="html_471be013a5f31e84a540b4f1377a13fa" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_c2b9a3229e6646bbd4d30dc4e0f9a10d.setContent(html_471be013a5f31e84a540b4f1377a13fa);
+            
+        
+
+        circle_marker_200544d978e067325e4d1e8a7b88704c.bindPopup(popup_c2b9a3229e6646bbd4d30dc4e0f9a10d)
+        ;
+
+        
+    
+    
+            var circle_marker_1ce5ef1bf0e6f7dc83646c8bcc5e6be4 = L.circleMarker(
+                [26.11, -93.4],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_4f3bf51439a954d657a0406b45d8a729 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bd3f6b4279289e0b09d6be71bf2fa0b = $(`<div id="html_8bd3f6b4279289e0b09d6be71bf2fa0b" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_4f3bf51439a954d657a0406b45d8a729.setContent(html_8bd3f6b4279289e0b09d6be71bf2fa0b);
+            
+        
+
+        circle_marker_1ce5ef1bf0e6f7dc83646c8bcc5e6be4.bindPopup(popup_4f3bf51439a954d657a0406b45d8a729)
+        ;
+
+        
+    
+    
+            var circle_marker_5b16526d923e93d02bb858d8678a320a = L.circleMarker(
+                [28.5, -77.68],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_6587a040ea733d1487382ad9f7b2adbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ab6b293663daa94d08d527de9ab6402 = $(`<div id="html_6ab6b293663daa94d08d527de9ab6402" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_6587a040ea733d1487382ad9f7b2adbd.setContent(html_6ab6b293663daa94d08d527de9ab6402);
+            
+        
+
+        circle_marker_5b16526d923e93d02bb858d8678a320a.bindPopup(popup_6587a040ea733d1487382ad9f7b2adbd)
+        ;
+
+        
+    
+    
+            var circle_marker_84a5b6484d6282d3a92d9f4842b185b8 = L.circleMarker(
+                [10.80483, 46.167686666667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_5cae4eb0ff6c05c95be24a9cf408d0d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7a3491eace57077618c4747a8a16bcb = $(`<div id="html_a7a3491eace57077618c4747a8a16bcb" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_5cae4eb0ff6c05c95be24a9cf408d0d2.setContent(html_a7a3491eace57077618c4747a8a16bcb);
+            
+        
+
+        circle_marker_84a5b6484d6282d3a92d9f4842b185b8.bindPopup(popup_5cae4eb0ff6c05c95be24a9cf408d0d2)
+        ;
+
+        
+    
+    
+            var circle_marker_002d30185b495835c1a3c84219256711 = L.circleMarker(
+                [15.01, -50.6],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_667bf1d8b75ee6a25e37abf3a2fb01b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4212fcd9f81fe0404c81f75e3e19a5c2 = $(`<div id="html_4212fcd9f81fe0404c81f75e3e19a5c2" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_667bf1d8b75ee6a25e37abf3a2fb01b9.setContent(html_4212fcd9f81fe0404c81f75e3e19a5c2);
+            
+        
+
+        circle_marker_002d30185b495835c1a3c84219256711.bindPopup(popup_667bf1d8b75ee6a25e37abf3a2fb01b9)
+        ;
+
+        
+    
+    
+            var circle_marker_56803f882a56fe75166fa25b74798441 = L.circleMarker(
+                [28.61, -77.91],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_4c403cc716fdd039e9d8be28dead7412 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49dfe561dc1809bb67eadc7c4514c00d = $(`<div id="html_49dfe561dc1809bb67eadc7c4514c00d" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_4c403cc716fdd039e9d8be28dead7412.setContent(html_49dfe561dc1809bb67eadc7c4514c00d);
+            
+        
+
+        circle_marker_56803f882a56fe75166fa25b74798441.bindPopup(popup_4c403cc716fdd039e9d8be28dead7412)
+        ;
+
+        
+    
+    
+            var circle_marker_8371d4a163300fbbd306643eb52476ad = L.circleMarker(
+                [27.58, -94.15],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_3a081fb586ce2eb612b0b9fa30dd96c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1ee6df45dd242894effeb0aa6b3fb12 = $(`<div id="html_c1ee6df45dd242894effeb0aa6b3fb12" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_3a081fb586ce2eb612b0b9fa30dd96c1.setContent(html_c1ee6df45dd242894effeb0aa6b3fb12);
+            
+        
+
+        circle_marker_8371d4a163300fbbd306643eb52476ad.bindPopup(popup_3a081fb586ce2eb612b0b9fa30dd96c1)
+        ;
+
+        
+    
+    
+            var circle_marker_83da8ce16ff26c08d1b881b0db161493 = L.circleMarker(
+                [30.88, -78.5],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_a4c368203e2d5437ff9462836211d170 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0798e74e0f2b45cc67515f74e2049bc4 = $(`<div id="html_0798e74e0f2b45cc67515f74e2049bc4" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_a4c368203e2d5437ff9462836211d170.setContent(html_0798e74e0f2b45cc67515f74e2049bc4);
+            
+        
+
+        circle_marker_83da8ce16ff26c08d1b881b0db161493.bindPopup(popup_a4c368203e2d5437ff9462836211d170)
+        ;
+
+        
+    
+    
+            var circle_marker_495648521c3396c9811337ee136b02fc = L.circleMarker(
+                [38.53, -68.21],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_480414c4dcaac183f717b46160381170 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaf5f551249cffa0e28f24dab65bd5a6 = $(`<div id="html_aaf5f551249cffa0e28f24dab65bd5a6" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_480414c4dcaac183f717b46160381170.setContent(html_aaf5f551249cffa0e28f24dab65bd5a6);
+            
+        
+
+        circle_marker_495648521c3396c9811337ee136b02fc.bindPopup(popup_480414c4dcaac183f717b46160381170)
+        ;
+
+        
+    
+    
+            var circle_marker_4f491c24b55ff652018c1ac02e45b71b = L.circleMarker(
+                [-24.25, 154.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_7857db6a91b11b4066702582a86ec48d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e67ad980fe67d3a22cd374e365e0432 = $(`<div id="html_3e67ad980fe67d3a22cd374e365e0432" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_7857db6a91b11b4066702582a86ec48d.setContent(html_3e67ad980fe67d3a22cd374e365e0432);
+            
+        
+
+        circle_marker_4f491c24b55ff652018c1ac02e45b71b.bindPopup(popup_7857db6a91b11b4066702582a86ec48d)
+        ;
+
+        
+    
+    
+            var circle_marker_5015b24fc9c98477a01fccfe402ad8d1 = L.circleMarker(
+                [-1.3186666666667, 49.8383333333329],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_10660e98cc3a82b6495788285bd954f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb4840bfc77a17cca057efddd2667de2 = $(`<div id="html_fb4840bfc77a17cca057efddd2667de2" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_10660e98cc3a82b6495788285bd954f6.setContent(html_fb4840bfc77a17cca057efddd2667de2);
+            
+        
+
+        circle_marker_5015b24fc9c98477a01fccfe402ad8d1.bindPopup(popup_10660e98cc3a82b6495788285bd954f6)
+        ;
+
+        
+    
+    
+            var circle_marker_f4cc141cb149217c68dc46810ecf9a69 = L.circleMarker(
+                [-29.2493000031, 16.8686008453],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_45f13f01abc1fb9fdc6d91e6ae787075 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d85216b5fc610510a5b2b63e26e74ca = $(`<div id="html_7d85216b5fc610510a5b2b63e26e74ca" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_45f13f01abc1fb9fdc6d91e6ae787075.setContent(html_7d85216b5fc610510a5b2b63e26e74ca);
+            
+        
+
+        circle_marker_f4cc141cb149217c68dc46810ecf9a69.bindPopup(popup_45f13f01abc1fb9fdc6d91e6ae787075)
+        ;
+
+        
+    
+    
+            var circle_marker_f0481cf973c51b1d78b4515d270f4aa5 = L.circleMarker(
+                [30.0, -62.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_48e710659f67123bb057c9abae4046a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e252cf8cefe7c2a4a84075ed6466754c = $(`<div id="html_e252cf8cefe7c2a4a84075ed6466754c" style="width: 100.0%; height: 100.0%;">Thunnus orientalis</div>`)[0];
+                popup_48e710659f67123bb057c9abae4046a6.setContent(html_e252cf8cefe7c2a4a84075ed6466754c);
+            
+        
+
+        circle_marker_f0481cf973c51b1d78b4515d270f4aa5.bindPopup(popup_48e710659f67123bb057c9abae4046a6)
+        ;
+
+        
+    
+    
+            var circle_marker_977bd7c9e0a1d04bb993aac41044e49d = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_0e8437413d47fc674d187fe913f0b713 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b40a60dedaa7d79662b5fd803142fcab = $(`<div id="html_b40a60dedaa7d79662b5fd803142fcab" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_0e8437413d47fc674d187fe913f0b713.setContent(html_b40a60dedaa7d79662b5fd803142fcab);
+            
+        
+
+        circle_marker_977bd7c9e0a1d04bb993aac41044e49d.bindPopup(popup_0e8437413d47fc674d187fe913f0b713)
+        ;
+
+        
+    
+    
+            var circle_marker_a0d77537931591cfbb5ca7975072c223 = L.circleMarker(
+                [32.66, -77.5],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_c11e98cbc815d84932c8625d9e0d1b04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a69d418d82f554e53a087d7d99340da = $(`<div id="html_1a69d418d82f554e53a087d7d99340da" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_c11e98cbc815d84932c8625d9e0d1b04.setContent(html_1a69d418d82f554e53a087d7d99340da);
+            
+        
+
+        circle_marker_a0d77537931591cfbb5ca7975072c223.bindPopup(popup_c11e98cbc815d84932c8625d9e0d1b04)
+        ;
+
+        
+    
+    
+            var circle_marker_b41fdf5efb5a75dec7566b001b1dd05a = L.circleMarker(
+                [-5.783472, 62.450138],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_c804092af50e36eea4d0e8687132fac7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d73548ea972d0be0913500b8f5de9e08 = $(`<div id="html_d73548ea972d0be0913500b8f5de9e08" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_c804092af50e36eea4d0e8687132fac7.setContent(html_d73548ea972d0be0913500b8f5de9e08);
+            
+        
+
+        circle_marker_b41fdf5efb5a75dec7566b001b1dd05a.bindPopup(popup_c804092af50e36eea4d0e8687132fac7)
+        ;
+
+        
+    
+    
+            var circle_marker_7d54758ff292f0bf026620631322ce92 = L.circleMarker(
+                [-18.916805, 39.90014],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_63ed15faddf7ea8e2112dce367b7b421 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_189b524184faadfabe5b8b5aaaba5a58 = $(`<div id="html_189b524184faadfabe5b8b5aaaba5a58" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_63ed15faddf7ea8e2112dce367b7b421.setContent(html_189b524184faadfabe5b8b5aaaba5a58);
+            
+        
+
+        circle_marker_7d54758ff292f0bf026620631322ce92.bindPopup(popup_63ed15faddf7ea8e2112dce367b7b421)
+        ;
+
+        
+    
+    
+            var circle_marker_2aa66b17f2338921e910da8e9564a401 = L.circleMarker(
+                [27.66, -66.78],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_e11b4345568d409b9c95252ec54e69fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_661f32229c35151c99ccb60aff8fc44a = $(`<div id="html_661f32229c35151c99ccb60aff8fc44a" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_e11b4345568d409b9c95252ec54e69fc.setContent(html_661f32229c35151c99ccb60aff8fc44a);
+            
+        
+
+        circle_marker_2aa66b17f2338921e910da8e9564a401.bindPopup(popup_e11b4345568d409b9c95252ec54e69fc)
+        ;
+
+        
+    
+    
+            var circle_marker_6f67de9880f0d53f9bcc11a7698c9639 = L.circleMarker(
+                [26.8, -92.66],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_1ec895cbef360b72ebdade91e2762722 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f1089891e6ff69034c90dd329d816ed = $(`<div id="html_5f1089891e6ff69034c90dd329d816ed" style="width: 100.0%; height: 100.0%;">Thunnus atlanticus</div>`)[0];
+                popup_1ec895cbef360b72ebdade91e2762722.setContent(html_5f1089891e6ff69034c90dd329d816ed);
+            
+        
+
+        circle_marker_6f67de9880f0d53f9bcc11a7698c9639.bindPopup(popup_1ec895cbef360b72ebdade91e2762722)
+        ;
+
+        
+    
+    
+            var circle_marker_b85e86f393837a26effcd74bce6e90af = L.circleMarker(
+                [-29.2493000031, 16.8686008453],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_f12a8bf7a8cd7c5c837b7d6ab40a095d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d4da8b4af00f92afaa10a1ffe33e3da = $(`<div id="html_2d4da8b4af00f92afaa10a1ffe33e3da" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_f12a8bf7a8cd7c5c837b7d6ab40a095d.setContent(html_2d4da8b4af00f92afaa10a1ffe33e3da);
+            
+        
+
+        circle_marker_b85e86f393837a26effcd74bce6e90af.bindPopup(popup_f12a8bf7a8cd7c5c837b7d6ab40a095d)
+        ;
+
+        
+    
+    
+            var circle_marker_1119fba63bc33acc1060bfaeb2c8e818 = L.circleMarker(
+                [26.23, -90.2],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_3dfb64eeb83a6f2c2d1126b2c4114051 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bcab37fe7e3383af090a34862941571 = $(`<div id="html_9bcab37fe7e3383af090a34862941571" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_3dfb64eeb83a6f2c2d1126b2c4114051.setContent(html_9bcab37fe7e3383af090a34862941571);
+            
+        
+
+        circle_marker_1119fba63bc33acc1060bfaeb2c8e818.bindPopup(popup_3dfb64eeb83a6f2c2d1126b2c4114051)
+        ;
+
+        
+    
+    
+            var circle_marker_73c965cd5c451f6d2385f29876fccae1 = L.circleMarker(
+                [27.41, -91.83],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_ec032f4104794ba6ba4c111e03543725 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cbb0a7d203471f47d021f7e971e3a8e = $(`<div id="html_6cbb0a7d203471f47d021f7e971e3a8e" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_ec032f4104794ba6ba4c111e03543725.setContent(html_6cbb0a7d203471f47d021f7e971e3a8e);
+            
+        
+
+        circle_marker_73c965cd5c451f6d2385f29876fccae1.bindPopup(popup_ec032f4104794ba6ba4c111e03543725)
+        ;
+
+        
+    
+    
+            var circle_marker_80402af18c8ba56be17158c569af82f0 = L.circleMarker(
+                [-1.7168056, 53.350136],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_9d5f22a6f92712ba033320d1a4e71dea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e4249ae9ae39d8d0cf5bfe677b47eaf = $(`<div id="html_6e4249ae9ae39d8d0cf5bfe677b47eaf" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_9d5f22a6f92712ba033320d1a4e71dea.setContent(html_6e4249ae9ae39d8d0cf5bfe677b47eaf);
+            
+        
+
+        circle_marker_80402af18c8ba56be17158c569af82f0.bindPopup(popup_9d5f22a6f92712ba033320d1a4e71dea)
+        ;
+
+        
+    
+    
+            var circle_marker_ef9e2a76b6cb32a98e1dbc350d523c72 = L.circleMarker(
+                [3.4668057, -6.2668056],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_80b136a44290ca867b5df9fb76acaf7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_887caf30287ef0e39bf9c10d6ce01bb8 = $(`<div id="html_887caf30287ef0e39bf9c10d6ce01bb8" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_80b136a44290ca867b5df9fb76acaf7d.setContent(html_887caf30287ef0e39bf9c10d6ce01bb8);
+            
+        
+
+        circle_marker_ef9e2a76b6cb32a98e1dbc350d523c72.bindPopup(popup_80b136a44290ca867b5df9fb76acaf7d)
+        ;
+
+        
+    
+    
+            var circle_marker_0060b3174915ce8ecdcd75646b042b12 = L.circleMarker(
+                [27.25, -94.43],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_fa57fa846d90dea8e94c5387352bda5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27bced64892792fb1cd18927e1016167 = $(`<div id="html_27bced64892792fb1cd18927e1016167" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_fa57fa846d90dea8e94c5387352bda5e.setContent(html_27bced64892792fb1cd18927e1016167);
+            
+        
+
+        circle_marker_0060b3174915ce8ecdcd75646b042b12.bindPopup(popup_fa57fa846d90dea8e94c5387352bda5e)
+        ;
+
+        
+    
+    
+            var circle_marker_52169a2424ec79d21112cedfa9b616bb = L.circleMarker(
+                [4.0, 175.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_53a3618e0c87b6ec74a99a50782d6e81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6d715915bb92c1be80145edd9641d8a = $(`<div id="html_f6d715915bb92c1be80145edd9641d8a" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_53a3618e0c87b6ec74a99a50782d6e81.setContent(html_f6d715915bb92c1be80145edd9641d8a);
+            
+        
+
+        circle_marker_52169a2424ec79d21112cedfa9b616bb.bindPopup(popup_53a3618e0c87b6ec74a99a50782d6e81)
+        ;
+
+        
+    
+    
+            var circle_marker_5263c5ed31b8e785573d332854c16498 = L.circleMarker(
+                [37.94808333, -24.79125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_edeb75223402d7e18fdd36f96d14510b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89a8508d9e1422ce62e74aa1459229f0 = $(`<div id="html_89a8508d9e1422ce62e74aa1459229f0" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_edeb75223402d7e18fdd36f96d14510b.setContent(html_89a8508d9e1422ce62e74aa1459229f0);
+            
+        
+
+        circle_marker_5263c5ed31b8e785573d332854c16498.bindPopup(popup_edeb75223402d7e18fdd36f96d14510b)
+        ;
+
+        
+    
+    
+            var circle_marker_70bca5732692b7b93127936b918cd7cb = L.circleMarker(
+                [26.86, -92.21],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_77966334db4bc480d87b57de340f035a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_776589cdff6dacf9555cca9dd570f8df = $(`<div id="html_776589cdff6dacf9555cca9dd570f8df" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_77966334db4bc480d87b57de340f035a.setContent(html_776589cdff6dacf9555cca9dd570f8df);
+            
+        
+
+        circle_marker_70bca5732692b7b93127936b918cd7cb.bindPopup(popup_77966334db4bc480d87b57de340f035a)
+        ;
+
+        
+    
+    
+            var circle_marker_fdb0310d391a0da882693afd02fc8dfc = L.circleMarker(
+                [-29.9335002899, 17.1173992157],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_117611b44bdb08ddfd8df4f7c84455dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd65c19167ca5664cc1e77ab7f6c2f01 = $(`<div id="html_fd65c19167ca5664cc1e77ab7f6c2f01" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_117611b44bdb08ddfd8df4f7c84455dc.setContent(html_fd65c19167ca5664cc1e77ab7f6c2f01);
+            
+        
+
+        circle_marker_fdb0310d391a0da882693afd02fc8dfc.bindPopup(popup_117611b44bdb08ddfd8df4f7c84455dc)
+        ;
+
+        
+    
+    
+            var circle_marker_f0968fd9fa758e53cefd046230df1ec7 = L.circleMarker(
+                [-0.33347222, -15.533473],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_73e1af1be9c3e3e8a129a27662540a11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9446276a2993239d628afba99b34f161 = $(`<div id="html_9446276a2993239d628afba99b34f161" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_73e1af1be9c3e3e8a129a27662540a11.setContent(html_9446276a2993239d628afba99b34f161);
+            
+        
+
+        circle_marker_f0968fd9fa758e53cefd046230df1ec7.bindPopup(popup_73e1af1be9c3e3e8a129a27662540a11)
+        ;
+
+        
+    
+    
+            var circle_marker_34e82a5c144a241402128e3b7a1c941a = L.circleMarker(
+                [-10.466805, 42.950138],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_10c45fea4043ec1510f50c45ae8eb7a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2894fc25c42f45081cfca3bae181877d = $(`<div id="html_2894fc25c42f45081cfca3bae181877d" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_10c45fea4043ec1510f50c45ae8eb7a4.setContent(html_2894fc25c42f45081cfca3bae181877d);
+            
+        
+
+        circle_marker_34e82a5c144a241402128e3b7a1c941a.bindPopup(popup_10c45fea4043ec1510f50c45ae8eb7a4)
+        ;
+
+        
+    
+    
+            var circle_marker_69a950f38537e404412fc212d494aed0 = L.circleMarker(
+                [36.68, -74.65],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_177ba784fcdfbd19e98e6ccdacbb94ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1e5f19a419b95d033fd762423600065 = $(`<div id="html_e1e5f19a419b95d033fd762423600065" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_177ba784fcdfbd19e98e6ccdacbb94ec.setContent(html_e1e5f19a419b95d033fd762423600065);
+            
+        
+
+        circle_marker_69a950f38537e404412fc212d494aed0.bindPopup(popup_177ba784fcdfbd19e98e6ccdacbb94ec)
+        ;
+
+        
+    
+    
+            var circle_marker_0d7da7af74346974474778fe8e6fde32 = L.circleMarker(
+                [46.5, -40.5],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_9779fc0d26d51a8e63ba598986b5f834 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0d62482bb214e22daf2ad12ae2361f0 = $(`<div id="html_c0d62482bb214e22daf2ad12ae2361f0" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_9779fc0d26d51a8e63ba598986b5f834.setContent(html_c0d62482bb214e22daf2ad12ae2361f0);
+            
+        
+
+        circle_marker_0d7da7af74346974474778fe8e6fde32.bindPopup(popup_9779fc0d26d51a8e63ba598986b5f834)
+        ;
+
+        
+    
+    
+            var circle_marker_d10060d075f9b5a21f3dc161eea6b4a8 = L.circleMarker(
+                [39.98, -68.93],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_7f09bca10db362900eb0f53758cc4fde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c63eb11716b2f22af2121c57809716d6 = $(`<div id="html_c63eb11716b2f22af2121c57809716d6" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_7f09bca10db362900eb0f53758cc4fde.setContent(html_c63eb11716b2f22af2121c57809716d6);
+            
+        
+
+        circle_marker_d10060d075f9b5a21f3dc161eea6b4a8.bindPopup(popup_7f09bca10db362900eb0f53758cc4fde)
+        ;
+
+        
+    
+    
+            var circle_marker_79d3bc3d6f9214c1220ea85e671de544 = L.circleMarker(
+                [31.81, -79.25],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_eb880d408a9625a63193404c82265e9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad55d58b935df564f5c290b538d3f271 = $(`<div id="html_ad55d58b935df564f5c290b538d3f271" style="width: 100.0%; height: 100.0%;">Thunnus atlanticus</div>`)[0];
+                popup_eb880d408a9625a63193404c82265e9d.setContent(html_ad55d58b935df564f5c290b538d3f271);
+            
+        
+
+        circle_marker_79d3bc3d6f9214c1220ea85e671de544.bindPopup(popup_eb880d408a9625a63193404c82265e9d)
+        ;
+
+        
+    
+    
+            var circle_marker_ba3a1276e77f84f72ca69f82b0b2504b = L.circleMarker(
+                [-34.3568992615, 18.4972000122],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_007d635e43d5e3166082bab82e0db53b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85b85d43dba2100fef9c013f2a94e849 = $(`<div id="html_85b85d43dba2100fef9c013f2a94e849" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_007d635e43d5e3166082bab82e0db53b.setContent(html_85b85d43dba2100fef9c013f2a94e849);
+            
+        
+
+        circle_marker_ba3a1276e77f84f72ca69f82b0b2504b.bindPopup(popup_007d635e43d5e3166082bab82e0db53b)
+        ;
+
+        
+    
+    
+            var circle_marker_da66046048e93509294e99c55991826d = L.circleMarker(
+                [34.1166667938, -75.5833320618],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_5f1a4ae0472dedff8815991734d845bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6958962582cc8c668a5cb06080f0c8b = $(`<div id="html_f6958962582cc8c668a5cb06080f0c8b" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_5f1a4ae0472dedff8815991734d845bd.setContent(html_f6958962582cc8c668a5cb06080f0c8b);
+            
+        
+
+        circle_marker_da66046048e93509294e99c55991826d.bindPopup(popup_5f1a4ae0472dedff8815991734d845bd)
+        ;
+
+        
+    
+    
+            var circle_marker_718d1f326c2451cef1249c6adcc94841 = L.circleMarker(
+                [35.53, -74.78],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_82510955bc54f8ddbebbad21f21c9114 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ba56cd310750fca9591bc17c498c747 = $(`<div id="html_6ba56cd310750fca9591bc17c498c747" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_82510955bc54f8ddbebbad21f21c9114.setContent(html_6ba56cd310750fca9591bc17c498c747);
+            
+        
+
+        circle_marker_718d1f326c2451cef1249c6adcc94841.bindPopup(popup_82510955bc54f8ddbebbad21f21c9114)
+        ;
+
+        
+    
+    
+            var circle_marker_38f77e96223bd9a0bea7e2b6e4188b32 = L.circleMarker(
+                [38.0, -72.0],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_3bbfed26291a8021e497087b931d45b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd130696de136be2cc1928a8253c808c = $(`<div id="html_fd130696de136be2cc1928a8253c808c" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_3bbfed26291a8021e497087b931d45b7.setContent(html_fd130696de136be2cc1928a8253c808c);
+            
+        
+
+        circle_marker_38f77e96223bd9a0bea7e2b6e4188b32.bindPopup(popup_3bbfed26291a8021e497087b931d45b7)
+        ;
+
+        
+    
+    
+            var circle_marker_77bfeda3dc7c40be29ed7ce312f1211b = L.circleMarker(
+                [9.250139, -21.333473],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_96b49716152bbdb2ce838a1fba142f5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc51b4f42c178fa4acda03abcf876909 = $(`<div id="html_bc51b4f42c178fa4acda03abcf876909" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_96b49716152bbdb2ce838a1fba142f5d.setContent(html_bc51b4f42c178fa4acda03abcf876909);
+            
+        
+
+        circle_marker_77bfeda3dc7c40be29ed7ce312f1211b.bindPopup(popup_96b49716152bbdb2ce838a1fba142f5d)
+        ;
+
+        
+    
+    
+            var circle_marker_6e138ea8e389b33b435e121ce05075a1 = L.circleMarker(
+                [38.32696667, -29.5233],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_468377b433ef99de8f007693239d6f17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_010798372e647971cfd7a0646a957262 = $(`<div id="html_010798372e647971cfd7a0646a957262" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_468377b433ef99de8f007693239d6f17.setContent(html_010798372e647971cfd7a0646a957262);
+            
+        
+
+        circle_marker_6e138ea8e389b33b435e121ce05075a1.bindPopup(popup_468377b433ef99de8f007693239d6f17)
+        ;
+
+        
+    
+    
+            var circle_marker_934f829285dfa087afccbadf17a8009d = L.circleMarker(
+                [26.23, -93.06],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_9c969f4297eae6377b413437b6b390a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe5da99d648c2a99ab58318c23f8d697 = $(`<div id="html_fe5da99d648c2a99ab58318c23f8d697" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_9c969f4297eae6377b413437b6b390a1.setContent(html_fe5da99d648c2a99ab58318c23f8d697);
+            
+        
+
+        circle_marker_934f829285dfa087afccbadf17a8009d.bindPopup(popup_9c969f4297eae6377b413437b6b390a1)
+        ;
+
+        
+    
+    
+            var circle_marker_dda5ed91bffb6387f246f2eafe9a2657 = L.circleMarker(
+                [40.38, -67.41],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_7b868e938b4721caa3971cb88f48fa87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d947b1004db7c07bac23cbba47c08756 = $(`<div id="html_d947b1004db7c07bac23cbba47c08756" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_7b868e938b4721caa3971cb88f48fa87.setContent(html_d947b1004db7c07bac23cbba47c08756);
+            
+        
+
+        circle_marker_dda5ed91bffb6387f246f2eafe9a2657.bindPopup(popup_7b868e938b4721caa3971cb88f48fa87)
+        ;
+
+        
+    
+    
+            var circle_marker_6bc431463f15d3c7746602755693254f = L.circleMarker(
+                [4.25, 59.82],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_d760b5dd770a23a1dbd1c55e233188f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd9a75e682cf41a65ea7accbb3ea4e6c = $(`<div id="html_cd9a75e682cf41a65ea7accbb3ea4e6c" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_d760b5dd770a23a1dbd1c55e233188f1.setContent(html_cd9a75e682cf41a65ea7accbb3ea4e6c);
+            
+        
+
+        circle_marker_6bc431463f15d3c7746602755693254f.bindPopup(popup_d760b5dd770a23a1dbd1c55e233188f1)
+        ;
+
+        
+    
+    
+            var circle_marker_fc0dba9dbe49225282abf9c7b4d4ae2c = L.circleMarker(
+                [37.35, -73.75],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_a8cd538e2c68c3ba58130a44fbc8c7cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_211a33934032d37f01dbee6251106920 = $(`<div id="html_211a33934032d37f01dbee6251106920" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_a8cd538e2c68c3ba58130a44fbc8c7cf.setContent(html_211a33934032d37f01dbee6251106920);
+            
+        
+
+        circle_marker_fc0dba9dbe49225282abf9c7b4d4ae2c.bindPopup(popup_a8cd538e2c68c3ba58130a44fbc8c7cf)
+        ;
+
+        
+    
+    
+            var circle_marker_6b83a1fa4ff6b3e5a8ecb31e1b14c3a0 = L.circleMarker(
+                [6.300139, -22.60014],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_97a15dbdb542a7616c7a9a703909af29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_990ab43bb4a858e7f984e3986b399513 = $(`<div id="html_990ab43bb4a858e7f984e3986b399513" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_97a15dbdb542a7616c7a9a703909af29.setContent(html_990ab43bb4a858e7f984e3986b399513);
+            
+        
+
+        circle_marker_6b83a1fa4ff6b3e5a8ecb31e1b14c3a0.bindPopup(popup_97a15dbdb542a7616c7a9a703909af29)
+        ;
+
+        
+    
+    
+            var circle_marker_7381aa6257501d453dc45ebe8497de31 = L.circleMarker(
+                [-16.83, 42.33],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_24b6d73229aa2624f961425cbabb652b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9bc4fd3a919af43d7a4c0f9faa84fec = $(`<div id="html_f9bc4fd3a919af43d7a4c0f9faa84fec" style="width: 100.0%; height: 100.0%;">Thunnus obesus</div>`)[0];
+                popup_24b6d73229aa2624f961425cbabb652b.setContent(html_f9bc4fd3a919af43d7a4c0f9faa84fec);
+            
+        
+
+        circle_marker_7381aa6257501d453dc45ebe8497de31.bindPopup(popup_24b6d73229aa2624f961425cbabb652b)
+        ;
+
+        
+    
+    
+            var circle_marker_fc49ef8d306591d9a306733788b6ea8c = L.circleMarker(
+                [26.86, -91.75],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_fdf25ea6b6406523cc8bc83e4075bbfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27196d1608f16fb4d9d04a6acd536f06 = $(`<div id="html_27196d1608f16fb4d9d04a6acd536f06" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_fdf25ea6b6406523cc8bc83e4075bbfb.setContent(html_27196d1608f16fb4d9d04a6acd536f06);
+            
+        
+
+        circle_marker_fc49ef8d306591d9a306733788b6ea8c.bindPopup(popup_fdf25ea6b6406523cc8bc83e4075bbfb)
+        ;
+
+        
+    
+    
+            var circle_marker_387d39708a55e9816dfa2d560f53d0ec = L.circleMarker(
+                [-36.838433333333, 52.1509],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_a4c61867d146fc96f3bdb267af2b24e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_883b4a9b1404bb34c21df1b0feb701af = $(`<div id="html_883b4a9b1404bb34c21df1b0feb701af" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_a4c61867d146fc96f3bdb267af2b24e7.setContent(html_883b4a9b1404bb34c21df1b0feb701af);
+            
+        
+
+        circle_marker_387d39708a55e9816dfa2d560f53d0ec.bindPopup(popup_a4c61867d146fc96f3bdb267af2b24e7)
+        ;
+
+        
+    
+    
+            var circle_marker_f65ac87d6ad61515643afdede8df42a1 = L.circleMarker(
+                [-0.10013889, 3.500139],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_77ca84bb26d5d4a08ca070929ca79b9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7229169c4bca9af4fd6f498528bce68b = $(`<div id="html_7229169c4bca9af4fd6f498528bce68b" style="width: 100.0%; height: 100.0%;">Thunnus albacares</div>`)[0];
+                popup_77ca84bb26d5d4a08ca070929ca79b9a.setContent(html_7229169c4bca9af4fd6f498528bce68b);
+            
+        
+
+        circle_marker_f65ac87d6ad61515643afdede8df42a1.bindPopup(popup_77ca84bb26d5d4a08ca070929ca79b9a)
+        ;
+
+        
+    
+    
+            var circle_marker_517d5f0719c80bd9d7069cbfcff99a00 = L.circleMarker(
+                [-34.0527992249, 18.3549995422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_28c8ef96239c06c0416c8bcfef98d14a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9003647fdca62b3350be6c74946c3951 = $(`<div id="html_9003647fdca62b3350be6c74946c3951" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_28c8ef96239c06c0416c8bcfef98d14a.setContent(html_9003647fdca62b3350be6c74946c3951);
+            
+        
+
+        circle_marker_517d5f0719c80bd9d7069cbfcff99a00.bindPopup(popup_28c8ef96239c06c0416c8bcfef98d14a)
+        ;
+
+        
+    
+    
+            var circle_marker_0b29516ad20218b217604418d41a93d2 = L.circleMarker(
+                [-33.4255981445, 18.0886001587],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+    
+        var popup_56ba3ccacb5cbbc9cae672c31d424ff4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_157fa456ef69c51b8839ca2bf2480294 = $(`<div id="html_157fa456ef69c51b8839ca2bf2480294" style="width: 100.0%; height: 100.0%;">Thunnus alalunga</div>`)[0];
+                popup_56ba3ccacb5cbbc9cae672c31d424ff4.setContent(html_157fa456ef69c51b8839ca2bf2480294);
+            
+        
+
+        circle_marker_0b29516ad20218b217604418d41a93d2.bindPopup(popup_56ba3ccacb5cbbc9cae672c31d424ff4)
+        ;
+
+        
+    
+    
+            tile_layer_f2456f27217f83a70c8264d0e399d56b.addTo(map_33de23de5ea8bc4fcf1f8064d0f35a8d);
+        
+</script>
+</html>
