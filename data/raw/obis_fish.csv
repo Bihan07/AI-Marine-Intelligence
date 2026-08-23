@@ -1,0 +1,1001 @@
+id,scientificName,species,genus,family,phylum,class,eventDate,decimalLatitude,decimalLongitude,depth,minimumDepthInMeters,maximumDepthInMeters,country,locality,marine,basisOfRecord
+0000a7ca-eb6e-493a-a44d-3ae09752f559,Ariidae,,,Ariidae,Chordata,Teleostei,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+0000c880-c63b-4023-b86f-0676908549f0,Coryphaena hippurus,Coryphaena hippurus,Coryphaena,Coryphaenidae,Chordata,Teleostei,,2.15092,66.9892933333329,,,,,,True,Occurrence
+0000fa67-11e9-4f61-8f86-0819b674b639,Auxis,,Auxis,Scombridae,Chordata,Teleostei,2009-08-04/2009-08-20,9.99,75.64,100.0,,100.0,,Kochi,True,HumanObservation
+00015a81-0620-4351-adfb-67225a917bc6,Decapterus punctatus,Decapterus punctatus,Decapterus,Carangidae,Chordata,Teleostei,1968-01-18,10.0,65.0,,,,,,True,preservedspecimen
+0002af27-d733-4557-88da-d4e54d81fa02,Tetrosomus gibbosus,Tetrosomus gibbosus,Tetrosomus,Ostraciidae,Chordata,Teleostei,1758,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+0002cf46-6d6e-4cb8-bd8f-038e83fa411d,Scomberoides commersonnianus,Scomberoides commersonnianus,Scomberoides,Carangidae,Chordata,Teleostei,,11.9829998016,79.8330001831,,,,Inde,,True,PreservedSpecimen
+0002f86d-e4b2-4986-ba57-1d9ee4711e57,Cirripectes variolosus,Cirripectes variolosus,Cirripectes,Blenniidae,Chordata,Teleostei,2000/2002,8.26,73.04,,,,,Minicoy Lagoon,True,HumanObservation
+0002fcea-069a-4735-8b43-4ebeb321214e,Gymnothorax meleagris,Gymnothorax meleagris,Gymnothorax,Muraenidae,Chordata,Teleostei,,10.0,75.0,7.0,7.0,,Inde,,True,PreservedSpecimen
+00030b4b-0f52-4e18-bf90-df8c54ca44e3,Bathygobius cocosensis,Bathygobius cocosensis,Bathygobius,Gobiidae,Chordata,Teleostei,2010-04-02,11.26667,92.68333,0.5,0.0,1.0,,SW coast of island,True,PreservedSpecimen
+00034926-868a-4b89-8e0d-d7d4c2d33054,Lampanyctus nobilis,Lampanyctus nobilis,Lampanyctus,Myctophidae,Chordata,Teleostei,,3.775,65.09166667,,,,High Seas,,True,PreservedSpecimen
+00047ea4-c2fe-4eb3-9832-eeb70f4410b7,Johnius plagiostoma,Johnius plagiostoma,Johnius,Sciaenidae,Chordata,Teleostei,1963-04-04T18:00:00Z,21.5,91.5,17.0,17.0,17.0,Bangladesh,,True,PreservedSpecimen
+0005263e-2b50-4559-85ba-5ac9cbfe58ee,Macolor macularis,Macolor macularis,Macolor,Lutjanidae,Chordata,Teleostei,2024-01-04T06:35:00+05:00,4.6343432636,73.5614085163,,,,,,True,HumanObservation
+000671c0-5af2-4c4e-bb4d-97e501556a61,Epinephelus fasciatus,Epinephelus fasciatus,Epinephelus,Epinephelidae,Chordata,Teleostei,1775-07-02T12:00:00Z,11.1166667938,92.8166656494,,,,,Andaman Islands,True,HumanObservation
+0007ca41-86ca-4848-871d-e9acff30d055,Amphiprion clarkii,Amphiprion clarkii,Amphiprion,Pomacentridae,Chordata,Teleostei,2010-03-15T07:45:00-04:00,5.9670684483,73.3055483733,,,,,,True,HumanObservation
+00098a89-94e8-4599-96f1-fe4fe2f08971,Platax teira,Platax teira,Platax,Ephippidae,Chordata,Teleostei,2019-11-17T11:05:00+01:00,5.9543954812,73.1219453026,,,,,,True,HumanObservation
+000aad6c-5b3e-405e-9ee3-562859c1cb3c,Istigobius decoratus,Istigobius decoratus,Istigobius,Gobiidae,Chordata,Teleostei,,8.543261,81.218222,,,,Sri Lanka,,True,PreservedSpecimen
+000b2a46-1bf7-4c95-a9e0-918eaef3b7ee,Symbolophorus rufinus,Symbolophorus rufinus,Symbolophorus,Myctophidae,Chordata,Teleostei,,3.45,73.8333333,,,,Maldives,,True,PreservedSpecimen
+000b982e-0b86-473a-ab8e-d81e407eaa98,Cantherhines pardalis,Cantherhines pardalis,Cantherhines,Monacanthidae,Chordata,Teleostei,2021-09-27T11:58:00+02:00,1.0099775788,72.8715670109,,,,,,True,HumanObservation
+000d7589-4bbb-46ec-8699-1dc7c9ec4786,Mulloidichthys flavolineatus,Mulloidichthys flavolineatus,Mulloidichthys,Mullidae,Chordata,Teleostei,1874,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+000da61f-0609-497f-93ea-20d2528d1420,Glossogobius giuris,Glossogobius giuris,Glossogobius,Gobiidae,Chordata,Teleostei,1941-01-17,9.925555,78.12422,,,,India,Madura.,True,PreservedSpecimen
+000ee3df-1508-4c16-9ccb-6d435be81492,Ostorhinchus cookii,Ostorhinchus cookii,Ostorhinchus,Apogonidae,Chordata,Teleostei,1911-08-25,10.333582,76.077319,,,,India,Off coast of Travencore.,True,PreservedSpecimen
+000f2557-5d3e-44fd-9fe8-1be252a94cee,Priacanthus,,Priacanthus,Priacanthidae,Chordata,Teleostei,2015-01-04/19,11.81545,92.27491667,308.0,291.0,325.0,India,Andaman Sea,True,HumanObservation
+000f6de8-e34b-489a-b384-878446e6609a,Cephalopholis leopardus,Cephalopholis leopardus,Cephalopholis,Epinephelidae,Chordata,Teleostei,2011-12-12T17:47:00+05:00,2.0313645996,73.520507977,,,,,,True,HumanObservation
+000f94d7-43b1-49b3-bc1b-9cd8d039a02c,Chaetodon falcula,Chaetodon falcula,Chaetodon,Chaetodontidae,Chordata,Teleostei,2022-08-01T17:23:00+05:00,4.2256487181,73.5196594859,,,,,,True,HumanObservation
+001117c5-6398-4a9e-8663-6b2916db3bb9,Pygoplites diacanthus,Pygoplites diacanthus,Pygoplites,Pomacanthidae,Chordata,Teleostei,2024-07-06T02:10:00+05:00,5.4637820802,72.978602757,,,,,,True,HumanObservation
+00126f02-4340-4a53-896a-2ed40d58bdf3,Valenciennea sexguttata,Valenciennea sexguttata,Valenciennea,Gobiidae,Chordata,Teleostei,,8.543261,81.218222,,,,Sri Lanka,,True,PreservedSpecimen
+0012c413-a834-4d0f-a123-77b6ce4ee775,Cheilinus undulatus,Cheilinus undulatus,Cheilinus,Labridae,Chordata,Teleostei,2019-03-28T18:31:00+08:00,3.202778,73.22068,,,,,,True,HumanObservation
+00138ca5-42c9-4768-8cb5-207bf0a3eea6,Johnius belangerii,Johnius belangerii,Johnius,Sciaenidae,Chordata,Teleostei,,21.9442127684078,88.8980217778187,,,,India,Indian Sundarbans,True,HumanObservation
+001471f5-1dca-4c4b-961b-a2c9d805a3ce,Pseudanthias pulcherrimus,Pseudanthias pulcherrimus,Pseudanthias,Anthiadidae,Chordata,Teleostei,2011-12-15T08:12:00+05:00,2.0313645996,73.520507977,,,,,,True,HumanObservation
+00160e46-d24e-4568-937b-82f3928fc366,Setipinna taty,Setipinna taty,Setipinna,Engraulidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230174,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+0016ba81-dc20-4546-b9f2-d3f128c89196,Chaetodon falcula,Chaetodon falcula,Chaetodon,Chaetodontidae,Chordata,Teleostei,2026-01-10T16:11:00+05:00,5.0644434888,73.0318884212,,,,,,True,HumanObservation
+0018c973-b5a1-4db4-940d-ea129f8ebbff,Ariidae,,,Ariidae,Chordata,Teleostei,2023-01-09,21.7039168,89.2609951,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+0018d496-fc1a-4be4-bacb-5cb8cbd8a201,Ostichthys kaianus,Ostichthys kaianus,Ostichthys,Holocentridae,Chordata,Teleostei,,9.0,76.0,,,,India,,True,PreservedSpecimen
+0018f1e4-6d20-49ac-8d9d-ec0c4503932b,Chaetodon decussatus,Chaetodon decussatus,Chaetodon,Chaetodontidae,Chordata,Teleostei,2026-02-16T16:42:00+05:30,6.1336995109,80.0985620487,,,,,,True,HumanObservation
+001b1688-9166-4c25-ae0d-dccc43117b00,Coilia ramcarati,Coilia ramcarati,Coilia,Engraulidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+001bfb6a-336a-4c2e-b711-6bdbf62bc830,Parapercis millepunctata,Parapercis millepunctata,Parapercis,Pinguipedidae,Chordata,Teleostei,2023-03-22T10:31:00+05:00,3.5116954134,72.9140669049,,,,,,True,HumanObservation
+001d2286-59d5-4e5a-a6cc-2e1a587dfee2,Lagocephalus spadiceus,Lagocephalus spadiceus,Lagocephalus,Tetraodontidae,Chordata,Teleostei,,18.52149,93.649156,,,,Myanmar [Burma],,True,PreservedSpecimen
+001d2e78-2a80-4eee-a8b9-e0c352cdf35f,Monodactylus argenteus,Monodactylus argenteus,Monodactylus,Monodactylidae,Chordata,Teleostei,1970-06-10T08:42:00Z,7.91333293915,81.5666656494,2.5,2.0,3.0,Sri Lanka,Ceylon: Batticaloa District; Korali Pattu; Kalkudah Bay (Rock Outcrop 100 Ft Offshore of Lone Rock On Beach ca 200 Yds South of Rest House).,True,PreservedSpecimen
+001f13f9-f339-41b3-bdcb-936a3cfc3fa4,Aethaloperca rogaa,Aethaloperca rogaa,Aethaloperca,Epinephelidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,43.0,43.0,43.0,,Tirespuram,True,HumanObservation
+001fa61e-b254-418e-995f-60adb66685e1,Chlorurus strongylocephalus,Chlorurus strongylocephalus,Chlorurus,Scaridae,Chordata,Teleostei,2023-08-07T15:36:00+05:00,5.3599612,72.9195016,,,,,,True,HumanObservation
+0020129f-089c-4768-9d88-ed56aac1e121,Pterois miles,Pterois miles,Pterois,Scorpaenidae,Chordata,Teleostei,2022-10-30T06:52:00+05:00,3.488889,73.698889,,,,,,True,HumanObservation
+00216fe5-b188-401b-af51-d4c96477064c,Torquigener hypselogeneion,Torquigener hypselogeneion,Torquigener,Tetraodontidae,Chordata,Teleostei,,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+00224611-fa20-44aa-b8d6-c4b40a61b914,Vinciguerria,,Vinciguerria,Phosichthyidae,Chordata,Teleostei,,14.3667,85.3333,,,,,,True,PreservedSpecimen
+0023c895-77d8-4980-a2f6-498993b20640,Ferdauia ferdau,Ferdauia ferdau,Ferdauia,Carangidae,Chordata,Teleostei,1969-10-18,7.728449,81.685487,,,,Sri Lanka,"Batticaloa (from St. John's fish market, Colombo).",True,PreservedSpecimen
+00245992-44e2-4fcb-9db4-e9236e0dddda,Parapercis hexophtalma,Parapercis hexophtalma,Parapercis,Pinguipedidae,Chordata,Teleostei,2021-08-11T14:29:35-10:00,5.1507400993,73.1326902285,,,,,,True,HumanObservation
+00254b6a-9ffa-477b-9c59-11914e702de7,Plectorhinchus centurio,Plectorhinchus centurio,Plectorhinchus,Haemulidae,Chordata,Teleostei,2023-05-29,17.5603331291,83.4039980918,,,,,,True,HumanObservation
+002569da-b5aa-4bb0-b323-c7bcc6cfbc9b,Aprion virescens,Aprion virescens,Aprion,Lutjanidae,Chordata,Teleostei,2011-12-13T12:02:00+05:00,2.0313645996,73.520507977,,,,,,True,HumanObservation
+0028fbb0-12d5-4436-9131-b06f8788f212,Chaetodon triangulum,Chaetodon triangulum,Chaetodon,Chaetodontidae,Chordata,Teleostei,2025-02-26T15:56:00+05:00,5.48972108,72.938845156,,,,,,True,HumanObservation
+002a9430-e58b-4262-914b-89a6e7a303b9,Cephalopholis argus,Cephalopholis argus,Cephalopholis,Epinephelidae,Chordata,Teleostei,2023-03-31T09:24:00+05:00,4.2972144678,73.5541350828,,,,,,True,HumanObservation
+002b3af3-9d9e-4181-8c84-9358ba814675,Anguilla bicolor,Anguilla bicolor,Anguilla,Anguillidae,Chordata,Teleostei,,6.916667,80.183333,,,,Sri Lanka,,True,PreservedSpecimen
+002ba565-8bb5-42d7-a047-ed5d61795f38,Zanclus cornutus,Zanclus cornutus,Zanclus,Zanclidae,Chordata,Teleostei,2025-10-20T02:52:00+05:30,11.9760503,92.9875565,,,,,,True,HumanObservation
+002c4d54-b118-408c-a64c-1314c5b086f7,Plectorhinchus vittatus,Plectorhinchus vittatus,Plectorhinchus,Haemulidae,Chordata,Teleostei,2008-01-30T11:33:00+05:00,4.2850944444,73.4269638889,,,,,,True,HumanObservation
+002d93ac-c1b6-488f-84dd-43b4e600a3ce,Actinopteri,,,,Chordata,,2023-01-09,21.7933049,89.2808746,,,,,Sundarban's west wildlife sanctuary,True,MachineObservation
+002dcf33-5359-4507-8114-58ff94db5937,Thalassoma hardwicke,Thalassoma hardwicke,Thalassoma,Labridae,Chordata,Teleostei,1969/1980,10.94,72.29,,,,,Bangaram,True,HumanObservation
+002e0abb-6bac-4393-9c21-7674fd7a28fd,Parascolopsis capitinis,Parascolopsis capitinis,Parascolopsis,Nemipteridae,Chordata,Teleostei,1970-05-03T12:00:00Z,8.60000038147,81.1999969482,,,,Sri Lanka,Ceylon - Fish Market In Colombo (Fish Landed At Trincomalee),True,PreservedSpecimen
+002e1287-91aa-4cb7-bc06-7aa77dcce835,Pseudobalistes flavimarginatus,Pseudobalistes flavimarginatus,Pseudobalistes,Balistidae,Chordata,Teleostei,1829,10.0,93.0,,,,,Andaman & Nicobar Islands,True,HumanObservation
+002e6967-d764-48b0-8cc5-818de74feba7,Chaetodon trifasciatus,Chaetodon trifasciatus,Chaetodon,Chaetodontidae,Chordata,Teleostei,,3.080833,72.96575,,,,Maldives,Faafu_Atoll,True,PreservedSpecimen
+0032ca12-f609-449d-acd2-49a262a731ad,Parupeneus cyclostomus,Parupeneus cyclostomus,Parupeneus,Mullidae,Chordata,Teleostei,2025-01-13T15:09:00+05:00,4.5328002137,73.3736049011,,,,,,True,HumanObservation
+0032e15c-547a-4609-8691-726ace089279,Engraulidae,,,Engraulidae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+0033a5c6-def9-4080-9a52-b70197b0fd62,Melichthys indicus,Melichthys indicus,Melichthys,Balistidae,Chordata,Teleostei,2024-08-05T15:28:10+05:00,5.7348519064,73.3540268629,,,,,,True,HumanObservation
+0034ca68-2fd5-49dd-aa11-0c03ba27cb39,Cynoglossus lida,Cynoglossus lida,Cynoglossus,Cynoglossidae,Chordata,Teleostei,2012-01-01/2012-04-30,9.233333333,79.18333333,,,,India,Poomarichan Island,True,HumanObservation
+0034eabd-a633-47c7-b355-b1b09f5a4bd1,Rhabdosargus sarba,Rhabdosargus sarba,Rhabdosargus,Sparidae,Chordata,Teleostei,,21.9442127684078,88.8980217778187,,,,India,Indian Sundarbans,True,HumanObservation
+0036979b-e777-4b16-90b6-992da10c3805,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.95575,65.7544999999999,,,,,,True,Occurrence
+003727e4-1cf5-46db-b3af-6c713dc4a241,Tylosurus crocodilus,Tylosurus crocodilus,Tylosurus,Belonidae,Chordata,Teleostei,2025-12-20T10:03:03+05:00,4.22888,73.520905,,,,,,True,HumanObservation
+003751b8-dfd6-4ba8-8a7a-c03ea7503725,Cantherhines dumerilii,Cantherhines dumerilii,Cantherhines,Monacanthidae,Chordata,Teleostei,2019-04-08T10:17:00+05:00,3.2149680399,73.0355465664,,,,,,True,HumanObservation
+0037f57b-1051-440a-ba86-bbcfd69effc5,Parupeneus trifasciatus,Parupeneus trifasciatus,Parupeneus,Mullidae,Chordata,Teleostei,2025-10-04T12:35:00+05:00,2.1340007946,73.5862394517,,,,,,True,HumanObservation
+0039f56e-481d-47ad-aa3b-acc39cb086b9,Gomphosus caeruleus,Gomphosus caeruleus,Gomphosus,Labridae,Chordata,Teleostei,2022-04-04T08:41:00-10:00,3.4978092354,72.9021015767,,,,,,True,HumanObservation
+003a8dc4-6e2a-4036-adbb-3d1800aa6b41,Amphiprion clarkii,Amphiprion clarkii,Amphiprion,Pomacentridae,Chordata,Teleostei,2021-05-20T08:03:00-10:00,3.9600967,72.9071618,,,,,,True,HumanObservation
+003c8b4e-8422-4c3f-840a-667f61f7512e,Acanthurus gahhm,Acanthurus gahhm,Acanthurus,Acanthuridae,Chordata,Teleostei,,4.1,72.7417,,,,Maldives,,True,PreservedSpecimen
+003c958b-726b-4845-8f99-72a2082d2eaf,Epigonus pandionis,Epigonus pandionis,Epigonus,Epigonidae,Chordata,Teleostei,1998/2007,12.4779,73.2697,350.0,200.0,500.0,,Southwest coast of India,True,HumanObservation
+003cf651-de6c-453d-89df-e97ad14c2a84,Actinopteri,,,,Chordata,,2023-01-09,21.7933049,89.2808746,,,,,Sundarban's west wildlife sanctuary,True,MachineObservation
+003d21e5-53b5-4b36-8795-57c6a94217c5,Acanthocybium solandri,Acanthocybium solandri,Acanthocybium,Scombridae,Chordata,Teleostei,,0.36680555,67.6668,,,,,,True,Occurrence
+003ea100-1848-4dac-b1b1-ae6e192b48cc,Lutjanus monostigma,Lutjanus monostigma,Lutjanus,Lutjanidae,Chordata,Teleostei,2025-11-16T08:24:00+05:00,4.6347889721,73.5620307016,,,,,,True,HumanObservation
+003ea281-3281-4745-9c23-42623b2a4941,Pomacentrus indicus,Pomacentrus indicus,Pomacentrus,Pomacentridae,Chordata,Teleostei,2025-03-11T14:13:00+05:00,4.1835791334,72.773314243,,,,,,True,HumanObservation
+003f30d9-ed32-438c-8140-48b171e54667,Colletteichthys dussumieri,Colletteichthys dussumieri,Colletteichthys,Batrachoididae,Chordata,Teleostei,,18.9330005646,72.8499984741,,,,Inde,,True,PreservedSpecimen
+003f3dd1-98a8-4d84-8fdd-d50e62832496,Scatophagus argus,Scatophagus argus,Scatophagus,Scatophagidae,Chordata,Teleostei,2023-01-09,21.703926,89.2610127,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+003f7aa0-9d79-4496-abe1-7d6cb93267bc,Argyropelecus hemigymnus,Argyropelecus hemigymnus,Argyropelecus,Sternoptychidae,Chordata,Teleostei,1985/1987,12.8,86.0,220.0,40.0,400.0,,Bay of Bengal,True,HumanObservation
+003fc8b5-07d8-48c9-9b9b-a1ee65598232,Megalaspis cordyla,Megalaspis cordyla,Megalaspis,Carangidae,Chordata,Teleostei,,6.935352,79.868721,,,,Sri Lanka,,True,PreservedSpecimen
+0040462f-4e24-4752-be5f-fdbc56de2917,Echidna nebulosa,Echidna nebulosa,Echidna,Muraenidae,Chordata,Teleostei,2024-01-20T13:46:00+05:00,4.2566248,73.5399411,,,,,,True,HumanObservation
+00410505-95de-492a-972d-c00557378546,Leiognathidae,,,Leiognathidae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+00424b12-e834-4aab-9219-eaa585d36d6b,Chanda nama,Chanda nama,Chanda,Ambassidae,Chordata,Teleostei,1996-06-05,21.30084,92.081652,,,,Bangladesh,First large tidal stream on road to Tek Naf from Cox Bazar.,False,PreservedSpecimen
+00425f42-190c-4ea9-a17d-34aa82fe9d41,Lutjanus lutjanus,Lutjanus lutjanus,Lutjanus,Lutjanidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,22.0,22.0,22.0,,Tuticorin,True,HumanObservation
+0043bb04-f3e7-4fae-ad66-c0de3230bfd3,Amphiprion clarkii,Amphiprion clarkii,Amphiprion,Pomacentridae,Chordata,Teleostei,2026-03-23T14:43:00+05:00,4.0000144,72.7859088,,,,,,True,HumanObservation
+0043f683-1a9c-4f25-b207-cce0a3809363,Parapterois,,Parapterois,Scorpaenidae,Chordata,Teleostei,1963-11-13,17.416667,71.65,101.0,96.0,106.0,India,India,True,PreservedSpecimen
+004559f0-0ec6-4a8a-bede-a487aa6c93af,Hygophum reinhardtii,Hygophum reinhardtii,Hygophum,Myctophidae,Chordata,Teleostei,1964-11-11,6.716667,78.783333,75.0,70.0,80.0,,Indian Ocean,True,PreservedSpecimen
+004652ce-9dcb-472a-aaa8-7c550b459a88,Otolithes ruber,Otolithes ruber,Otolithes,Sciaenidae,Chordata,Teleostei,1801,18.963612,72.933334,,,,,Elephanta Island,True,HumanObservation
+0047a49f-b232-4f6d-96fe-2930ae812ef8,Caranx tille,Caranx tille,Caranx,Carangidae,Chordata,Teleostei,,8.568959,81.229556,,,,Sri Lanka,,True,PreservedSpecimen
+0048da28-db51-461a-9fff-7739b6a2f16f,Setipinna tenuifilis,Setipinna tenuifilis,Setipinna,Engraulidae,Chordata,Teleostei,2023-01-09,21.7566388,89.2229824,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+004a37a1-ef6d-43c7-85ac-328385c00c65,Ostracion cubicum,Ostracion cubicum,Ostracion,Ostraciidae,Chordata,Teleostei,2024-10-15T07:23:00+05:30,12.0369370261,92.9891986436,,,,,,True,HumanObservation
+004d0d84-5f82-4d5b-b449-fbde50e2468d,Hemitaurichthys zoster,Hemitaurichthys zoster,Hemitaurichthys,Chaetodontidae,Chordata,Teleostei,2025-07-18T11:40:00+05:00,3.9611648057,72.8084222128,,,,,,True,HumanObservation
+004d2cde-a07c-4bf9-81bb-b3c74a0ff945,Zenarchopterus,,Zenarchopterus,Zenarchopteridae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+004dc278-3b76-4c6a-ad31-79244d122f6a,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.90548999999999,75.067066666667,,,,,,True,Occurrence
+0052307e-70c4-490c-8677-b447d13e9624,Gobiopsis woodsi,Gobiopsis woodsi,Gobiopsis,Gobiidae,Chordata,Teleostei,1978-07-02T12:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+0052c69e-29c1-4102-a7fc-45b379101efe,Gerres setifer,Gerres setifer,Gerres,Gerreidae,Chordata,Teleostei,,19.7666664124,85.3333358765,,,,,"Chilka Lake, Orissa, India",True,HumanObservation
+00541f16-54ab-41c9-9270-cc80ffeb2d27,Boleophthalmus dussumieri,Boleophthalmus dussumieri,Boleophthalmus,Gobiidae,Chordata,Teleostei,,18.9750003815,72.8258361816,,,,,"Mumbai , Maharashtra, India",True,HumanObservation
+0054b5dd-5325-4131-babe-eb198758d522,Cephalopholis argus,Cephalopholis argus,Cephalopholis,Epinephelidae,Chordata,Teleostei,2025-03-12T12:11:00+05:00,4.2145396884,72.8628678376,,,,,,True,HumanObservation
+0054e5ae-7ba7-4984-95cb-83c11c0757a4,Hyporhamphus quoyi,Hyporhamphus quoyi,Hyporhamphus,Hemiramphidae,Chordata,Teleostei,1846-07-02T12:00:00Z,8.5,79.0,,,,,Gulf of Mannar,True,HumanObservation
+00551e56-ba66-4218-8648-08f186d0663c,Eviota mikiae,Eviota mikiae,Eviota,Gobiidae,Chordata,Teleostei,2024-08-09T11:19:36+05:00,4.0162296152,72.9478747389,,,,,,True,HumanObservation
+0058df54-a4e1-4017-870f-e5e1145928ce,Chaetodon auriga,Chaetodon auriga,Chaetodon,Chaetodontidae,Chordata,Teleostei,2009/2011,8.81,78.1897,,,,India,Gulf of Mannar,True,HumanObservation
+005cf32e-3960-426f-99ca-517f69b1e934,Balistoides conspicillum,Balistoides conspicillum,Balistoides,Balistidae,Chordata,Teleostei,2025-06-01T20:12:36+05:00,3.9036009,73.3579749,,,,,,True,HumanObservation
+005d7153-8279-4e22-89fe-5b56645b8bdd,Abantennarius coccineus,Abantennarius coccineus,Abantennarius,Antennariidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,38.0,38.0,38.0,,"Chinnamuttom, Kanyakumari",True,HumanObservation
+005dd8d8-7db7-4ba5-9806-78415b60b577,Actinopteri,,,,Chordata,,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+006105c7-551c-4cac-8b42-e3e21416fb6f,Pomadasys argyreus,Pomadasys argyreus,Pomadasys,Haemulidae,Chordata,Teleostei,,0.0,90.0,,,,indonesie,,True,PreservedSpecimen
+0061d163-d34a-4f31-9d68-07560e0118bd,Myripristis adusta,Myripristis adusta,Myripristis,Holocentridae,Chordata,Teleostei,2019-03-11T10:10:00+05:00,3.6548890239,72.8082608381,,,,,,True,HumanObservation
+006244eb-da85-4ee0-8b8d-989d710bb63f,Argyrops spinifer,Argyrops spinifer,Argyrops,Sparidae,Chordata,Teleostei,1969-12-16T06:30:00Z,7.80000019073,80.0,49.0,49.0,49.0,Sri Lanka,Wadge Banks,True,PreservedSpecimen
+0062e1bb-b18a-468a-83ac-cc425cb74c7d,Heniochus acuminatus,Heniochus acuminatus,Heniochus,Chaetodontidae,Chordata,Teleostei,2025-12-22T14:28:00+05:00,3.990164589,72.7181438977,,,,,,True,HumanObservation
+0064733a-3ae3-42ac-aad9-4e51c28c103c,Thalassoma lunare,Thalassoma lunare,Thalassoma,Labridae,Chordata,Teleostei,2023-03-02T07:59:00+05:00,4.2354987394,73.5331864273,,,,,,True,HumanObservation
+006586f4-8eda-4884-99c0-92a842d9ec3e,Johnius,,Johnius,Sciaenidae,Chordata,Teleostei,2023-01-09,21.7566388,89.2229824,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+0065d302-7d9b-4a1e-a6cf-8b87c363f0b5,Gnathodentex aureolineatus,Gnathodentex aureolineatus,Gnathodentex,Lethrinidae,Chordata,Teleostei,2021-01-10T01:43:00+05:00,3.6340568,72.9589142,,,,,,True,HumanObservation
+0067051b-7bed-421e-ba7b-963eccac5597,Lepturacanthus pantului,Lepturacanthus pantului,Lepturacanthus,Trichiuridae,Chordata,Teleostei,1966,20.3167,86.75,,,,,Mahanadi Estuary,True,HumanObservation
+006acdc4-11d4-414a-ba48-5d27b2a73957,Congridae,,,Congridae,Chordata,Teleostei,1990-02-08/1990-02-09,15.0,90.0,,,,,,True,PreservedSpecimen
+006b23b9-a992-448c-a2f8-9f491a564906,Diodon liturosus,Diodon liturosus,Diodon,Diodontidae,Chordata,Teleostei,2023-12-06T15:59:00+05:00,3.202778,73.22068,,,,,,True,HumanObservation
+006c3388-2b46-4ef8-8897-f98c0d57a0c1,Chlorurus strongylocephalus,Chlorurus strongylocephalus,Chlorurus,Scaridae,Chordata,Teleostei,2026-03-15T09:55:45+05:00,5.3413873623,73.6436732937,,,,,,True,HumanObservation
+006c5bd6-1dc1-4bfd-b2fc-3e74aff7ad16,Planiliza,,Planiliza,Mugilidae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+006ca3e8-e93e-4f76-98d4-3d33705f50d2,Parastromateus niger,Parastromateus niger,Parastromateus,Carangidae,Chordata,Teleostei,,11.0,76.0,,,,inde,,True,PreservedSpecimen
+006d229b-dde7-4e04-aeee-ce6a18df055a,Caesio lunaris,Caesio lunaris,Caesio,Caesionidae,Chordata,Teleostei,2015-03-28T08:45:00+01:00,4.5899905729,73.414655373,,,,,,True,HumanObservation
+006d38bb-0520-4d7d-b1f0-a6393044d36d,Scuticaria tigrina,Scuticaria tigrina,Scuticaria,Muraenidae,Chordata,Teleostei,1829-07-02T12:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+006eec6e-0062-48f3-b11a-607c81b9f46a,Naso brevirostris,Naso brevirostris,Naso,Acanthuridae,Chordata,Teleostei,2023-03-30T15:06:21+05:00,4.3554722933,73.6035826219,,,,,,True,HumanObservation
+0070f715-54f8-4b5c-ba65-e37263da04b2,Parupeneus macronemus,Parupeneus macronemus,Parupeneus,Mullidae,Chordata,Teleostei,2025-01-14T15:54:00+05:00,4.5328002137,73.3736049011,,,,,,True,HumanObservation
+00710359-c608-4028-afa8-4226c2790a3a,Xenentodon cancila,Xenentodon cancila,Xenentodon,Belonidae,Chordata,Teleostei,,22.536,88.303,,,,,CALCUTTA MARKET,False,preservedspecimen
+0071990a-2c74-4002-b74d-9ab8ce70ba07,Variola louti,Variola louti,Variola,Epinephelidae,Chordata,Teleostei,2010-12-06,4.180117,73.509633,,,,Maldives,"Male Fish Market, Kaafu Atoll",True,HumanObservation
+0071f457-1595-41ee-a765-6b252b11b9d7,Terapon jarbua,Terapon jarbua,Terapon,Terapontidae,Chordata,Teleostei,2026-05-23T07:25:25+05:30,17.7792411705,83.3867749572,,,,,,True,HumanObservation
+0072b10e-00c5-4d6e-b94d-ba06ffc844d2,Chaetodon citrinellus,Chaetodon citrinellus,Chaetodon,Chaetodontidae,Chordata,Teleostei,2021-12-02T12:02:00+05:30,10.8484567887,72.1800525126,,,,,,True,HumanObservation
+00736933-ae40-402c-92b5-a16267f0b00d,Plectorhinchus gibbosus,Plectorhinchus gibbosus,Plectorhinchus,Haemulidae,Chordata,Teleostei,2004-12-08,3.8223363958,72.8471448438,,,,,,True,HumanObservation
+0073dd80-5707-4467-9e2e-fc4a9b86332e,Clupeidae,,,Clupeidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+0073f7c2-c07d-43db-b22b-68ea8d52ba93,Parupeneus barberinus,Parupeneus barberinus,Parupeneus,Mullidae,Chordata,Teleostei,1988/1989,11.21,72.79,,,,,"Kadmat,Lakshadweep",True,HumanObservation
+00775f5e-bb6e-4ca2-9c78-4c56a8afc566,Ellochelon vaigiensis,Ellochelon vaigiensis,Ellochelon,Mugilidae,Chordata,Teleostei,,11.859092,92.673353,,,,India,,True,PreservedSpecimen
+00778183-b238-4f9d-ab07-5ab1bc25abef,Scomberoides tol,Scomberoides tol,Scomberoides,Carangidae,Chordata,Teleostei,2009,10.2693,79.3264,,,,India,Mallipattinam,True,HumanObservation
+0077e7e7-574a-4354-99b3-19e35147957d,Epinephelus faveatus,Epinephelus faveatus,Epinephelus,Epinephelidae,Chordata,Teleostei,,10.0,75.0,,,,inde,,True,PreservedSpecimen
+00789066-d2d1-4b1b-ad07-1a74ea776790,Caranx ignobilis,Caranx ignobilis,Caranx,Carangidae,Chordata,Teleostei,2025-02-20T08:57:41+05:30,9.7741109722,76.289364,,,,,,True,HumanObservation
+00796ca4-7de0-4716-bba2-44f8faea9c45,Gobiodon erythrospilus,Gobiodon erythrospilus,Gobiodon,Gobiidae,Chordata,Teleostei,1875,12.5,92.75,,,,,Andaman Islands,True,HumanObservation
+007ac7e1-68e6-4f1b-a1b6-f3eb8bf20011,Thunnus alalunga,Thunnus alalunga,Thunnus,Scombridae,Chordata,Teleostei,,4.9557,65.0,,,,,,True,Occurrence
+007cb325-723d-4e8d-b359-ee4a57ae72f8,Anodontostoma chacunda,Anodontostoma chacunda,Anodontostoma,Dorosomatidae,Chordata,Teleostei,2023-01-08,21.8284425,89.1949998,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+007e816c-eaa6-410b-b141-92c7fecd2128,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.95577999999999,73.9222166666669,,,,,,True,Occurrence
+007ed6c1-be60-4338-8870-e733ce7bdf6c,Lagocephalus spadiceus,Lagocephalus spadiceus,Lagocephalus,Tetraodontidae,Chordata,Teleostei,,24.135996,67.318077,,,,Pakistan,,True,PreservedSpecimen
+007f3cef-d4c7-4fc2-9e61-e4fca6f0f939,Eleutheronema,,Eleutheronema,Polynemidae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+0080e593-c031-4d20-a444-2c0974de37c0,Pleuronectiformes,,,,Chordata,Teleostei,,12.0500001907,90.0500030518,,,,,,True,HumanObservation
+0080f79c-7745-4f94-bd3b-1f588de7e546,Gymnothorax javanicus,Gymnothorax javanicus,Gymnothorax,Muraenidae,Chordata,Teleostei,2025-12-21T14:54:00+05:00,4.2237805148,73.5326051607,,,,,,True,HumanObservation
+00817833-83ce-4988-a1ef-434e6131d605,Epinephelus latifasciatus,Epinephelus latifasciatus,Epinephelus,Epinephelidae,Chordata,Teleostei,2023-06-04,15.4039814949,73.8162478432,,,,,,True,HumanObservation
+008186ed-dd3f-4138-b7a0-18c1d1e1ad93,Symphurus septemstriatus,Symphurus septemstriatus,Symphurus,Cynoglossidae,Chordata,Teleostei,1891-07-02T12:00:00Z,8.5,79.0,,,,,Gulf of Mannar,True,HumanObservation
+0081d078-98a0-4395-b74b-48d368aed40b,Harpadon nehereus,Harpadon nehereus,Harpadon,Synodontidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230583,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+00829d33-b21c-4c2a-a473-81b90d88db0f,Odonus niger,Odonus niger,Odonus,Balistidae,Chordata,Teleostei,2023-07-02T17:32:05+05:30,8.3868416667,76.9762472222,,,,,,True,HumanObservation
+0082ef60-dd2d-41c3-9240-3abf7e4bdfc3,Terapon jarbua,Terapon jarbua,Terapon,Terapontidae,Chordata,Teleostei,,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+0082ef91-491a-4541-803c-6b54aeb72463,Scomberomorus commerson,Scomberomorus commerson,Scomberomorus,Scombridae,Chordata,Teleostei,1929-08-26,11.250505,75.773362,,,,India,"West Hill Fisheries Station, Kozhikode (Calicut).",True,PreservedSpecimen
+0083550d-6019-40b7-9453-6bf756b29041,Stolephorus dubiosus,Stolephorus dubiosus,Stolephorus,Engraulidae,Chordata,Teleostei,2023-01-09,21.7549458,89.2837655,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+0084ac23-310c-4c31-9f8f-fb02501e125b,Ambassis dussumieri,Ambassis dussumieri,Ambassis,Ambassidae,Chordata,Teleostei,,11.0,76.0,,,,Inde,,True,PreservedSpecimen
+0084e9cd-0eb9-46ae-abcb-3d5a014b4161,Nemapteryx,,Nemapteryx,Ariidae,Chordata,Teleostei,2023-01-09,21.7549458,89.2837655,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+0085bff3-2c62-4f91-9bff-efb2e8af04b1,Zebrasoma desjardinii,Zebrasoma desjardinii,Zebrasoma,Acanthuridae,Chordata,Teleostei,2025-11-30T09:15:00+05:00,4.2240592603,73.5223588095,,,,,,True,HumanObservation
+00862ee8-2843-4400-bb2b-480e52be5b1b,Amphiprion nigripes,Amphiprion nigripes,Amphiprion,Pomacentridae,Chordata,Teleostei,2021-05-15T10:18:00-10:00,4.1947525024,73.5255098661,,,,,,True,HumanObservation
+00869610-5986-46fa-b03d-bb6a6a10a02f,Setipinna melanochir,Setipinna melanochir,Setipinna,Engraulidae,Chordata,Teleostei,,0.0,90.0,,,,indonesie,,True,PreservedSpecimen
+008697ba-be5e-4d44-9271-9e99a5fdbad2,Macropharyngodon meleagris,Macropharyngodon meleagris,Macropharyngodon,Labridae,Chordata,Teleostei,1839-07-02T12:00:00Z,10.0,93.0,,,,,Andaman & Nicobar Islands,True,HumanObservation
+00878cf9-528b-4540-b2d9-2f6db0b15316,Cyclothone,,Cyclothone,Gonostomatidae,Chordata,Teleostei,,1.0667,75.1167,,,,,,True,PreservedSpecimen
+00880736-c022-4d1b-9b8e-d7884c51eac5,Apolemichthys trimaculatus,Apolemichthys trimaculatus,Apolemichthys,Pomacanthidae,Chordata,Teleostei,2025-03-11T09:51:00+05:00,4.1843163799,72.7718297133,,,,,,True,HumanObservation
+0088a34f-0c98-4dcb-96cd-adfceefd18c7,Gymnothorax flavimarginatus,Gymnothorax flavimarginatus,Gymnothorax,Muraenidae,Chordata,Teleostei,2022-04-14T09:49:00+05:00,4.2625,72.9798,,,,,,True,HumanObservation
+008932df-514d-463a-afb9-03884c5ccb92,Bothidae,,,Bothidae,Chordata,Teleostei,,9.0,76.3700027466,,,,,,True,HumanObservation
+008a6426-2242-45bf-8c1f-a88285ab4d82,Halichoeres hortulanus,Halichoeres hortulanus,Halichoeres,Labridae,Chordata,Teleostei,2024-08-11T09:27:16+05:00,4.0695934415,72.9500144032,,,,,,True,HumanObservation
+008a8bd3-96e8-4d92-90e4-001fb50aa00a,Siganus javus,Siganus javus,Siganus,Siganidae,Chordata,Teleostei,2023-03-14T23:37:00+05:30,6.4459293,79.9848342,,,,,,True,HumanObservation
+008b7172-a733-4963-a773-b71776fba6bb,Siganidae,,,Siganidae,Chordata,Teleostei,1970-05-12T12:00:00Z,6.94027805328,79.8430557251,2.0,1.0,3.0,Sri Lanka,Ceylon: Colombo Harbor; SW Corner; Rock Pile At End of Pier + Beginning of Southern Breakwater.,True,PreservedSpecimen
+008c8e3a-b038-4346-8faf-8efe2e1ca247,Thalassoma amblycephalum,Thalassoma amblycephalum,Thalassoma,Labridae,Chordata,Teleostei,2025-03-11T06:58:00+05:00,4.182159803,72.7735725286,,,,,,True,HumanObservation
+008d2e6b-55d4-4510-9b5c-b61a6ce8ca3e,Siganus corallinus,Siganus corallinus,Siganus,Siganidae,Chordata,Teleostei,2022-01-31T05:42:00Z,3.7864551002,72.7294680182,,,,,,True,HumanObservation
+008dabd8-92b6-4187-bf16-f60764c60cb2,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.4192166666667,74.1509999999999,,,,,,True,Occurrence
+008e04d8-6a0e-41fe-b8fc-de6991c84eb2,Nemapteryx,,Nemapteryx,Ariidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230583,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+008e4f37-b76c-4453-b8a0-2ab7b0c5b6cd,Enneapterygius ventermaculus,Enneapterygius ventermaculus,Enneapterygius,Tripterygiidae,Chordata,Teleostei,,24.73,66.94,,,,Pakistan,,True,PreservedSpecimen
+008e622e-fa0d-42e2-afb2-5fae9ba3237e,Ephippus orbis,Ephippus orbis,Ephippus,Ephippidae,Chordata,Teleostei,1966-09-20T12:00:00Z,11.5,79.8000030518,,,,India,"India: Madras State; Porto Novo, In Bay of Bengal - From 1 To 5 mi. Out In Bay of Bengal Off Mouth of Vellar, Purchased ca. 1200-1400 From Chinnur-Pudupet Fish Market.",True,PreservedSpecimen
+009154e6-e065-4874-88fa-6cbb04f213df,Ambassis,,Ambassis,Ambassidae,Chordata,Teleostei,,13.098348,74.787975,,,,India,,True,PreservedSpecimen
+0092d434-1b51-442e-9858-e6e05a6c9908,Pennahia pawak,Pennahia pawak,Pennahia,Sciaenidae,Chordata,Teleostei,1941-01-17,9.978599,76.280501,,,,India,Ernakulam (formerly Cochin State).,True,PreservedSpecimen
+0093cb00-ed23-449a-af2b-67fbbde39635,Acanthurus leucosternon,Acanthurus leucosternon,Acanthurus,Acanthuridae,Chordata,Teleostei,2023-08-23,2.7430528084,73.010425917,,,,,,True,HumanObservation
+0093d739-5f4f-43fc-8caf-a7c3476196dd,Atropus armatus,Atropus armatus,Atropus,Carangidae,Chordata,Teleostei,,6.85,80.666667,,,,Sri Lanka,,True,PreservedSpecimen
+009641b9-41a1-476a-a543-c54ceec49371,Acanthopagrus,,Acanthopagrus,Sparidae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+00966d93-9d8a-48ee-81dc-070b75ad7c7b,Scarus frenatus,Scarus frenatus,Scarus,Scaridae,Chordata,Teleostei,2015-02-25,4.0834156702,73.5112698398,,,,,,True,HumanObservation
+0096c9a6-3a62-41b5-951c-4185301e43e2,Anarchias cantonensis,Anarchias cantonensis,Anarchias,Muraenidae,Chordata,Teleostei,,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+0097ffc9-0b96-4323-9286-59655cae56c5,Epibulus insidiator,Epibulus insidiator,Epibulus,Labridae,Chordata,Teleostei,1770-07-02T12:00:00Z,12.5,92.75,,,,,Andaman Islands,True,HumanObservation
+0099ad7f-1884-4ebf-b4cc-4dcec4a61d0a,Chanda nama,Chanda nama,Chanda,Ambassidae,Chordata,Teleostei,1957-08-01,21.78,80.187,,,,India,"Balagat, Indien",False,preservedspecimen
+009a5898-1c14-46ed-89dd-7bb8f47c8e20,Sufflamen bursa,Sufflamen bursa,Sufflamen,Balistidae,Chordata,Teleostei,2023-02-23T05:02:00+05:00,4.0984564558,72.7457181396,,,,,,True,HumanObservation
+009afc5a-b656-4e3f-84f4-f68a5d4dec6c,Gymnomuraena zebra,Gymnomuraena zebra,Gymnomuraena,Muraenidae,Chordata,Teleostei,,11.658093,92.730345,,,,India,,True,PreservedSpecimen
+009f5fd7-f897-4417-aa69-df58da2d1357,Coilia ramcarati,Coilia ramcarati,Coilia,Engraulidae,Chordata,Teleostei,2023-01-09,21.7547521,89.2838353,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+009fadc3-af7f-4257-a96d-b5865126f954,Amblyeleotris steinitzi,Amblyeleotris steinitzi,Amblyeleotris,Gobiidae,Chordata,Teleostei,2021-05-27T10:14:00-10:00,2.7209970449,73.0138349128,,,,,,True,HumanObservation
+00a0bc75-b241-438d-ae5a-63e6ba1e3702,Labridae,,,Labridae,Chordata,Teleostei,,18.97499,72.82582,,,,India,,True,PreservedSpecimen
+00a0bf3c-30ae-48b7-a7ac-5664dc951341,Scarus rubroviolaceus,Scarus rubroviolaceus,Scarus,Scaridae,Chordata,Teleostei,2024-08-06T15:39:00+05:00,4.0062979488,72.9513026564,,,,,,True,HumanObservation
+00a23c3d-f3ec-409e-ab48-af448ce47171,Parastromateus niger,Parastromateus niger,Parastromateus,Carangidae,Chordata,Teleostei,2021-07-04T05:43:00+05:30,13.1274983,80.2965714,,,,,,True,HumanObservation
+00a2fa35-42a0-4515-89bd-0b6ecccee182,Lates calcarifer,Lates calcarifer,Lates,Latidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+00a339b8-8060-4f40-a35f-a53c26fd7e3d,Anodontostoma chacunda,Anodontostoma chacunda,Anodontostoma,Dorosomatidae,Chordata,Teleostei,2023-01-09,21.703926,89.2610127,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+00a43fc8-f0ac-4ed9-89a9-397f05a98cbb,Lutjanus kasmira,Lutjanus kasmira,Lutjanus,Lutjanidae,Chordata,Teleostei,2026-05-03T10:14:58+05:00,1.8187791918,73.4014231948,,,,,,True,HumanObservation
+00a472f5-5ae3-493e-88fe-81b4ff8cc7d7,Epinephelus malabaricus,Epinephelus malabaricus,Epinephelus,Epinephelidae,Chordata,Teleostei,1964-11-08,4.191667,73.516667,,,,Maldives,East side of Hulele Islet; on outer reef near boulder ridge & on sand flat with coral patches ca. 250 yds. behind boulder ridge.,True,PreservedSpecimen
+00a4839c-74e0-4a20-a0b1-7a3dc5c1afd2,Pseudobalistes flavimarginatus,Pseudobalistes flavimarginatus,Pseudobalistes,Balistidae,Chordata,Teleostei,2026-05-05T06:58:17+05:00,1.8170189166,73.405448227,,,,,,True,HumanObservation
+00a60d6f-02ab-4221-8b9f-ce2ea50c207b,Nemapteryx nenga,Nemapteryx nenga,Nemapteryx,Ariidae,Chordata,Teleostei,2023-01-09,21.7547521,89.2838353,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+00a6b3c1-0fa8-4f0d-a580-36f207bd0784,Chlorurus strongylocephalus,Chlorurus strongylocephalus,Chlorurus,Scaridae,Chordata,Teleostei,2025-03-11T14:01:00+05:00,4.1835791334,72.773314243,,,,,,True,HumanObservation
+00a7767d-b60a-48c1-9b74-2e9eff7388bb,Polynemidae,,,Polynemidae,Chordata,Teleostei,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+00a798a6-4171-4ab6-91f9-a769388fd05f,Gobiidae,,,Gobiidae,Chordata,Teleostei,,18.93666,72.89749,,,,,,True,PreservedSpecimen
+00a837fe-1f7b-4108-99bf-96d52a8254ea,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,4.9557,65.0,,,,,,True,Occurrence
+00a93c5e-2374-4337-b5a0-13ec72731a1a,Pellona ditchela,Pellona ditchela,Pellona,Pristigasteridae,Chordata,Teleostei,2007/2008,8.6626,78.3192,20.0,20.0,20.0,,"Vembar, Tuticorin",True,HumanObservation
+00a96c69-967d-45f6-baf1-4cc1855e9f26,Chaetodon collare,Chaetodon collare,Chaetodon,Chaetodontidae,Chordata,Teleostei,2025-09-01T08:09:44+05:00,4.5155087931,73.6637231039,,,,,,True,HumanObservation
+00a977ab-90bd-4b65-874e-83dbc9bcc27a,Odonus niger,Odonus niger,Odonus,Balistidae,Chordata,Teleostei,2026-06-30T16:20:54+05:30,13.0478138889,80.2837527778,,,,,,True,HumanObservation
+00ab1eb2-d738-4a8f-ae9c-95bc13950b33,Epinephelus coioides,Epinephelus coioides,Epinephelus,Epinephelidae,Chordata,Teleostei,,11.983,79.833,,,,inde,,True,PreservedSpecimen
+00acab0d-8789-4b5f-99b1-bb3b9f970ba5,Caranx sexfasciatus,Caranx sexfasciatus,Caranx,Carangidae,Chordata,Teleostei,,10.0,75.0,,,,inde,,True,PreservedSpecimen
+00acb98e-ef1c-4eda-b5e2-ff2faee951f4,Amblyrhynchote honckenii,Amblyrhynchote honckenii,Amblyrhynchote,Tetraodontidae,Chordata,Teleostei,,9.661438,80.00958,,,,Sri Lanka,,True,PreservedSpecimen
+00ad6217-a279-4604-a991-686f07c8ed1b,Osteogeneiosus militaris,Osteogeneiosus militaris,Osteogeneiosus,Ariidae,Chordata,Teleostei,,18.986038,72.812443,,,,India,,True,PreservedSpecimen
+00adb861-3f39-466b-951d-e4c59d75a5ae,Melichthys indicus,Melichthys indicus,Melichthys,Balistidae,Chordata,Teleostei,2010-01-15T04:55:13+05:00,0.4907158746,73.9356899634,,,,,,True,HumanObservation
+00aef9f2-4c4f-49a9-81f9-1ee76f516f11,Gymnothorax javanicus,Gymnothorax javanicus,Gymnothorax,Muraenidae,Chordata,Teleostei,2021-05-16T07:51:00-10:00,4.2652,73.5319,,,,,,True,HumanObservation
+00b0b81b-c813-4be9-809e-d44c3fd7da6e,Pterois miles,Pterois miles,Pterois,Scorpaenidae,Chordata,Teleostei,1969-12-24,8.033333,77.066667,49.38,49.38,,India,Wadge Banks.,True,PreservedSpecimen
+00b1a0bd-7010-4f20-8b8f-246e5e1af31e,Rhinecanthus aculeatus,Rhinecanthus aculeatus,Rhinecanthus,Balistidae,Chordata,Teleostei,2025-03-11T09:50:00+05:00,4.1857262428,72.7719868971,,,,,,True,HumanObservation
+00b282b6-a2e4-44b5-a517-bf9af05a8756,Eleutheronema,,Eleutheronema,Polynemidae,Chordata,Teleostei,2023-01-09,21.7548897,89.28418,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+00b2b625-42dd-4f19-bbc8-8586651975c7,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,4.20129999999999,87.8048,,,,,,True,Occurrence
+00b3a7a1-7210-4a7c-bcdb-67fdf60d38aa,Plicofollis tonggol,Plicofollis tonggol,Plicofollis,Ariidae,Chordata,Teleostei,,18.9750003815,72.8258361816,,,,,"Mumbai coast, Maharashtra, India",True,HumanObservation
+00b3ce2c-4e86-4b72-8f4a-edaf738fc4e3,Nuchequula blochii,Nuchequula blochii,Nuchequula,Leiognathidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+00b48d93-0fd7-4e8a-a763-96def3eff944,Cheilinus undulatus,Cheilinus undulatus,Cheilinus,Labridae,Chordata,Teleostei,2022-04-10T12:07:00+05:00,4.2626,72.9981,,,,,,True,HumanObservation
+00b4b79f-aab4-4b9f-8117-08690d074ed4,Ctenogobiops crocineus,Ctenogobiops crocineus,Ctenogobiops,Gobiidae,Chordata,Teleostei,1959-07-02T12:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+00b506c8-9b39-4a64-b361-d35ee0df5e73,Cincelichthys pearsei,Cincelichthys pearsei,Cincelichthys,Cichlidae,Chordata,Teleostei,1966-04-04,16.6333333333333,90.0,,,,Guatemala,"ARROYO EL CHORRO, POOL ABOVE FIRST RIFFLE",False,preservedspecimen
+00b548b3-449a-4b39-9b18-30bfdcdeb844,Benthosema fibulatum,Benthosema fibulatum,Benthosema,Myctophidae,Chordata,Teleostei,1924-04-23,5.933333,76.366667,182.88,0.0,365.76,,200 miles off Cape Cormorin.,True,PreservedSpecimen
+00b88e09-7009-4a98-8604-1f0c4a8639fd,Agonostomus,,Agonostomus,Mugilidae,Chordata,Teleostei,,16.1019444,88.9636111,,,,Belize,,True,PreservedSpecimen
+00b88fd6-acf4-4d1e-8128-363ffa4121e5,Toxotes jaculatrix,Toxotes jaculatrix,Toxotes,Toxotidae,Chordata,Teleostei,1766-07-02T12:00:00Z,22.2166671753,88.0833358765,,,,,Hugli Estuary,False,HumanObservation
+00b8a153-3a7c-43ed-b30c-b3878cecbbb5,Halichoeres hortulanus,Halichoeres hortulanus,Halichoeres,Labridae,Chordata,Teleostei,2025-03-15T11:28:00+05:00,4.2160846183,72.8616683306,,,,,,True,HumanObservation
+00b9520c-c12b-484f-b729-cce8c6edf3b2,Boleophthalmus boddarti,Boleophthalmus boddarti,Boleophthalmus,Gobiidae,Chordata,Teleostei,2021-11-12T10:32:00+05:30,22.1843337376,88.9180443773,,,,,,True,HumanObservation
+00b9b7ec-37c5-4d44-ac2a-be138a75d664,Lutjanus johnii,Lutjanus johnii,Lutjanus,Lutjanidae,Chordata,Teleostei,1792,19.766666,85.33336,,,,,Chilka Lake,True,HumanObservation
+00b9c3c1-4bba-4bc5-9731-aff726afad5b,Thalassoma lunare,Thalassoma lunare,Thalassoma,Labridae,Chordata,Teleostei,2019-12-24/2019-12-27,16.4806,72.0986,24.0,16.0,32.0,India,Angria Bank,True,HumanObservation
+00b9d187-24fe-410a-99fe-20682abac661,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,,20.083933333333,68.067066666667,,,,,,True,Occurrence
+00ba8676-802b-4608-9f3b-c11f0112e1de,Planiliza subviridis,Planiliza subviridis,Planiliza,Mugilidae,Chordata,Teleostei,2023-01-09,21.7933049,89.2808746,,,,,Sundarban's west wildlife sanctuary,True,MachineObservation
+00ba9f2b-3c19-40f0-b6dc-a1f3128cdce1,Nemapteryx,,Nemapteryx,Ariidae,Chordata,Teleostei,2023-01-09,21.7933049,89.2808746,,,,,Sundarban's west wildlife sanctuary,True,MachineObservation
+00bbb62e-7569-43ed-87d3-ad16f624d444,Parapercis,,Parapercis,Pinguipedidae,Chordata,Teleostei,,4.1,72.7417,,,,Maldives,,True,PreservedSpecimen
+00bc342c-d192-429d-9d7a-835dfbb8bd74,Scarus scaber,Scarus scaber,Scarus,Scaridae,Chordata,Teleostei,2023-08-30T11:41:00+05:00,2.7427872991,73.0103640083,,,,,,True,HumanObservation
+00bce8f6-074f-427b-9e32-b754ab423dba,Amphiprion clarkii,Amphiprion clarkii,Amphiprion,Pomacentridae,Chordata,Teleostei,2009-10-19T07:41:00+05:00,3.8833333,72.8333333,,,,,,True,HumanObservation
+00bd7de8-5e14-4e75-89bb-c67c45218b8e,Istiophorus platypterus,Istiophorus platypterus,Istiophorus,Istiophoridae,Chordata,Teleostei,1792,21.647223,87.63333,,,,,Digha Coast,True,HumanObservation
+00bdb1ba-63e3-45f5-8368-1d944461e711,Arothron nigropunctatus,Arothron nigropunctatus,Arothron,Tetraodontidae,Chordata,Teleostei,2018-07-17T23:28:00+05:00,6.8926972693,73.164644304,,,,,,True,HumanObservation
+00be24bf-99dc-4ac5-a96d-39b2c1a7dc14,Anampses meleagrides,Anampses meleagrides,Anampses,Labridae,Chordata,Teleostei,2025-11-27,4.2605410809,72.9920975491,,,,,,True,HumanObservation
+00bfee42-1541-4353-9291-88c0bec63591,Aplocheilus panchax,Aplocheilus panchax,Aplocheilus,Aplocheilidae,Chordata,Teleostei,1822,19.766666,85.33336,,,,,Chilka Lake,False,HumanObservation
+00c060cb-7074-471c-ae2a-dd87afd65cd3,Zenarchopterus,,Zenarchopterus,Zenarchopteridae,Chordata,Teleostei,2023-01-09,21.703926,89.2610127,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+00c36ab1-be11-49da-86c4-85ac0f8178aa,Tariqilabeo latius,Tariqilabeo latius,Tariqilabeo,Cyprinidae,Chordata,Teleostei,1957-08-01,21.816,80.187,,,,India,"Muki Balagat, Indien",False,preservedspecimen
+00c42c2d-4910-4e72-a195-ddec26839091,Rogadius asper,Rogadius asper,Rogadius,Platycephalidae,Chordata,Teleostei,2025-04-25,8.36378,76.13478,325.0,200.0,450.0,,Sakthikulangara,True,HumanObservation
+00c58951-7e30-47a3-bae4-9cced6a867ee,Gymnothorax favagineus,Gymnothorax favagineus,Gymnothorax,Muraenidae,Chordata,Teleostei,2025-03-13T09:37:49+05:30,11.9760415497,92.987556383,,,,,,True,HumanObservation
+00c5bda5-e033-4dbe-b077-ce31508a3a81,Lutjanus bohar,Lutjanus bohar,Lutjanus,Lutjanidae,Chordata,Teleostei,2015-04-13T11:38:00+05:00,5.2552293302,73.1636177998,,,,,,True,HumanObservation
+00c6f085-40a8-4d63-a702-80d98730e9cd,Cynoglossus dubius,Cynoglossus dubius,Cynoglossus,Cynoglossidae,Chordata,Teleostei,,24.051938,67.380023,,,,Pakistan,,True,PreservedSpecimen
+00c7052f-5ccd-4893-9fd0-0489de618d82,Monotaxis heterodon,Monotaxis heterodon,Monotaxis,Lethrinidae,Chordata,Teleostei,2025-03-29T15:31:08+05:00,3.995323,72.935853,,,,,,True,HumanObservation
+00c7233e-cdc2-4adc-9fb1-6d548ab1c700,Setipinna tenuifilis,Setipinna tenuifilis,Setipinna,Engraulidae,Chordata,Teleostei,2023-01-09,21.7039168,89.2609951,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+00c756b7-f947-4db0-a510-d32e19cc0c3d,Arothron nigropunctatus,Arothron nigropunctatus,Arothron,Tetraodontidae,Chordata,Teleostei,1801-07-02T12:00:00Z,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+00c78633-f514-4355-9b7c-f997e652c638,Zebrasoma scopas,Zebrasoma scopas,Zebrasoma,Acanthuridae,Chordata,Teleostei,2023-02-23T05:31:00+05:00,4.0991896695,72.7457750959,,,,,,True,HumanObservation
+00c93b7b-8d8b-4572-ac61-4a89d0400c05,Chaetodon decussatus,Chaetodon decussatus,Chaetodon,Chaetodontidae,Chordata,Teleostei,2023-02-25T12:29:00+05:00,3.5491163152,72.8671378104,,,,,,True,HumanObservation
+00cb15a0-dc87-4a43-ba82-08e536d6bede,Acanthurus thompsoni,Acanthurus thompsoni,Acanthurus,Acanthuridae,Chordata,Teleostei,2024-03-25T11:37:00+05:00,4.4820532,73.39402,,,,,,True,HumanObservation
+00cccdad-2dc5-4473-830c-476cb38931e5,Dascyllus carneus,Dascyllus carneus,Dascyllus,Pomacentridae,Chordata,Teleostei,2025-12-21T11:37:00+05:00,4.2287745444,73.5220351717,,,,,,True,HumanObservation
+00cd5133-420e-47a9-bb94-1d227a951215,Thalassoma lunare,Thalassoma lunare,Thalassoma,Labridae,Chordata,Teleostei,2024-02-19T08:59:00+05:00,4.4329143077,72.9540837457,,,,,,True,HumanObservation
+00cfeda4-a0b4-4f41-9cb4-3065e22978a9,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.90548999999999,75.067066666667,,,,,,True,Occurrence
+00d00345-82f9-48b4-a5e4-70d63cf6e693,Cyclothone signata,Cyclothone signata,Cyclothone,Gonostomatidae,Chordata,Teleostei,1899,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+00d08bea-981a-4782-a9ec-967a7e61e1a8,Chaetodon trifasciatus,Chaetodon trifasciatus,Chaetodon,Chaetodontidae,Chordata,Teleostei,2026-01-09T10:52:00+05:00,5.0705177621,73.0315685076,,,,,,True,HumanObservation
+00d091cb-688b-414f-ad4a-71ff05abdc9b,Pterois miles,Pterois miles,Pterois,Scorpaenidae,Chordata,Teleostei,1970-06-10,7.913333,81.566667,2.44,1.83,3.05,Sri Lanka,"Batticaloa, Korali Pattu.",True,PreservedSpecimen
+00d209a1-8e2c-4970-a12d-948f627e7c55,Diodon hystrix,Diodon hystrix,Diodon,Diodontidae,Chordata,Teleostei,2025-01-15T12:00:00+05:00,4.5328002137,73.3736049011,,,,,,True,HumanObservation
+00d28360-7d0e-4248-8966-170c213bd213,Apistus carinatus,Apistus carinatus,Apistus,Apistidae,Chordata,Teleostei,1909-11-27,19.865129,86.111274,,,,India,"Off Black Pagoda, Coast of Orissa, India.",True,PreservedSpecimen
+00d2d2ab-6ee8-4261-9a26-72510bc45a97,Stethojulis bandanensis,Stethojulis bandanensis,Stethojulis,Labridae,Chordata,Teleostei,2018-01-19T14:52:00+01:00,4.4558979,73.5594128,,,,,,True,HumanObservation
+00d4ea0e-02b9-49cd-a566-d03e72e0eaef,Dascyllus abudafur,Dascyllus abudafur,Dascyllus,Pomacentridae,Chordata,Teleostei,2019-10-12T14:10:00+05:30,7.0233281,93.9168027,,,,,,True,HumanObservation
+00d520bd-5f8d-48ee-a0bd-9c3d63908b9a,Cyclothone,,Cyclothone,Gonostomatidae,Chordata,Teleostei,,3.8667,74.95,,,,,,True,PreservedSpecimen
+00d5dd04-d68f-466d-9f9f-eaa89cb9df28,Polydactylus microstoma,Polydactylus microstoma,Polydactylus,Polynemidae,Chordata,Teleostei,1963-04-06T11:12:00Z,19.5,92.9000015259,55.0,55.0,55.0,Myanmar,,True,PreservedSpecimen
+00d5df7e-e09b-4657-b4da-f176b99bab8c,Coryphaena hippurus,Coryphaena hippurus,Coryphaena,Coryphaenidae,Chordata,Teleostei,,0.36680555,67.6668,,,,,,True,Occurrence
+00d5efa7-4519-4049-9e67-28803b6029ea,Amphiprion nigripes,Amphiprion nigripes,Amphiprion,Pomacentridae,Chordata,Teleostei,2015-09-15T15:15:00+05:00,4.33888,73.624535,,,,,,True,HumanObservation
+00d682be-8a90-4a64-b550-69d75e2aedc1,Halichoeres nigrescens,Halichoeres nigrescens,Halichoeres,Labridae,Chordata,Teleostei,,9.246019,79.211491,,,,India,,True,PreservedSpecimen
+00d87694-0cd9-4f7d-ab0a-afa88fababef,Dascyllus trimaculatus,Dascyllus trimaculatus,Dascyllus,Pomacentridae,Chordata,Teleostei,1829-07-02T12:00:00Z,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+00d97d4e-5f2c-4dba-9e0e-f8528c736bc7,Johnius,,Johnius,Sciaenidae,Chordata,Teleostei,2023-01-09,21.7039168,89.2609951,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+00daf121-90d2-40f1-b086-7cfc8a2aa1ef,Anyperodon leucogrammicus,Anyperodon leucogrammicus,Anyperodon,Epinephelidae,Chordata,Teleostei,,5.9417,73.4,,,,Maldives,,True,PreservedSpecimen
+00db5b86-b583-4c85-88c1-7b3b5d131fdc,Dascyllus abudafur,Dascyllus abudafur,Dascyllus,Pomacentridae,Chordata,Teleostei,2022-08-05T06:41:00+05:00,4.2256487181,73.5196594859,,,,,,True,HumanObservation
+00e095e3-86c4-48be-ab07-28e7126c7878,Plicofollis dussumieri,Plicofollis dussumieri,Plicofollis,Ariidae,Chordata,Teleostei,1966-09-22T12:00:00Z,11.8999996185,79.9000015259,,,,India,"""India: Pondicherry State; Pondicherry, Vaithikuppam Fishing Village (Bay of Bengal). Caught Within ca. 3-8 Miles of Village. Purchased At Pondicherry """"Big Market"""".""",True,PreservedSpecimen
+00e0db37-7bde-44f8-95a5-a371c2e7c7ba,Etroplus suratensis,Etroplus suratensis,Etroplus,Cichlidae,Chordata,Teleostei,1956-02-25,23.681,81.02,,,,India,"Karwa, Indien",False,preservedspecimen
+00e1ce62-405e-4930-ac5e-462b60375fbe,Alepes melanoptera,Alepes melanoptera,Alepes,Carangidae,Chordata,Teleostei,1986/1987,11.483,79.8167,,,,India,Parangipettai,True,HumanObservation
+00e22b0a-b82e-49ce-af33-45dd3298af92,Chaetodipterus zonatus,Chaetodipterus zonatus,Chaetodipterus,Ephippidae,Chordata,Teleostei,1976-02-25,13.0,88.0,,,,El Salvador,JIQUILISCO B.,True,preservedspecimen
+00e259b0-f7c7-4764-9e1e-96d81b16cb6b,Periophthalmus barbarus,Periophthalmus barbarus,Periophthalmus,Gobiidae,Chordata,Teleostei,,11.636634,92.736503,,,,India,,True,PreservedSpecimen
+00e4c170-d315-4086-93a0-6c3a2b973772,Trinectes inscriptus,Trinectes inscriptus,Trinectes,Achiridae,Chordata,Teleostei,1960-07-11,24.0,79.0,,,,,GR BAHAMA BNK,True,preservedspecimen
+00e56755-d50f-46c6-8c53-c13641e3d369,Engraulidae,,,Engraulidae,Chordata,Teleostei,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+00e5de40-0b21-4189-87d4-8024bb41431c,Coilia brachygnathus,Coilia brachygnathus,Coilia,Engraulidae,Chordata,Teleostei,2023-01-09,21.7566388,89.2229824,,,,,Sundarban west wildlife sanctuary,False,MachineObservation
+00e5e8c1-2be3-48a4-a5aa-17f2b7b334a4,Ctenochaetus striatus,Ctenochaetus striatus,Ctenochaetus,Acanthuridae,Chordata,Teleostei,2018-09-19T15:08:02+05:00,4.2285457248,73.5433593367,,,,,,True,HumanObservation
+00e6c784-0b85-4ab0-b233-d453dced2789,Stethojulis strigiventer,Stethojulis strigiventer,Stethojulis,Labridae,Chordata,Teleostei,1988/1989,10.55,72.63,,,,,"Kavaratti,Lakshadweep",True,HumanObservation
+00e77268-ba8d-4df5-816a-76df66865b22,Caranx heberi,Caranx heberi,Caranx,Carangidae,Chordata,Teleostei,,6.973559,79.858421,,,,Sri Lanka,,True,PreservedSpecimen
+00e7f4be-70b9-4c55-81e4-15fcbafdb102,Gerres filamentosus,Gerres filamentosus,Gerres,Gerreidae,Chordata,Teleostei,,18.986038,72.812443,,,,India,,True,PreservedSpecimen
+00e8399b-0a67-4fba-a0c7-d195ce23308a,Coryphaena hippurus,Coryphaena hippurus,Coryphaena,Coryphaenidae,Chordata,Teleostei,,0.36680555,67.6668,,,,,,True,Occurrence
+00e91bd9-10cd-4de4-ae65-304f4a9d773d,Abudefduf vaigiensis,Abudefduf vaigiensis,Abudefduf,Pomacentridae,Chordata,Teleostei,2024-01-27T12:51:00+05:00,4.269479,73.489087,,,,,,True,HumanObservation
+00e997cf-dd5d-41ee-9f27-c3fc9a657db0,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.2347533333333,74.6538999999999,,,,,,True,Occurrence
+00e9b46f-2339-4bc3-9cab-222ea4fda1fa,Cynoglossus lingua,Cynoglossus lingua,Cynoglossus,Cynoglossidae,Chordata,Teleostei,1822,19.966667,72.71667,,,,,Dahanu Creek,True,HumanObservation
+00e9f6e2-bb4f-4a44-8ce2-5a0bdee3ed2a,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,4.01686666666669,74.1174666666669,,,,,,True,Occurrence
+00ea5e6e-b878-428b-bda1-e21627c35496,Sphyraena forsteri,Sphyraena forsteri,Sphyraena,Sphyraenidae,Chordata,Teleostei,2020-02-24T11:37:00+01:00,0.7396402724,73.4293852665,,,,,,True,HumanObservation
+00eb4fdd-9e07-428a-b43e-8344ec8be113,Istiblennius lineatus,Istiblennius lineatus,Istiblennius,Blenniidae,Chordata,Teleostei,1836-07-02T00:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+00eb81fd-ab7c-44b4-a18c-f8cad097a639,Saccogaster maculata,Saccogaster maculata,Saccogaster,Bythitidae,Chordata,Teleostei,,20.29167,88.84999999999998,353.1900024414062,353.1900024414062,,India,"Bay of Bengal, 20°17'30""N, 88°51'E, Investigator sta. 14, 193 fm.",True,preservedspecimen
+00eb960b-c0d4-4cc2-af49-9811e843803a,Lates calcarifer,Lates calcarifer,Lates,Latidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+00ecd99b-7130-4956-a566-905434d83f07,Lutjanus rivulatus,Lutjanus rivulatus,Lutjanus,Lutjanidae,Chordata,Teleostei,2023-04-21T09:34:00+05:30,11.9126804925,93.1515133123,,,,,,True,HumanObservation
+00f082ed-9c97-4ad2-92d5-dbbfffe4dd64,Cephalopholis miniata,Cephalopholis miniata,Cephalopholis,Epinephelidae,Chordata,Teleostei,2020-09-16,3.5945310645,72.8863007548,,,,,,True,HumanObservation
+00f0c579-f5ad-4275-a934-92674b3d93b8,Istiophorus platypterus,Istiophorus platypterus,Istiophorus,Istiophoridae,Chordata,Teleostei,1792-07-02T00:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+00f0f367-e6ed-4591-a9a3-f375c692b936,Sardinella sindensis,Sardinella sindensis,Sardinella,Dorosomatidae,Chordata,Teleostei,1940-12-26,17.693622,83.297597,,,,India,Vishakhapatnam (Vizagapatam).,True,PreservedSpecimen
+00f1ab01-66e6-4004-a1ef-72bd383c7268,Mene maculata,Mene maculata,Mene,Menidae,Chordata,Teleostei,1973-10-23,24.804823,66.974397,,,,Pakistan,Off Karachi.,True,PreservedSpecimen
+00f2bf17-763c-4621-9631-9ec3d2c414c7,Lagocephalus inermis,Lagocephalus inermis,Lagocephalus,Tetraodontidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,16.0,16.0,16.0,,"Pamban, Ramanathapuram",True,HumanObservation
+00f54100-b35d-442a-a09d-d387ee243371,Actinopteri,,,,Chordata,,2023-01-08,21.8284425,89.1949998,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+00f5511e-11da-419c-a616-13328fcf9573,Chaetodon trifasciatus,Chaetodon trifasciatus,Chaetodon,Chaetodontidae,Chordata,Teleostei,,3.080833,72.96575,,,,Maldives,Faafu_Atoll,True,PreservedSpecimen
+00f58de9-5ccc-4a5e-9263-b16a8d2593ea,Scuticaria tigrina,Scuticaria tigrina,Scuticaria,Muraenidae,Chordata,Teleostei,1829-07-02T12:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+00f5b823-0e21-47b4-aace-e4540ef9c91e,Dussumieria acuta,Dussumieria acuta,Dussumieria,Dussumieriidae,Chordata,Teleostei,1847-07-02T12:00:00Z,18.9666671753,72.8000030518,,,,,Bombay,True,HumanObservation
+00f6d62e-b530-4924-9d2c-188485365ef8,Ambassis nalua,Ambassis nalua,Ambassis,Ambassidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,4.0,4.0,4.0,,"Sethukarai, Ramanathapuram",True,HumanObservation
+00f6f697-78cb-40a1-92be-3cdf1a93046a,Platycephalus indicus,Platycephalus indicus,Platycephalus,Platycephalidae,Chordata,Teleostei,2009,10.2693,79.3264,,,,India,Mallipattinam,True,HumanObservation
+00f7ae6d-8ade-48ac-a7e4-bfeee2add195,Melichthys indicus,Melichthys indicus,Melichthys,Balistidae,Chordata,Teleostei,2014-01-19T09:03:00+05:00,3.8787697177,73.3663344378,,,,,,True,HumanObservation
+00f7d7c1-b1b2-417e-87db-fbe9db902b33,Epinephelus coioides,Epinephelus coioides,Epinephelus,Epinephelidae,Chordata,Teleostei,1822-07-02T12:00:00Z,11.1166667938,92.8166656494,,,,,Andaman Islands,True,HumanObservation
+00f80525-c3c4-4971-974d-88a54777d1c9,Chaetodon falcula,Chaetodon falcula,Chaetodon,Chaetodontidae,Chordata,Teleostei,2026-02-26T15:54:00+05:00,5.2562501,73.1637253,,,,,,True,HumanObservation
+00f8066b-6174-4d5a-b60b-d762b9acd970,Chelonodontops patoca,Chelonodontops patoca,Chelonodontops,Tetraodontidae,Chordata,Teleostei,2019-09-13,15.4168040854,73.9352861486,,,,,,True,HumanObservation
+00f947c3-e4da-4310-b60d-a17ed37715af,Cetoscarus ocellatus,Cetoscarus ocellatus,Cetoscarus,Scaridae,Chordata,Teleostei,2024-03-23T11:16:00+05:00,3.6520817685,72.9508834073,,,,,,True,HumanObservation
+00fa1c3c-80a9-4ce7-a37c-630b0f382c1d,Katsuwonus pelamis,Katsuwonus pelamis,Katsuwonus,Scombridae,Chordata,Teleostei,,6.5701166666667,73.7209666666669,,,,,,True,Occurrence
+00fb2298-4b90-46bc-9605-cd8211e026e4,Odonus niger,Odonus niger,Odonus,Balistidae,Chordata,Teleostei,2022-11-09T16:07:21+05:30,14.0185805405,74.3274021149,,,,,,True,HumanObservation
+00fe4bfc-0ceb-4584-a757-bfd3fdf5f35c,Ctenochaetus striatus,Ctenochaetus striatus,Ctenochaetus,Acanthuridae,Chordata,Teleostei,2025-03-14T10:32:00+05:00,4.221986362,72.8595937333,,,,,,True,HumanObservation
+0101cece-24d2-4b13-94c5-2972a7b598e2,Enchelycore carychroa,Enchelycore carychroa,Enchelycore,Muraenidae,Chordata,Teleostei,1966-11-20,12.0,69.0,2.0,,2.0,Neth Antilles,CURACAO PLAJA GRANDE,True,preservedspecimen
+010270da-5fdd-438f-8628-40aa81994e4c,Cephalopholis miniata,Cephalopholis miniata,Cephalopholis,Epinephelidae,Chordata,Teleostei,2024-08-07T10:40:02+05:00,4.0051336399,72.9497277741,,,,,,True,HumanObservation
+0103bae1-3fe0-4a56-9a9d-969909ed4a3a,Naso unicornis,Naso unicornis,Naso,Acanthuridae,Chordata,Teleostei,2018-03-01T09:27:00+07:00,11.9606224508,93.0568502039,,,,,,True,HumanObservation
+01059ab6-a59f-4786-a33c-6d1328fe431e,Balistoides conspicillum,Balistoides conspicillum,Balistoides,Balistidae,Chordata,Teleostei,2025-04-06T09:34:44+05:00,4.078813,72.94887,,,,,,True,HumanObservation
+0105ca37-5d39-4f1b-a8ce-f196c2a59253,Lutjanus gibbus,Lutjanus gibbus,Lutjanus,Lutjanidae,Chordata,Teleostei,1991-09-25,7.217,79.85,,,,Sri Lanka,,True,PreservedSpecimen
+0105f6b5-30a3-4dbc-ab64-b6971c9d1c18,Platax orbicularis,Platax orbicularis,Platax,Ephippidae,Chordata,Teleostei,2018-03-09T07:18:00+08:00,3.202778,73.22068,,,,,,True,HumanObservation
+0107cab2-55a8-4abe-b16e-66b35c8cc1eb,Monotaxis heterodon,Monotaxis heterodon,Monotaxis,Lethrinidae,Chordata,Teleostei,2026-01-09T15:00:00+05:00,5.132638,72.937853,,,,,,True,HumanObservation
+0107deb7-d0e1-4402-a488-da11f7ac1737,Naso brevirostris,Naso brevirostris,Naso,Acanthuridae,Chordata,Teleostei,2025-11-30T12:31:00+05:00,4.2005336598,73.5085083531,,,,,,True,HumanObservation
+01083fc3-c252-4bcd-94e9-851f3daf6a3e,Halichoeres scapularis,Halichoeres scapularis,Halichoeres,Labridae,Chordata,Teleostei,2019-07-24T17:11:00+05:00,3.6047477462,72.9569620176,,,,,,True,HumanObservation
+0108cd8e-8a05-4948-87f8-2f94bdf971c2,Dysomma muciparus,Dysomma muciparus,Dysomma,Synaphobranchidae,Chordata,Teleostei,,15.94722,81.55833,472.13999938964844,439.2000122070313,505.0799865722656,India,"Bay of Bengal, 15°56'50""N, 81°33'30""E, Investigator sta. 120, 240-276 fm.",True,preservedspecimen
+0109b9dc-850e-4c2e-8c3a-2930b20c7f39,Coilia ramcarati,Coilia ramcarati,Coilia,Engraulidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarbans West Wildlife  Sanctuary,True,MachineObservation
+010aaa34-0b5e-45d6-b833-bdc4c582312f,Hippocampus spinosissimus,Hippocampus spinosissimus,Hippocampus,Syngnathidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,10.0,10.0,10.0,,Mandapam South,True,HumanObservation
+010b8c43-3488-48c3-a087-4b8e38bf3bfa,Acanthurus triostegus,Acanthurus triostegus,Acanthurus,Acanthuridae,Chordata,Teleostei,2024-09-16T11:24:01+05:30,8.7222010997,81.2043933,,,,,,True,HumanObservation
+010c2bf3-04c5-4e37-9e35-ca5480c16929,Engraulidae,,,Engraulidae,Chordata,Teleostei,2023-01-09,21.7566388,89.2229824,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+010e5228-7b55-4a3e-bc21-a5c75274c13e,Hipposcarus harid,Hipposcarus harid,Hipposcarus,Scaridae,Chordata,Teleostei,2022-03-16T10:28:00+05:00,5.2554808716,73.1647123529,,,,,,True,HumanObservation
+010e631f-b0c1-4db7-9ffa-645f2d5225be,Sphyraena obtusata,Sphyraena obtusata,Sphyraena,Sphyraenidae,Chordata,Teleostei,,24.051933,67.361786,,,,Pakistan,,True,PreservedSpecimen
+010ee634-0fb7-44ac-a07b-fd02c5696f84,Heniochus diphreutes,Heniochus diphreutes,Heniochus,Chaetodontidae,Chordata,Teleostei,2023-12-20T11:45:00+05:00,3.5554292131,72.9334253859,,,,,,True,HumanObservation
+010ff761-5911-4150-89fa-cb53985d6243,Pterygotrigla macrorhynchus,Pterygotrigla macrorhynchus,Pterygotrigla,Triglidae,Chordata,Teleostei,2025-04-09,8.48033,75.45056,325.0,200.0,450.0,,Sakthikulangara,True,HumanObservation
+010ffe6b-18d0-4d93-acc9-931e308ed8c9,Scolopsis bimaculata,Scolopsis bimaculata,Scolopsis,Nemipteridae,Chordata,Teleostei,1828,8.383333,79.73333,,,,,"Bar Reef Marine Sanctuary, Sri Lanka",True,HumanObservation
+01105caf-62f0-430e-a98b-3fce8c2363de,Barbulifer ceuthoecus,Barbulifer ceuthoecus,Barbulifer,Gobiidae,Chordata,Teleostei,1972-04-28,9.0,79.0,1.0,,1.0,Panama,COLON DEVILS BEACH,True,preservedspecimen
+01109af5-c50d-4279-a701-4882ffcae684,Minous monodactylus,Minous monodactylus,Minous,Synanceiidae,Chordata,Teleostei,,21.475718,87.053976,,,,India,,True,PreservedSpecimen
+01109d9a-ecc5-401b-acc9-ec9a857aca1a,Johnius dussumieri,Johnius dussumieri,Johnius,Sciaenidae,Chordata,Teleostei,2002/2011,8.9532,78.8867,,,,India,Gulf of Mannar,True,HumanObservation
+011186b0-fb91-4969-b861-abecc0719afc,Rastrelliger kanagurta,Rastrelliger kanagurta,Rastrelliger,Scombridae,Chordata,Teleostei,2010-06-04/2010-07-17,11.22001667,74.96275,200.0,200.0,200.0,,Calicut,True,HumanObservation
+0111ec1a-d0f9-4eb3-a4d5-0c114cff7bb4,Naucrates ductor,Naucrates ductor,Naucrates,Carangidae,Chordata,Teleostei,1758-07-02T12:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+011220b3-0df1-4b76-bd5d-8b4717a8d36c,Synodus variegatus,Synodus variegatus,Synodus,Synodontidae,Chordata,Teleostei,2025-02-22T13:57:23+05:30,14.0199955801,74.3282155875,,,,,,True,HumanObservation
+01124c81-5825-4520-beed-8d508743d291,Heniochus pleurotaenia,Heniochus pleurotaenia,Heniochus,Chaetodontidae,Chordata,Teleostei,2026-03-23T07:35:00+05:00,4.2788165582,72.7744904644,,,,,,True,HumanObservation
+0112e13a-d712-432e-a4f6-230173bf996f,Brachypterois serrulata,Brachypterois serrulata,Brachypterois,Scorpaenidae,Chordata,Teleostei,,11.48737,79.760916,,,,India,,True,PreservedSpecimen
+0112f396-21e7-411c-81cf-25c735ea8232,Coryphaena hippurus,Coryphaena hippurus,Coryphaena,Coryphaenidae,Chordata,Teleostei,,2.62036666666669,89.6204666666669,,,,,,True,Occurrence
+011562cd-cf9b-426d-802b-891580e644a4,Nemapteryx,,Nemapteryx,Ariidae,Chordata,Teleostei,2023-01-09,21.7933049,89.2808746,,,,,Sundarban's west wildlife sanctuary,True,MachineObservation
+0115f3f7-05c5-45df-b695-ad0f835ab08e,Macrognathus pancalus,Macrognathus pancalus,Macrognathus,Mastacembelidae,Chordata,Teleostei,1822,19.766666,85.333336,,,,,"Chilka Lake, Orissa, India",False,HumanObservation
+01174382-96b4-4dcc-89df-a9ce539043c5,Cirrhitichthys oxycephalus,Cirrhitichthys oxycephalus,Cirrhitichthys,Cirrhitidae,Chordata,Teleostei,2025-02-10T07:31:36+05:30,11.9760415497,92.987556383,,,,,,True,HumanObservation
+01178fb5-1830-4b60-8a5a-a6c04ddfdfb6,Canthigaster bennetti,Canthigaster bennetti,Canthigaster,Tetraodontidae,Chordata,Teleostei,2022-07-09T10:33:00+05:00,5.297289,73.058953,,,,,,True,HumanObservation
+0118b2a2-ee51-44f5-8854-0bcb9bd440c9,Sciaenidae,,,Sciaenidae,Chordata,Teleostei,2023-01-09,21.7932097,89.2813127,,,,,Sundarban West Wildlife Sanctuary,True,MachineObservation
+01190e4c-128c-4045-9268-7bf171e8fbba,Parapercis alboguttata,Parapercis alboguttata,Parapercis,Pinguipedidae,Chordata,Teleostei,2025-03-11,7.2867,76.4951,325.0,200.0,450.0,,Sakthikulangara,True,HumanObservation
+0119157e-edf0-4413-b6ab-881e76be51a8,Anguilla bengalensis,Anguilla bengalensis,Anguilla,Anguillidae,Chordata,Teleostei,2011,11.98333333,79.86666667,,,,,Coromondal coast,True,HumanObservation
+011a25ef-6ee1-4681-b570-3426592559fb,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,4.15099999999999,66.1509999999999,,,,,,True,Occurrence
+011adf04-6ad2-4e97-9929-211b073864f3,Thryssa purava,Thryssa purava,Thryssa,Engraulidae,Chordata,Teleostei,1822,19.766666,85.333336,,,,,"Chilka Lake, Orissa, India",True,HumanObservation
+011b82c2-8f78-4179-a64c-2523ce1ce639,Mystus gulio,Mystus gulio,Mystus,Bagridae,Chordata,Teleostei,1822-07-02T12:00:00Z,18.9750003815,72.8258361816,,,,,"Mumbai , Maharashtra, India",False,HumanObservation
+011bd543-1f44-49f1-9b7d-1fcc747338de,Pterocaesio tile,Pterocaesio tile,Pterocaesio,Caesionidae,Chordata,Teleostei,2015-04-07T11:53:00+05:00,3.202778,73.22068,,,,,,True,HumanObservation
+011c5b3a-429d-497e-b1e1-c10c5af5cb5b,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.7545,73.8383333333329,,,,,,True,Occurrence
+011cec8a-ca2c-4acf-88d0-15c1333d55cf,Naso brevirostris,Naso brevirostris,Naso,Acanthuridae,Chordata,Teleostei,2024-08-09T02:54:00+05:00,0.5045509535,73.4518304588,,,,,,True,HumanObservation
+011fb7e8-cbd4-4ac9-8e0d-ab330e2d68d1,Epinephelus merra,Epinephelus merra,Epinephelus,Epinephelidae,Chordata,Teleostei,2025-12-27T12:37:05+05:00,5.3359908874,73.6548220611,,,,,,True,HumanObservation
+01214a68-815e-42c8-8755-95191151cee0,Channa striata,Channa striata,Channa,Channidae,Chordata,Teleostei,1937-01-22,14.960987,74.707741,,,,India,"Yellapur, Kanara.",False,PreservedSpecimen
+01232027-9ae5-48fb-b21e-55354f7bf6fc,Brotula multibarbata,Brotula multibarbata,Brotula,Brotulidae,Chordata,Teleostei,1846,13.0925,80.29444,,,,,"Chennai, Tamil Nadu, India",True,HumanObservation
+0124b298-be67-4fd0-bbf1-133623348983,Turrum gymnostethus,Turrum gymnostethus,Turrum,Carangidae,Chordata,Teleostei,,9.271098,80.814225,,,,Sri Lanka,,True,PreservedSpecimen
+012520b3-96bc-4962-93c8-876c58752536,Chlorophthalmus corniger,Chlorophthalmus corniger,Chlorophthalmus,Chlorophthalmidae,Chordata,Teleostei,2006/2010,12.4395,93.41,635.0,200.0,1070.0,,Andaman Sea,True,HumanObservation
+0126f05c-b96d-4e9a-9a0b-cf59d01f883e,Otolithoides biauritus,Otolithoides biauritus,Otolithoides,Sciaenidae,Chordata,Teleostei,1849,19.95,72.7667,,,,,Savta Creek,True,HumanObservation
+01278ec3-3fcc-43d8-9548-741c99aeef39,Plotosus lineatus,Plotosus lineatus,Plotosus,Plotosidae,Chordata,Teleostei,1941-01-22,9.246019,79.211491,,,,India,Krusadi I. (Kursadi Tivu).,True,PreservedSpecimen
+0128bf8b-7040-4eb1-820a-1f7bbbd12256,Callogobius,,Callogobius,Gobiidae,Chordata,Teleostei,,5.0,81.0,,,,,,True,PreservedSpecimen
+0129e229-55b4-49da-aaf3-09bd4cbe6c08,Arothron immaculatus,Arothron immaculatus,Arothron,Tetraodontidae,Chordata,Teleostei,2019-01-19T09:10:00+05:00,1.828403333,73.4431275016,,,,,,True,HumanObservation
+012b33e4-4e50-443e-8acc-5c15022f39c3,Dischistodus perspicillatus,Dischistodus perspicillatus,Dischistodus,Pomacentridae,Chordata,Teleostei,2025-03-20T13:49:39+05:30,11.9760415497,92.987556383,,,,,,True,HumanObservation
+012b3716-9553-4afc-bcd4-523d9a334d25,Echeneis naucrates,Echeneis naucrates,Echeneis,Echeneidae,Chordata,Teleostei,2018-03-19T16:05:00+05:00,5.108305,73.213023,,,,,,True,HumanObservation
+012b823d-ffc6-4abb-b35e-5f802920f875,Naso brevirostris,Naso brevirostris,Naso,Acanthuridae,Chordata,Teleostei,2019-12-19T16:27:51+05:00,4.2602847262,72.9674247596,,,,,,True,HumanObservation
+012bc75b-68be-41f5-b557-72fd54c1c6cb,Scatophagus argus,Scatophagus argus,Scatophagus,Scatophagidae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+012c6035-b745-4733-8cf0-3d9867609f8a,Parupeneus macronemus,Parupeneus macronemus,Parupeneus,Mullidae,Chordata,Teleostei,2025-02-28T12:38:36+05:30,11.9760415497,92.987556383,,,,,,True,HumanObservation
+012d7800-8d91-4ec4-9abd-6bc082cb80c4,Petroscirtes xestus,Petroscirtes xestus,Petroscirtes,Blenniidae,Chordata,Teleostei,2000/2002,8.26,73.04,,,,,Minicoy Lagoon,True,HumanObservation
+012ec098-03e9-45da-ad83-fa0c98e11f19,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,,2.9222166666667,94.3856433333329,,,,,,True,Occurrence
+012f6684-b778-43e0-93a0-145272ece298,Bathypterois atricolor,Bathypterois atricolor,Bathypterois,Ipnopidae,Chordata,Teleostei,1998/2007,12.4779,73.2697,350.0,200.0,500.0,,Southwest coast of India,True,HumanObservation
+012f8431-2b6b-486d-b55e-8cde471e2494,Sufflamen fraenatum,Sufflamen fraenatum,Sufflamen,Balistidae,Chordata,Teleostei,,11.0,76.0,,,,inde,,True,PreservedSpecimen
+012f9301-aea8-4d89-9439-51617332ae7c,Scarus ghobban,Scarus ghobban,Scarus,Scaridae,Chordata,Teleostei,1775-07-02T12:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+012fd89c-5921-463d-8f8e-e434f2f92166,Puntius,,Puntius,Cyprinidae,Chordata,Teleostei,2009-11-06,21.217617,94.9189,,,,Myanmar,Oxbow Lake off Ayeyarwaddy River.,False,PreservedSpecimen
+0131973e-291a-41e2-bb73-49e00fbf346d,Halichoeres nebulosus,Halichoeres nebulosus,Halichoeres,Labridae,Chordata,Teleostei,2022-07-03T11:02:00+05:00,5.2935537961,73.0590853614,,,,,,True,HumanObservation
+013304d0-5818-4ac7-86f3-c990ef6e47a1,Plagiotremus phenax,Plagiotremus phenax,Plagiotremus,Blenniidae,Chordata,Teleostei,,4.435107,73.499342,,,,Maldives,,True,PreservedSpecimen
+0134b1d3-b26b-42b3-895a-d6fe44f1ae34,Toxotes,,Toxotes,Toxotidae,Chordata,Teleostei,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,False,MachineObservation
+01351df2-5c94-40e2-b1ca-8de362bbec41,Harpadon nehereus,Harpadon nehereus,Harpadon,Synodontidae,Chordata,Teleostei,,20.3667,71.7833,,,,,,True,PreservedSpecimen
+013587a4-fa86-4fac-bbaf-0936feafeba5,Ariosoma anago,Ariosoma anago,Ariosoma,Congridae,Chordata,Teleostei,,8.5,79.0,,,,,Gulf of Mannar,True,HumanObservation
+0135dc4b-8ec7-4bf1-a201-63c19bf5402c,Balistapus undulatus,Balistapus undulatus,Balistapus,Balistidae,Chordata,Teleostei,2024-12-10T00:17:00+05:00,4.2605122373,72.990432036,,,,,,True,HumanObservation
+01361fb8-3dd4-437e-b4b8-a7afceea44ea,Abudefduf septemfasciatus,Abudefduf septemfasciatus,Abudefduf,Pomacentridae,Chordata,Teleostei,2025-03-22T12:13:00+05:30,5.9419574257,80.4626762867,,,,,,True,HumanObservation
+01398f07-7da0-47f6-b6bf-6f6aa62c88be,Solenostomus paradoxus,Solenostomus paradoxus,Solenostomus,Solenostomidae,Chordata,Teleostei,2018-04-22T17:02:00+02:00,4.4558979,73.5594128,,,,,,True,HumanObservation
+0139a63f-634c-4793-9fad-e67187076d2b,Chaetodon collare,Chaetodon collare,Chaetodon,Chaetodontidae,Chordata,Teleostei,2010-03-14T11:53:36-04:00,3.9870284,73.4977747,,,,,,True,HumanObservation
+0139b242-15e7-4acc-ab50-e5f5ad7980f4,Chlorurus sordidus,Chlorurus sordidus,Chlorurus,Scaridae,Chordata,Teleostei,2019-04-01T08:58:00-05:00,10.9400487437,72.2971918082,,,,,,True,HumanObservation
+013a6e95-3b39-4a39-9edf-062a48032b02,Dascyllus carneus,Dascyllus carneus,Dascyllus,Pomacentridae,Chordata,Teleostei,2026-05-05T16:13:00+05:00,1.8211302091,73.4023325621,,,,,,True,HumanObservation
+013b191f-dc91-465d-8810-dd027f0295fc,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,,4.15099999999999,89.9055,,,,,,True,Occurrence
+01402c84-9a9e-4d59-acb7-056adc1a909a,Acanthurus thompsoni,Acanthurus thompsoni,Acanthurus,Acanthuridae,Chordata,Teleostei,2021-11-28T10:42:00+05:30,0.8480194755,73.4057771487,,,,,,True,HumanObservation
+01406f4d-0537-4682-94e1-0de0ff326815,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,,3.8383333333333,86.8049,,,,,,True,Occurrence
+014081eb-e52a-437a-84cd-265a6f07b649,Gerres oyena,Gerres oyena,Gerres,Gerreidae,Chordata,Teleostei,2012-01-01/2012-04-30,9.216666667,79.11666667,,,,India,Manoliputti Island,True,HumanObservation
+0141623a-34d5-4dc6-8d2c-1bf1ddb9d4d0,Stolephorus dubiosus,Stolephorus dubiosus,Stolephorus,Engraulidae,Chordata,Teleostei,2023-01-09,21.7039168,89.2609951,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+01416f09-a45b-4e81-9e1e-35bb19bb9325,Mola mola,Mola mola,Mola,Molidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,38.0,38.0,38.0,,Mandapam South,True,HumanObservation
+01428e5c-f8d4-4777-a422-ea8e798895cc,Sargocentron caudimaculatum,Sargocentron caudimaculatum,Sargocentron,Holocentridae,Chordata,Teleostei,2019-12-24/2019-12-27,16.4806,72.0986,24.0,16.0,32.0,India,Angria Bank,True,HumanObservation
+01463d82-fdcc-4386-9243-5af676d89768,Apogon coccineus,Apogon coccineus,Apogon,Apogonidae,Chordata,Teleostei,1970-06-10T12:00:00Z,7.90000009537,81.5999984741,7.0,6.0,8.0,Sri Lanka,Ceylon: Eastern Province; Batticaloa Dist.; Korali Pattu; Passakudah Bay (Reef 500 Yds. NE of Outlet of Small Stream Over Which a Low Bridge Passes On Rd. To Coconut Estate).,True,PreservedSpecimen
+0146b550-0e81-4bcc-a6ba-0c1ff401699c,Atrobucca trewavasae,Atrobucca trewavasae,Atrobucca,Sciaenidae,Chordata,Teleostei,1975-07-02T12:00:00Z,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+0148a90f-fbfa-4c85-b41f-5c5e998899cc,Platycaranx malabaricus,Platycaranx malabaricus,Platycaranx,Carangidae,Chordata,Teleostei,1963-04-05,19.833333,92.916667,,,,Myanmar,BAY OF BENGAL,True,PreservedSpecimen
+01494fa8-de5e-45ae-afe7-4ba0e1c19d11,Setipinna tenuifilis,Setipinna tenuifilis,Setipinna,Engraulidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+014a4541-7d1d-4c16-b582-f6ebf9b13661,Istigobius ornatus,Istigobius ornatus,Istigobius,Gobiidae,Chordata,Teleostei,2025-01-27T16:45:00+05:30,15.1058797499,73.9227674156,,,,,,True,HumanObservation
+014a91c3-be77-4555-b083-167140885a96,Osteogeneiosus militaris,Osteogeneiosus militaris,Osteogeneiosus,Ariidae,Chordata,Teleostei,2024-09-22T07:44:53+05:30,18.9121361111,72.82495,,,,,,True,HumanObservation
+014ac358-31c6-4d33-b7fd-651d007cf34c,Chaetodon plebeius,Chaetodon plebeius,Chaetodon,Chaetodontidae,Chordata,Teleostei,2009/2011,8.81,78.1897,,,,India,Gulf of Mannar,True,HumanObservation
+014c0a37-b9a2-4f4b-81d9-9c6ad6f867e4,Parambassis ranga,Parambassis ranga,Parambassis,Ambassidae,Chordata,Teleostei,,22.010096,82.449219,,,,India,,False,PreservedSpecimen
+014c3af8-6bb7-4867-a702-26f69e3cb7ea,Stolephorus,,Stolephorus,Engraulidae,Chordata,Teleostei,2023-01-09,21.7566388,89.2229824,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+014c9a54-a400-4f45-a8d7-ac3c4a902a46,Pampus argenteus,Pampus argenteus,Pampus,Stromateidae,Chordata,Teleostei,,18.933,72.85,,,,inde,,True,PreservedSpecimen
+014f2578-4743-4304-8b6d-6e32de6b11b5,Psettina,,Psettina,Bothidae,Chordata,Teleostei,2009-05-30/2009-06-14,8.5,76.72,50.0,,50.0,,Tvpm,True,HumanObservation
+015152f6-8454-4846-8d62-7d486ef800af,Tenualosa ilisha,Tenualosa ilisha,Tenualosa,Dorosomatidae,Chordata,Teleostei,1822,20.416666,86.71667,,,,,Jambu Island,True,HumanObservation
+015214ac-7cf5-4da9-ae2b-447223b8a2a9,Cyclothone,,Cyclothone,Gonostomatidae,Chordata,Teleostei,,19.3833,92.55,,,,,,True,PreservedSpecimen
+0152b3e0-55a6-4f84-8a37-853e400b7777,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,,2.03360333333329,83.184473333333,,,,,,True,Occurrence
+0152cc97-f38e-4d87-8633-53e43acfaa88,Pterois radiata,Pterois radiata,Pterois,Scorpaenidae,Chordata,Teleostei,,19.7666664124,85.3333358765,,,,,"Chilka Lake, Orissa, India",True,HumanObservation
+015307e5-f158-4836-ac4c-fcc8cf935429,Plectorhinchus vittatus,Plectorhinchus vittatus,Plectorhinchus,Haemulidae,Chordata,Teleostei,2023-02-24T08:52:00+05:00,3.881909386,72.7130653279,,,,,,True,HumanObservation
+01547a0b-769c-4722-b97a-9da817b39c17,Stegastes lacrymatus,Stegastes lacrymatus,Stegastes,Pomacentridae,Chordata,Teleostei,2011-12-12T12:13:00+05:00,2.0313645996,73.520507977,,,,,,True,HumanObservation
+0154c4c3-97ec-4602-9e79-cac79c626280,Lutjanus argentimaculatus,Lutjanus argentimaculatus,Lutjanus,Lutjanidae,Chordata,Teleostei,1775-07-02T12:00:00Z,19.7666664124,85.3333358765,,,,,"Chilka Lake, Orissa, India",True,HumanObservation
+0154ec7a-1603-4132-9ae2-072183c80859,Halichoeres scapularis,Halichoeres scapularis,Halichoeres,Labridae,Chordata,Teleostei,2026-05-05T09:47:00+05:00,5.5372226349,73.504902505,,,,,,True,HumanObservation
+01574fef-7086-4651-9aa7-d82c6f1cb778,Crenimugil,,Crenimugil,Mugilidae,Chordata,Teleostei,,24.090859,67.311333,,,,Pakistan,,True,PreservedSpecimen
+0157ec60-1402-4dd4-9ecd-2b0ca0b9c87d,Zanclus cornutus,Zanclus cornutus,Zanclus,Zanclidae,Chordata,Teleostei,2011-03-15T17:00:00+05:00,3.002699,73.001447,,,,,,True,HumanObservation
+01581ba0-9429-4dcf-a4e2-8b2f29795f80,Actinopteri,,,,Chordata,,2023-01-08,21.827841,89.1954232,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+0159056f-ea8e-41d7-baae-073b6cae227e,Eleotris fusca,Eleotris fusca,Eleotris,Eleotridae,Chordata,Teleostei,1860-07-02T00:00:00Z,19.9666671753,72.7166671753,,,,,Dahanu Creek,True,HumanObservation
+01592b27-59a5-4e34-8ea0-289ce7585557,Caranx melampygus,Caranx melampygus,Caranx,Carangidae,Chordata,Teleostei,2009-10-17T12:43:00+05:00,3.8833333,72.8333333,,,,,,True,HumanObservation
+0159c71f-843a-4102-8da1-dda6a28abdd8,Escualosa thoracata,Escualosa thoracata,Escualosa,Dorosomatidae,Chordata,Teleostei,2023-01-09,21.703926,89.2610127,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+0159f814-a12d-4351-b1c2-24382d7f2063,Megalops cyprinoides,Megalops cyprinoides,Megalops,Megalopidae,Chordata,Teleostei,2023-04-28T10:18:29+05:30,19.070063,72.9623110997,,,,,,True,HumanObservation
+015cb5e3-fcfc-4eb2-9c95-e6c03c5a5c13,Acanthurus leucosternon,Acanthurus leucosternon,Acanthurus,Acanthuridae,Chordata,Teleostei,2025-12-27T13:58:24+05:00,4.188895,73.5328216667,,,,,,True,HumanObservation
+015fe473-1ef3-4332-a1e3-7b7e46487cf1,Cheilinus fasciatus,Cheilinus fasciatus,Cheilinus,Labridae,Chordata,Teleostei,1791-07-02T12:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+015fe738-6f19-4104-8c63-311221d008a6,Thalassoma hardwicke,Thalassoma hardwicke,Thalassoma,Labridae,Chordata,Teleostei,2024-08-09T09:20:00+05:30,8.7209599024,81.2032726977,,,,,,True,HumanObservation
+0160a2aa-4e09-499c-ab62-beb28c7f104f,Fistularia petimba,Fistularia petimba,Fistularia,Fistulariidae,Chordata,Teleostei,,21.9442127684078,88.8980217778187,,,,India,Indian Sundarbans,True,HumanObservation
+01615104-a4e9-4c84-92a2-79416019e8b8,Anodontostoma chacunda,Anodontostoma chacunda,Anodontostoma,Dorosomatidae,Chordata,Teleostei,2023-01-08,21.8284425,89.1949998,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+0161b085-b67a-4d87-8e6f-9caa78999c30,Cheilopogon nigricans,Cheilopogon nigricans,Cheilopogon,Exocoetidae,Chordata,Teleostei,,10.0,75.0,,,,,,True,PreservedSpecimen
+01641d54-f524-4643-be9e-48a5fd9802ac,Chaunax multilepis,Chaunax multilepis,Chaunax,Chaunacidae,Chordata,Teleostei,2025-01-30,7.17844,77.50928,325.0,200.0,450.0,,Sakthikulangara,True,HumanObservation
+0165a141-99d3-4ac7-bbec-0417a3d431dd,Oxyporhamphus micropterus,Oxyporhamphus micropterus,Oxyporhamphus,Hemiramphidae,Chordata,Teleostei,1961-12-16T00:00:00Z,8.19999980927,92.0,,,,India,"""""""Straits of Malacca"""" (Sic)""",True,PreservedSpecimen
+0165e759-5dd7-4b9d-b6ca-37248272fb35,Scomberoides lysan,Scomberoides lysan,Scomberoides,Carangidae,Chordata,Teleostei,,11.0,76.0,,,,Inde,,True,PreservedSpecimen
+0165f8f6-1109-4975-869d-47d22a528771,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.78808333333329,73.771316666667,,,,,,True,Occurrence
+01673027-9993-44f0-a103-e8030e1d97d6,Chaetodon lunula,Chaetodon lunula,Chaetodon,Chaetodontidae,Chordata,Teleostei,2025-03-12T08:56:00+05:00,4.2146573864,72.8627820071,,,,,,True,HumanObservation
+01678029-06db-42d5-b039-fbdf931d3253,Caesio xanthonota,Caesio xanthonota,Caesio,Caesionidae,Chordata,Teleostei,2007-04-03T11:22:00+02:00,3.843275529,72.7565711137,,,,,,True,HumanObservation
+01678b46-fe00-4f22-82f8-126c918fef44,Platax teira,Platax teira,Platax,Ephippidae,Chordata,Teleostei,2020-09-14,4.2644646998,72.999403892,,,,,,True,HumanObservation
+0168df29-0f7c-4212-afaf-46d99036ccaa,Satyrichthys laticeps,Satyrichthys laticeps,Satyrichthys,Peristediidae,Chordata,Teleostei,2025-02-28,8.42635,76.34153,325.0,200.0,450.0,,Sakthikulangara,True,HumanObservation
+0168e49a-af18-4d1a-a601-a07020e1a9df,Amphiprion nigripes,Amphiprion nigripes,Amphiprion,Pomacentridae,Chordata,Teleostei,2022-10-28T15:07:00+05:00,3.973056,73.490833,,,,,,True,HumanObservation
+0168e8cc-032a-4075-8d0d-0a25c35c4897,Parupeneus barberinus,Parupeneus barberinus,Parupeneus,Mullidae,Chordata,Teleostei,1969/1980,10.94,72.29,,,,,Bangaram,True,HumanObservation
+016d7141-75cb-4d0b-9cb3-75385f1466d4,Filimanus heptadactyla,Filimanus heptadactyla,Filimanus,Polynemidae,Chordata,Teleostei,,22.6000003815,69.5,,,,,Gulf of Kachchh,True,HumanObservation
+016dab81-7742-4723-a0cd-63330e2dddbc,Abudefduf sordidus,Abudefduf sordidus,Abudefduf,Pomacentridae,Chordata,Teleostei,2023-10-16T14:43:05+05:30,17.7825199752,83.3851153404,,,,,,True,HumanObservation
+016e7405-dded-4fc9-96e1-7a3c5ef01683,Coryphaenoides woodmasoni,Coryphaenoides woodmasoni,Coryphaenoides,Macrouridae,Chordata,Teleostei,,11.21306,74.42499999999998,1830.0,1830.0,,India,"Off Elicapeni Bank, Laccadive Sea, 11°12'47""N, 74°25'30""E, Investigator sta. 104, 1000 fm.",True,preservedspecimen
+016f682d-0eb2-4b5e-9bd8-528ecb65ce25,Pisodonophis cancrivorus,Pisodonophis cancrivorus,Pisodonophis,Ophichthidae,Chordata,Teleostei,,19.7666664124,85.3333358765,,,,,"Chilka Lake, Orissa, India",True,HumanObservation
+0170ac5f-6bff-43eb-85cd-25151c29b6d9,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.95577999999999,73.9222166666669,,,,,,True,Occurrence
+0172d589-8676-43ad-a549-4c0def55f1ac,Stolephorus dubiosus,Stolephorus dubiosus,Stolephorus,Engraulidae,Chordata,Teleostei,2023-01-09,21.7932097,89.2813127,,,,,Sundarban West Wildlife Sanctuary,True,MachineObservation
+017534ca-a1b3-4948-ade6-6cb82731ad10,Ariidae,,,Ariidae,Chordata,Teleostei,2023-01-09,21.7547521,89.2838353,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+017669b1-9879-48ac-8e01-03bbe9112f86,Atropus armatus,Atropus armatus,Atropus,Carangidae,Chordata,Teleostei,,6.1666667,80.3333333,,,,Democratic Socialist Republic of Sri Lanka,,True,PreservedSpecimen
+01768148-c1bf-4a07-9598-19fc5375de3c,Naso brachycentron,Naso brachycentron,Naso,Acanthuridae,Chordata,Teleostei,2024-03-25T09:50:06+05:00,3.6350073138,72.9582088441,,,,,,True,HumanObservation
+017843ab-e3ec-4550-810d-7bc1678d140c,Helcogramma striata,Helcogramma striata,Helcogramma,Tripterygiidae,Chordata,Teleostei,1969-09-29T12:00:00Z,8.60000038147,81.248336792,15.0,15.0,15.0,Sri Lanka,"Ceylon: Trincomalee, Off Chapel Hill",True,PreservedSpecimen
+017afeca-b37f-4963-b53c-3ff17a9fb737,Hoplostethus mediterraneus,Hoplostethus mediterraneus,Hoplostethus,Trachichthyidae,Chordata,Teleostei,1998/2007,12.4779,73.2697,350.0,200.0,500.0,,Southwest coast of India,True,HumanObservation
+017c9796-c5d7-45e1-9941-5607b22b6605,Monotaxis grandoculis,Monotaxis grandoculis,Monotaxis,Lethrinidae,Chordata,Teleostei,2025-03-23T09:04:04+05:00,5.268,73.1310945,,,,,,True,HumanObservation
+017cd4a4-9c67-48cd-8f39-053a1b32d54e,Zanclus cornutus,Zanclus cornutus,Zanclus,Zanclidae,Chordata,Teleostei,2025-12-25T12:53:00+05:30,5.9401322655,80.4666128492,,,,,,True,HumanObservation
+017d1421-de24-4599-9ed0-c347c00175da,Bodianus axillaris,Bodianus axillaris,Bodianus,Labridae,Chordata,Teleostei,2025-03-12T10:32:00+05:00,4.2145396884,72.8628892952,,,,,,True,HumanObservation
+017d6a34-cafe-4a26-b395-71da6f0c5971,Heniochus pleurotaenia,Heniochus pleurotaenia,Heniochus,Chaetodontidae,Chordata,Teleostei,2010-03-15T17:01:22-04:00,3.9870284,73.4977747,,,,,,True,HumanObservation
+017da928-2700-4b1b-ab0e-c13e41939401,Abudefduf vaigiensis,Abudefduf vaigiensis,Abudefduf,Pomacentridae,Chordata,Teleostei,2016-06-08T16:53:00+03:00,3.8786912752,73.3668708464,,,,,,True,HumanObservation
+017eeb7b-6033-433d-9d1e-c13e990ea666,Laeops macrophthalmus,Laeops macrophthalmus,Laeops,Bothidae,Chordata,Teleostei,,18.5,84.767,,,,golfe du bengale,,True,PreservedSpecimen
+0180996c-80b7-4d6f-8d9f-a0f531065304,Halichoeres hortulanus,Halichoeres hortulanus,Halichoeres,Labridae,Chordata,Teleostei,2015-09-14T07:15:00+05:00,4.301906,73.532224,,,,,,True,HumanObservation
+0180d50c-6212-4820-9014-eedf29e92019,Trichiurus lepturus,Trichiurus lepturus,Trichiurus,Trichiuridae,Chordata,Teleostei,2002/2011,8.9532,78.8867,,,,India,Gulf of Mannar,True,HumanObservation
+01811fbf-463c-4e59-ad42-e459fc6eb106,Dascyllus abudafur,Dascyllus abudafur,Dascyllus,Pomacentridae,Chordata,Teleostei,2025-03-15T09:27:00+05:00,4.2144474853,72.8634401132,,,,,,True,HumanObservation
+01816f05-cdc9-4a12-931d-13afe53f4b9e,Coris formosa,Coris formosa,Coris,Labridae,Chordata,Teleostei,2015-04-07T12:11:00+02:00,5.55,73.45,,,,,,True,HumanObservation
+0182c488-cc4e-408d-a458-4f42e87d6cdf,Pleuronectidae,,,Pleuronectidae,Chordata,Teleostei,,15.029999733,84.1200027466,,,,,,True,HumanObservation
+01846ed0-d059-4f1f-88af-f296108f3b66,Colletteichthys dussumieri,Colletteichthys dussumieri,Colletteichthys,Batrachoididae,Chordata,Teleostei,,18.9330005646,72.8499984741,,,,Inde,,True,PreservedSpecimen
+018571f8-c02e-40df-b44b-b811a3130695,Macropharyngodon bipartitus,Macropharyngodon bipartitus,Macropharyngodon,Labridae,Chordata,Teleostei,2025-05-05T10:30:44+05:00,5.523645,73.51066,,,,,,True,HumanObservation
+01860396-af9e-4eb3-b4fb-105cd27b2d39,Epinephelus undulosus,Epinephelus undulosus,Epinephelus,Epinephelidae,Chordata,Teleostei,2019-12-24/2019-12-27,16.4806,72.0986,24.0,16.0,32.0,India,Angria Bank,True,HumanObservation
+01863907-4c2d-4dad-b910-8318fe482ff6,Saurida undosquamis,Saurida undosquamis,Saurida,Synodontidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,54.0,54.0,54.0,,"Chinnamuttom, Kanyakumari",True,HumanObservation
+018668cf-219a-4932-8fe8-094dc743722d,Karalla dussumieri,Karalla dussumieri,Karalla,Leiognathidae,Chordata,Teleostei,2025-05-08T13:58:00+05:30,11.8934282349,79.8276352521,,,,,,True,HumanObservation
+0186c388-eb5d-4454-aed0-4f2d2d0e3fbe,Epinephelus fuscoguttatus,Epinephelus fuscoguttatus,Epinephelus,Epinephelidae,Chordata,Teleostei,1775-07-02T12:00:00Z,11.1166667938,92.8166656494,,,,,Andaman Islands,True,HumanObservation
+01872a56-0cac-479f-9210-ca997cc70625,Ctenochaetus striatus,Ctenochaetus striatus,Ctenochaetus,Acanthuridae,Chordata,Teleostei,1825,8.25,79.666664,,,,,"Kandakuliya Reef, Sri Lanka",True,HumanObservation
+0187ec47-f722-4d76-8d5b-1f67918e4b57,Caranx melampygus,Caranx melampygus,Caranx,Carangidae,Chordata,Teleostei,2022-04-14T12:32:00+05:00,4.2626,72.9981,,,,,,True,HumanObservation
+018922a4-3467-4798-8656-9895ae2099c0,Actinopteri,,,,Chordata,,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+01894076-19d2-4df5-8545-c287527dae60,Chaetodon trifascialis,Chaetodon trifascialis,Chaetodon,Chaetodontidae,Chordata,Teleostei,2009-10-20T11:39:00+05:00,3.823664192,72.9905893724,,,,,,True,HumanObservation
+01895bc5-407e-45c3-9a93-c8f5653e78e6,Clupeidae,,,Clupeidae,Chordata,Teleostei,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+018a3c8e-6227-4989-a908-30eb71a378cf,Myripristis berndti,Myripristis berndti,Myripristis,Holocentridae,Chordata,Teleostei,2024-05-04,4.5899129,73.4147061,,,,,,True,HumanObservation
+018a79e2-a737-4ecd-8b4a-9eb7a4666a18,Scarus rubroviolaceus,Scarus rubroviolaceus,Scarus,Scaridae,Chordata,Teleostei,2025-12-02T10:44:00+05:00,3.6183286578,73.368349875,,,,,,True,HumanObservation
+018b24c2-ebbe-4b08-9ef8-836f44523636,Thunnus alalunga,Thunnus alalunga,Thunnus,Scombridae,Chordata,Teleostei,,2.7545,75.067066666667,,,,,,True,Occurrence
+018b5f99-fa5c-4740-93c0-dbb12bb3d209,Monotaxis heterodon,Monotaxis heterodon,Monotaxis,Lethrinidae,Chordata,Teleostei,2015-09-13T11:30:00+05:00,4.256976,73.540101,,,,,,True,HumanObservation
+018b60bb-e85a-4068-8c51-4d1b7485ee85,Paralepis elongata,Paralepis elongata,Paralepis,Paralepididae,Chordata,Teleostei,1964-05-27T05:36:00Z,1.89999997616,65.0999984741,546.0,275.0,817.0,,,True,PreservedSpecimen
+018c3325-da0c-4e56-8b8f-b3069541710c,Thalassoma lunare,Thalassoma lunare,Thalassoma,Labridae,Chordata,Teleostei,2015-04-09T07:29:00+05:00,5.2555132423,73.1636930666,,,,,,True,HumanObservation
+018c5de5-3aaa-43c4-8f45-1b5169967b57,Stolephorus commersonnii,Stolephorus commersonnii,Stolephorus,Engraulidae,Chordata,Teleostei,,11.983,79.833,,,,inde,,True,PreservedSpecimen
+018dc024-0024-48b9-bb8f-cc751f7bb434,Katsuwonus pelamis,Katsuwonus pelamis,Katsuwonus,Scombridae,Chordata,Teleostei,1956/1981,17.0,88.0,0.0,0.0,0.0,,,True,HumanObservation
+018e2fae-3218-424f-b98c-7e6319627966,Zebrasoma desjardinii,Zebrasoma desjardinii,Zebrasoma,Acanthuridae,Chordata,Teleostei,2026-03-10T10:50:06+05:00,5.3517023837,73.5594479242,,,,,,True,HumanObservation
+018e87aa-10b8-4e92-a80a-3c5d60813a11,Leiognathidae,,,Leiognathidae,Chordata,Teleostei,,19.6333,93.15,,,,,,True,PreservedSpecimen
+0191906b-afcb-4d17-b8a3-320c48e84f76,Actinopteri,,,,Chordata,,2023-01-09,21.7548897,89.28418,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+0193ae4b-708b-4a5b-a0b8-2072ec8b9732,Butis gymnopomus,Butis gymnopomus,Butis,Eleotridae,Chordata,Teleostei,1853-07-02T12:00:00Z,10.0,93.0,,,,,Andaman & Nicobar Islands,False,HumanObservation
+0193d38f-a2a8-4c7e-9f17-2fefd95167ba,Gymnothorax fimbriatus,Gymnothorax fimbriatus,Gymnothorax,Muraenidae,Chordata,Teleostei,1969/1980,10.14,72.35,,,,,Suheli,True,HumanObservation
+0194770d-c38a-44e2-806d-5df7c38afe80,Obliquogobius cometes,Obliquogobius cometes,Obliquogobius,Gobiidae,Chordata,Teleostei,,18.5,84.767,,,,inde,,True,PreservedSpecimen
+0194a857-34cf-41a5-b2e4-c6bd0f137593,Epinephelus fuscoguttatus,Epinephelus fuscoguttatus,Epinephelus,Epinephelidae,Chordata,Teleostei,1775-07-02T12:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+0195587d-9a44-4826-bfe7-85a6a065ea50,Parupeneus barberinus,Parupeneus barberinus,Parupeneus,Mullidae,Chordata,Teleostei,2024-01-04T07:20:00+05:00,4.6346276424,73.5627291514,,,,,,True,HumanObservation
+01965c36-4913-4e4f-a593-4b7cacd31665,Giuris margaritaceus,Giuris margaritaceus,Giuris,Eleotridae,Chordata,Teleostei,,21.9442127684078,88.8980217778187,,,,India,Indian Sundarbans,True,HumanObservation
+0196a371-c02b-4865-9bd4-8495f52849d3,Gymnapistes,,Gymnapistes,Tetrarogidae,Chordata,Teleostei,,13.0,75.0,,,,India,,True,PreservedSpecimen
+0196e0df-6f2a-4824-8938-6ce295d0f634,Amphiprion sebae,Amphiprion sebae,Amphiprion,Pomacentridae,Chordata,Teleostei,1853,2.8666668,72.95,,,,,S . Nilandu,True,HumanObservation
+01976fde-7a1b-426b-98fb-eab03f483f8f,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.26828666666669,92.70425,,,,,,True,Occurrence
+0198481e-2512-4523-ba96-9d00eda16dd0,Eleotris fusca,Eleotris fusca,Eleotris,Eleotridae,Chordata,Teleostei,1860,19.966667,72.71667,,,,,Dahanu Creek,True,HumanObservation
+01984c88-c0d8-459c-8b28-c9a169269d3a,Etroplus suratensis,Etroplus suratensis,Etroplus,Cichlidae,Chordata,Teleostei,,11.0,76.0,,,,inde,,False,PreservedSpecimen
+0199318a-02c8-4fd5-9829-fee767e5ad59,Monotaxis heterodon,Monotaxis heterodon,Monotaxis,Lethrinidae,Chordata,Teleostei,2025-03-10T13:18:00+05:00,4.1855063542,72.7712468559,,,,,,True,HumanObservation
+019bcdf2-e21b-46b8-aad6-ca8d906751e8,Apocryptes bato,Apocryptes bato,Apocryptes,Gobiidae,Chordata,Teleostei,,22.1916675568,88.1847229004,,,,,Diamond Harbour,True,HumanObservation
+019d1d45-2334-418e-93d4-69076d64718b,Hemitaurichthys zoster,Hemitaurichthys zoster,Hemitaurichthys,Chaetodontidae,Chordata,Teleostei,2012-05-17T14:54:00+05:00,3.2121744972,73.0365625515,,,,,,True,HumanObservation
+019d67cb-1149-4c70-9024-28937fdad499,Istiblennius,,Istiblennius,Blenniidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230174,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+019d88f9-89ca-4a34-a2c5-96fada694ac0,Megalops cyprinoides,Megalops cyprinoides,Megalops,Megalopidae,Chordata,Teleostei,2024-01-29T09:55:00+05:30,6.1246473622,80.2640237069,,,,,,True,HumanObservation
+019d988f-8ff2-4c24-85c2-b4453e679c63,Neoniphon sammara,Neoniphon sammara,Neoniphon,Holocentridae,Chordata,Teleostei,2018-12-28T12:42:00+05:00,1.7847896052,73.3924864404,,,,,,True,HumanObservation
+019da619-d295-4ff3-8086-d81d754712e0,Eleotris fusca,Eleotris fusca,Eleotris,Eleotridae,Chordata,Teleostei,,22.339841,88.516122,,,,India,,True,PreservedSpecimen
+019df4eb-a5a2-4c76-bb52-634e4a2bda82,Saurida undosquamis,Saurida undosquamis,Saurida,Synodontidae,Chordata,Teleostei,1848-07-02T00:00:00Z,8.5,79.0,,,,,Gulf of Aden,True,HumanObservation
+019e0a0a-9224-468f-8b26-70f1a98f2831,Chaetodon collare,Chaetodon collare,Chaetodon,Chaetodontidae,Chordata,Teleostei,2005-11-29,7.117000103,79.80799866,,,,Sri Lanka,"Kochchikade, Sri Lanka",True,PreservedSpecimen
+019e12ef-e207-42e1-a7dd-0ec4690d6d36,Gnathophis musteliceps,Gnathophis musteliceps,Gnathophis,Congridae,Chordata,Teleostei,,18.2375,93.631,,,,Myanmar,,True,PreservedSpecimen
+019e91fc-636e-4e4d-904f-f83b382a23d2,Lutjanus bohar,Lutjanus bohar,Lutjanus,Lutjanidae,Chordata,Teleostei,2025-10-17T16:35:47+05:00,3.6350466667,72.9572533333,,,,,,True,HumanObservation
+019eb304-9f73-47ed-bdbd-ae88e0c3439d,Uranoscopus fuscomaculatus,Uranoscopus fuscomaculatus,Uranoscopus,Uranoscopidae,Chordata,Teleostei,,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+019f691e-d839-4b4b-b5d0-1d8b09e8e919,Fistularia commersonii,Fistularia commersonii,Fistularia,Fistulariidae,Chordata,Teleostei,2019-05-30T13:53:23+05:00,4.5314763375,73.3736783266,,,,,,True,HumanObservation
+019f7ee7-1a46-421c-a3d3-2f49a5777114,Elagatis bipinnulata,Elagatis bipinnulata,Elagatis,Carangidae,Chordata,Teleostei,,0.36680555,67.6668,,,,,,True,Occurrence
+01a0c57a-fc95-4bd6-b675-6947a6539a02,Pseudobalistes flavimarginatus,Pseudobalistes flavimarginatus,Pseudobalistes,Balistidae,Chordata,Teleostei,2025-12-31T15:30:40+05:00,4.4602813496,73.7176534441,,,,,,True,HumanObservation
+01a0dbc0-5a3e-44ca-a4f3-5fb965fe2ff9,Trachinocephalus myops,Trachinocephalus myops,Trachinocephalus,Synodontidae,Chordata,Teleostei,,5.3333,73.4833,,,,,,True,PreservedSpecimen
+01a192d7-eac2-4aef-9ff1-37c046c7cf7e,Lates calcarifer,Lates calcarifer,Lates,Latidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+01a1bad6-170a-4783-b009-6f14eb64f490,Pseudotriacanthus strigilifer,Pseudotriacanthus strigilifer,Pseudotriacanthus,Triacanthidae,Chordata,Teleostei,,21.9442127684078,88.8980217778187,,,,India,Indian Sundarbans,True,HumanObservation
+01a1bdcf-f656-42c0-a7fa-8353e19448f3,Planiliza subviridis,Planiliza subviridis,Planiliza,Mugilidae,Chordata,Teleostei,2023-01-09,21.7039168,89.2609951,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+01a1ee61-83d1-4e52-a3fd-2db285e1d78a,Ostorhinchus aureus,Ostorhinchus aureus,Ostorhinchus,Apogonidae,Chordata,Teleostei,1986/1987,11.483,79.8167,,,,India,Parangipettai,True,HumanObservation
+01a2bdc2-895b-4a42-b393-552aa7ca7576,Valenciennea sexguttata,Valenciennea sexguttata,Valenciennea,Gobiidae,Chordata,Teleostei,1969/1980,11.48,73.01,,,,,Kiltan,True,HumanObservation
+01a429e6-9d85-4a63-a8c3-3f43ae526271,Johnius belangerii,Johnius belangerii,Johnius,Sciaenidae,Chordata,Teleostei,2023-01-09,21.7548897,89.28418,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+01a5499f-a17e-48a0-a32a-74965ad6c031,Sorsogona melanoptera,Sorsogona melanoptera,Sorsogona,Platycephalidae,Chordata,Teleostei,1963-04-01T12:00:00Z,15.1000003815,94.0999984741,66.0,66.0,66.0,Myanmar,,True,PreservedSpecimen
+01a5861f-0641-4dd8-baf4-bfd4781e6903,Sufflamen chrysopterum,Sufflamen chrysopterum,Sufflamen,Balistidae,Chordata,Teleostei,2024-08-07T15:48:34+05:00,3.9802178843,72.9427254225,,,,,,True,HumanObservation
+01a67624-0400-4592-8508-ba19173979cc,Psammoperca waigiensis,Psammoperca waigiensis,Psammoperca,Latidae,Chordata,Teleostei,2002/2011,8.9532,78.8867,,,,India,Gulf of Mannar,True,HumanObservation
+01a72ae1-63f7-465a-a051-06caae9c3796,Acanthurus triostegus,Acanthurus triostegus,Acanthurus,Acanthuridae,Chordata,Teleostei,1758-07-02T12:00:00Z,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+01a81d6a-9142-4b8e-b6b0-3aeaa56028a7,Chrysiptera biocellata,Chrysiptera biocellata,Chrysiptera,Pomacentridae,Chordata,Teleostei,1825,19.966667,72.71667,,,,,Dahanu Creek,True,HumanObservation
+01a822a1-5056-471b-9248-51fa5d8832bb,Monodactylus argenteus,Monodactylus argenteus,Monodactylus,Monodactylidae,Chordata,Teleostei,2025-03-28T12:53:00+05:30,5.9469866667,80.4509683333,,,,,,True,HumanObservation
+01a8a98a-fef8-4540-9762-e9c8e32ecd91,Ariosoma balearicum,Ariosoma balearicum,Ariosoma,Congridae,Chordata,Teleostei,,0.0,75.0,,,,,,True,PreservedSpecimen
+01a8b86e-aae2-40e7-8b67-83e070814ac2,Zanclus cornutus,Zanclus cornutus,Zanclus,Zanclidae,Chordata,Teleostei,2025-03-15T09:27:00+05:00,4.2144474853,72.8634401132,,,,,,True,HumanObservation
+01a99140-d421-4738-95c0-0d200f0d479f,Caranx melampygus,Caranx melampygus,Caranx,Carangidae,Chordata,Teleostei,2025-02-02T10:57:00+05:00,3.5253622607,72.9216611103,,,,,,True,HumanObservation
+01ab5329-6d40-4a99-8a68-19792657a925,Bodianus axillaris,Bodianus axillaris,Bodianus,Labridae,Chordata,Teleostei,2023-12-20T11:30:00+05:00,3.5554292131,72.9334253859,,,,,,True,HumanObservation
+01ac034b-2540-4cb1-9587-c0c9712e4eed,Lagocephalus lunaris,Lagocephalus lunaris,Lagocephalus,Tetraodontidae,Chordata,Teleostei,,13.083,80.3,,,,,Madras,True,PreservedSpecimen
+01ac2f95-ad08-43f1-b34b-c8bf897969dd,Osteogeneiosus militaris,Osteogeneiosus militaris,Osteogeneiosus,Ariidae,Chordata,Teleostei,,10.0,75.0,,,,Inde,,True,PreservedSpecimen
+01acc9b8-3e87-4d3e-80e9-0df1c2cc06cc,Siganus stellatus,Siganus stellatus,Siganus,Siganidae,Chordata,Teleostei,2024-08-08T14:21:46+05:00,4.0063722906,72.9512806918,,,,,,True,HumanObservation
+01ad4fee-f88a-41a8-92aa-d2e5569e2548,Decapterus smithvanizi,Decapterus smithvanizi,Decapterus,Carangidae,Chordata,Teleostei,,19.73633,92.292,,,,Myanmar,,True,PreservedSpecimen
+01af95cd-8ea3-41cd-ae66-e79bb43e92aa,Stolephorus tri,Stolephorus tri,Stolephorus,Engraulidae,Chordata,Teleostei,1852-07-02T00:00:00Z,19.9666671753,72.7166671753,,,,,Dahanu Creek,True,HumanObservation
+01afc61c-296f-4534-9247-dd55512ee6c1,Tylosurus crocodilus,Tylosurus crocodilus,Tylosurus,Belonidae,Chordata,Teleostei,2026-03-08T06:26:08+05:00,5.3298583736,73.6507293881,,,,,,True,HumanObservation
+01b06cc7-6e78-4841-905f-9ccff211f89b,Epinephelus melanostigma,Epinephelus melanostigma,Epinephelus,Epinephelidae,Chordata,Teleostei,1953-07-02T12:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+01b09d17-54a6-4d6b-9d74-797b445912b5,Actinopteri,,,,Chordata,,2023-01-09,21.7547521,89.2838353,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+01b0d6cf-3af4-43aa-925f-c6df79f77907,Amphiprion ocellaris,Amphiprion ocellaris,Amphiprion,Pomacentridae,Chordata,Teleostei,2024-04-13T08:49:00+05:30,11.9760503,92.9875565,,,,,,True,HumanObservation
+01b1cabb-06f7-48c9-ae6e-d4816489770b,Pycnochromis fieldi,Pycnochromis fieldi,Pycnochromis,Pomacentridae,Chordata,Teleostei,2026-05-03T11:27:00+05:00,1.8196878643,73.4021821802,,,,,,True,HumanObservation
+01b1e899-fdce-42cb-9f43-af58ff45709d,Abudefduf sordidus,Abudefduf sordidus,Abudefduf,Pomacentridae,Chordata,Teleostei,2026-04-16T09:26:54+05:30,6.0289138889,80.2137583333,,,,,,True,HumanObservation
+01b2c68e-66c0-4056-b1af-41327009519c,Chaetodon trifascialis,Chaetodon trifascialis,Chaetodon,Chaetodontidae,Chordata,Teleostei,2024-09-03T09:28:00+05:00,4.0279690637,73.5384179114,,,,,,True,HumanObservation
+01b2ed7a-953a-45dc-989a-6ecc3b8b5ba3,Lagocephalus spadiceus,Lagocephalus spadiceus,Lagocephalus,Tetraodontidae,Chordata,Teleostei,,21.13479,69.798798,,,,India,,True,PreservedSpecimen
+01b321dd-e0fe-45aa-bd83-46347f7a10e5,Chanos chanos,Chanos chanos,Chanos,Chanidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+01b41807-d3fb-4939-9ba0-6bf452fb1b15,Lates calcarifer,Lates calcarifer,Lates,Latidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+01b5abeb-94c3-4fb5-9e2d-b45a12ea463b,Escualosa thoracata,Escualosa thoracata,Escualosa,Dorosomatidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230174,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+01b6694e-2f1e-4b09-bf32-8edaf134426a,Escualosa thoracata,Escualosa thoracata,Escualosa,Dorosomatidae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+01b6fb25-aad6-45c4-9922-938ca2256457,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.4360133333333,85.9557999999999,,,,,,True,Occurrence
+01b73838-dc53-48c4-b1f1-56d0f2ce87ee,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.4192166666667,74.1509999999999,,,,,,True,Occurrence
+01b7beea-5622-4e08-affb-27703355fec5,Coilia dussumieri,Coilia dussumieri,Coilia,Engraulidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+01b834f9-87ac-44a8-ba72-2d6c58b36d69,Acanthurus lineatus,Acanthurus lineatus,Acanthurus,Acanthuridae,Chordata,Teleostei,2017-08-15T12:48:00+05:30,8.5810780631,81.2396110534,,,,,,True,HumanObservation
+01b85873-de53-4ab8-9411-9b11fa930e55,Dascyllus aruanus,Dascyllus aruanus,Dascyllus,Pomacentridae,Chordata,Teleostei,1758-07-02T12:00:00Z,8.38333320618,79.7333297729,,,,,"Bar Reef Marine Sanctuary, Sri Lanka",True,HumanObservation
+01b975ba-7c22-4ba0-9ca6-0dcca5900345,Scarus frenatus,Scarus frenatus,Scarus,Scaridae,Chordata,Teleostei,2024-03-29T11:52:00+05:00,3.653206508,72.9515485951,,,,,,True,HumanObservation
+01b9c133-f538-410b-9b55-124f49d49832,Lutjanus argentimaculatus,Lutjanus argentimaculatus,Lutjanus,Lutjanidae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+01b9fd35-31f1-41a6-b4b3-8d848e5d18ad,Mugil cephalus,Mugil cephalus,Mugil,Mugilidae,Chordata,Teleostei,1758-07-02T12:00:00Z,19.9666671753,72.7166671753,,,,,Dahanu Creek,True,HumanObservation
+01ba158b-95d5-4f2b-9367-898efb4c5f3f,Hoplostethus rubellopterus,Hoplostethus rubellopterus,Hoplostethus,Trachichthyidae,Chordata,Teleostei,2025-01-30,7.57012,76.41054,325.0,200.0,450.0,,Sakthikulangara,True,HumanObservation
+01ba6a16-c3b9-4f49-beae-12b5600df4a5,Gymnothorax javanicus,Gymnothorax javanicus,Gymnothorax,Muraenidae,Chordata,Teleostei,2025-01-11T10:25:00+05:00,4.5328002137,73.3736049011,,,,,,True,HumanObservation
+01bacbdf-2adb-4e3e-971e-a7c106c363f1,Trachyrhamphus serratus,Trachyrhamphus serratus,Trachyrhamphus,Syngnathidae,Chordata,Teleostei,1941-01-06,13.257938,80.338105,,,,India,"Ennur Fisheries Station, Madras Presidency.",True,PreservedSpecimen
+01bc53f4-0927-42d5-a2c3-251126818cc3,Schistura,,Schistura,Nemacheilidae,Chordata,Teleostei,1962-02-13,17.925406,73.658672,,,,India,Maharashtra: Marhableshwar.  Alt.=1250 M.,True,PreservedSpecimen
+01bd23a7-91d9-49b7-ac93-8063cae073dc,Anodontostoma chacunda,Anodontostoma chacunda,Anodontostoma,Dorosomatidae,Chordata,Teleostei,2023-01-09,21.7549458,89.2837655,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+01be3d2a-c288-467a-8c0f-96a5182f6aa1,Uranoscopus cognatus,Uranoscopus cognatus,Uranoscopus,Uranoscopidae,Chordata,Teleostei,,21.6472225189,87.6333312988,,,,,Digha Coast,True,HumanObservation
+01be5015-60fd-4a42-a41d-9740e069d771,Cephalopholis leopardus,Cephalopholis leopardus,Cephalopholis,Epinephelidae,Chordata,Teleostei,2018-03-30T21:28:00+02:00,4.4558979,73.5594128,,,,,,True,HumanObservation
+01bf202a-84ef-4f43-9230-2620308015eb,Thalassoma hardwicke,Thalassoma hardwicke,Thalassoma,Labridae,Chordata,Teleostei,2024-02-06T16:41:00+05:00,3.6186166667,72.7808333333,,,,,,True,HumanObservation
+01bfd218-945f-4c65-814d-3821f19b31c7,Cyprinidae,,,Cyprinidae,Chordata,Teleostei,,18.566,73.966,,,,India,Poonah,True,PreservedSpecimen
+01c01895-332c-4aa2-9f24-df817092b2bc,Sargocentron caudimaculatum,Sargocentron caudimaculatum,Sargocentron,Holocentridae,Chordata,Teleostei,2019-12-13T19:47:00-08:00,3.7582821532,72.9644264177,,,,,,True,HumanObservation
+01c1d280-9ce1-4f20-92bc-d587421e8aed,Cyclothone,,Cyclothone,Gonostomatidae,Chordata,Teleostei,,4.3,80.1333,,,,,,True,PreservedSpecimen
+01c3f4b5-efe6-40d9-97c8-ba96a3db4573,Ctenochaetus truncatus,Ctenochaetus truncatus,Ctenochaetus,Acanthuridae,Chordata,Teleostei,2026-05-03T10:02:42+05:00,1.8187580562,73.401501584,,,,,,True,HumanObservation
+01c5f70c-0a67-4319-8b9b-19201618bea1,Bassozetus glutinosus,Bassozetus glutinosus,Bassozetus,Ophidiidae,Chordata,Teleostei,1951-05-03 00:00:00.0000000,15.9,90.283302,2600.0,2600.0,2600.0,,Bay of Bengal,True,PreservedSpecimen
+01c61fda-8130-4cd5-9bae-f59713523aeb,Scomberoides tol,Scomberoides tol,Scomberoides,Carangidae,Chordata,Teleostei,,11.983,79.833,,,,inde,,True,PreservedSpecimen
+01c698a0-e83b-49ac-97e8-1606b5be9d5c,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.95577999999999,73.9222166666669,,,,,,True,Occurrence
+01c7396c-1b1b-4b54-abb4-440a1d5838c6,Gymnothorax javanicus,Gymnothorax javanicus,Gymnothorax,Muraenidae,Chordata,Teleostei,2013-04-07T12:20:00+02:00,4.1933871689,72.819549566,,,,,,True,HumanObservation
+01c7a1fe-492a-457d-9f57-45aaa0439a7c,Cephalopholis argus,Cephalopholis argus,Cephalopholis,Epinephelidae,Chordata,Teleostei,2014-01-19T15:53:00+05:00,3.8787515298,73.3665798277,,,,,,True,HumanObservation
+01c81018-6ed3-4e73-96d6-1ccca1a264a6,Alepes kleinii,Alepes kleinii,Alepes,Carangidae,Chordata,Teleostei,2009-08-04/2009-08-20,11.25,75.31,50.0,,50.0,,Calicut,True,HumanObservation
+01c92964-3450-46d4-b68b-3f6bbcfba59a,Otolithoides pama,Otolithoides pama,Otolithoides,Sciaenidae,Chordata,Teleostei,2023-01-09,21.703521,89.2614816,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+01ca7347-2780-4906-ab6a-19aa82258c24,Rhabdosargus sarba,Rhabdosargus sarba,Rhabdosargus,Sparidae,Chordata,Teleostei,,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+01cad2f1-b1cc-4b37-b172-2dec95e736fd,Ostracion cubicum,Ostracion cubicum,Ostracion,Ostraciidae,Chordata,Teleostei,2018-07-14T14:51:00+05:00,5.4926216,72.9373468,,,,,,True,HumanObservation
+01cb1cec-b7fb-49e5-b07a-0d5f9ecd0e6f,Bathygobius cocosensis,Bathygobius cocosensis,Bathygobius,Gobiidae,Chordata,Teleostei,2023-01-09,21.7039168,89.2609951,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+01cb74b7-9a5c-4948-8063-4ee8d5c3ebe2,Johnius borneensis,Johnius borneensis,Johnius,Sciaenidae,Chordata,Teleostei,1966-09-20T12:00:00Z,11.5,79.8000030518,,,,India,"India: Madras State; Porto Novo, In Bay of Bengal - From 1 To 5 mi. Out In Bay of Bengal Off Mouth of Vellar, Purchased ca. 1200-1400 From Chinnur-Pudupet Fish Market.",True,PreservedSpecimen
+01cba5ff-8e8e-4891-b32c-9aaf907c6f8e,Actinopteri,,,,Chordata,,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+01cd40aa-3297-49c2-b307-04e122b84fe1,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.4192166666667,74.1509999999999,,,,,,True,Occurrence
+01cd5e05-e93c-4de7-8353-9a048b242dbc,Ostracion cubicum,Ostracion cubicum,Ostracion,Ostraciidae,Chordata,Teleostei,2021-05-20T11:52:00-10:00,4.091104,72.8621326,,,,,,True,HumanObservation
+01cdeb9d-6e8c-49c4-846b-e80a590e503c,Pterois volitans,Pterois volitans,Pterois,Scorpaenidae,Chordata,Teleostei,1969/1980,11.21,72.79,,,,,Kadmat,True,HumanObservation
+01d27c55-709d-4143-abc4-ed77bd7b6881,Coilia ramcarati,Coilia ramcarati,Coilia,Engraulidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+01d313b6-d28b-48ba-a47b-03eaf66cb867,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.90548999999999,75.067066666667,,,,,,True,Occurrence
+01d40be9-62b4-4e57-bf8a-c064e52d157d,Trachinotus botla,Trachinotus botla,Trachinotus,Carangidae,Chordata,Teleostei,,9.271098,80.814225,,,,Sri Lanka,,True,PreservedSpecimen
+01d473ce-34bd-43c4-94d6-29be2da74472,Pomacentrus caeruleus,Pomacentrus caeruleus,Pomacentrus,Pomacentridae,Chordata,Teleostei,2014-04-20T10:49:00+05:00,5.4917376704,73.4250494511,,,,,,True,HumanObservation
+01d4c8f2-a519-4aa7-908f-17fa5116837f,Cirrhitichthys oxycephalus,Cirrhitichthys oxycephalus,Cirrhitichthys,Cirrhitidae,Chordata,Teleostei,2024-09-12T22:02:00+05:00,5.1254100893,73.075206664,,,,,,True,HumanObservation
+01d4f94a-ec24-4aa7-8f1a-cce2bdc963e0,Caranx ignobilis,Caranx ignobilis,Caranx,Carangidae,Chordata,Teleostei,2019-12-27T20:51:00+05:30,19.19584,72.9736189722,,,,,,True,HumanObservation
+01d5617b-3fdc-46f0-bc9b-ddc09c438999,Labroides dimidiatus,Labroides dimidiatus,Labroides,Labridae,Chordata,Teleostei,2004-12-08,3.8223363958,72.8471448438,,,,,,True,HumanObservation
+01d72f14-8b72-4584-b177-81ab821d1e5c,Coris formosa,Coris formosa,Coris,Labridae,Chordata,Teleostei,,7.117000103,79.8079986572,,,,Sri Lanka,,True,HumanObservation
+01d8e6e6-bd21-4da1-9599-e7d3f957c509,Deveximentum insidiator,Deveximentum insidiator,Deveximentum,Leiognathidae,Chordata,Teleostei,2017-12-28T10:00:00+02:00,12.01176,75.2100666667,,,,,,True,HumanObservation
+01d97af2-214f-407f-abe6-df8e63069db8,Pampus argenteus,Pampus argenteus,Pampus,Stromateidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+01d9fb82-04b7-48e0-bc1f-b3c728d0e629,Coelorinchus quadricristatus,Coelorinchus quadricristatus,Coelorinchus,Macrouridae,Chordata,Teleostei,1998/2007,12.4779,73.2697,350.0,200.0,500.0,,Southwest coast of India,True,HumanObservation
+01d9fd05-51ae-46cb-9735-2091e2d87c5c,Actinopteri,,,,Chordata,,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+01da62bd-a43e-4ff9-ad99-3d243df019e4,Acanthurus lineatus,Acanthurus lineatus,Acanthurus,Acanthuridae,Chordata,Teleostei,2021-10-17T15:31:00+05:30,0.8480194755,73.4057771487,,,,,,True,HumanObservation
+01e02263-7cb5-4bd2-ad29-92a7188eb66e,Terapon jarbua,Terapon jarbua,Terapon,Terapontidae,Chordata,Teleostei,2000/2002,8.26,73.03,,,,,Minicoy Lagoon,True,HumanObservation
+01e09c39-a6a4-4215-9902-b4303b121b9e,Istigobius ornatus,Istigobius ornatus,Istigobius,Gobiidae,Chordata,Teleostei,,9.246019,79.211491,,,,India,,True,PreservedSpecimen
+01e146dc-6e68-4e28-a70c-fe4ddf775a20,Gymnothorax favagineus,Gymnothorax favagineus,Gymnothorax,Muraenidae,Chordata,Teleostei,2024-03-09T17:23:54+05:30,15.3698696442,73.8619694486,,,,,,True,HumanObservation
+01e161dd-1c12-4a2f-84cd-d36bd5191fdb,Stethojulis,,Stethojulis,Labridae,Chordata,Teleostei,,4.1,72.7417,,,,Maldives,,True,PreservedSpecimen
+01e29f86-63c1-4dce-937b-637e73bb2594,Balistapus undulatus,Balistapus undulatus,Balistapus,Balistidae,Chordata,Teleostei,2026-01-07T16:33:00+05:00,5.0644636328,73.0318367285,,,,,,True,HumanObservation
+01e34725-61cb-4b26-b702-dc0337744611,Chlorophthalmus chalybeius,Chlorophthalmus chalybeius,Chlorophthalmus,Chlorophthalmidae,Chordata,Teleostei,1955-10-07,24.0,83.0,,,,,,True,preservedspecimen
+01e393db-eb93-47e8-bc2a-21cf4df4a550,Coryphaena hippurus,Coryphaena hippurus,Coryphaena,Coryphaenidae,Chordata,Teleostei,,10.0,95.0,,,,,Thailand,True,PreservedSpecimen
+01e3a623-b291-4afd-adf2-6f0f207b9459,Ostorhinchus moluccensis,Ostorhinchus moluccensis,Ostorhinchus,Apogonidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,43.0,43.0,43.0,,"Chinnamuttom, Kanyakumari",True,HumanObservation
+01e3e274-3785-4f12-870c-02005398d8a4,Amphiprion biaculeatus,Amphiprion biaculeatus,Amphiprion,Pomacentridae,Chordata,Teleostei,1790-07-02T12:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+01e4b6f0-f675-4040-9e95-0e6aaa799b5a,Thryssa hamiltonii,Thryssa hamiltonii,Thryssa,Engraulidae,Chordata,Teleostei,2023-01-09,21.7933049,89.2808746,,,,,Sundarban's west wildlife sanctuary,True,MachineObservation
+01e4c541-7264-4b25-ad43-55e188e361ce,Selaroides leptolepis,Selaroides leptolepis,Selaroides,Carangidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,19.0,19.0,19.0,,Tuticorin,True,HumanObservation
+01e5c81d-a0a9-41ba-9337-bad1a4d8e710,Abudefduf bengalensis,Abudefduf bengalensis,Abudefduf,Pomacentridae,Chordata,Teleostei,2022-03-11T09:19:00+05:30,15.0099410949,74.0128275024,,,,,,True,HumanObservation
+01e5d101-d4e7-4823-a554-a50fc1e251cd,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,6.5701166666667,73.7209666666669,,,,,,True,Occurrence
+01e702e8-7f86-4c84-87aa-f692de0d29cf,Cephalopholis boenak,Cephalopholis boenak,Cephalopholis,Epinephelidae,Chordata,Teleostei,1790-07-02T12:00:00Z,11.1166667938,92.8166656494,,,,,Andaman Islands,True,HumanObservation
+01e71021-36be-46d4-99ef-9e810fefe6bc,Chelon,,Chelon,Mugilidae,Chordata,Teleostei,2016-03-25,21.45755,92.0453,,,,Bangladesh,,True,PreservedSpecimen
+01e72de2-4166-424e-82cc-4715495868d7,Variola albimarginata,Variola albimarginata,Variola,Epinephelidae,Chordata,Teleostei,,10.0,75.0,,,,Sri Lanka,,True,PreservedSpecimen
+01e8c08b-651f-473c-acdc-66a746191c6b,Pangasiidae,,,Pangasiidae,Chordata,Teleostei,2023-01-09,21.7547399,89.2839957,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+01e99376-fe39-42b1-a27a-64ba165b8380,Lates calcarifer,Lates calcarifer,Lates,Latidae,Chordata,Teleostei,2023-01-09,21.7039168,89.2609951,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+01e9bff4-19d2-487f-9b60-86cdbe91c363,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,,3.4862333333333,89.016846666667,,,,,,True,Occurrence
+01e9d63b-25f5-4a5e-80cc-518e0d435864,Istiophorus platypterus,Istiophorus platypterus,Istiophorus,Istiophoridae,Chordata,Teleostei,,19.6036499999999,69.1006,,,,,,True,Occurrence
+01ea1e60-28a4-4f54-a437-da4df5a524ae,Entomacrodus vermiculatus,Entomacrodus vermiculatus,Entomacrodus,Blenniidae,Chordata,Teleostei,1970-06-10T08:42:00Z,7.91333293915,81.5666656494,2.5,2.0,3.0,Sri Lanka,Ceylon: Batticaloa District; Korali Pattu; Kalkudah Bay (Rock Outcrop 100 Ft Offshore of Lone Rock On Beach ca 200 Yds South of Rest House).,True,PreservedSpecimen
+01ea25a4-dc0c-49f6-9877-c6c9e619be4c,Atherinomorus lacunosus,Atherinomorus lacunosus,Atherinomorus,Atherinidae,Chordata,Teleostei,,0.0,90.0,,,,IndonǸsie,,True,PreservedSpecimen
+01eaaaad-89f2-46ba-b9b5-87a3c34901e2,Deveximentum insidiator,Deveximentum insidiator,Deveximentum,Leiognathidae,Chordata,Teleostei,1969/1980,13.09,80.33,,,,,Madras,True,HumanObservation
+01eb0803-b0b0-44b2-a509-d2f1283093f8,Chaetodon xanthocephalus,Chaetodon xanthocephalus,Chaetodon,Chaetodontidae,Chordata,Teleostei,2025-12-17T11:55:00+05:00,4.1431509062,72.8447021619,,,,,,True,HumanObservation
+01eb1c2a-df2c-49de-8444-07ae1c0f1948,Ctenopharyngodon idella,Ctenopharyngodon idella,Ctenopharyngodon,Cyprinidae,Chordata,Teleostei,1985-01-28/02-03,15.338051,76.46701,,,,India,"Bellary Dist., Tungabahdra R. and Reservoir at Hospet, Hampi, and Kampli.",False,PreservedSpecimen
+01ebbff0-ff96-43ee-ad3d-b0e963317d94,Pangasius pangasius,Pangasius pangasius,Pangasius,Pangasiidae,Chordata,Teleostei,2023-01-09,21.7547399,89.2839957,,,,,Sundarban west wildlife sanctuary,False,MachineObservation
+01ed2714-8fad-476a-b781-656ebbb9d871,Redigobius bikolanus,Redigobius bikolanus,Redigobius,Gobiidae,Chordata,Teleostei,2004-04-24,19.983,93.883,,,,Myanmar,,True,PreservedSpecimen
+01ee01ca-4a5d-4360-9af0-f57d25b3034e,Eviota teresae,Eviota teresae,Eviota,Gobiidae,Chordata,Teleostei,2022-04-07T14:29:00-10:00,3.4875233488,72.8007247466,,,,,,True,HumanObservation
+01ef99ae-016f-4776-9e03-c335ac94667e,Parateleopus indicus,Parateleopus indicus,Parateleopus,Ateleopodidae,Chordata,Teleostei,2010-09-17,12.82666667,93.213,441.0,441.0,441.0,India,Off North Andaman,True,PreservedSpecimen
+01efce14-1858-46e1-97f1-16c14c43f721,Protonibea diacanthus,Protonibea diacanthus,Protonibea,Sciaenidae,Chordata,Teleostei,1963-11-19T08:54:00Z,23.2000007629,67.8000030518,24.5,24.0,25.0,India,Off of India/Pakistan border,True,PreservedSpecimen
+01f0af4e-1399-4e78-b992-ebb76876ac83,Pomacanthus imperator,Pomacanthus imperator,Pomacanthus,Pomacanthidae,Chordata,Teleostei,2023-02-23T04:54:00+05:00,4.0982350351,72.745941631,,,,,,True,HumanObservation
+01f18724-a478-4307-b506-ff5d298e17ae,Atropus armatus,Atropus armatus,Atropus,Carangidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+01f1aba9-48a6-4e1e-872b-b19f6b0f12cf,Bathyclupea hoskynii,Bathyclupea hoskynii,Bathyclupea,Bathyclupeidae,Chordata,Teleostei,1998/2007,12.4779,73.2697,350.0,200.0,500.0,,Southwest coast of India,True,HumanObservation
+01f3bea0-2181-49b7-95cb-9a786b48484c,Leiuranus semicinctus,Leiuranus semicinctus,Leiuranus,Ophichthidae,Chordata,Teleostei,1839-07-02T12:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+01f489d4-f785-4ff8-b124-1c404bf03c90,Scatophagus argus,Scatophagus argus,Scatophagus,Scatophagidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230583,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+01f4ddc0-d914-43d2-b498-f6eb39261543,Coryphaena hippurus,Coryphaena hippurus,Coryphaena,Coryphaenidae,Chordata,Teleostei,,0.36680555,67.6668,,,,,,True,Occurrence
+01f4e308-fbad-4104-a229-533aee07fbca,Halichoeres chloropterus,Halichoeres chloropterus,Halichoeres,Labridae,Chordata,Teleostei,,0.0,90.0,,,,IndonǸsie,,True,PreservedSpecimen
+01f4ea79-dfba-49af-a72d-d1bd4af87b3d,Aluterus scriptus,Aluterus scriptus,Aluterus,Monacanthidae,Chordata,Teleostei,2023-02-28T09:40:00+05:00,3.442240467,73.6150718766,,,,,,True,HumanObservation
+01f529a7-26d3-4843-9d69-c1c3e5cf1205,Diplodus,,Diplodus,Sparidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230174,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+01f539ae-86fe-4556-96eb-a60e515c3f0d,Pseudanthias squamipinnis,Pseudanthias squamipinnis,Pseudanthias,Anthiadidae,Chordata,Teleostei,,7.117000103,79.8079986572,,,,Sri Lanka,,True,HumanObservation
+01f564c1-9c0f-4349-b01e-60223fa424f9,Pseudorhombus triocellatus,Pseudorhombus triocellatus,Pseudorhombus,Paralichthyidae,Chordata,Teleostei,1966-09-22T12:00:00Z,11.8999996185,79.9000015259,,,,India,"India: Pondicherry State; Pondicherry Veerampatinam Fishing Village, 6 km. South of Pondicherry (Bay of Bengal), Purchased At Village Landing.",True,PreservedSpecimen
+01f6c264-8a8d-498f-82e6-0cd2112ef012,Scomberoides lysan,Scomberoides lysan,Scomberoides,Carangidae,Chordata,Teleostei,1966-09-10,18.25,72.416667,,,,India,"Bombay area; some purchased at Fish Market, others gifts from Coll. of Maharashtra St. Fish Dept.",True,PreservedSpecimen
+01f6e6bb-c9ad-4efa-9feb-da9f15cea42d,Chromis viridis,Chromis viridis,Chromis,Pomacentridae,Chordata,Teleostei,2014-04-23T10:42:00+05:00,5.4941,73.4242777778,,,,,,True,HumanObservation
+01f7c532-d57a-4901-b294-610e9b7839ca,Epinephelus longispinis,Epinephelus longispinis,Epinephelus,Epinephelidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,30.0,30.0,30.0,,Tirespuram,True,HumanObservation
+01f847e6-4830-4819-86ad-df8f47ecf643,Scarus frenatus,Scarus frenatus,Scarus,Scaridae,Chordata,Teleostei,2025-12-30T12:17:00+05:00,3.4978873201,73.5262155533,,,,,,True,HumanObservation
+01faafac-1076-42ba-87e1-bf362217f606,Chrysiptera unimaculata,Chrysiptera unimaculata,Chrysiptera,Pomacentridae,Chordata,Teleostei,2025-03-15T11:36:00+05:00,4.2160846183,72.8616683306,,,,,,True,HumanObservation
+01fb5112-8ed0-4176-8f09-4935da3442ab,Zebrasoma scopas,Zebrasoma scopas,Zebrasoma,Acanthuridae,Chordata,Teleostei,2026-01-09T15:12:00+05:00,5.132638,72.937853,,,,,,True,HumanObservation
+01fc0c78-1c1d-4ca2-87f2-01e1a62afa69,Canthigaster valentini,Canthigaster valentini,Canthigaster,Tetraodontidae,Chordata,Teleostei,2024-01-25T13:53:00+05:00,3.5376223,72.912612,,,,,,True,HumanObservation
+01fc756a-4248-4728-829b-d84dbe82809c,Lutjanus kasmira,Lutjanus kasmira,Lutjanus,Lutjanidae,Chordata,Teleostei,2012-12-25T15:39:00+01:00,3.6625,72.7447222222,,,,,,True,HumanObservation
+01fcdd41-1799-49ad-9fca-55d242ded6fb,Cheilinus fasciatus,Cheilinus fasciatus,Cheilinus,Labridae,Chordata,Teleostei,2026-05-02T14:47:50+05:00,1.8183569257,73.4013452969,,,,,,True,HumanObservation
+01fd76db-5a98-490a-85b8-b03fffd871e4,Pomacanthus xanthometopon,Pomacanthus xanthometopon,Pomacanthus,Pomacanthidae,Chordata,Teleostei,2022-03-03T23:55:00+05:00,4.2175554435,72.7454137116,,,,,,True,HumanObservation
+01fe3e91-c52e-4ea5-ab5b-b5e3ff7c2c21,Chaetodon decussatus,Chaetodon decussatus,Chaetodon,Chaetodontidae,Chordata,Teleostei,2025-01-14T14:14:03+05:30,17.7816821,83.3821107,,,,,,True,HumanObservation
+02015be7-2321-4cd9-a3bb-984657103ae2,Macolor niger,Macolor niger,Macolor,Lutjanidae,Chordata,Teleostei,2025-03-23T09:25:01+05:00,5.2698666667,73.1302611667,,,,,,True,HumanObservation
+0201cef7-f568-4a51-b158-9bd30387434f,Sargocentron caudimaculatum,Sargocentron caudimaculatum,Sargocentron,Holocentridae,Chordata,Teleostei,2015-09-15T15:15:00+05:00,4.33888,73.624535,,,,,,True,HumanObservation
+02020c8d-ebc5-4de1-9ebb-c322491a9fa6,Acanthurus lineatus,Acanthurus lineatus,Acanthurus,Acanthuridae,Chordata,Teleostei,2025-11-23T07:36:00+05:30,5.8792551507,80.5590268005,,,,,,True,HumanObservation
+02020f79-e4e2-4438-93bd-2ad57471525f,Megalaspis cordyla,Megalaspis cordyla,Megalaspis,Carangidae,Chordata,Teleostei,1758,21.647223,87.63333,,,,,Digha Coast,True,HumanObservation
+0202ffd3-4090-423b-be3c-502593930c45,Sphyraena putnamae,Sphyraena putnamae,Sphyraena,Sphyraenidae,Chordata,Teleostei,,7.783333,77.216667,,,,Sri Lanka,,True,PreservedSpecimen
+020325e5-8939-4ba8-b95e-35279f58b7a5,Monotaxis heterodon,Monotaxis heterodon,Monotaxis,Lethrinidae,Chordata,Teleostei,2023-02-25T05:23:00+05:00,3.5976791223,72.7264274296,,,,,,True,HumanObservation
+02033020-2f75-47c6-8e9d-2555e988de23,Scarus tricolor,Scarus tricolor,Scarus,Scaridae,Chordata,Teleostei,2026-01-10T09:03:00+05:00,5.0645022671,73.0319098789,,,,,,True,HumanObservation
+02040b51-b249-43f8-b008-9c6aaafdd544,Arnoglossus,,Arnoglossus,Bothidae,Chordata,Teleostei,,18.52149,93.649328,,,,Myanmar [Burma],,True,PreservedSpecimen
+020413b7-ec01-4a41-a151-1c2aa412abc7,Halichoeres scapularis,Halichoeres scapularis,Halichoeres,Labridae,Chordata,Teleostei,2022-07-31T16:47:00+05:00,4.2256487181,73.5196594859,,,,,,True,HumanObservation
+020421fc-f572-4720-9119-01693c591c74,Gymnothorax rueppelliae,Gymnothorax rueppelliae,Gymnothorax,Muraenidae,Chordata,Teleostei,2002/2011,8.9532,78.8867,,,,India,Gulf of Mannar,True,HumanObservation
+020566e6-25a4-4424-a504-9d3dce06322f,Myrichthys maculosus,Myrichthys maculosus,Myrichthys,Ophichthidae,Chordata,Teleostei,1816-07-02T00:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+02066308-b354-42bf-9aa2-b7ee77499ed3,Kajikia audax,Kajikia audax,Kajikia,Istiophoridae,Chordata,Teleostei,,22.922236666667,66.7545499999999,,,,,,True,Occurrence
+0206877c-60f2-4e2b-adb8-8125e8c2a9af,Trimma striatum,Trimma striatum,Trimma,Gobiidae,Chordata,Teleostei,,4.332411,73.598219,,,,Maldives,,True,PreservedSpecimen
+0206ae90-bad0-45df-9649-8f5ef02e0d21,Arothron meleagris,Arothron meleagris,Arothron,Tetraodontidae,Chordata,Teleostei,2021-05-16T17:57:00-10:00,3.5906,73.496733,,,,,,True,HumanObservation
+0207bcd9-13a7-4cac-9988-f744feb55b39,Abudefduf bengalensis,Abudefduf bengalensis,Abudefduf,Pomacentridae,Chordata,Teleostei,2017-01-01T08:18:00+05:30,8.0883064,77.5384507,,,,,,True,HumanObservation
+020846e5-88b9-42f0-85e9-c5878176f335,Variola louti,Variola louti,Variola,Epinephelidae,Chordata,Teleostei,2026-03-22T09:00:00+05:00,4.1181793131,73.4698343142,,,,,,True,HumanObservation
+020a1a07-b9b0-4f49-8c88-6c3c9b28b579,Istigobius goldmanni,Istigobius goldmanni,Istigobius,Gobiidae,Chordata,Teleostei,1852-07-02T00:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+020b032a-57b1-4797-8433-6292e8d3c4de,Pseudorhombus javanicus,Pseudorhombus javanicus,Pseudorhombus,Paralichthyidae,Chordata,Teleostei,1853,13.0925,80.29444,,,,,"Chennai, Tamil Nadu, India",True,HumanObservation
+020b06d1-2fd9-409c-9157-b350de3214d1,Pangasius pangasius,Pangasius pangasius,Pangasius,Pangasiidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230174,,,,,Sundarbans west wildlife sanctuary,False,MachineObservation
+020b81b7-34fd-44b4-92a9-89560ef65bad,Coryphaena hippurus,Coryphaena hippurus,Coryphaena,Coryphaenidae,Chordata,Teleostei,,9.246019,79.211491,,,,India,,True,PreservedSpecimen
+020cc773-4cb8-4a53-8491-ca2cc066c766,Actinopteri,,,,Chordata,,2023-01-09,21.7933049,89.2808746,,,,,Sundarban's west wildlife sanctuary,True,MachineObservation
+020e7ddb-db9c-4490-990c-3fe54ef7f0d7,Zanclus cornutus,Zanclus cornutus,Zanclus,Zanclidae,Chordata,Teleostei,2022-02-24T17:15:00+05:00,3.8833333,72.8333333,,,,,,True,HumanObservation
+020f1ca5-9e51-4e6a-9254-2c4a2caf364a,Congresox talabon,Congresox talabon,Congresox,Muraenesocidae,Chordata,Teleostei,,22.010096,82.449219,,,,India,,True,PreservedSpecimen
+02107b77-7b24-4bd4-b6e5-5a03dd02e233,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,1956/1981,7.0,74.0,0.0,0.0,0.0,,,True,HumanObservation
+0211e3b4-c0eb-4f8a-8f98-cdc89101e60d,Scarus frenatus,Scarus frenatus,Scarus,Scaridae,Chordata,Teleostei,1802-07-02T12:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+02135f34-b51e-45fb-8bce-8fcede6d0462,Cociella punctata,Cociella punctata,Cociella,Platycephalidae,Chordata,Teleostei,1963-11-15T08:12:00Z,20.5,70.9000015259,33.0,33.0,33.0,India,Indian Ocean; Arabian Sea,True,PreservedSpecimen
+02140d3e-d3af-422a-ab69-53a398c6daac,Helcogramma maldivensis,Helcogramma maldivensis,Helcogramma,Tripterygiidae,Chordata,Teleostei,1988-03-18,5.083333,72.833336,,,,Maldives,"Embudu Island, lagoon reef",True,PreservedSpecimen
+02151a50-86a1-4f76-994f-eaf6fa7bc5ea,Thalassoma jansenii,Thalassoma jansenii,Thalassoma,Labridae,Chordata,Teleostei,1856-07-02T00:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+02181217-d804-45a4-bbab-3c0a4c37004a,Scarus prasiognathos,Scarus prasiognathos,Scarus,Scaridae,Chordata,Teleostei,2025-01-15T12:00:00+05:00,4.5328002137,73.3736049011,,,,,,True,HumanObservation
+02188039-1fd9-434a-a075-a740e81ee228,Cirrhilabrus exquisitus,Cirrhilabrus exquisitus,Cirrhilabrus,Labridae,Chordata,Teleostei,1957,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+02189438-b7e3-4f96-9df3-80eaa30304f8,Apocryptes bato,Apocryptes bato,Apocryptes,Gobiidae,Chordata,Teleostei,1822,22.191668,88.18472,,,,,Diamond Harbour,True,HumanObservation
+021927a3-5430-4dc1-81bd-71be585bceaf,Gymnothorax breedeni,Gymnothorax breedeni,Gymnothorax,Muraenidae,Chordata,Teleostei,2015-09-17T11:00:00+05:00,4.34363,73.615029,,,,,,True,HumanObservation
+02198cb3-16f1-4e14-a17c-81b75f933075,Butis koilomatodon,Butis koilomatodon,Butis,Eleotridae,Chordata,Teleostei,2024-05-20T06:00:00+06:00,22.8465889466,89.5589782685,,,,,,True,HumanObservation
+0219dabe-b5e9-4700-ab15-48f967bacf05,Gempylus serpens,Gempylus serpens,Gempylus,Gempylidae,Chordata,Teleostei,,4.4616667,75.9533333,,,,,,True,PreservedSpecimen
+0219f0ce-9dba-43f2-9dcd-2a83c18cb790,Amblygaster leiogaster,Amblygaster leiogaster,Amblygaster,Dorosomatidae,Chordata,Teleostei,1847-07-02T12:00:00Z,10.0,93.0,,,,,Andaman & Nicobar Islands,True,HumanObservation
+021b6b8c-f917-4a6d-b3d2-bcd53e4c53ec,Uropterygius marmoratus,Uropterygius marmoratus,Uropterygius,Muraenidae,Chordata,Teleostei,1803-07-02T12:00:00Z,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+021c1d96-99c1-43d8-b9fc-04d048a3e112,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,,2.6204666666667,67.0168666666669,,,,,,True,Occurrence
+021c32ef-1ad2-4da2-96c3-9fa2584824c6,Ferdauia ferdau,Ferdauia ferdau,Ferdauia,Carangidae,Chordata,Teleostei,,7.7782,81.6038,,,,Sri Lanka,,True,PreservedSpecimen
+021d286c-3d60-41ad-97d7-8585f92ccc4e,Karalla daura,Karalla daura,Karalla,Leiognathidae,Chordata,Teleostei,,18.986038,72.812443,,,,India,,True,PreservedSpecimen
+021e28d0-5b2f-470b-9591-e54b1752b92d,Nectamia savayensis,Nectamia savayensis,Nectamia,Apogonidae,Chordata,Teleostei,,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+021ea1e0-5937-4734-8284-6257b1bac0a9,Plectorhinchus vittatus,Plectorhinchus vittatus,Plectorhinchus,Haemulidae,Chordata,Teleostei,2011-12-13T11:39:00+05:00,2.0313645996,73.520507977,,,,,,True,HumanObservation
+021f0913-a856-4680-b9ca-f6bef3ef6fd3,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.0335833333333,75.016846666667,,,,,,True,Occurrence
+021f887b-16ee-4d8e-aa8a-34bce029ca8c,Labroides dimidiatus,Labroides dimidiatus,Labroides,Labridae,Chordata,Teleostei,2025-02-05T09:44:00+05:00,3.7920178283,72.9618527251,,,,,,True,HumanObservation
+021fa96b-da10-4bb3-a170-a3f91bda1ae6,Macropharyngodon bipartitus,Macropharyngodon bipartitus,Macropharyngodon,Labridae,Chordata,Teleostei,2026-02-22T09:53:00+05:00,5.1613853142,73.1194948978,,,,,,True,HumanObservation
+0223f345-dadf-4079-9b8c-a326f59fa19c,Scarus prasiognathos,Scarus prasiognathos,Scarus,Scaridae,Chordata,Teleostei,2025-01-15T07:56:00+05:30,11.8463079782,93.0117622489,,,,,,True,HumanObservation
+02245adb-9e4e-49ef-83f3-fbf4d043e20d,Dendrochirus zebra,Dendrochirus zebra,Dendrochirus,Scorpaenidae,Chordata,Teleostei,2021-12-20T15:08:09+05:30,12.8565983333,80.2465944444,,,,,,True,HumanObservation
+02260621-1e5f-4c88-ba5c-1a5d01e1de05,Stethojulis strigiventer,Stethojulis strigiventer,Stethojulis,Labridae,Chordata,Teleostei,1833-07-02T12:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+022825c5-6bc1-4c9d-8a2e-de5cf01fadca,Johnius belangerii,Johnius belangerii,Johnius,Sciaenidae,Chordata,Teleostei,,24.593592,67.155722,,,,Pakistan,,True,PreservedSpecimen
+0229c3e0-e04e-404d-a80a-150536b6eff4,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.20124999999999,74.184483333333,,,,,,True,Occurrence
+022bcc68-4021-4afb-8bc6-d5be2f5e664d,Cetoscarus ocellatus,Cetoscarus ocellatus,Cetoscarus,Scaridae,Chordata,Teleostei,2019-03-17T14:42:00+01:00,5.8034453355,73.2939477952,,,,,,True,HumanObservation
+022db503-df42-479a-9fa1-c16439b258d9,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,,0.771266666666669,81.0,,,,,,True,Occurrence
+022e1d62-ee99-4aba-9a3c-053417f52174,Nectamia fusca,Nectamia fusca,Nectamia,Apogonidae,Chordata,Teleostei,1832-07-02T00:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+022e514b-0d34-4427-abc8-c40d05724022,Lampris incognitus,Lampris incognitus,Lampris,Lampridae,Chordata,Teleostei,2024-03-26,12.9161,73.585517,287.0,287.0,287.0,India,Lakshadweep,True,MaterialSample
+022ebf9a-2476-4d2e-8b05-b70dd59cf654,Thalassoma hardwicke,Thalassoma hardwicke,Thalassoma,Labridae,Chordata,Teleostei,2024-04-13T22:30:00+05:30,8.7211706711,81.2040418752,,,,,,True,HumanObservation
+022f89ac-9eb9-4e8d-9169-50b6cea686de,Trachinotus blochii,Trachinotus blochii,Trachinotus,Carangidae,Chordata,Teleostei,2019-03-21T17:30:00+08:00,3.202778,73.22068,,,,,,True,HumanObservation
+0230b544-cbc4-4675-9238-5832b8c01531,Setipinna tenuifilis,Setipinna tenuifilis,Setipinna,Engraulidae,Chordata,Teleostei,2023-01-09,21.7547521,89.2838353,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+02315029-9db3-447c-9b77-4cc798f36ec8,Cynoglossus arel,Cynoglossus arel,Cynoglossus,Cynoglossidae,Chordata,Teleostei,1966-09-21T12:00:00Z,11.5083332062,79.8000030518,22.0,22.0,22.0,India,India: Madras State: Porto Novo: ca. 4 mi. Off Mouth of Veller Estuary.,True,PreservedSpecimen
+0231646f-4db0-4161-8f11-1db0cfe3f937,Brama orcini,Brama orcini,Brama,Bramidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,49.0,49.0,49.0,,"Taruvaikulam, Tuticorin",True,HumanObservation
+02324bee-c3bf-4d08-8a96-379aaa8566b8,Lutjanus biguttatus,Lutjanus biguttatus,Lutjanus,Lutjanidae,Chordata,Teleostei,2018-12-28T12:41:00+05:00,1.7843143,73.3928813,,,,,,True,HumanObservation
+0232b7b8-ad91-45e8-bcae-986b56431297,Saurida nebulosa,Saurida nebulosa,Saurida,Synodontidae,Chordata,Teleostei,1850-07-02T12:00:00Z,10.0,93.0,,,,,Andaman & Nicobar Islands,True,HumanObservation
+02331852-719b-4edc-bba2-f703b7808365,Ostracion rhinorhynchos,Ostracion rhinorhynchos,Ostracion,Ostraciidae,Chordata,Teleostei,2016-02-02T17:44:14+05:30,12.648307557,80.2073668689,,,,,,True,HumanObservation
+02338a81-386a-4436-a700-4c7a0b0b3b48,Pellona ditchela,Pellona ditchela,Pellona,Pristigasteridae,Chordata,Teleostei,1847-07-02T12:00:00Z,21.6499996185,88.6333312988,,,,,Haliday island,True,HumanObservation
+0234183c-acc7-4aed-819d-bbf5d95c7750,Microphis cuncalus,Microphis cuncalus,Microphis,Syngnathidae,Chordata,Teleostei,,20.3166999817,86.75,,,,,Mahanadi Estuary,False,HumanObservation
+02342766-9da4-4bf0-9e6a-0da3208cdbad,Paracirrhites forsteri,Paracirrhites forsteri,Paracirrhites,Cirrhitidae,Chordata,Teleostei,2022-08-04T16:39:00+05:00,4.2256487181,73.5196594859,,,,,,True,HumanObservation
+0234c5ac-651e-42c6-9920-faa4e7986e00,Cubiceps baxteri,Cubiceps baxteri,Cubiceps,Nomeidae,Chordata,Teleostei,2006/2010,15.5667,72.9513,635.0,200.0,1070.0,,Arabian Sea,True,HumanObservation
+0235b840-3f60-4fce-bce6-90ee5a7ba72f,Stolephorus dubiosus,Stolephorus dubiosus,Stolephorus,Engraulidae,Chordata,Teleostei,2023-01-09,21.703926,89.2610127,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+02362c97-ee72-41d3-afb2-d9d920696e8c,Sillago,,Sillago,Sillaginidae,Chordata,Teleostei,,11.0,76.0,,,,inde,,True,PreservedSpecimen
+0236daef-fd11-49d6-a299-7e900ce2f542,Myripristis adusta,Myripristis adusta,Myripristis,Holocentridae,Chordata,Teleostei,2024-09-16T11:44:00+05:00,4.16762356,72.7479807807,,,,,,True,HumanObservation
+0237a991-cc50-421e-bc0e-ae3ef8a2b19f,Planiliza tade,Planiliza tade,Planiliza,Mugilidae,Chordata,Teleostei,,18.933,72.85,,,,,,True,PreservedSpecimen
+0237b855-ff43-46a3-80a2-52f46728098a,Caranx,,Caranx,Carangidae,Chordata,Teleostei,,6.477963,79.982501,,,,Sri Lanka,,True,PreservedSpecimen
+0237dcc5-b969-403e-b97a-19c53faa1c64,Ecsenius bicolor,Ecsenius bicolor,Ecsenius,Blenniidae,Chordata,Teleostei,2025-01-14T15:54:00+05:00,4.5328002137,73.3736049011,,,,,,True,HumanObservation
+0239c9fd-d364-4a51-bd15-08a243ab1224,Owstonia,,Owstonia,Cepolidae,Chordata,Teleostei,2015-01-24/2015-02-12,6.598083333,93.7034,331.5,325.0,338.0,India,Andaman Sea,True,HumanObservation
+023a82d5-f1f8-417a-8ab7-4c1d66c3bf6b,Halichoeres chrysotaenia,Halichoeres chrysotaenia,Halichoeres,Labridae,Chordata,Teleostei,2026-05-03T11:29:00+05:00,1.8197993588,73.4029778178,,,,,,True,HumanObservation
+023afd65-2bb2-4fa8-a0c7-03ee84efc4fb,Foa brachygramma,Foa brachygramma,Foa,Apogonidae,Chordata,Teleostei,,8.11294,93.526779,0.0,0.0,,India,Camorta I.,True,PreservedSpecimen
+023b887a-c990-425d-a993-609f28398798,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,2.3688666666667,81.2515999999999,,,,,,True,Occurrence
+023de23c-9f25-4a34-99ae-3a7080e981a9,Pellona ditchela,Pellona ditchela,Pellona,Pristigasteridae,Chordata,Teleostei,2023-01-09,21.703521,89.2614816,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+023e79ac-dac5-4f34-b2e4-c56972c47fd6,Aplocheilus lineatus,Aplocheilus lineatus,Aplocheilus,Aplocheilidae,Chordata,Teleostei,,18.9330005646,72.8499984741,,,,Inde,,False,PreservedSpecimen
+023f7195-61f0-4be5-bbfc-5fd74bcb689c,Halichoeres marginatus,Halichoeres marginatus,Halichoeres,Labridae,Chordata,Teleostei,1835-07-02T12:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+0240b881-541c-4f82-a300-92b94737680d,Pomadasys argenteus,Pomadasys argenteus,Pomadasys,Haemulidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+02417eb6-83e9-4fd1-aaf8-8f9d3a87fc9f,Heniochus singularius,Heniochus singularius,Heniochus,Chaetodontidae,Chordata,Teleostei,2024-11-05T14:22:00+05:30,8.8438477307,78.2206616759,,,,,,True,HumanObservation
+0241e7d7-8627-404d-85e7-5684463f9b8c,Lethrinus erythracanthus,Lethrinus erythracanthus,Lethrinus,Lethrinidae,Chordata,Teleostei,2021-05-29T09:17:00-10:00,2.6628794616,72.9353402183,,,,,,True,HumanObservation
+0242825d-bd21-42eb-8afd-4caa99496ba7,Gymnothorax javanicus,Gymnothorax javanicus,Gymnothorax,Muraenidae,Chordata,Teleostei,2023-07-23T10:03:00+05:00,5.765,73.42,,,,,,True,HumanObservation
+0242eea9-039b-46fc-a592-185885dd4929,Triacanthus biaculeatus,Triacanthus biaculeatus,Triacanthus,Triacanthidae,Chordata,Teleostei,2024-02-04T17:32:00+05:30,15.7206561968,73.6832597414,,,,,,True,HumanObservation
+02439d77-c64b-4206-9a0b-b26d3eed472d,Pisodonophis boro,Pisodonophis boro,Pisodonophis,Ophichthidae,Chordata,Teleostei,,19.7666664124,85.3333358765,,,,,"Chilka Lake, Orissa, India",True,HumanObservation
+02439e94-80f6-4c1d-a93b-c43ba28b24ef,Triacanthus biaculeatus,Triacanthus biaculeatus,Triacanthus,Triacanthidae,Chordata,Teleostei,1941-01-17,9.978599,76.280501,,,,India,Ernakulam (formerly Cochin State).,True,PreservedSpecimen
+0244812f-849d-462a-a052-1f70cfa643aa,Nemapteryx,,Nemapteryx,Ariidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230583,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+0245697d-4ccd-4f3d-86e7-f17054ab4c56,Ostorhinchus taeniophorus,Ostorhinchus taeniophorus,Ostorhinchus,Apogonidae,Chordata,Teleostei,,6.140828,80.099355,,,,Sri Lanka,,True,PreservedSpecimen
+02457020-60be-4ad5-836e-5e66d6fe6829,Parastromateus niger,Parastromateus niger,Parastromateus,Carangidae,Chordata,Teleostei,,9.968241,76.241895,,,,India,,True,PreservedSpecimen
+0247294b-3c48-4bcc-a62d-a77437984797,Macropharyngodon meleagris,Macropharyngodon meleagris,Macropharyngodon,Labridae,Chordata,Teleostei,2005-09-07,7.117000103,79.80799866,,,,Sri Lanka,"Kochchikade, Sri Lanka",True,PreservedSpecimen
+02472d2f-b713-4904-8247-0112aa079440,Pseudochromis caudalis,Pseudochromis caudalis,Pseudochromis,Pseudochromidae,Chordata,Teleostei,2020-01-28T14:45:00+05:30,15.350386627,73.7775101171,,,,,,True,HumanObservation
+02478648-8132-48d9-b899-0c2d62a13937,Cephalopholis miniata,Cephalopholis miniata,Cephalopholis,Epinephelidae,Chordata,Teleostei,2022-04-03T15:44:00+05:00,4.096391,72.870843,,,,,,True,HumanObservation
+02488b9c-10bf-487f-9daa-519d4d50e96b,Alepes kleinii,Alepes kleinii,Alepes,Carangidae,Chordata,Teleostei,1838-07-02T12:00:00Z,20.3166999817,86.75,,,,,Mahanadi Estuary,True,HumanObservation
+0249ab88-80ce-4184-93a5-a6dc0939391a,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.93903333333329,74.9222166666669,,,,,,True,Occurrence
+024a0cc5-b9ad-4618-95a7-7049d81c84eb,Labroides dimidiatus,Labroides dimidiatus,Labroides,Labridae,Chordata,Teleostei,1969/1980,10.86,72.15,,,,,Agatti,True,HumanObservation
+024a6e90-0df6-4db7-8df4-653a8120b938,Acanthurus triostegus,Acanthurus triostegus,Acanthurus,Acanthuridae,Chordata,Teleostei,2024-08-08T14:47:59+05:00,4.0062576784,72.9513303058,,,,,,True,HumanObservation
+024d7d99-a22f-471e-8bb2-276332860551,Haemulidae,,,Haemulidae,Chordata,Teleostei,,13.080992,80.299469,19.205,16.46,21.95,India,"Madras, inshore.",True,PreservedSpecimen
+024f7e9a-dbb3-4c63-826e-fa9db65162a0,Selar crumenophthalmus,Selar crumenophthalmus,Selar,Carangidae,Chordata,Teleostei,,7.409919,79.816155,,,,Sri Lanka,,True,PreservedSpecimen
+024faaf9-7396-4f11-b355-f4667b18c1f8,Alectis ciliaris,Alectis ciliaris,Alectis,Carangidae,Chordata,Teleostei,2024-01-03T08:59:00+05:30,6.0301466667,80.2174616667,,,,,,True,HumanObservation
+024fe50c-b463-489a-8e1d-70226a94eeca,Tetraodon,,Tetraodon,Tetraodontidae,Chordata,Teleostei,,23.3166667,90.6333333,,,,Bangladesh,,True,PreservedSpecimen
+02503186-697d-4f62-a98f-a9a046ee9b9e,Sargocentron spiniferum,Sargocentron spiniferum,Sargocentron,Holocentridae,Chordata,Teleostei,2025-02-03T10:17:00+05:00,3.5253622607,72.9216611103,,,,,,True,HumanObservation
+02507378-9155-4579-8545-947bff88deb9,Pristiapogon kallopterus,Pristiapogon kallopterus,Pristiapogon,Apogonidae,Chordata,Teleostei,2024-02-05T07:59:00+05:00,3.9363833333,72.9127833333,,,,,,True,HumanObservation
+025073ef-c59e-40ee-82d2-e62e4a6f57c9,Eleutheronema,,Eleutheronema,Polynemidae,Chordata,Teleostei,2023-01-09,21.7932097,89.2813127,,,,,Sundarban West Wildlife Sanctuary,True,MachineObservation
+025130c6-b967-4e50-b0fe-7fef03d12cde,Dascyllus aruanus,Dascyllus aruanus,Dascyllus,Pomacentridae,Chordata,Teleostei,,0.0,90.0,,,,IndonǸsie,,True,PreservedSpecimen
+0251b589-3da3-4114-b005-8fd3b78eef04,Heniochus monoceros,Heniochus monoceros,Heniochus,Chaetodontidae,Chordata,Teleostei,2021-05-18T11:52:00-10:00,3.4956463884,72.9005412118,,,,,,True,HumanObservation
+02528ae2-2ee4-4082-a6b5-84e1cda980a1,Naso brevirostris,Naso brevirostris,Naso,Acanthuridae,Chordata,Teleostei,2025-03-14T07:51:00+05:00,4.2210165648,72.8628589164,,,,,,True,HumanObservation
+0252d524-0a6a-47fc-8b08-4fc16b065da1,Melichthys indicus,Melichthys indicus,Melichthys,Balistidae,Chordata,Teleostei,2025-12-15T08:18:00+05:00,4.2103171062,73.5585914527,,,,,,True,HumanObservation
+025301ca-66e9-4611-b9ca-e92d58bd2816,Setipinna tenuifilis,Setipinna tenuifilis,Setipinna,Engraulidae,Chordata,Teleostei,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+0253b112-ba4f-4426-a004-9699e75b23b0,Stegastes nigricans,Stegastes nigricans,Stegastes,Pomacentridae,Chordata,Teleostei,2025-03-10T13:51:00+05:00,4.1859476963,72.7716745313,,,,,,True,HumanObservation
+02540494-ed35-4406-8016-5f0d6b1c0965,Scartelaos histophorus,Scartelaos histophorus,Scartelaos,Gobiidae,Chordata,Teleostei,,18.9330005646,72.8499984741,,,,Inde,,True,PreservedSpecimen
+025439d0-0f4a-433e-a35e-e019e48ae9c5,Plectorhinchus gibbosus,Plectorhinchus gibbosus,Plectorhinchus,Haemulidae,Chordata,Teleostei,1999-04-30T13:12:00Z,17.7824993134,94.5083312988,1.1,1.1,1.1,Myanmar,"Minyar Chaung (a Tributary) On the Settwa River, Gwa Township, Sandoway District, Rakhine State, Myanmar.",True,PreservedSpecimen
+0257dfcc-a330-4a27-b050-2719e105d0c1,Acanthurus xanthopterus,Acanthurus xanthopterus,Acanthurus,Acanthuridae,Chordata,Teleostei,2026-01-09T10:30:47+05:30,5.9381956041,80.4808843522,,,,,,True,HumanObservation
+0257f878-0508-419b-a831-ee9cbf13afeb,Odonus niger,Odonus niger,Odonus,Balistidae,Chordata,Teleostei,1836-07-02T00:00:00Z,8.38333320618,79.7333297729,,,,,"Bar Reef Marine Sanctuary, Sri Lanka",True,HumanObservation
+025af31b-7746-4f5f-af22-e034ac4dc19b,Gnathanodon speciosus,Gnathanodon speciosus,Gnathanodon,Carangidae,Chordata,Teleostei,,7.7782,81.6038,,,,Sri Lanka,,True,PreservedSpecimen
+025b3326-f2af-4a55-a43f-ef3cde36ea4a,Pomacentrus chrysurus,Pomacentrus chrysurus,Pomacentrus,Pomacentridae,Chordata,Teleostei,2019-10-27T12:40:47+05:30,11.9793529722,92.960508,,,,,,True,HumanObservation
+025b5159-3929-4d35-9824-e4911c4ddfb0,Plotosus lineatus,Plotosus lineatus,Plotosus,Plotosidae,Chordata,Teleostei,2020-11-13T16:50:03+05:30,19.360354,72.771132,,,,,,True,HumanObservation
+025b6d33-2ee6-4937-9fdf-8a1249bc7c6a,Dischistodus prosopotaenia,Dischistodus prosopotaenia,Dischistodus,Pomacentridae,Chordata,Teleostei,1852-07-02T00:00:00Z,12.5,92.75,,,,,Andaman Islands,True,HumanObservation
+025b7cb6-2a4a-4a23-ba7e-c074259d6bd5,Dussumieria hasseltii,Dussumieria hasseltii,Dussumieria,Dussumieriidae,Chordata,Teleostei,1941-01-12,11.250505,75.773362,,,,India,Kozhikode (Calicut).,True,PreservedSpecimen
+025c45c0-d9a8-4531-8426-283e2a8978c2,Acanthurus lineatus,Acanthurus lineatus,Acanthurus,Acanthuridae,Chordata,Teleostei,2026-05-20,4.6352646972,73.5645547137,,,,,,True,HumanObservation
+02609b94-607f-445b-b41e-cf696a256857,Thryssa malabarica,Thryssa malabarica,Thryssa,Engraulidae,Chordata,Teleostei,2011,11.483,79.8167,,,,India,Parangipettai coast,True,HumanObservation
+02609d08-9d5f-4d29-81a5-136f7e35d9f1,Pampus argenteus,Pampus argenteus,Pampus,Stromateidae,Chordata,Teleostei,,18.863909,72.840508,,,,,,True,PreservedSpecimen
+0260aa29-e2c7-4220-bbda-da1ac40aab64,Solenostomus paradoxus,Solenostomus paradoxus,Solenostomus,Solenostomidae,Chordata,Teleostei,1870-07-02T12:00:00Z,8.5,79.0,,,,,Gulf of Mannar,True,HumanObservation
+0262a5e4-c1de-499d-b3a0-bb545201b217,Trachinotus baillonii,Trachinotus baillonii,Trachinotus,Carangidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,16.0,16.0,16.0,,Tuticorin,True,HumanObservation
+0263dc02-1ef6-4b40-8230-8da76e5bfb65,Caranx melampygus,Caranx melampygus,Caranx,Carangidae,Chordata,Teleostei,2025-10-02T16:34:00+05:00,4.2611606206,73.3761647011,,,,,,True,HumanObservation
+0266b010-7a7c-4aca-b540-cedbbfdc443a,Nemapteryx,,Nemapteryx,Ariidae,Chordata,Teleostei,2023-01-09,21.7547399,89.2839957,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+0266e13c-749f-486a-aa3b-9e32df07835f,Nemipterus zysron,Nemipterus zysron,Nemipterus,Nemipteridae,Chordata,Teleostei,2007/2010,12.55,80.183,,,,India,Kalpakkam and Pudupattinam,True,HumanObservation
+026779e7-9634-43c1-a5dd-d7115c33bebd,Leiodon cutcutia,Leiodon cutcutia,Leiodon,Tetraodontidae,Chordata,Teleostei,,23.8270333,90.2655333,,,,Bangladesh,,False,PreservedSpecimen
+02687b56-e237-475f-84d2-92fff0a6d369,Drepane longimana,Drepane longimana,Drepane,Drepaneidae,Chordata,Teleostei,1966-09-24T12:00:00Z,11.5,79.9000015259,18.5,15.0,22.0,India,India: Madras State; Porto Nova; ca. 8 mi. Off Mouth of Vellar Estuary (Bay of Bengal),True,PreservedSpecimen
+0268ce30-e2cd-404c-8ac1-c304f0b47d58,Zebrasoma desjardinii,Zebrasoma desjardinii,Zebrasoma,Acanthuridae,Chordata,Teleostei,2025-12-11T15:26:11+05:00,2.0842851107,73.5404276416,,,,,,True,HumanObservation
+0269552f-f686-4a93-8e6e-095b3719d8ce,Leptomelanosoma indicum,Leptomelanosoma indicum,Leptomelanosoma,Polynemidae,Chordata,Teleostei,1804-07-02T00:00:00Z,20.4166660309,86.7166671753,,,,,Jambu Island,True,HumanObservation
+0269bc15-4584-4d0e-b5c0-f45f67015680,Naso brachycentron,Naso brachycentron,Naso,Acanthuridae,Chordata,Teleostei,2014-04-22T11:00:00+05:00,5.492531668,73.4246458535,,,,,,True,HumanObservation
+026a577e-e382-433b-a5cd-0767643479f2,Gymnothorax javanicus,Gymnothorax javanicus,Gymnothorax,Muraenidae,Chordata,Teleostei,2022-02-16T10:20:37+05:00,3.14514,73.528394,,,,,,True,HumanObservation
+026bd445-089c-4989-b006-22daef89b8db,Istigobius ornatus,Istigobius ornatus,Istigobius,Gobiidae,Chordata,Teleostei,2023-12-10T11:40:00+05:30,16.990215,73.3120233,,,,,,True,HumanObservation
+026c4907-88bd-4ea9-ab96-0822aaabefbf,Parambassis lala,Parambassis lala,Parambassis,Ambassidae,Chordata,Teleostei,,23.7994167,90.2459444,,,,Bangladesh,,False,PreservedSpecimen
+026d53ab-6555-47b7-a801-0dd3dc847753,Scartelaos cantoris,Scartelaos cantoris,Scartelaos,Gobiidae,Chordata,Teleostei,1876-07-02T00:00:00Z,12.5,92.75,,,,,Andaman Islands,True,HumanObservation
+02730a18-3f3b-4599-acd4-fb16387a7247,Gerreidae,,,Gerreidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+027389b5-74a6-4e21-9a4a-6f1a8c64bd49,Neoniphon sammara,Neoniphon sammara,Neoniphon,Holocentridae,Chordata,Teleostei,2022-03-31T09:51:00+05:30,11.4839,92.7075,,,,,,True,HumanObservation
+02738a48-6020-461f-b939-b4640cbec7c0,Hipposcarus harid,Hipposcarus harid,Hipposcarus,Scaridae,Chordata,Teleostei,2023-03-10T20:20:00+05:00,3.5255347807,72.9216825826,,,,,,True,HumanObservation
+0273a011-ad78-488b-bd3d-ac6de76da16a,Epinephelus malabaricus,Epinephelus malabaricus,Epinephelus,Epinephelidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,41.0,41.0,41.0,,Tirespuram,True,HumanObservation
+0273e656-4f5a-4222-9fe0-b4498f2095c1,Saurida pseudotumbil,Saurida pseudotumbil,Saurida,Synodontidae,Chordata,Teleostei,,19.261319,84.907269,,,,India,,True,PreservedSpecimen
+02746d4e-367c-4209-9049-b9c3e64a886a,Acentrogobius viridipunctatus,Acentrogobius viridipunctatus,Acentrogobius,Gobiidae,Chordata,Teleostei,,18.933,72.85,,,,,,True,PreservedSpecimen
+0274b48e-499b-4a43-b079-2a52a0794219,Chlorophthalmus corniger,Chlorophthalmus corniger,Chlorophthalmus,Chlorophthalmidae,Chordata,Teleostei,2015-01-24/2015-02-12,6.598083333,93.7034,331.5,325.0,338.0,India,Andaman Sea,True,HumanObservation
+02763a21-8d16-4fc8-baa5-fa37d252ab0d,Zanclus cornutus,Zanclus cornutus,Zanclus,Zanclidae,Chordata,Teleostei,2023-03-24T06:57:00+05:00,4.1795555556,73.5108,,,,,,True,HumanObservation
+0276b86c-080a-4742-8fe3-56b3fa252c78,Ostorhinchus nigrofasciatus,Ostorhinchus nigrofasciatus,Ostorhinchus,Apogonidae,Chordata,Teleostei,2010-12-12,4.169667,73.513333,,,,Maldives,"Swimming pool opposite Power Station south east Male, Kaafu Atoll",True,PreservedSpecimen
+02771e74-80d9-4d33-aa7a-6a9f6dcada1a,Engraulidae,,,Engraulidae,Chordata,Teleostei,2023-01-09,21.7547521,89.2838353,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+0277770e-0a83-410a-b0a8-2fd2a97358c0,Gymnothorax thyrsoideus,Gymnothorax thyrsoideus,Gymnothorax,Muraenidae,Chordata,Teleostei,,18.9330005646,72.8499984741,,,,Inde,,True,PreservedSpecimen
+0277ceb8-9efc-4fe7-9a5a-ec0ea1a5c40f,Scarus prasiognathos,Scarus prasiognathos,Scarus,Scaridae,Chordata,Teleostei,2025-01-15T08:15:00+05:30,11.8463079782,93.0117622489,,,,,,True,HumanObservation
+0278466c-6ca6-4bb0-8eab-c6d325d5fa07,Chlorurus strongylocephalus,Chlorurus strongylocephalus,Chlorurus,Scaridae,Chordata,Teleostei,2014-01-17T11:48:00+05:30,4.635119,73.563157,,,,,,True,HumanObservation
+0279ed0d-5d0e-48e0-bbb2-dc533c03e57c,Terapon jarbua,Terapon jarbua,Terapon,Terapontidae,Chordata,Teleostei,,22.5,88.333,,,,India,Calcutta,True,PreservedSpecimen
+027bc6fe-8a64-47fd-9294-2f6469397411,Hippocampus kuda,Hippocampus kuda,Hippocampus,Syngnathidae,Chordata,Teleostei,1852-07-02T00:00:00Z,10.0,93.0,,,,,Andaman & Nicobar Islands,True,HumanObservation
+027bf7e6-3dd6-4cc4-81ed-a888e10a4375,Lutjanus argentimaculatus,Lutjanus argentimaculatus,Lutjanus,Lutjanidae,Chordata,Teleostei,2023-01-09,21.7547399,89.2839957,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+027ce5b8-38e2-4409-9366-d8b51524aab5,Gymnothorax javanicus,Gymnothorax javanicus,Gymnothorax,Muraenidae,Chordata,Teleostei,2024-12-10T23:45:00+05:00,4.2649082508,73.0005939428,,,,,,True,HumanObservation
+027d50bd-0d20-44f0-8adc-e9c7661c9923,Escualosa thoracata,Escualosa thoracata,Escualosa,Dorosomatidae,Chordata,Teleostei,2023-01-08,21.8284425,89.1949998,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+027d8d42-7a94-4280-9ce1-b5f63d36dfd2,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.51976666666669,86.7209666666669,,,,,,True,Occurrence
+027e950f-28f1-4bb1-83fb-c1000a77cbd9,Leiognathidae,,,Leiognathidae,Chordata,Teleostei,,21.0,91.9833,,,,,,True,PreservedSpecimen
+027f0b11-a68c-422d-a364-839fa0a06edc,Actinopteri,,,,Chordata,,2023-01-09,21.7039168,89.2609951,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+027f51b3-87b1-4a94-bd30-4cd8ded1f051,Pomacentrus tripunctatus,Pomacentrus tripunctatus,Pomacentrus,Pomacentridae,Chordata,Teleostei,1830-07-02T12:00:00Z,8.5,79.0,,,,,Gulf of Mannar,True,HumanObservation
+027fb34b-441a-4509-a922-f374762a139b,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,,0.43593333333333,80.4863333333329,,,,,,True,Occurrence
+0280372c-970a-4165-9a8e-544ac6c9c938,Atropus armatus,Atropus armatus,Atropus,Carangidae,Chordata,Teleostei,,8.997236,79.90103,,,,Sri Lanka,,True,PreservedSpecimen
+02814b46-feae-42f1-92c9-ea03342d8b4d,Ostracion meleagris,Ostracion meleagris,Ostracion,Ostraciidae,Chordata,Teleostei,2023-03-29T12:47:00+05:00,4.2970004943,73.5539956079,,,,,,True,HumanObservation
+02825a7a-4172-4910-98f5-baa27a52ed62,Bothidae,,,Bothidae,Chordata,Teleostei,,18.0,87.0,,,,,,True,HumanObservation
+0282887e-c3ac-4aa6-a64b-0bc0626b2918,Gymnothorax undulatus,Gymnothorax undulatus,Gymnothorax,Muraenidae,Chordata,Teleostei,1803-07-02T12:00:00Z,11.0,72.5,,,,,Lakshadweep Islands,True,HumanObservation
+02831ca1-bd8f-46f0-bfb3-5d0b48a6215d,Aphareus furca,Aphareus furca,Aphareus,Lutjanidae,Chordata,Teleostei,2024-03-14T06:06:00+05:00,3.9736566,73.491023,,,,,,True,HumanObservation
+0284a44d-6c40-45af-bfaf-d22f1bd2307b,Siluriformes,,,,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+02851350-9bb4-46aa-a032-796d3395cae5,Taenioides anguillaris,Taenioides anguillaris,Taenioides,Gobiidae,Chordata,Teleostei,1940-12-20,17.717812,83.333076,,,,India,Among rocks on beach at Vishagapatam.,True,PreservedSpecimen
+02856549-dcaf-49f8-a163-c84dc8770ba7,Sebastapistes cyanostigma,Sebastapistes cyanostigma,Sebastapistes,Scorpaenidae,Chordata,Teleostei,2024-10-25T16:56:00+05:00,5.2090593065,73.0830195029,,,,,,True,HumanObservation
+0285c888-aa09-4943-a3bc-43769efdbfd3,Otolithoides pama,Otolithoides pama,Otolithoides,Sciaenidae,Chordata,Teleostei,2023-01-09,21.703521,89.2614816,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+02867682-1fdc-433c-8a61-32e548562f96,Halichoeres hortulanus,Halichoeres hortulanus,Halichoeres,Labridae,Chordata,Teleostei,2024-02-04T15:35:20+05:00,3.6193963407,72.7804571763,,,,,,True,HumanObservation
+0287d260-6cae-467d-9aed-112d7e75667a,Sigmops elongatus,Sigmops elongatus,Sigmops,Gonostomatidae,Chordata,Teleostei,1965-11-11,25.0,72.0,,,,,,True,preservedspecimen
+0289b5bc-26fe-4507-b661-71cf0327ba41,Scatophagus argus,Scatophagus argus,Scatophagus,Scatophagidae,Chordata,Teleostei,2023-04-12T18:50:00+06:00,22.3844349982,89.4686796978,,,,,,True,HumanObservation
+028b93d3-fa5d-4dde-a2dd-2e165aad5201,Amphiprion clarkii,Amphiprion clarkii,Amphiprion,Pomacentridae,Chordata,Teleostei,2019-12-18T05:11:29+01:00,3.934131333,73.4463895829,,,,,,True,HumanObservation
+028c3bc4-a10d-4158-a6f7-6e98efe4194b,Cyttopsis rosea,Cyttopsis rosea,Cyttopsis,Parazenidae,Chordata,Teleostei,2025-01-30,7.18298,76.55055,325.0,200.0,450.0,,Sakthikulangara,True,HumanObservation
+028c7aec-ddd3-4861-a0a6-64621a885bfc,Ariidae,,,Ariidae,Chordata,Teleostei,2023-01-09,21.7549458,89.2837655,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+028cec99-c076-4461-b62d-03c50ae2c33f,Sargocentron spiniferum,Sargocentron spiniferum,Sargocentron,Holocentridae,Chordata,Teleostei,2025-03-29T15:45:35+05:00,3.995323,72.935853,,,,,,True,HumanObservation
+028e6047-1155-4db0-ae0c-f4f7c732ecaf,Acanthochromis polyacanthus,Acanthochromis polyacanthus,Acanthochromis,Pomacentridae,Chordata,Teleostei,2024-03-26,12.9161,73.585517,287.0,287.0,287.0,India,Lakshadweep,True,MaterialSample
+028f2965-dfc0-46d6-83dd-3b329e1a8343,Lutjanus gibbus,Lutjanus gibbus,Lutjanus,Lutjanidae,Chordata,Teleostei,2024-08-12T15:19:33+05:00,4.0055307857,72.9506475582,,,,,,True,HumanObservation
+028fe696-7b08-4635-98d4-035602c41844,Siganus argenteus,Siganus argenteus,Siganus,Siganidae,Chordata,Teleostei,2025-02-09T17:45:00+05:00,3.6715179507,72.9040124826,,,,,,True,HumanObservation
+02905dcd-3e90-44d1-b437-ccfdbc75bb68,Chaetodon kleinii,Chaetodon kleinii,Chaetodon,Chaetodontidae,Chordata,Teleostei,2025-03-10T11:56:00+05:00,4.185861357,72.7714403321,,,,,,True,HumanObservation
+02911ea7-fe59-486d-878f-c5971386854d,Pardachirus pavoninus,Pardachirus pavoninus,Pardachirus,Soleidae,Chordata,Teleostei,2012-01-01/2012-04-30,9.233333333,79.18333333,,,,India,Poomarichan Island,True,HumanObservation
+02920466-f7ac-46d7-b919-de707f2839b8,Apocryptodon madurensis,Apocryptodon madurensis,Apocryptodon,Gobiidae,Chordata,Teleostei,,20.4166660309,86.7166671753,,,,,Jambu Island,True,HumanObservation
+0293b533-963f-4ce9-92c2-067d2a950ed6,Pygoplites diacanthus,Pygoplites diacanthus,Pygoplites,Pomacanthidae,Chordata,Teleostei,2024-08-09T11:40:40+05:00,4.0162266746,72.9481396536,,,,,,True,HumanObservation
+0294237d-fad0-41bf-b893-8df9ac9f8838,Caranx melampygus,Caranx melampygus,Caranx,Carangidae,Chordata,Teleostei,1833-07-02T12:00:00Z,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+0294ceb7-491f-4d80-8928-3b3bf2d26336,Labroides dimidiatus,Labroides dimidiatus,Labroides,Labridae,Chordata,Teleostei,2025-12-23T13:41:25+05:00,5.2937533333,73.0590528333,,,,,,True,HumanObservation
+02973a22-7bba-4c96-89b1-dfe3065092c7,Lethrinus lentjan,Lethrinus lentjan,Lethrinus,Lethrinidae,Chordata,Teleostei,2019-05-26T10:57:00+05:30,11.6987817,92.7330701,,,,,,True,HumanObservation
+029aa7b1-434d-4970-a5ff-e94298d45356,Scarus frenatus,Scarus frenatus,Scarus,Scaridae,Chordata,Teleostei,2025-02-03T10:17:00+05:00,3.5253622607,72.9216611103,,,,,,True,HumanObservation
+029aeb5a-b90b-4c0b-92f2-e17cc01aadda,Arothron stellatus,Arothron stellatus,Arothron,Tetraodontidae,Chordata,Teleostei,2022-02-22T02:26:12+05:00,4.241293,73.553047,,,,,,True,HumanObservation
+029b733f-ab64-480c-9656-76edf8d4a507,Atule mate,Atule mate,Atule,Carangidae,Chordata,Teleostei,1970-05-12,6.941895,79.854081,,,,Sri Lanka,"Colombo, St. John's Fish Mkt.",True,PreservedSpecimen
+029bd6cb-29c4-464d-8052-bee05d7d43b3,Sphyraena forsteri,Sphyraena forsteri,Sphyraena,Sphyraenidae,Chordata,Teleostei,,21.9442127684078,88.8980217778187,,,,Bangladesh,Bangla Sundarbans,True,HumanObservation
+029bf86d-9a37-464b-b023-162e1d0d5255,Caranx heberi,Caranx heberi,Caranx,Carangidae,Chordata,Teleostei,,9.086511,79.825894,,,,Sri Lanka,,True,PreservedSpecimen
+029c7b84-b4b0-4283-a427-69d9bf3859c6,Naso brachycentron,Naso brachycentron,Naso,Acanthuridae,Chordata,Teleostei,2012-01-29T19:09:00+05:00,4.1798539396,73.5104836071,,,,,,True,HumanObservation
+029d27fe-e71a-48fa-be79-90dbee14685f,Xenentodon,,Xenentodon,Belonidae,Chordata,Teleostei,,21.638727,83.745739,,,,India,,True,PreservedSpecimen
+029e68df-7a17-4310-8e44-5d8ff71ef2c6,Anodontostoma chacunda,Anodontostoma chacunda,Anodontostoma,Dorosomatidae,Chordata,Teleostei,2023-01-08,21.8284425,89.1949998,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+029f098a-1a1d-4639-9ccc-1b8efc227ad1,Naso brevirostris,Naso brevirostris,Naso,Acanthuridae,Chordata,Teleostei,2002/2011,8.9532,78.8867,,,,India,Gulf of Mannar,True,HumanObservation
+029f30b6-7ef0-41b0-9f82-1a7cd3bb9e5f,Diaphus rafinesquii,Diaphus rafinesquii,Diaphus,Myctophidae,Chordata,Teleostei,1838-07-02T12:00:00Z,8.5,79.0,,,,,Gulf of Aden,True,HumanObservation
+029fd7a7-77e7-4a3a-8610-7ced379895f8,Sphyraena putnamae,Sphyraena putnamae,Sphyraena,Sphyraenidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+02a09653-5624-416f-8dc2-2df7f999ceb9,Thunnus albacares,Thunnus albacares,Thunnus,Scombridae,Chordata,Teleostei,1956/1981,8.0,70.0,0.0,0.0,0.0,,,True,HumanObservation
+02a0ab1c-cd30-4c12-ad05-3eddddd05f52,Filimanus heptadactyla,Filimanus heptadactyla,Filimanus,Polynemidae,Chordata,Teleostei,,19.6000003815,72.7166671753,,,,,Danda Creek,True,HumanObservation
+02a15345-0d2b-4f5b-84cf-9cb3430275dc,Mugilidae,,,Mugilidae,Chordata,Teleostei,1985-01-13,13.098348,74.787975,,,,India,Brackish stretch of Shambovi R. on highway 17 perhaps 3 km inland and 30 km north of Mangalore.,True,PreservedSpecimen
+02a57d5b-cf27-45f8-9e72-b14f46ae2654,Arothron hispidus,Arothron hispidus,Arothron,Tetraodontidae,Chordata,Teleostei,,8.567,81.217,,,,sri lanka,,True,PreservedSpecimen
+02a5879c-c6d6-4bc3-9839-7c56d9796392,Chlorurus strongylocephalus,Chlorurus strongylocephalus,Chlorurus,Scaridae,Chordata,Teleostei,2025-12-03T06:41:00+05:00,3.5597121,72.9238186,,,,,,True,HumanObservation
+02a681a6-c78a-4fad-99e1-cabcbca6cdd9,Soleidae,,,Soleidae,Chordata,Teleostei,2023-01-09,21.7548897,89.28418,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+02a6ed4d-3bdd-427e-bfb5-0e6d24fdde3a,Chaetodon decussatus,Chaetodon decussatus,Chaetodon,Chaetodontidae,Chordata,Teleostei,2024-11-01T11:35:00+05:30,15.35533,73.77236,,,,,,True,HumanObservation
+02a7ac80-eb36-470c-8d45-1838a20b25f7,Gymnothorax pseudothyrsoideus,Gymnothorax pseudothyrsoideus,Gymnothorax,Muraenidae,Chordata,Teleostei,2024-10-16T17:41:02+05:30,18.95823,72.797355,,,,,,True,HumanObservation
+02a8464c-7c34-4978-ac37-583197ba847d,Sargocentron microstoma,Sargocentron microstoma,Sargocentron,Holocentridae,Chordata,Teleostei,,4.183333,73.508333,,,,Maldives,,True,PreservedSpecimen
+02a88f7f-b606-4b93-83b4-25fd930f1535,Filimanus heptadactyla,Filimanus heptadactyla,Filimanus,Polynemidae,Chordata,Teleostei,,18.9330005646,72.8499984741,,,,Inde,,True,PreservedSpecimen
+02a8d816-cbbc-4b53-aba9-26006cbd758c,Chaetodon kleinii,Chaetodon kleinii,Chaetodon,Chaetodontidae,Chordata,Teleostei,2023-02-23T05:02:00+05:00,4.09787858,72.7458254279,,,,,,True,HumanObservation
+02a9bb50-a0cc-4f5c-922f-ed63149d98de,Zebrasoma velifer,Zebrasoma velifer,Zebrasoma,Acanthuridae,Chordata,Teleostei,1797-07-02T12:00:00Z,15.0,90.0,,,,,Bay of Bengal,True,HumanObservation
+02a9ee2a-e561-412d-a2a8-b56ec1dde363,Planiliza parsia,Planiliza parsia,Planiliza,Mugilidae,Chordata,Teleostei,1822,21.647223,87.63333,,,,,Digha Coast,True,HumanObservation
+02aaf4a3-7a2a-4e75-957c-77cbd816b60e,Johnius macrorhynus,Johnius macrorhynus,Johnius,Sciaenidae,Chordata,Teleostei,1963-04-04T18:00:00Z,21.5,91.5,17.0,17.0,17.0,Bangladesh,,True,PreservedSpecimen
+02abfe8e-1911-49db-a559-3df0347a4ff1,Actinopteri,,,,Chordata,,2023-01-09,21.7549458,89.2837655,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+02acac6d-e5e8-41c9-8ff7-eac24a5a2299,Cyclothone,,Cyclothone,Gonostomatidae,Chordata,Teleostei,,4.4,73.8,,,,Maldives,,True,PreservedSpecimen
+02ad5977-2b48-45ca-b099-1b7618946bd9,Gymnothorax undulatus,Gymnothorax undulatus,Gymnothorax,Muraenidae,Chordata,Teleostei,2025-03-14T16:59:00+05:00,4.21594604,72.8658608898,,,,,,True,HumanObservation
+02ad5cf6-0c55-40ac-9153-08d40adddcfa,Engraulidae,,,Engraulidae,Chordata,Teleostei,2023-01-09,21.7547399,89.2839957,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+02aded47-8a67-419f-8f99-2d6a0e7fa049,Dussumieria,,Dussumieria,Dussumieriidae,Chordata,Teleostei,1975,15.47,73.77,,,,,,True,HumanObservation
+02ae1e83-10e0-498f-96a6-9e8675fd55b6,Fistularia commersonii,Fistularia commersonii,Fistularia,Fistulariidae,Chordata,Teleostei,1838-07-02T12:00:00Z,7.0,93.0,,,,,Nicobar Island,True,HumanObservation
+02af6a48-f231-404d-be94-fc00337b8459,Bassozetus glutinosus,Bassozetus glutinosus,Bassozetus,Ophidiidae,Chordata,Teleostei,1890-03-14T12:00:00Z,18.3999996185,85.4000015259,2396.0,2396.0,2396.0,India,Bay of Bengal,True,PreservedSpecimen
+02b06922-4792-44c4-b0b6-cb9afcb77460,Cephalopholis argus,Cephalopholis argus,Cephalopholis,Epinephelidae,Chordata,Teleostei,,4.191667,73.516667,,,,Maldives,,True,PreservedSpecimen
+02b0c563-9411-47e8-8ab5-15d43213c17b,Fistularia petimba,Fistularia petimba,Fistularia,Fistulariidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,56.0,56.0,56.0,,"Chinnamuttom, Kanyakumari",True,HumanObservation
+02b23359-e6d7-471a-88eb-406bbc58bf29,Mugilidae,,,Mugilidae,Chordata,Teleostei,2023-01-09,21.703521,89.2614816,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+02b29a58-0e99-4478-9174-6e7d06385efa,Dascyllus abudafur,Dascyllus abudafur,Dascyllus,Pomacentridae,Chordata,Teleostei,2021-05-15T10:11:00-10:00,4.1946508515,73.5254910906,,,,,,True,HumanObservation
+02b35f17-8e37-4d72-a299-aaee07c034cb,Scarus scaber,Scarus scaber,Scarus,Scaridae,Chordata,Teleostei,2025-02-09T11:22:52+05:00,3.6720228782,72.9038975398,,,,,,True,HumanObservation
+02b37396-e204-4cba-b14d-3e773406ce5e,Canthigaster valentini,Canthigaster valentini,Canthigaster,Tetraodontidae,Chordata,Teleostei,2026-05-19T14:27:00+05:00,4.0941371258,72.9498795679,,,,,,True,HumanObservation
+02b37b68-aefe-4ef4-9fdc-1ba4f2032a18,Plectroglyphidodon dickii,Plectroglyphidodon dickii,Plectroglyphidodon,Pomacentridae,Chordata,Teleostei,2024-08-12T15:43:40+05:00,4.0055518533,72.9506410068,,,,,,True,HumanObservation
+02b38c65-9f6b-4f33-8b87-d93d18e42404,Acanthopagrus datnia,Acanthopagrus datnia,Acanthopagrus,Sparidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230174,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+02b3997d-50e8-417a-8934-28dddca12f95,Heniochus pleurotaenia,Heniochus pleurotaenia,Heniochus,Chaetodontidae,Chordata,Teleostei,2004-12-08,3.8223363958,72.8471448438,,,,,,True,HumanObservation
+02b5b853-ca4c-4381-99f3-3f720c67b968,Thalassoma hardwicke,Thalassoma hardwicke,Thalassoma,Labridae,Chordata,Teleostei,2024-02-19T09:31:00+05:00,4.4328614061,72.9544097102,,,,,,True,HumanObservation
+02b65591-9c3a-4792-a493-7716fd7cd2da,Aethaloperca rogaa,Aethaloperca rogaa,Aethaloperca,Epinephelidae,Chordata,Teleostei,2023-12-20T08:05:00+05:00,3.5554292131,72.9334253859,,,,,,True,HumanObservation
+02b8504a-13aa-424b-95af-1aa52c71d0ea,Sargocentron caudimaculatum,Sargocentron caudimaculatum,Sargocentron,Holocentridae,Chordata,Teleostei,2025-03-12T12:35:00+05:00,4.2145396884,72.8628678376,,,,,,True,HumanObservation
+02b85b22-95b6-44c2-8bf7-fb8e16acbcad,Bathygobius cocosensis,Bathygobius cocosensis,Bathygobius,Gobiidae,Chordata,Teleostei,1970-05-17T12:00:00Z,8.82499980927,81.0983352661,6.5,5.0,8.0,Sri Lanka,Ceylon: Trincomalee Dist.; Kaddukulam Pattu; Kuchchaveli; ca. 1/ 4 mi. Off Shore of Gov'T. Rest House + ca.100 Yds. Inshore of Small Isolated Rock Outcrop.,True,PreservedSpecimen
+02b8f7be-82b7-4a34-9480-67a584e0582c,Escualosa thoracata,Escualosa thoracata,Escualosa,Dorosomatidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+02b944b9-aed5-469b-87fb-b31307055267,Pseudocheilinus evanidus,Pseudocheilinus evanidus,Pseudocheilinus,Labridae,Chordata,Teleostei,2024-02-09T17:21:00+05:00,3.4886166667,73.6988833333,,,,,,True,HumanObservation
+02ba2e4a-38f9-4650-89fb-325f0f34831f,Thalassoma hardwicke,Thalassoma hardwicke,Thalassoma,Labridae,Chordata,Teleostei,2025-11-27T20:21:00+05:00,4.3096506347,73.4227694868,,,,,,True,HumanObservation
+02bafb48-0125-4cfa-a0b4-58e20e637d3f,Chlorurus sordidus,Chlorurus sordidus,Chlorurus,Scaridae,Chordata,Teleostei,2010-03-15T10:52:00-04:00,5.9670684483,73.3055483733,,,,,,True,HumanObservation
+02bb8e12-7f2b-453e-9458-f216c38fb3f3,Dascyllus abudafur,Dascyllus abudafur,Dascyllus,Pomacentridae,Chordata,Teleostei,2023-08-20T15:55:00+05:00,2.7193631895,73.1354686255,,,,,,True,HumanObservation
+02bb95c6-2f06-4578-a83f-49097adf60d0,Boleophthalmus boddarti,Boleophthalmus boddarti,Boleophthalmus,Gobiidae,Chordata,Teleostei,2025-01-20T09:04:55+05:30,10.2886664795,79.8688992485,,,,,,True,HumanObservation
+02bc7b39-35ff-4535-8849-cfdf86678366,Coilia dussumieri,Coilia dussumieri,Coilia,Engraulidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarbans West Wildlife  Sanctuary,True,MachineObservation
+02bc97c7-a583-4658-a8d4-9aee1042f46d,Siganus canaliculatus,Siganus canaliculatus,Siganus,Siganidae,Chordata,Teleostei,,21.9442127684078,88.8980217778187,,,,India,Indian Sundarbans,True,HumanObservation
+02bd9917-49b7-49f2-9c02-27029a49b9de,Sillago,,Sillago,Sillaginidae,Chordata,Teleostei,,12.5,80.0,,,,inde,,True,PreservedSpecimen
+02bfda6d-51e3-43b8-833f-9205ffbc8084,Fistularia commersonii,Fistularia commersonii,Fistularia,Fistulariidae,Chordata,Teleostei,2024-01-25T13:55:00+05:00,3.5376223,72.912612,,,,,,True,HumanObservation
+02bfe4b5-ee82-4b99-a45b-3da91a72d3c8,Stolephorus waitei,Stolephorus waitei,Stolephorus,Engraulidae,Chordata,Teleostei,2023-01-09,21.7548897,89.28418,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+02c003be-4144-48b7-b945-c9591143a746,Acanthopagrus datnia,Acanthopagrus datnia,Acanthopagrus,Sparidae,Chordata,Teleostei,2023-01-09,21.7039313,89.2610014,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+02c1663d-293a-44e6-8b14-2104dd38084a,Acanthurus tristis,Acanthurus tristis,Acanthurus,Acanthuridae,Chordata,Teleostei,1993,8.383333,79.73333,,,,,"Bar Reef Marine Sanctuary, Sri Lanka",True,HumanObservation
+02c270a2-b63d-47b3-a608-80ddf513172b,Setipinna tenuifilis,Setipinna tenuifilis,Setipinna,Engraulidae,Chordata,Teleostei,2023-01-09,21.7547399,89.2839957,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+02c29b43-1b92-4ad1-a82b-f0da5416db78,Chaetodon trifasciatus,Chaetodon trifasciatus,Chaetodon,Chaetodontidae,Chordata,Teleostei,2025-03-11T08:41:00+05:00,4.1829446719,72.7723010235,,,,,,True,HumanObservation
+02c429ef-2f1a-4dc3-8dd8-1275428e50e4,Odontamblyopus rubicundus,Odontamblyopus rubicundus,Odontamblyopus,Gobiidae,Chordata,Teleostei,,21.454054,91.96823,,,,Bangladesh,,True,PreservedSpecimen
+02c5da6b-ec19-4d97-a2b6-209ce93d8890,Pterotolithus maculatus,Pterotolithus maculatus,Pterotolithus,Sciaenidae,Chordata,Teleostei,2007/2008,8.6626,78.3192,20.0,20.0,20.0,,Mandapam South,True,HumanObservation
+02c641a1-1f64-4b32-bbe8-3765df1ae2b5,Dactyloptena gilberti,Dactyloptena gilberti,Dactyloptena,Dactylopteridae,Chordata,Teleostei,2025-03-13,9.385,75.342,,,,,Munambam,True,HumanObservation
+02c84488-d4d1-4c2c-b39c-f49da6ebbebc,Pseudanthias squamipinnis,Pseudanthias squamipinnis,Pseudanthias,Anthiadidae,Chordata,Teleostei,2025-03-13T13:27:00+05:00,3.8151062272,72.7526182208,,,,,,True,HumanObservation
+02c8c6aa-61b1-435e-9578-d79945f1a551,Nemapteryx,,Nemapteryx,Ariidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230583,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+02ca1677-83a4-4a51-90b8-cc967df02d1f,Acanthurus triostegus,Acanthurus triostegus,Acanthurus,Acanthuridae,Chordata,Teleostei,2026-05-06T21:27:59+05:00,5.538047755,73.5039569421,,,,,,True,HumanObservation
+02cace4f-e4b0-4f39-b62b-3c5dcead7743,Vinciguerria,,Vinciguerria,Phosichthyidae,Chordata,Teleostei,,13.1333,86.2,,,,,,True,PreservedSpecimen
+02cb569d-d45e-42a0-8cf7-8de8a8c1d2e8,Tetraodontidae,,,Tetraodontidae,Chordata,Teleostei,,5.552221,73.465536,,,,Maldives,,True,PreservedSpecimen
+02cbac68-b5be-4737-86a1-b550449c857a,Scarus rubroviolaceus,Scarus rubroviolaceus,Scarus,Scaridae,Chordata,Teleostei,2010-03-13T13:56:00-05:00,3.989229,73.498848,,,,,,True,HumanObservation
+02cc417d-8ef7-4ab1-b737-a081d4ff6653,Scomberomorus guttatus,Scomberomorus guttatus,Scomberomorus,Scombridae,Chordata,Teleostei,1941-01-13/14,11.250505,75.773362,,,,India,Calicut (Kozhikode).,True,PreservedSpecimen
+02cf2235-7440-4eeb-858e-156cf0d9eb55,Acanthurus nigricauda,Acanthurus nigricauda,Acanthurus,Acanthuridae,Chordata,Teleostei,2024-08-10T06:51:00+05:30,8.7212727002,81.2041259856,,,,,,True,HumanObservation
+02cfab17-8971-4881-bdac-687ddbae2797,Chaetodon trifasciatus,Chaetodon trifasciatus,Chaetodon,Chaetodontidae,Chordata,Teleostei,2025-12-23T13:56:39+05:00,5.2937533333,73.0590528333,,,,,,True,HumanObservation
+02d04e39-7cc7-4d11-9a16-1fcfb3af81d1,Lutjanus kasmira,Lutjanus kasmira,Lutjanus,Lutjanidae,Chordata,Teleostei,2024-06-14T12:54:00+05:00,3.6335,72.959,,,,,,True,HumanObservation
+02d06f3b-755c-40fa-ae54-c9870ee4534f,Pangasius pangasius,Pangasius pangasius,Pangasius,Pangasiidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarban west wildlife sanctuary,False,MachineObservation
+02d10ca7-f0c7-4612-a3a8-baecf7a9c401,Acanthurus xanthopterus,Acanthurus xanthopterus,Acanthurus,Acanthuridae,Chordata,Teleostei,2019-09-21T22:29:32+02:00,5.1549936975,73.1940612357,,,,,,True,HumanObservation
+02d1be70-6931-451b-b5c2-cdade6d86f8d,Thalassoma lunare,Thalassoma lunare,Thalassoma,Labridae,Chordata,Teleostei,2025-08-20T09:49:00+05:30,7.998389,93.506064,,,,,,True,HumanObservation
+02d55f21-0b97-4c55-8bbb-3ce0302a482d,Photopectoralis bindus,Photopectoralis bindus,Photopectoralis,Leiognathidae,Chordata,Teleostei,2005-05-12/2008-11-28,15.48,73.79,,,,,off Goa,True,HumanObservation
+02d5d18d-30c3-4454-a36c-85c7ab00aa85,Sciades sona,Sciades sona,Sciades,Ariidae,Chordata,Teleostei,1983,9.773,78.8285,,,,India,Tamilnadu Coast,True,HumanObservation
+02d5eecb-d898-4ea8-b013-c6d1a04aa037,Chlorurus strongylocephalus,Chlorurus strongylocephalus,Chlorurus,Scaridae,Chordata,Teleostei,2025-01-16T05:43:00+05:00,3.6335,72.959,,,,,,True,HumanObservation
+02d67c79-0777-4d70-bf48-4fefd53d065d,Thalassoma hardwicke,Thalassoma hardwicke,Thalassoma,Labridae,Chordata,Teleostei,2026-01-10T09:37:00+05:00,5.0646037931,73.0318401415,,,,,,True,HumanObservation
+02d67d07-ec90-4ac0-b0cb-c86b671872cd,Plectorhinchus vittatus,Plectorhinchus vittatus,Plectorhinchus,Haemulidae,Chordata,Teleostei,2021-11-28T11:22:00+05:30,10.8514914566,72.1735293803,,,,,,True,HumanObservation
+02d6d107-2908-4b09-9161-5f7f7631ca5e,Dussumieria acuta,Dussumieria acuta,Dussumieria,Dussumieriidae,Chordata,Teleostei,,10.0,90.0,,,,Inde,,True,PreservedSpecimen
+02d8db99-f755-4c3b-81e0-ef481d9746df,Rhinecanthus rectangulus,Rhinecanthus rectangulus,Rhinecanthus,Balistidae,Chordata,Teleostei,2019-12-23T11:18:49+05:00,4.2623312743,72.9622978404,,,,,,True,HumanObservation
+02d95b2a-d77e-413b-a86d-792a98791d08,Scarus frenatus,Scarus frenatus,Scarus,Scaridae,Chordata,Teleostei,2025-03-11T09:17:00+05:00,4.1843163799,72.7718297133,,,,,,True,HumanObservation
+02da12e7-72b7-4d7f-9fbb-ab3b980acd72,Alepes vari,Alepes vari,Alepes,Carangidae,Chordata,Teleostei,,6.031237,80.219317,,,,Sri Lanka,,True,PreservedSpecimen
+02db44ed-1d6d-489e-87a5-4ba17638cb99,Pomatoschistus microps,Pomatoschistus microps,Pomatoschistus,Gobiidae,Chordata,Teleostei,2023-01-09,21.7039168,89.2609951,,,,,Sundarbans West Wildlife Sanctuary,True,MachineObservation
+02db6b80-cc21-41a6-b18b-903cbcc72a26,Acanthurus xanthopterus,Acanthurus xanthopterus,Acanthurus,Acanthuridae,Chordata,Teleostei,2025-03-23T12:18:00+05:30,6.1349168189,80.0991968407,,,,,,True,HumanObservation
+02db7915-7bf8-4844-952d-be567d76aa8a,Hipposcarus harid,Hipposcarus harid,Hipposcarus,Scaridae,Chordata,Teleostei,2026-05-02T15:29:00+05:00,1.8186530946,73.401361005,,,,,,True,HumanObservation
+02dc12aa-2e56-4fa4-8220-0634d7c112a0,Chanda nama,Chanda nama,Chanda,Ambassidae,Chordata,Teleostei,,22.587791,88.348436,,,,India,,False,PreservedSpecimen
+02dc95ee-7f95-4572-bd7b-2019515c2d11,Halichoeres chrysotaenia,Halichoeres chrysotaenia,Halichoeres,Labridae,Chordata,Teleostei,2009-10-19T05:16:00+05:00,3.8833333,72.8333333,,,,,,True,HumanObservation
+02dcbdf7-a2f9-4949-b122-e9bf67d32816,Lethrinus obsoletus,Lethrinus obsoletus,Lethrinus,Lethrinidae,Chordata,Teleostei,2022-07-09T10:51:00+05:00,5.297289,73.058953,,,,,,True,HumanObservation
+02dcfcbe-92e5-4635-bc67-22cac81162d9,Coptodon zillii,Coptodon zillii,Coptodon,Cichlidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230583,,,,,Sundarbans west wildlife sanctuary,False,MachineObservation
+02dd82f7-0d86-4289-ba75-dc4163287557,Abudefduf,,Abudefduf,Pomacentridae,Chordata,Teleostei,2000/2002,8.26,73.03,,,,,Minicoy Lagoon,True,HumanObservation
+02e0045c-cca4-4f75-85f2-6d0a3ff17762,Johnius carouna,Johnius carouna,Johnius,Sciaenidae,Chordata,Teleostei,,24.135996,67.318077,,,,Pakistan,,True,PreservedSpecimen
+02e009ac-ce0a-4c88-a678-044c0f1579f3,Pseudanthias squamipinnis,Pseudanthias squamipinnis,Pseudanthias,Anthiadidae,Chordata,Teleostei,2025-03-13T12:51:00+05:00,3.8150840476,72.7526708195,,,,,,True,HumanObservation
+02e0bf0a-0786-4ac7-bfe0-cd7f5b5cc1d5,Acanthurus lineatus,Acanthurus lineatus,Acanthurus,Acanthuridae,Chordata,Teleostei,2024-09-03T08:52:00+05:00,4.2703726325,73.4891945326,,,,,,True,HumanObservation
+02e2a60d-4ae7-4ca7-9cab-0675e31f3976,Scarus tricolor,Scarus tricolor,Scarus,Scaridae,Chordata,Teleostei,2025-01-19T05:49:00+05:00,3.6335,72.959,,,,,,True,HumanObservation
+02e2bf9b-8510-4f3b-a3ae-c32450bdb44b,Naso brevirostris,Naso brevirostris,Naso,Acanthuridae,Chordata,Teleostei,2019-03-18T11:21:29+04:00,5.871871,73.146968,,,,,,True,HumanObservation
+02e3e471-5d2e-4a0c-af13-33d2390e4f22,Kyphosus cinerascens,Kyphosus cinerascens,Kyphosus,Kyphosidae,Chordata,Teleostei,2025-03-11T11:06:00+05:00,4.1836339625,72.7727250499,,,,,,True,HumanObservation
+02e464ce-1c9b-4ff5-845d-2a56648c6d0c,Hilsa kelee,Hilsa kelee,Hilsa,Dorosomatidae,Chordata,Teleostei,2023-01-09,21.703926,89.2610127,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+02e57efa-985b-4e5f-8b1e-06a20d09de7f,Plectorhinchus vittatus,Plectorhinchus vittatus,Plectorhinchus,Haemulidae,Chordata,Teleostei,2015-04-12T10:36:00+05:00,5.2552293302,73.1636177998,,,,,,True,HumanObservation
+02e6768e-46ba-428c-a287-aabe1df2c28b,Pomatoschistus microps,Pomatoschistus microps,Pomatoschistus,Gobiidae,Chordata,Teleostei,2023-01-09,21.7933049,89.2808746,,,,,Sundarban's west wildlife sanctuary,True,MachineObservation
+02e7c7c3-7abc-4467-bb80-83640c702fcc,Pterocaesio tile,Pterocaesio tile,Pterocaesio,Caesionidae,Chordata,Teleostei,1830-07-02T12:00:00Z,8.38333320618,79.7333297729,,,,,"Bar Reef Marine Sanctuary, Sri Lanka",True,HumanObservation
+02e8d9db-9681-45cd-808d-1ad93802f022,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.51976666666669,86.7209666666669,,,,,,True,Occurrence
+02ea6474-96b4-4c2a-92e1-bba021fc80a4,Cephalopholis leopardus,Cephalopholis leopardus,Cephalopholis,Epinephelidae,Chordata,Teleostei,2024-03-14T06:20:00+05:00,3.9736566,73.491023,,,,,,True,HumanObservation
+02ebd331-e893-406d-a0f8-dd9ecd6d5bf0,Sargocentron spiniferum,Sargocentron spiniferum,Sargocentron,Holocentridae,Chordata,Teleostei,2025-03-11T09:41:00+05:00,4.1843163799,72.7718297133,,,,,,True,HumanObservation
+02ed3dd3-534a-4423-b844-b3fdb40adfb4,Chaetodon trifascialis,Chaetodon trifascialis,Chaetodon,Chaetodontidae,Chordata,Teleostei,2024-11-18T05:23:27+05:00,5.2407419804,73.0144627708,,,,,,True,HumanObservation
+02eed940-2edf-4791-b1ed-b7b5f92bf696,Cetoscarus ocellatus,Cetoscarus ocellatus,Cetoscarus,Scaridae,Chordata,Teleostei,2015-04-12T10:44:00+05:00,5.2552293302,73.1636177998,,,,,,True,HumanObservation
+02ef5b63-f7dc-4d8c-9c74-85d301366680,Chlorophthalmus,,Chlorophthalmus,Chlorophthalmidae,Chordata,Teleostei,1985/1987,8.5,75.83,350.0,320.0,380.0,,Arabian Sea,True,HumanObservation
+02efcb2c-6a17-4693-84bf-67dfd445ab58,Pleuronectiformes,,,,Chordata,Teleostei,,11.3800001144,93.5199966431,,,,,,True,HumanObservation
+02f0e559-74e9-40ec-9895-0e9c920daa88,Thryssa vitrirostris,Thryssa vitrirostris,Thryssa,Engraulidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+02f0eef0-1ba5-44c4-8470-25eae8d5cf15,Anodontostoma chacunda,Anodontostoma chacunda,Anodontostoma,Dorosomatidae,Chordata,Teleostei,2023-01-09,21.7549458,89.2837655,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+02f1c4b6-7123-484e-b2d5-2d3b8a0df2de,Pomadasys argenteus,Pomadasys argenteus,Pomadasys,Haemulidae,Chordata,Teleostei,,24.8666667,67.05,,,,Pakistan,,True,PreservedSpecimen
+02f1db81-e6ed-4bfe-8597-b5d328aae5fc,Gymnothorax favagineus,Gymnothorax favagineus,Gymnothorax,Muraenidae,Chordata,Teleostei,2024-10-06T09:08:10+05:30,6.1310262678,80.1007156369,,,,,,True,HumanObservation
+02f3cdd9-1efa-4b88-ad6b-94a942ba185a,Heniochus pleurotaenia,Heniochus pleurotaenia,Heniochus,Chaetodontidae,Chordata,Teleostei,2025-03-10T18:08:00+05:00,4.185821089,72.7715093413,,,,,,True,HumanObservation
+02f40739-ca91-46fe-b53c-511a4119d8e7,Chlorurus sordidus,Chlorurus sordidus,Chlorurus,Scaridae,Chordata,Teleostei,2022-04-05T07:07:00-10:00,3.4879111294,72.8007770876,,,,,,True,HumanObservation
+02f411bd-a065-4663-a9d5-586b0496bb59,Gymnothorax undulatus,Gymnothorax undulatus,Gymnothorax,Muraenidae,Chordata,Teleostei,,4.197081,73.514866,,,,Maldives,,True,PreservedSpecimen
+02f42231-067e-4bdd-a087-3c2deb88fd28,Psettodes erumei,Psettodes erumei,Psettodes,Psettodidae,Chordata,Teleostei,2016-12-22T14:17:00+02:00,18.9227634642,72.8034981852,,,,,,True,HumanObservation
+02f5bfd4-cc77-452c-b698-50d5e17da256,Canthidermis maculata,Canthidermis maculata,Canthidermis,Balistidae,Chordata,Teleostei,1786-07-02T12:00:00Z,7.0,93.0,,,,,Nicobar Island,True,HumanObservation
+02f6be37-8a21-4b17-bc72-354d700d267b,Escualosa thoracata,Escualosa thoracata,Escualosa,Dorosomatidae,Chordata,Teleostei,2023-01-08,21.827841,89.1954232,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+02f700a1-c05b-48c3-92b5-31b048eb9676,Macolor niger,Macolor niger,Macolor,Lutjanidae,Chordata,Teleostei,2023-03-07T08:17:00+05:00,3.90735,73.478236,,,,,,True,HumanObservation
+02f7281f-9aa5-42cd-8b85-639fdeb658ec,Parupeneus barberinus,Parupeneus barberinus,Parupeneus,Mullidae,Chordata,Teleostei,2023-02-23T05:15:00+05:00,4.0972215361,72.7464870211,,,,,,True,HumanObservation
+02fc2bc7-a12d-4900-bbd7-ee86313e1d33,Parastromateus niger,Parastromateus niger,Parastromateus,Carangidae,Chordata,Teleostei,,10.0,75.0,,,,inde,,True,PreservedSpecimen
+02fc3d8f-5b40-4542-9fed-7c0b88b21dc2,Epinephelus flavocaeruleus,Epinephelus flavocaeruleus,Epinephelus,Epinephelidae,Chordata,Teleostei,2025-02-24T10:44:00+05:00,5.49006629,72.9400673054,,,,,,True,HumanObservation
+02fc6326-6778-43ff-a233-d8147e2f336b,Cynoglossus lingua,Cynoglossus lingua,Cynoglossus,Cynoglossidae,Chordata,Teleostei,1822-07-02T12:00:00Z,21.6472225189,87.6333312988,,,,,Digha Coast,True,HumanObservation
+02fc8f4c-a991-4d8f-a05f-9f96b8ac217f,Scopelarchoides signifer,Scopelarchoides signifer,Scopelarchoides,Scopelarchidae,Chordata,Teleostei,,1.8333,65.1,,,,,,True,PreservedSpecimen
+02fca03a-0ccf-417e-b71e-aee5b5d38721,Alepes melanoptera,Alepes melanoptera,Alepes,Carangidae,Chordata,Teleostei,1839,10.0,93.0,,,,,Andaman & Nicobar Islands,True,HumanObservation
+02fcd2ec-ca2c-4cdc-a73f-5ff0b0fd38f5,Pomadasys maculatus,Pomadasys maculatus,Pomadasys,Haemulidae,Chordata,Teleostei,,18.986038,72.812443,,,,India,,True,PreservedSpecimen
+02fd701e-8436-44fd-a070-701e088ec471,Johnius elongatus,Johnius elongatus,Johnius,Sciaenidae,Chordata,Teleostei,1966-09-15T12:00:00Z,13.1000003815,80.3000030518,,,,India,India; Madras State; Royapuram Beach Fish Landing.,True,PreservedSpecimen
+02fdaac8-5634-4ac7-be3f-68598756ea39,Priacanthus hamrur,Priacanthus hamrur,Priacanthus,Priacanthidae,Chordata,Teleostei,2025-01-20T08:10:00+05:30,11.8502785771,93.041626114,,,,,,True,HumanObservation
+03018f10-e4e1-4994-b595-69b0e4ea5840,Hippocampus,,Hippocampus,Syngnathidae,Chordata,Teleostei,2000/2002,8.269,73.05,,,,,Minicoy Lagoon,True,HumanObservation
+0301d534-3e08-475f-8067-7090b39bad24,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.93903333333329,74.9222166666669,,,,,,True,Occurrence
+0303bfbc-c061-4a39-aad0-0e64b56131ed,Lethrinus ornatus,Lethrinus ornatus,Lethrinus,Lethrinidae,Chordata,Teleostei,1830-07-02T12:00:00Z,12.5,92.75,,,,,Andaman Islands,True,HumanObservation
+030480e1-b7d9-4e3e-b7ad-f9c757c123d8,Bathygobius cocosensis,Bathygobius cocosensis,Bathygobius,Gobiidae,Chordata,Teleostei,2023-01-09,21.7933049,89.2808746,,,,,Sundarban's west wildlife sanctuary,True,MachineObservation
+03049fd5-6649-4d56-a5a4-8cecba127d3d,Ecsenius minutus,Ecsenius minutus,Ecsenius,Blenniidae,Chordata,Teleostei,2026-05-06T15:35:00+05:00,1.8161296723,73.4043486796,,,,,,True,HumanObservation
+030593ca-e679-4571-aacc-877357ebd834,Stethojulis albovittata,Stethojulis albovittata,Stethojulis,Labridae,Chordata,Teleostei,2023-06-07T16:08:00+05:00,4.1068236269,73.5229770222,,,,,,True,HumanObservation
+0307c2ae-0004-4dff-bd20-c123be31d32b,Gavialiceps taeniola,Gavialiceps taeniola,Gavialiceps,Muraenesocidae,Chordata,Teleostei,2025-04-06,10.45,80.35,305.0,160.0,450.0,,Nagapattinam,True,HumanObservation
+0307d9da-7789-4bbc-8de3-309ef81b5aea,Scomberoides commersonnianus,Scomberoides commersonnianus,Scomberoides,Carangidae,Chordata,Teleostei,1969-08-21,9.271098,80.814225,,,,Sri Lanka,Mullaittivu; purchased at St. John's fish market.,True,PreservedSpecimen
+03099f8f-6fa5-4f45-afe5-b71702a8ab1b,Alepes djedaba,Alepes djedaba,Alepes,Carangidae,Chordata,Teleostei,,19.6000003815,72.7166671753,,,,,Danda Creek,True,HumanObservation
+030aa0b4-9c08-4809-b303-1e2f1e646ee9,Turrum gymnostethus,Turrum gymnostethus,Turrum,Carangidae,Chordata,Teleostei,,9.828174,80.235978,,,,Sri Lanka,,True,PreservedSpecimen
+030b0c80-2b9c-4e70-bb2e-fe03a77091c7,Pycnochromis fieldi,Pycnochromis fieldi,Pycnochromis,Pomacentridae,Chordata,Teleostei,2024-03-30T16:35:00+05:00,3.653206508,72.9515485951,,,,,,True,HumanObservation
+030c5d31-bce7-4a90-86d2-cb851da6c910,Harpadon nehereus,Harpadon nehereus,Harpadon,Synodontidae,Chordata,Teleostei,,11.9829998016,79.8330001831,,,,Inde,,True,PreservedSpecimen
+030ed833-689b-4811-b087-28f8f845ed33,Anabas testudineus,Anabas testudineus,Anabas,Anabantidae,Chordata,Teleostei,2011,13.39,80.34,,,,India,Coromondal coast,False,HumanObservation
+031014e2-aa55-42f6-a55e-49f63f3867a3,Acanthurus leucosternon,Acanthurus leucosternon,Acanthurus,Acanthuridae,Chordata,Teleostei,2010-11-14T00:25:00+05:00,3.9376124137,72.9127286938,,,,,,True,HumanObservation
+031107c5-a56f-49c7-9f33-c2b4278d076c,Lepidocephalichthys guntea,Lepidocephalichthys guntea,Lepidocephalichthys,Cobitidae,Chordata,Teleostei,1937-04,22.569722,88.369722,,,,India,"Calcutta, W Bengal, India",False,PreservedSpecimen
+03127567-2f1c-4f29-8ec6-4e0d6c559d3d,Zanclus cornutus,Zanclus cornutus,Zanclus,Zanclidae,Chordata,Teleostei,2012-01-28T18:09:00+05:00,3.5945435591,72.8809714414,,,,,,True,HumanObservation
+0312aee9-deed-4269-a38d-2946f7fc4572,Istiophorus platypterus,Istiophorus platypterus,Istiophorus,Istiophoridae,Chordata,Teleostei,,13.1677666666669,72.1007,,,,,,True,Occurrence
+03130fec-f1ed-4b2b-a417-068e83788967,Puntius sophore,Puntius sophore,Puntius,Cyprinidae,Chordata,Teleostei,1985-01-08,12.315397,76.293887,,,,India,"Lakschmanatirta R. W/NW of Mysore, 1 km NE of Hunsur.",False,PreservedSpecimen
+0315f615-77ea-452b-93ce-73f32b8e13b9,Lethrinus erythracanthus,Lethrinus erythracanthus,Lethrinus,Lethrinidae,Chordata,Teleostei,1994-08-14,4.005145,72.947271,,,,,,True,HumanObservation
+031667a6-1860-49aa-be1e-5de4f1374d75,Scarus frenatus,Scarus frenatus,Scarus,Scaridae,Chordata,Teleostei,2025-11-17T10:54:50+05:00,5.2154,73.1564636667,,,,,,True,HumanObservation
+03172fe4-61f7-428a-9faf-c9616b58fca0,Platycaranx chrysophrys,Platycaranx chrysophrys,Platycaranx,Carangidae,Chordata,Teleostei,,8.233155,79.768313,,,,Sri Lanka,,True,PreservedSpecimen
+0317a0e1-ef25-4c0d-a516-45360e4034d3,Thalassoma hardwicke,Thalassoma hardwicke,Thalassoma,Labridae,Chordata,Teleostei,2010-03-15T11:07:00-04:00,5.9670684483,73.3055483733,,,,,,True,HumanObservation
+03188919-3050-474c-bc00-90f720a08911,Rastrelliger kanagurta,Rastrelliger kanagurta,Rastrelliger,Scombridae,Chordata,Teleostei,2026-01-02T09:10:29+05:30,13.007427913,80.2750943229,,,,,,True,HumanObservation
+031922be-c8d6-45da-8765-91cf33390d1d,Centropyge multispinis,Centropyge multispinis,Centropyge,Pomacanthidae,Chordata,Teleostei,,4.1,72.7417,,,,Maldives,,True,PreservedSpecimen
+031c784b-a56d-4f2b-a7a0-8382a7836b52,Caesio lunaris,Caesio lunaris,Caesio,Caesionidae,Chordata,Teleostei,2025-02-22T12:31:00+05:00,5.4901905685,72.9401751146,,,,,,True,HumanObservation
+031c8667-8860-424e-9d7a-146273affb92,Dischistodus perspicillatus,Dischistodus perspicillatus,Dischistodus,Pomacentridae,Chordata,Teleostei,,10.0,93.0,,,,,Andaman & Nicobar Islands,True,HumanObservation
+031c9d3c-2b75-47bb-8080-b05754d2a0ab,Chaetodon trifascialis,Chaetodon trifascialis,Chaetodon,Chaetodontidae,Chordata,Teleostei,2023-09-17T09:52:00+05:00,4.0230940636,73.5256542888,,,,,,True,HumanObservation
+031cf5cf-3592-447f-abd6-4395888543ce,Opisthopterus tardoore,Opisthopterus tardoore,Opisthopterus,Pristigasteridae,Chordata,Teleostei,2025-05-08T06:49:35+05:30,13.3459416667,74.7008833333,,,,,,True,HumanObservation
+031ee7f6-621a-42ea-9f3a-894575bcea40,Parupeneus macronemus,Parupeneus macronemus,Parupeneus,Mullidae,Chordata,Teleostei,2022-07-06T13:55:00+05:00,5.2972885378,73.0589532852,,,,,,True,HumanObservation
+0320fc02-31a0-4e87-8638-105e6f680acf,Parachaeturichthys polynema,Parachaeturichthys polynema,Parachaeturichthys,Gobiidae,Chordata,Teleostei,1978-02-01T12:00:00Z,24.8,67.1555555556,,,,Pakistan,"just south of Karachi, Korangi Creek",True,HumanObservation
+03211542-fbf4-4663-9780-3036120533a1,Nectamia bandanensis,Nectamia bandanensis,Nectamia,Apogonidae,Chordata,Teleostei,,4.197081,73.514866,,,,Maldives,,True,PreservedSpecimen
+032128a3-5d19-4ea3-8cf6-d056b4568aab,Vinciguerria,,Vinciguerria,Phosichthyidae,Chordata,Teleostei,,11.9833,69.9167,,,,,,True,PreservedSpecimen
+0322e209-b396-44c0-86b1-adbe3594ecf6,Harpadon nehereus,Harpadon nehereus,Harpadon,Synodontidae,Chordata,Teleostei,2023-01-08,21.7565804,89.2230583,,,,,Sundarbans west wildlife sanctuary,True,MachineObservation
+032350e5-5df4-4e07-b3e3-5a295c9c3e19,Mene maculata,Mene maculata,Mene,Menidae,Chordata,Teleostei,2005-05-12/2008-11-28,15.48,73.79,,,,,off Goa,True,HumanObservation
+0323c448-a179-4ef4-857a-c40258500c9b,Selaroides leptolepis,Selaroides leptolepis,Selaroides,Carangidae,Chordata,Teleostei,2020-02-03T07:02:49+05:30,7.2031120503,79.8293571174,,,,,,True,HumanObservation
+03240bdf-dc67-402b-bd32-fb1367a3b666,Etroplus suratensis,Etroplus suratensis,Etroplus,Cichlidae,Chordata,Teleostei,,21.2,72.91666999999998,,,,India,"Suratte, India, 21°12'N, 72°55'E.",False,preservedspecimen
+03273e79-9ccc-41ea-b818-4ae101d73a0e,Monotaxis heterodon,Monotaxis heterodon,Monotaxis,Lethrinidae,Chordata,Teleostei,2024-02-04T15:37:26+05:00,3.6193963407,72.7804571763,,,,,,True,HumanObservation
+03281356-5484-489f-8d38-4b944dcba685,Chelonodontops patoca,Chelonodontops patoca,Chelonodontops,Tetraodontidae,Chordata,Teleostei,2024-11-02T11:25:00+05:30,15.349722,73.775833,,,,,,True,HumanObservation
+03284cea-447a-4a89-afe8-190922e3ebf3,Chaetodon collare,Chaetodon collare,Chaetodon,Chaetodontidae,Chordata,Teleostei,2018-07-08T15:17:00+05:00,5.4926216,72.9373468,,,,,,True,HumanObservation
+03288f54-b77a-4355-977e-996a7f09bf2d,Astronesthes martensii,Astronesthes martensii,Astronesthes,Stomiidae,Chordata,Teleostei,2010-09-17,12.78,93.08,314.0,314.0,314.0,India,off Andaman,True,PreservedSpecimen
+0328fcdf-acc8-4200-aaa0-3a01fc38954b,Lates calcarifer,Lates calcarifer,Lates,Latidae,Chordata,Teleostei,2023-01-09,21.7933133,89.2810876,,,,,Sundarban west wildlife sanctuary,True,MachineObservation
+032962b8-e750-42d3-b642-0d4def51ceb9,Carangichthys humerosus,Carangichthys humerosus,Carangichthys,Carangidae,Chordata,Teleostei,1915,12.533334,92.816666,,,,,Andaman and Nicobar Islands,True,HumanObservation
+032b2447-9d5a-4621-b01b-37e9a71c7120,Parachaeturichthys ocellatus,Parachaeturichthys ocellatus,Parachaeturichthys,Gobiidae,Chordata,Teleostei,,25.0,67.0,,,,Pakistan,,True,PreservedSpecimen
+032c1818-3b66-4d27-a70c-6f9da98ed854,Selaroides leptolepis,Selaroides leptolepis,Selaroides,Carangidae,Chordata,Teleostei,1833-07-02T12:00:00Z,10.0,93.0,,,,,Andaman,True,HumanObservation
+032cb365-a967-4e50-a3d2-e66f3c040163,Parupeneus trifasciatus,Parupeneus trifasciatus,Parupeneus,Mullidae,Chordata,Teleostei,2023-02-23T05:15:00+05:00,4.0969968064,72.746433377,,,,,,True,HumanObservation
+032cb491-3d3a-4b4d-9cb0-1dd8df338857,Stethojulis trilineata,Stethojulis trilineata,Stethojulis,Labridae,Chordata,Teleostei,2024-08-09T09:01:00+05:30,8.7209864144,81.2038681481,,,,,,True,HumanObservation
+032cd52d-97c8-48e8-a764-95b62e11957a,Labroides dimidiatus,Labroides dimidiatus,Labroides,Labridae,Chordata,Teleostei,2023-10-26T12:00:00+05:00,0.7276325656,73.431629464,,,,,,True,HumanObservation
+032d66a6-f828-4a16-bce8-e9a279a9a4f7,Cetoscarus ocellatus,Cetoscarus ocellatus,Cetoscarus,Scaridae,Chordata,Teleostei,2022-03-09T10:15:00-05:00,5.4415089336,72.9031243175,,,,,,True,HumanObservation
+032e3aa9-13c1-479f-b7be-d4a7b56de43a,Epinephelus coioides,Epinephelus coioides,Epinephelus,Epinephelidae,Chordata,Teleostei,2005-05-12/2008-11-28,15.48,73.79,,,,,off Goa,True,HumanObservation
+032e4045-c1f1-45c3-b0c4-b1b99e9bfc3b,Physiculus nematopus,Physiculus nematopus,Physiculus,Moridae,Chordata,Teleostei,1973-06-06,7.0,81.0,,,,Panama,CHIRIQUI,True,preservedspecimen
+032f2e73-054f-4bd0-84ee-55c6bba7d24a,Callionymus sublaevis,Callionymus sublaevis,Callionymus,Callionymidae,Chordata,Teleostei,2005/2011,15.2737,73.8066,,,,,Goa,True,HumanObservation
+032ffaa4-846f-4e60-94db-84902827f58f,Melichthys indicus,Melichthys indicus,Melichthys,Balistidae,Chordata,Teleostei,2014-04-19T16:49:00+05:00,5.4928398119,73.4252862884,,,,,,True,HumanObservation
+03303aa7-6630-41fd-96f4-68ab13cb509d,Myripristis violacea,Myripristis violacea,Myripristis,Holocentridae,Chordata,Teleostei,2022-08-02T12:48:00+05:00,4.2256487181,73.5196594859,,,,,,True,HumanObservation
+0331ad99-6909-4f30-b52e-0b17faaa94b3,Synchiropus stellatus,Synchiropus stellatus,Synchiropus,Callionymidae,Chordata,Teleostei,,7.117000103,79.8079986572,,,,Sri Lanka,,True,HumanObservation
+0331d553-0eb2-42a3-a9ad-8c2c72125466,Plectorhinchus vittatus,Plectorhinchus vittatus,Plectorhinchus,Haemulidae,Chordata,Teleostei,2023-08-24T16:22:00+05:00,2.7420745516,73.0107073411,,,,,,True,HumanObservation
+0332e442-f1e8-45fa-8055-4a4841be6b0d,Caranx melampygus,Caranx melampygus,Caranx,Carangidae,Chordata,Teleostei,2026-02-16T16:41:00+05:30,6.1375452625,80.0986726539,,,,,,True,HumanObservation
+03330214-e4d6-425b-9a49-2888d873a6fb,Bathymyrus echinorhynchus,Bathymyrus echinorhynchus,Bathymyrus,Congridae,Chordata,Teleostei,2007/2008,8.6626,78.3192,27.0,27.0,27.0,,Mandapam South,True,HumanObservation
+03331dd6-4994-44d6-a773-3b6d3e8fadfe,Saurida tumbil,Saurida tumbil,Saurida,Synodontidae,Chordata,Teleostei,2025-05-24T13:08:00+05:30,11.7876979627,79.796458505,,,,,,True,HumanObservation
+0333d0ad-6f77-4199-b9fb-5a8b6894cc5d,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,3.4192166666667,74.1509999999999,,,,,,True,Occurrence
+03346430-a296-4efb-950e-d0c87ce2dab1,Periophthalmus argentilineatus,Periophthalmus argentilineatus,Periophthalmus,Gobiidae,Chordata,Teleostei,2024-12-14T06:45:42+05:30,11.97605,92.987557,,,,,,True,HumanObservation
+0334f125-55c4-4f3e-8613-c8c04d532977,Thunnus obesus,Thunnus obesus,Thunnus,Scombridae,Chordata,Teleostei,,4.01686666666669,74.1174666666669,,,,,,True,Occurrence
+0335bf8e-7b9c-49fa-bf01-4e6710919218,Sargocentron rubrum,Sargocentron rubrum,Sargocentron,Holocentridae,Chordata,Teleostei,2025-06-17T13:04:00+05:30,11.8588843569,79.8156742735,,,,,,True,HumanObservation
+0336210e-f392-406d-912b-d9336310b2bc,Acanthurus leucosternon,Acanthurus leucosternon,Acanthurus,Acanthuridae,Chordata,Teleostei,2025-03-11T10:23:00+05:00,4.1836451935,72.7713818888,,,,,,True,HumanObservation
+0336fe9a-e9bb-4b7d-8366-e9a37e2d7dbf,Acanthurus lineatus,Acanthurus lineatus,Acanthurus,Acanthuridae,Chordata,Teleostei,2024-08-09T04:50:00+05:00,0.5049259864,73.4517807937,,,,,,True,HumanObservation
+03372faf-c373-4af9-8b01-2ba774b7c499,Rastrelliger kanagurta,Rastrelliger kanagurta,Rastrelliger,Scombridae,Chordata,Teleostei,2007/2008,8.6626,78.3192,23.0,23.0,23.0,,"Taruvaikulam, Tuticorin",True,HumanObservation
